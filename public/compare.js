@@ -76,7 +76,7 @@
     return '<ul class="cmp-diff">' + out.join('') + '</ul>';
   }
   function score(a, b) { var c = cmp(ROWS[5], a, b); return c[0] === UP ? 1 : c[0] === DN ? -1 : 0; }
-  function nameHtml(d) { return '<span class="hh-brand">' + esc(d.brand) + '</span> ' + esc(d.name); }
+  function nameHtml(d) { return '<a class="hh-brand" href="/database/?brand=' + encodeURIComponent(d.brand) + '" title="See all ' + esc(d.brand) + ' fragrances">' + esc(d.brand) + '</a> <a class="hh-nm" href="/fragrance/' + d.slug + '/" title="Full details for ' + esc(d.full) + '">' + esc(d.name) + '</a>'; }
   function amazonLink(d) { return d.link ? d.link : d.asin ? 'https://www.amazon.com/dp/' + d.asin + '?tag=' + TAG : 'https://www.amazon.com/s?k=' + encodeURIComponent(d.full + ' perfume') + '&tag=' + TAG; }
   function stores(d) { var q = encodeURIComponent(d.full); return [['Jomashop', 'https://www.jomashop.com/search?q=' + q], ['FragranceNet', 'https://www.fragrancenet.com/search?q=' + q]].map(function (x) { return '<a class="btn btn2 hh-buy" href="' + esc(x[1]) + '" target="_blank" rel="nofollow noopener">Find on ' + x[0] + ' <small>→</small></a>'; }).join(''); }
   function btn(d) { return '<span class="buy">' + stores(d) + '<a class="btn hh-buy" href="' + esc(amazonLink(d)) + '" target="_blank" rel="sponsored nofollow noopener">' + (d.asin || d.link ? 'View on Amazon' : 'Check price on Amazon') + ' <small>→</small></a></span>'; }
@@ -92,7 +92,7 @@
     var sc = score(a, b), ca = '', cb = '';
     var head = function (d, c, x) { return '<h2 class="cmp-ttl ' + c + '">' + nameHtml(d) + (x ? '<button type="button" class="cmp-x" data-clear="b" aria-label="Remove ' + esc(d.full) + '">×</button>' : '') + '</h2>'; };
     var pc = ['', ''];
-    var info = function (d, ind) { return '<div class="cmp-info"><div class="cmp-img">' + icon(d) + '</div><dl class="hh-kv"><div><dt>Type</dt><dd>' + esc(roleLabel(d)) + '</dd></div>' + (d.year ? '<div><dt>Released</dt><dd>' + d.year + '</dd></div>' : '') + (d.conc ? '<div><dt>Concentration</dt><dd>' + esc(d.conc) + '</dd></div>' : '') + (d.gender ? '<div><dt>Gender</dt><dd>' + esc(d.gender) + '</dd></div>' : '') + '<div><dt>Price tier</dt><dd><b>' + esc(d.tier) + '</b>' + ind + '</dd></div>' + (d.price ? '<div><dt>Price</dt><dd><b>' + esc(d.price.t) + '</b><br><small>' + esc(d.price.n) + '</small></dd></div>' : '') + '</dl></div>'; };
+    var info = function (d, ind) { return '<div class="cmp-info"><div class="cmp-img"><a href="/fragrance/' + d.slug + '/" aria-label="Full details for ' + esc(d.full) + '">' + icon(d) + '</a></div><dl class="hh-kv"><div><dt>Type</dt><dd>' + esc(roleLabel(d)) + '</dd></div>' + (d.year ? '<div><dt>Released</dt><dd>' + d.year + '</dd></div>' : '') + (d.conc ? '<div><dt>Concentration</dt><dd>' + esc(d.conc) + '</dd></div>' : '') + (d.gender ? '<div><dt>Gender</dt><dd>' + esc(d.gender) + '</dd></div>' : '') + '<div><dt>Price tier</dt><dd><b>' + esc(d.tier) + '</b>' + ind + '</dd></div>' + (d.price ? '<div><dt>Price</dt><dd><b>' + esc(d.price.t) + '</b><br><small>' + esc(d.price.n) + '</small></dd></div>' : '') + '</dl></div>'; };
     var rp0 = pairFor(a, b), hasN = a.nk.length && b.nk.length;
     var h = '<div class="cmp-pair">' + head(a, ca) + head(b, cb, 1) + '</div>';
     h += '<div class="cmp-pair">' + info(a, pc[0]) + info(b, pc[1]) + '</div>';

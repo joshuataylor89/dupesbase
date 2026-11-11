@@ -373,3 +373,5 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .top3-p{grid-area:p;font-size:15px;color:#7ee2a8}
 .top3 h2{margin-top:0;font-size:18px}
 @media(max-width:560px){.top3-g{grid-template-columns:1fr}}
+.cmp-ttl a{color:inherit;text-decoration:none}.cmp-ttl a:hover{text-decoration:underline}
+.cmp-img a{display:flex;align-items:center;justify-content:center;width:100%;height:100%}
