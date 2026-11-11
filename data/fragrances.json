@@ -100,7 +100,7 @@
       "Armaf CDNIM",
       "Club de Nuit Intense"
     ],
-    "reported": 96,
+    "reported": 88,
     "link": "https://link.amazon/B00C8eVj5",
     "review": {
       "title": "The Budget Flex",
@@ -9245,5 +9245,65 @@
     "accords": [],
     "season": [],
     "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Club de Nuit Intense Man Limited Edition Parfum",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2021,
+    "concentration": "Parfum",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lemon",
+      "Pineapple",
+      "Lime",
+      "Black pepper",
+      "Bergamot",
+      "Pink pepper"
+    ],
+    "heart": [
+      "Jasmine",
+      "Lily-of-the-valley",
+      "Rose",
+      "Freesia"
+    ],
+    "base": [
+      "Ambroxan",
+      "White musk",
+      "Ambergris",
+      "Cedar",
+      "Leather",
+      "Patchouli"
+    ],
+    "accords": [
+      "Citrus",
+      "Musky",
+      "Amber",
+      "Sweet",
+      "Fresh spicy",
+      "Fruity",
+      "Woody",
+      "Aromatic",
+      "Animalic",
+      "Fresh"
+    ],
+    "season": [],
+    "similarTo": "Aventus",
+    "reported": 96,
+    "pairSource": {
+      "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
+      "url": "/about/#similarity"
+    },
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intense Man Limited Edition Parfum",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Parfum Upgrade",
+      "text": "The Limited Edition Parfum keeps the lemon, pineapple and pepper opening people want from an Aventus-style scent, then dries down to ambroxan, musk and leather. Fragrantica voters rate it 4.44 out of 5 across 2,900+ votes, and the votes are spread across all four seasons. A good year-round pick if you want the Aventus idea in a richer, longer version."
+    }
   }
 ]
