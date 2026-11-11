@@ -9042,17 +9042,37 @@
     "name": "L'Eau",
     "brand": "Serge Lutens",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Aldehydic",
+      "Musky",
+      "Aromatic",
+      "Floral",
+      "Powdery",
+      "Green",
+      "Fresh Spicy",
+      "Soft Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Aldehydes",
+      "Musk",
+      "Citruses",
+      "Clary Sage",
+      "Magnolia",
+      "Mint"
+    ],
+    "source": {
+      "name": "Fragrantica: Serge Lutens L'Eau",
+      "url": "https://www.fragrantica.com/perfume/Serge-Lutens/"
+    }
   },
   {
     "name": "Dulzura",
