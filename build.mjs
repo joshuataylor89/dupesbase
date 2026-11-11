@@ -28,7 +28,7 @@ for (const [k, v] of Object.entries(PRICES_RAW)) {
 }
 const priceTxt = (p) => p ? `$${p.amount.toFixed(2)}` : '';
 const priceDate = (p) => new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-const priceNote = (p) => p ? (p.n > 1 ? `Average of ${p.n} retailers (${p.sources.join(', ')}), ${p.size}, ${priceDate(p)}` : `${p.size} at ${p.sources[0]}, ${priceDate(p)}`) : '';
+const priceNote = (p) => p ? (p.sources.length === 1 && p.sources[0] === 'owner' ? `${p.size}, price as of ${priceDate(p)}` : p.n > 1 ? `Average of ${p.n} retailers (${p.sources.join(', ')}), ${p.size}, ${priceDate(p)}` : `${p.size} at ${p.sources[0]}, ${priceDate(p)}`) : '';
 const SYN = { cassis: 'blackcurrant', 'black currant': 'blackcurrant', 'green apple': 'apple', 'pineapple leaf': 'pineapple', 'moroccan jasmine': 'jasmine', 'jasminum grandiflorum': 'jasmine', 'bitter almond': 'almond', 'candied almond': 'almond', cedar: 'cedarwood', 'woody notes': 'woods', 'dry woods': 'woods', 'wild lavender': 'lavender', 'tonka bean': 'tonka' };
 const norm = (n) => { const k = n.toLowerCase().trim(); return SYN[k] || k; };
 {
@@ -38,7 +38,7 @@ const norm = (n) => { const k = n.toLowerCase().trim(); return SYN[k] || k; };
     while (seen[s]) s = `${slugify(`${f.brand} ${f.name}`)}-${n++}`;
     seen[s] = 1; f.slug = s;
     f.full = `${f.brand} ${f.name}`;
-    if (PRICES[f.full]) f.price = PRICES[f.full];
+    if (PRICES[f.full]) { f.price = PRICES[f.full]; f.tier = f.price.amount < 50 ? 'Under $50' : f.price.amount <= 150 ? '$50 to $150' : '$150 and up'; }
     f.top = f.top || []; f.heart = f.heart || []; f.base = f.base || []; f.flat = f.flat || [];
     f.allNotes = [...f.top, ...f.heart, ...f.base, ...f.flat];
     f.nk = [...new Set(f.allNotes.map(norm))];
