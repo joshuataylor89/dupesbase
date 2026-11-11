@@ -10,5 +10,8 @@
 # Adding bottle icons
 Run `python3 tools/cutout.py <image> <slug>` (needs a white-background bottle photo). Use only images the owner supplied or openly licensed ones (for example Wikimedia Commons, with the licence noted in the commit). Do not copy Fragrantica, Amazon or retailer product photos. A fragrance with no usable image keeps the placeholder bottle.
 
-# Amazon product links
-Owner rule: link only products **sold by Amazon**. Amazon blocks automated browsing, so a seller cannot be verified from search results. Therefore do NOT set `asin` from search results. Only use links the owner supplies (set `link` on the fragrance, as given; short links such as link.amazon/... keep their own tag). Everything else keeps the Amazon search button. Skip this task in scheduled runs.
+# Amazon product links (owner asked Claude to set these on its own)
+Set `asin` on the fragrance in data/fragrances.json. The build makes `https://www.amazon.com/dp/<ASIN>?smid=ATVPDKIKX0DER&tag=<tag>`; the smid parameter asks Amazon to show its own offer when it has one (untested, harmless otherwise). Owner-supplied `link` values always win; never change them.
+- Find ASINs with WebSearch restricted to `allowed_domains: ["amazon.com"]` ("<Brand> <Name> <size>"). Accept only a `/dp/<10-char ASIN>` result whose title clearly names the same brand, fragrance, concentration and about 100 ml / 3.4 oz.
+- Skip gift sets, bundles, testers, minis, hair mists, oils, other editions, or sizes far from 100 ml. If nothing clean, leave `asin` empty (the button opens an Amazon search).
+- Amazon blocks automated browsing, so never open Amazon pages. The seller cannot be verified: say so in the report. ~25 fragrances per run, originals first, then the most-compared clones; report how many were set.

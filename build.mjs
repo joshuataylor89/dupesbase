@@ -94,7 +94,7 @@ const pairOf = (f) => (f.pair ? { ...f.pair, asClone: true } : f.pairs ? f.pairs
 // ---------- Amazon ----------
 const withTag = (u) => (/^https?:\/\/(www\.)?amazon\.com\//i.test(u) && !/[?&]tag=/.test(u) ? u + (u.includes('?') ? '&' : '?') + 'tag=' + cfg.amazonTag : u);
 const amazonLink = (f) =>
-  f.link ? withTag(f.link) : f.asin ? `https://www.amazon.com/dp/${f.asin}?tag=${cfg.amazonTag}` : `https://www.amazon.com/s?k=${encodeURIComponent(f.full + ' perfume')}&tag=${cfg.amazonTag}`;
+  f.link ? withTag(f.link) : f.asin ? `https://www.amazon.com/dp/${f.asin}?smid=ATVPDKIKX0DER&tag=${cfg.amazonTag}` : `https://www.amazon.com/s?k=${encodeURIComponent(f.full + ' perfume')}&tag=${cfg.amazonTag}`;
 const storeLinks = (f) => [
   ['Jomashop', `https://www.jomashop.com/search?q=${encodeURIComponent(f.full)}${cfg.jomashopParams || ''}`],
   ['FragranceNet', `https://www.fragrancenet.com/search?q=${encodeURIComponent(f.full)}${cfg.fragrancenetParams || ''}`],
