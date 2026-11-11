@@ -5033,5 +5033,45 @@
         "date": "2026-11-11"
       }
     ]
+  },
+  "Lattafa Her Confession": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 35.99,
+        "source": "Walmart",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Yara Elixir": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 39.99,
+        "source": "Lattafa USA",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Armaf Club De Nuit Lionheart Woman": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 35.92,
+        "source": "Walmart",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Armaf Club De Nuit White Imperiale": {
+    "size": "3.6 oz / 105 ml",
+    "quotes": [
+      {
+        "amount": 35.59,
+        "source": "Walmart",
+        "date": "2026-11-11"
+      }
+    ]
   }
 }
