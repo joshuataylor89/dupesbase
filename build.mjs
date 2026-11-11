@@ -121,7 +121,7 @@ ${ids.map((f) => { const p = pairOf(f); return `<tr><td><a href="#${f.slug}">${e
 }
 
 // ---------- Page shell ----------
-const NAV = [['/', 'Home'], ['/database/', 'Database'], ['/compare/', 'Compare'], ['/guides/', 'Guides'], ['/about/', 'About']];
+const NAV = [['/', 'Database'], ['/compare/', 'Compare'], ['/guides/', 'Guides'], ['/about/', 'About']];
 function page({ title, desc, url, body, type = 'website', datePublished, wide = false, scripts = '', crumbs = null, product = null, image = null }) {
   const full = cfg.domain + url;
   const graph = [];
@@ -352,24 +352,28 @@ const privacyBody = `<article><h1>Privacy Policy</h1>
 // ---------- Home ----------
 const ordered = [...posts].reverse();
 const entryCard = (p, i) => `<article class="entry${i === 0 ? ' lead-entry' : ''}"><a class="entry-img ph" href="/${p.slug}/" aria-label="${esc(p.title)}">${p.hero ? pic(p.hero) : bottle(p.hero)}</a><div class="entry-body"><span class="pill">${esc(p.kicker)}</span><h2><a href="/${p.slug}/">${esc(p.title)}</a></h2><p>${esc(p.blurb)}</p><a class="more" href="/${p.slug}/">Read the guide →</a></div></article>`;
-const tileSets = { Men: ['Men', 'Unisex'], Women: ['Women', 'Unisex'] };
 const topClones = (o) => (o.pairs || []).slice(0, 3);
 const tile = (o) => {
   const ps = topClones(o);
-  return `<a class="tile" href="/compare/${pairSlug(o, BY[ps[0].with])}/" aria-label="Clones of ${esc(o.full)}"><span class="tile-k">Clones of</span><b class="tile-t">${esc(o.full)}</b><ol class="tile-l">${ps.map((q) => `<li><span class="tile-n">${esc(BY[q.with].full)}</span><span class="tile-p${q.rep == null ? ' nt' : ''}">${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}${q.rep == null && q.main != null ? '<small>notes</small>' : ''}</span></li>`).join('')}</ol><span class="tile-go">See all ${(o.pairs || []).length} ${(o.pairs || []).length === 1 ? 'clone' : 'clones'} →</span></a>`;
+  const gs = o.gender === 'Unisex' ? 'Men Women' : o.gender;
+  const hay = [o.full, ...(o.aliases || []), ...(o.pairs || []).flatMap((q) => [BY[q.with].full, ...(BY[q.with].aliases || [])])].join(' ').toLowerCase();
+  return `<a class="tile" data-g="${esc(gs)}" data-s="${esc(hay)}" href="/compare/${pairSlug(o, BY[o.pairs[0].with])}/" aria-label="Clones of ${esc(o.full)}"><span class="tile-k">Clones of</span><b class="tile-t">${esc(o.full)}</b><ol class="tile-l">${ps.map((q) => `<li><span class="tile-n">${esc(BY[q.with].full)}</span><span class="tile-p${q.rep == null ? ' nt' : ''}">${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}${q.rep == null && q.main != null ? '<small>notes</small>' : ''}</span></li>`).join('')}</ol><span class="tile-go">See all ${o.pairs.length} ${o.pairs.length === 1 ? 'clone' : 'clones'} →</span></a>`;
 };
-const tileGrid = (g) => {
-  const list = F.filter((f) => f.role === 'original' && (f.pairs || []).length && tileSets[g].includes(f.gender)).sort((x, y) => (y.pairs[0].main ?? -1) - (x.pairs[0].main ?? -1)).slice(0, 4);
-  return `<div class="tiles" data-g="${g}" role="tabpanel" id="tp-${g}"${g === 'Men' ? '' : ' hidden'}>${list.map(tile).join('')}${list.length < 4 ? `<p class="hh-note tiles-more">More ${g.toLowerCase()}'s originals are being added. <a href="/database/?gender=${g}">Browse the database</a>.</p>` : ''}</div>`;
-};
+const tileList = F.filter((f) => f.role === 'original' && (f.pairs || []).length).sort((x, y) => (y.pairs[0].main ?? -1) - (x.pairs[0].main ?? -1));
 const homeBody = `<section class="hero hero-modern hero-slim">
 <h1>Find the dupe. Skip the markup.</h1>
-<form class="hero-search" action="/database/" method="get" role="search"><input type="search" name="q" placeholder="Search a fragrance, e.g. Aventus or Khamrah" aria-label="Search the database" autocomplete="off"><button class="btn" type="submit">Search</button></form>
+<form class="hero-search" id="tq-form" action="/" method="get" role="search"><input type="search" id="tq" name="q" placeholder="Search an original or a clone, e.g. Aventus or Khamrah" aria-label="Search the database" autocomplete="off"><button class="btn" type="submit">Search</button></form>
 </section>
-<div class="gtabs" role="tablist" aria-label="Show originals for"><button type="button" role="tab" class="on" aria-selected="true" aria-controls="tp-Men" data-g="Men">Men</button><button type="button" role="tab" aria-selected="false" aria-controls="tp-Women" data-g="Women">Women</button></div>
-${tileGrid('Men')}${tileGrid('Women')}
-<p class="hh-note">Percentages marked ~ are reported similarity figures supplied to us, not our own testing. Where none is available we show a rough overlap of published notes, marked "notes", which does not measure how alike two fragrances smell. Unisex originals appear under both tabs. <a href="/database/">Search the full database</a> or read the <a href="/guides/">guides</a>.</p>
-<script>(function(){var t=document.querySelectorAll('.gtabs button');Array.prototype.forEach.call(t,function(b){b.addEventListener('click',function(){Array.prototype.forEach.call(t,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});Array.prototype.forEach.call(document.querySelectorAll('.tiles'),function(g){g.hidden=g.getAttribute('data-g')!==b.getAttribute('data-g');});});});})();</script>
+<div class="gtabs" role="tablist" aria-label="Show originals for"><button type="button" role="tab" class="on" aria-selected="true" data-g="Men">Men</button><button type="button" role="tab" aria-selected="false" data-g="Women">Women</button></div>
+<div class="tiles" id="tiles">${tileList.map(tile).join('')}</div>
+<p class="hh-note tiles-more" id="tiles-empty" hidden></p>
+<p class="hh-note">Percentages marked ~ are reported similarity figures supplied to us, not our own testing. Where none is available we show a rough overlap of published notes, marked "notes", which does not measure how alike two fragrances smell. Unisex originals appear under both tabs. Want to filter by notes, price tier or house? Use the <a href="/database/">advanced filters</a>.</p>
+<script>(function(){var g='Men',tabs=document.querySelectorAll('.gtabs button'),ts=document.querySelectorAll('#tiles .tile'),q=document.getElementById('tq'),em=document.getElementById('tiles-empty');
+function run(){var v=q.value.trim().toLowerCase(),w=v?v.split(/\s+/):[],n=0;Array.prototype.forEach.call(ts,function(t){var s=t.getAttribute('data-s'),ok=w.length?w.every(function(x){return s.indexOf(x)>-1}):(' '+t.getAttribute('data-g')+' ').indexOf(' '+g+' ')>-1;t.hidden=!ok;if(ok)n++;});
+em.hidden=n>0;em.textContent=n?'':(w.length?'No match yet. Try the advanced filters, or send us the pair with the Suggest a dupe link below.':'More '+g.toLowerCase()+"'s originals are being added.");}
+Array.prototype.forEach.call(tabs,function(b){b.addEventListener('click',function(){g=b.getAttribute('data-g');Array.prototype.forEach.call(tabs,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});run();});});
+q.addEventListener('input',run);document.getElementById('tq-form').addEventListener('submit',function(e){e.preventDefault();run();});
+try{var p=new URLSearchParams(location.search).get('q');if(p)q.value=p;}catch(e){}run();})();</script>
 ${disclosureBox}`;
 
 // ---------- Write ----------
