@@ -908,12 +908,41 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Sea Notes",
+      "Aquozone",
+      "Bergamot",
+      "Green Mandarin"
+    ],
+    "heart": [
+      "Rosemary",
+      "Lavender",
+      "Cypress",
+      "Mastic or Lentisque"
+    ],
+    "base": [
+      "Mineral notes",
+      "Musk",
+      "Patchouli",
+      "Amber"
+    ],
+    "accords": [
+      "Aromatic",
+      "Marine",
+      "Citrus",
+      "Fresh Spicy",
+      "Fresh",
+      "Woody",
+      "Mineral",
+      "Lavender",
+      "Salty"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Jorge di Profondo",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Fahrenheit",
@@ -940,12 +969,52 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Nutmeg Flower",
+      "Tangerine",
+      "Chamomile",
+      "Lavender",
+      "Cedar",
+      "Lemon",
+      "Hawthorn",
+      "Bergamot"
+    ],
+    "heart": [
+      "Violet Leaves",
+      "Nutmeg",
+      "Cedar",
+      "Clove",
+      "Sandalwood",
+      "Honeysuckle",
+      "Jasmine",
+      "Lily-of-the-Valley"
+    ],
+    "base": [
+      "Leather",
+      "Vetiver",
+      "Patchouli",
+      "Musk",
+      "Amber",
+      "Tonka Bean"
+    ],
+    "accords": [
+      "Leather",
+      "Fresh Spicy",
+      "Woody",
+      "Citrus",
+      "Ozonic",
+      "Aromatic",
+      "Animalic",
+      "Aquatic",
+      "Floral",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Fortnight",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Ombre Leather",
@@ -1068,12 +1137,38 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pink Pepper",
+      "Bergamot",
+      "Hedione"
+    ],
+    "heart": [
+      "Bulgarian Rose",
+      "Turkish Rose",
+      "Egyptian Jasmine"
+    ],
+    "base": [
+      "Amber",
+      "Madagascar Vanilla"
+    ],
+    "accords": [
+      "Rose",
+      "Floral",
+      "Amber",
+      "Citrus",
+      "Soft Spicy",
+      "Vanilla",
+      "Powdery",
+      "White Floral",
+      "Sweet",
+      "Fresh Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Infini Rose",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Erba Gold",
@@ -1772,12 +1867,35 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Mandarin",
+      "Pink Pepper"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Jasmine",
+      "Rose"
+    ],
+    "base": [
+      "Amber",
+      "Vanilla"
+    ],
+    "accords": [
+      "White Floral",
+      "Citrus",
+      "Amber",
+      "Vanilla",
+      "Sweet",
+      "Soft Spicy",
+      "Animalic",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Extravagant Lover",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Invictus Legend",
@@ -1871,9 +1989,24 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Vanilla",
+      "Citrus",
+      "Powdery",
+      "Sweet",
+      "Fresh Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Green Pear",
+      "Vanilla Pod",
+      "Bergamot"
+    ],
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Glacier Bella",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Bitter Peach",
@@ -1900,12 +2033,36 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Peach",
+      "Green Leaves",
+      "Blood Orange"
+    ],
+    "heart": [
+      "Patchouli"
+    ],
+    "base": [
+      "Cognac",
+      "Honey"
+    ],
+    "accords": [
+      "Woody",
+      "Sweet",
+      "Fruity",
+      "Patchouli",
+      "Honey",
+      "Warm Spicy",
+      "Green",
+      "Citrus",
+      "Earthy",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Coral Blush",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Oud Wood",
@@ -1932,12 +2089,39 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cardamom",
+      "Pepper",
+      "Brazilian Rosewood"
+    ],
+    "heart": [
+      "Oud",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka Bean",
+      "Ambergris"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Woody",
+      "Aromatic",
+      "Fresh Spicy",
+      "Oud",
+      "Vanilla",
+      "Balsamic",
+      "Powdery",
+      "Amber",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Dark Aoud",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "God Of Fire",
@@ -2252,12 +2436,40 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lavender",
+      "Clary Sage"
+    ],
+    "heart": [
+      "Bitter Almond",
+      "Vanilla",
+      "Orris Root"
+    ],
+    "base": [
+      "Leather",
+      "White Woods",
+      "Cashmeran",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "accords": [
+      "Woody",
+      "Leather",
+      "Almond",
+      "Vanilla",
+      "Amber",
+      "Powdery",
+      "Aromatic",
+      "Lavender",
+      "Sweet",
+      "Nutty"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Fabulo Intense",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "BIR Coral Fantasy",
@@ -2316,12 +2528,37 @@
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Narcissus",
+      "Jasmine"
+    ],
+    "heart": [
+      "Rose",
+      "Cyclamen"
+    ],
+    "base": [
+      "Oud",
+      "Patchouli",
+      "Frankincense"
+    ],
+    "accords": [
+      "Rose",
+      "Oud",
+      "Patchouli",
+      "Floral",
+      "Amber",
+      "Woody",
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Yellow Floral",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Jean Lowe Matière",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Myself EDP",
@@ -4220,12 +4457,39 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bergamot",
+      "Black Pepper",
+      "Sicilian Lemon"
+    ],
+    "heart": [
+      "Lavender",
+      "Tobacco",
+      "Geranium"
+    ],
+    "base": [
+      "Sandalwood",
+      "Vetiver",
+      "Musk"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Citrus",
+      "Aromatic",
+      "Lavender",
+      "Woody",
+      "Tobacco",
+      "Warm Spicy",
+      "Powdery",
+      "Herbal",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Jorge di Profumo",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Y Elixir",
@@ -4287,9 +4551,30 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Warm Spicy",
+      "Vanilla",
+      "Aromatic",
+      "Lavender",
+      "Iris",
+      "Powdery",
+      "Violet",
+      "Earthy",
+      "Fresh Spicy",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Cardamom",
+      "Vanilla",
+      "Lavender",
+      "Iris"
+    ],
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Glacier Le Noir",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "CH Men",
@@ -4783,9 +5068,28 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Coconut",
+      "Vanilla",
+      "Sweet",
+      "Citrus",
+      "Aromatic",
+      "Amber",
+      "Lactonic",
+      "Fresh Spicy",
+      "Tropical"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Coconut",
+      "Tonka",
+      "Bergamot"
+    ],
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Glacier Bold",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Instant Crush",
@@ -5148,12 +5452,38 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Ginger",
+      "Grapefruit",
+      "Bergamot"
+    ],
+    "heart": [
+      "Rosemary",
+      "Water Notes",
+      "Sage",
+      "Geranium"
+    ],
+    "base": [
+      "Ambroxan",
+      "Amber",
+      "Labdanum"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Citrus",
+      "Aromatic",
+      "Amber",
+      "Fresh",
+      "Musky",
+      "Herbal",
+      "Aquatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Jean Lowe Immortal",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "1 Million",
@@ -5777,12 +6107,55 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Neroli",
+      "Lime",
+      "Lemon",
+      "Orange",
+      "Mandarin",
+      "Bergamot",
+      "Jasmine"
+    ],
+    "heart": [
+      "Calone",
+      "Marine notes",
+      "Reseda",
+      "Violet",
+      "Cyclamen",
+      "Freesia",
+      "Rosemary",
+      "Coriander",
+      "Rose",
+      "Hyacinth",
+      "Jasmine",
+      "Nutmeg",
+      "Peach"
+    ],
+    "base": [
+      "White Musk",
+      "Cedar",
+      "Amber",
+      "Patchouli",
+      "Oakmoss"
+    ],
+    "accords": [
+      "Citrus",
+      "Floral",
+      "Fresh",
+      "Aromatic",
+      "Fresh Spicy",
+      "Powdery",
+      "Musky",
+      "Woody",
+      "Marine",
+      "White Floral"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Jorge di Profumo Aqua",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Invictus Aqua",
@@ -7880,12 +8253,43 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Black Cherry",
+      "Cherry",
+      "Bitter Almond"
+    ],
+    "heart": [
+      "Cherry",
+      "Turkish Rose",
+      "Plum",
+      "Jasmine"
+    ],
+    "base": [
+      "Vanilla",
+      "Cinnamon",
+      "Tonka Bean",
+      "Clove",
+      "Cedar",
+      "Benzoin",
+      "Sandalwood",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "accords": [
+      "Cherry",
+      "Sweet",
+      "Vanilla",
+      "Fruity",
+      "Almond",
+      "Warm Spicy",
+      "Nutty"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Forbidden Love",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Seduction 1",
