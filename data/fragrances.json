@@ -4267,20 +4267,56 @@
     "notesNote": "Published notes have not been added yet."
   },
   {
-    "name": "Yummy Pistachio",
+    "name": "Yummy Pistachio Oud",
     "brand": "Sapil",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Rum",
+      "Pear",
+      "Cardamom",
+      "Bergamot"
+    ],
+    "heart": [
+      "Hazelnut",
+      "Lily of the Valley",
+      "Rose",
+      "Jasmine",
+      "Peony"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka",
+      "Cacao",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "accords": [
+      "Vanilla",
+      "Warm Spicy",
+      "Sweet",
+      "Woody",
+      "Cacao",
+      "Rum",
+      "Nutty",
+      "Aromatic",
+      "Powdery",
+      "Fruity"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Sapil Yummy Pistachio Oud",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Yummy Pistachio",
+      "Sapil Yummy Pistachio"
+    ]
   },
   {
     "name": "Venom Incarnat",
@@ -17765,54 +17801,6 @@
     "notesNote": "Notes as listed by Fragrantica.",
     "source": {
       "name": "Fragrantica: Sapil Ombre Smoky Quartz",
-      "url": "https://www.fragrantica.com/"
-    }
-  },
-  {
-    "name": "Yummy Pistachio Oud",
-    "brand": "Sapil",
-    "role": "alternative",
-    "year": 2025,
-    "concentration": "",
-    "gender": "Unisex",
-    "size": "",
-    "tier": "Not rated",
-    "top": [
-      "Rum",
-      "Pear",
-      "Cardamom",
-      "Bergamot"
-    ],
-    "heart": [
-      "Hazelnut",
-      "Lily of the Valley",
-      "Rose",
-      "Jasmine",
-      "Peony"
-    ],
-    "base": [
-      "Vanilla",
-      "Tonka",
-      "Cacao",
-      "Sandalwood",
-      "Cedar"
-    ],
-    "accords": [
-      "Vanilla",
-      "Warm Spicy",
-      "Sweet",
-      "Woody",
-      "Cacao",
-      "Rum",
-      "Nutty",
-      "Aromatic",
-      "Powdery",
-      "Fruity"
-    ],
-    "season": [],
-    "notesNote": "Notes as listed by Fragrantica.",
-    "source": {
-      "name": "Fragrantica: Sapil Yummy Pistachio Oud",
       "url": "https://www.fragrantica.com/"
     }
   },
