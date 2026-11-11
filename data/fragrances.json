@@ -2694,17 +2694,45 @@
     "name": "Jasoor",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Apple",
+      "Cardamom",
+      "Bergamot"
+    ],
+    "heart": [
+      "Tobacco",
+      "Lavender",
+      "Geranium"
+    ],
+    "base": [
+      "Tonka",
+      "Leather",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "accords": [
+      "Aromatic",
+      "Warm Spicy",
+      "Fruity",
+      "Fresh Spicy",
+      "Tobacco",
+      "Lavender",
+      "Sweet",
+      "Fresh",
+      "Green",
+      "Vanilla"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Jasoor",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Matiere Noire",
@@ -3493,17 +3521,45 @@
     "name": "Liam Grey",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cardamom",
+      "Black Tea",
+      "Fig"
+    ],
+    "heart": [
+      "Iris",
+      "Vetiver",
+      "Labdanum"
+    ],
+    "base": [
+      "Sandalwood",
+      "Vanilla",
+      "Tonka",
+      "Patchouli"
+    ],
+    "accords": [
+      "Woody",
+      "Warm Spicy",
+      "Vanilla",
+      "Powdery",
+      "Aromatic",
+      "Sweet",
+      "Fruity",
+      "Iris",
+      "Green",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Liam",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Bianco Latte",
@@ -3589,17 +3645,41 @@
     "name": "Mashrabya",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Apple Shisha Accord",
+      "Pink Pepper"
+    ],
+    "heart": [
+      "Tobacco",
+      "Cinnamon",
+      "Dates"
+    ],
+    "base": [
+      "Oud Smoke",
+      "Caramel",
+      "Vanilla",
+      "Patchouli"
+    ],
+    "accords": [
+      "Sweet",
+      "Tobacco",
+      "Cinnamon",
+      "Warm Spicy",
+      "Caramel",
+      "Vanilla",
+      "Fruity"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Mashrabya",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Hufflepuff",
@@ -4513,17 +4593,37 @@
     "name": "Kashaf",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Floral Notes"
+    ],
+    "heart": [
+      "Fruits",
+      "Spices"
+    ],
+    "base": [
+      "Woodsy Notes",
+      "Musk"
+    ],
+    "accords": [
+      "Fruity",
+      "Woody",
+      "Sweet",
+      "Musky",
+      "Warm Spicy",
+      "Floral",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Kashaf",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Blonde Amber",
@@ -5720,17 +5820,41 @@
     "name": "Lahdath",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Rose",
+      "Lemon"
+    ],
+    "heart": [
+      "Rose",
+      "Caramel"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Cedarwood"
+    ],
+    "accords": [
+      "Rose",
+      "Vanilla",
+      "Caramel",
+      "Powdery",
+      "Sweet",
+      "Citrus",
+      "Musky",
+      "Woody",
+      "Floral"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Lahdath",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Lafayette Street",
@@ -7354,17 +7478,43 @@
     "name": "Ishq Al Shuyuk Silver",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lemon",
+      "Bergamot"
+    ],
+    "heart": [
+      "Pineapple",
+      "Black Pepper"
+    ],
+    "base": [
+      "Vanilla",
+      "Amberwood",
+      "Cedar",
+      "Patchouli"
+    ],
+    "accords": [
+      "Sweet",
+      "Fruity",
+      "Citrus",
+      "Woody",
+      "Fresh Spicy",
+      "Vanilla",
+      "Tropical",
+      "Warm Spicy",
+      "Fresh",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Ishq Al Shuyukh Silver",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "The One Mysterious Night",
@@ -7386,17 +7536,48 @@
     "name": "Khalta Blend Of",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Cinnamon",
+      "Lavender",
+      "Bergamot"
+    ],
+    "heart": [
+      "Rose",
+      "Incense",
+      "Orange Blossom",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "base": [
+      "Agarwood",
+      "Leather",
+      "Vanilla",
+      "Sandalwood",
+      "Amber"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Amber",
+      "Rose",
+      "Leather",
+      "Woody",
+      "Smoky",
+      "Oud",
+      "Balsamic",
+      "Vanilla",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Khalta Blend Of Lattafa",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "L'Homme Ideal Platine Prive",
