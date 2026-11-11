@@ -158,6 +158,7 @@ ${ids.map((f) => { const p = pairOf(f); return `<tr><td><a href="#${f.slug}">${e
 
 // ---------- Page shell ----------
 const NAV = [['/', 'Database'], ['/compare/', 'Compare'], ['/guides/', 'Latest'], ['/about/', 'About']];
+const CF_TOKEN = (process.env.CF_BEACON_TOKEN || cfg.cfBeaconToken || '').trim();
 function page({ title, desc, url, body, type = 'website', datePublished, wide = false, scripts = '', crumbs = null, product = null, image = null }) {
   const full = cfg.domain + url;
   const graph = [];
@@ -219,6 +220,7 @@ ${body}
 </div></footer>
 ${scripts}
 <script src="https://www.anrdoezrs.net/am/101926594/include/allCj/am.js"></script>
+${CF_TOKEN ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${CF_TOKEN}"}'></script>` : ''}
 </body>
 </html>
 `;
