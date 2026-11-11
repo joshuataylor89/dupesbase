@@ -1,0 +1,31 @@
+# Every 30 minutes: if an article in data/article-plan.json came due in the last 35 minutes,
+# push an empty commit so Cloudflare rebuilds the site (build.mjs only includes articles whose time has passed).
+name: publish-scheduled
+on:
+  schedule:
+    - cron: '2,32 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for due article
+        id: due
+        run: |
+          node -e '
+            const p=JSON.parse(require("fs").readFileSync("data/article-plan.json","utf8"));
+            const n=Date.now();
+            const due=p.some(a=>{const t=Date.parse(a.at);return t<=n&&t>n-35*60000});
+            console.log("due="+due);
+            require("fs").appendFileSync(process.env.GITHUB_OUTPUT,"due="+due+"\n");
+          '
+      - name: Trigger rebuild
+        if: steps.due.outputs.due == 'true'
+        run: |
+          git config user.name "dupesbase-bot"
+          git config user.email "bot@dupesbase.com"
+          git commit --allow-empty -m "Publish scheduled article"
+          git push
