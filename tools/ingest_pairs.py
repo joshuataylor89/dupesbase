@@ -155,4 +155,5 @@ def main():
     json.dump(F, open(FR, 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
     json.dump(list(pairs.values()), open(PR, 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
 
-main()
+if __name__ == "__main__":
+    main()
