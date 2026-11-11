@@ -6673,17 +6673,46 @@
     "name": "Fakhar Gold",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Tuberose",
+      "Salt"
+    ],
+    "heart": [
+      "Amber",
+      "Cashmeran",
+      "Tonka"
+    ],
+    "base": [
+      "Cedarwood",
+      "Labdanum",
+      "Vetiver"
+    ],
+    "accords": [
+      "Amber",
+      "Woody",
+      "Tuberose",
+      "White floral",
+      "Powdery",
+      "Musky",
+      "Animalic",
+      "Aromatic",
+      "Vanilla"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Fakhar Gold",
+      "url": "https://www.fragrantica.com/designers/Lattafa-Perfumes.html"
+    },
+    "review": {
+      "title": "The Golden Ticket",
+      "text": "Want 1 Million Parfum vibes without the $115 price tag? Fakhar Gold wraps tuberose in amber, cashmeran and tonka for about $25, and most Fragrantica voters call it good or great value. A rich, warm pick for fall and winter nights."
+    }
   },
   {
     "name": "Invictus Intense",
