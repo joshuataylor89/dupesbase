@@ -519,7 +519,7 @@ const cmpScripts = (init) => `${dataScript}<script id="cmp-init" type="applicati
 const cloneTabs = (a, b) => {
   const ps = (a.pairs || []);
   if (ps.length < 2) return '';
-  return `<nav class="ctabs" aria-label="Other clones of ${esc(a.full)}"><span class="ctabs-k">Clones of ${esc(a.full)}:</span>${ps.map((q) => `<a href="/compare/${pairSlug(a, BY[q.with])}/"${q.with === b.slug ? ' class="on" aria-current="page"' : ''}>${esc(BY[q.with].full)}<small>${q.main == null ? '' : (q.rep != null ? '~' : '') + q.main + '%'}</small></a>`).join('')}</nav>`;
+  return `<nav class="ctabs" aria-label="Other clones of ${esc(a.full)}"><span class="ctabs-k">${ps.length} clones of ${esc(a.full)}</span><div class="ctabs-row">${ps.map((q) => `<a href="/compare/${pairSlug(a, BY[q.with])}/" title="${esc(BY[q.with].full)}"${q.with === b.slug ? ' class="on" aria-current="page"' : ''}>${esc(BY[q.with].name)}<small>${q.main == null ? '' : (q.rep != null ? '~' : '') + q.main + '%'}</small></a>`).join('')}</div></nav><script>(function(){var e=document.querySelector('.ctabs a.on'),r=document.querySelector('.ctabs-row');if(e&&r){var x=e.offsetLeft-r.offsetLeft;if(x+e.offsetWidth>r.clientWidth)r.scrollLeft=x-r.clientWidth/2+e.offsetWidth/2;}})();</script>`;
 };
 const staticTable = (a, b) => {
   const ov = overlap(a, b), pr = PAIRS.find((q) => q.a === a.slug && q.b === b.slug);

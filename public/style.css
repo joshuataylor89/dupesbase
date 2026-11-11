@@ -340,3 +340,9 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .tile{position:relative}.tile-img{position:absolute;top:10px;right:10px;width:64px;height:84px;display:flex;align-items:center;justify-content:center}
 .tile-img img{max-width:100%;max-height:100%;object-fit:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,.45))}.tile-img svg{width:100%;height:100%;color:#2a2f55}
 .tile-k,.tile-t{padding-right:72px}
+
+/* cleaner clone tabs: one scrollable row */
+.ctabs{display:block;margin:6px 0 14px}
+.ctabs-k{display:block;font-size:.78rem;color:#8e95b8;margin:0 0 6px}
+.ctabs-row{display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+.ctabs-row a{flex:0 0 auto;white-space:nowrap}

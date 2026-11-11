@@ -68,10 +68,7 @@
     var f = function (ico, txt) { out.push('<li>' + ico.replace('<svg class="ci', '<svg class="ci sm') + '<span>' + txt + '</span></li>'); };
     var ta = tierNum(a), tb = tierNum(b);
     if (ta != null && tb != null && ta !== tb) f(ta < tb ? UP : DN, 'It sits in a <b>' + (ta < tb ? 'lower' : 'higher') + '</b> approximate price tier (' + esc(a.tier) + ' vs ' + esc(b.tier) + ')');
-    var rp = pairFor(a, b);
-    if (rp && rp.rep != null) f(EQ, 'Reported similarity is about <b>' + rp.rep + '%</b>. This figure was supplied to us and is not our own testing');
     if (a.nk.length && b.nk.length) f(EQ, 'Their published notes overlap by <b>' + ov.pct + '%</b>' + (ov.common.length ? ', sharing <b>' + esc(ov.common.map(cap).join(', ')) + '</b>' : '') + '. This compares two published lists and does not measure how alike they smell');
-    else f(EQ, 'Published notes have not been added for both fragrances yet');
     if (a.nk.length && b.nk.length && ov.onlyA.length) f(EQ, 'It lists <b>' + esc(ov.onlyA.slice(0, 6).map(cap).join(', ')) + '</b> that the other does not');
     if (a.conc && b.conc && a.conc !== b.conc) f(EQ, 'It is listed as <b>' + esc(a.conc) + '</b>, versus <b>' + esc(b.conc) + '</b>');
     if (a.gender && b.gender && a.gender !== b.gender) f(EQ, 'It is marketed for <b>' + esc(a.gender) + '</b>, versus <b>' + esc(b.gender) + '</b>');
@@ -98,7 +95,8 @@
     var rp0 = pairFor(a, b), hasN = a.nk.length && b.nk.length;
     var h = rp0 && rp0.rep != null ? '<section class="cmp-panel"><h2>Reported similarity</h2><p class="cmp-pct"><b>~' + rp0.rep + '%</b> reported similarity</p><p class="cmp-note">A figure supplied to us, not our own measurement. We have not tested either fragrance, and how alike two fragrances smell varies from person to person.</p></section>' : '';
     if (hasN) h += '<section class="cmp-panel"><h2>Notes in Common</h2><div class="cmp-common"><p class="cmp-pct"><b>' + ov.pct + '%</b> published notes overlap</p><div class="hh-tags">' + (ov.common.length ? ov.common.map(function (n) { return '<span class="hh-tag on">' + esc(cap(n)) + '</span>'; }).join('') : '<span class="meta">No shared notes in the published lists.</span>') + '</div><p class="cmp-note">A rough comparison of two published note lists. It does not measure how alike the two smell, and we have not tested either.</p></div></section>';
-    h += '<section class="cmp-panel"><h2>Main Differences</h2>' + diffs(a, b) + '</section>';
+    var dd = diffs(a, b);
+    if (dd.indexOf('<li>') > -1) h += '<section class="cmp-panel"><h2>Main Differences</h2>' + dd + '</section>';
     h += '<div class="cmp-legend"><span>' + UP + ' Ranks higher in this category.</span><span>' + DN + ' Ranks lower in this category</span><span>' + EQ + ' Equal, or not ranked</span></div>';
     h += '<div class="cmp-pair">' + head(a, ca) + head(b, cb, 1) + '</div>';
     h += '<div class="cmp-pair">' + info(a, pc[0]) + info(b, pc[1]) + '</div>';
