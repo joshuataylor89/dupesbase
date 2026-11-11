@@ -98,14 +98,15 @@
   function top(d) { return [['Type', esc(roleLabel(d))], ['Released', d.year ? String(d.year) : ''], ['Concentration', esc(d.conc)], ['Gender', esc(d.gender)], ['Price tier', '<b class="hh-price">' + esc(d.tier) + '</b>']]; }
   function buy(d) { var q = encodeURIComponent(d.full), st = [['Jomashop', 'https://www.jomashop.com/search?q=' + q], ['FragranceNet', 'https://www.fragrancenet.com/search?q=' + q]].map(function (x) { return '<a class="btn btn2 hh-buy" href="' + esc(x[1]) + '" target="_blank" rel="nofollow noopener">Find on ' + x[0] + ' <small>→</small></a>'; }).join(''); return '<span class="buy">' + st + '<a class="btn hh-buy" href="' + esc(amazon(d)) + '" target="_blank" rel="sponsored nofollow noopener">' + (d.asin || d.link ? 'View on Amazon' : 'Check price on Amazon') + ' <small>→</small></a></span>'; }
   function notesBlock(d) {
-    if (d.flat.length) return kv([['Notes', esc(d.flat.join(', '))]]);
-    return kv([['Top notes', esc(d.top.join(', '))], ['Heart notes', esc(d.heart.join(', '))], ['Base notes', esc(d.base.join(', '))]]);
+    var nt = function (a) { return a.map(function (n) { return tagLink('note', cap(n.toLowerCase().trim())); }).join(''); };
+    if (d.flat.length) return '<div class="hh-tags">' + nt(d.flat) + '</div>';
+    return [['Top notes', d.top], ['Heart notes', d.heart], ['Base notes', d.base]].filter(function (r) { return r[1].length; }).map(function (r) { return '<h4 class="nl">' + r[0] + '</h4><div class="hh-tags">' + nt(r[1]) + '</div>'; }).join('');
   }
 
   function cardFull(d) {
     return '<article class="hh-card"><h2 class="hh-title">' + nameHtml(d) + '</h2><div class="hh-top"><a class="hh-img" href="' + href(d) + '">' + icon(d) + '</a><div>' + kv(top(d)) + '</div></div><div class="hh-tags">' + tagsHtml(d) + '</div>' +
       '<h3>Published notes</h3>' + notesBlock(d) +
-      (d.accords.length ? '<h3>Main accords (as listed)</h3>' + kv([['Accords', esc(d.accords.join(', '))]]) : '') +
+      (d.accords.length ? '<h3>Main accords (as listed)</h3>' + '<div class="hh-tags">' + d.accords.map(function (a) { return tagLink('accord', a); }).join('') + '</div>' : '') +
       (d.size ? '<h3>Size</h3>' + kv([['Listed size', esc(d.size)]]) : '') +
       '<p><a class="more" href="' + href(d) + '">View full details →</a></p><p>' + buy(d) + '</p></article>';
   }

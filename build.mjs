@@ -110,6 +110,8 @@ const pic = (f, extra = 'loading="lazy"') => (f.img ? `<img src="/img/f/${f.slug
 const thumb = (f) => `<div class="thumb">${pic(f)}</div>`;
 
 // ---------- Components ----------
+const fq = (k, v) => `/database/?${k}=${encodeURIComponent(v)}`;
+const tagA = (k, v) => `<a class="hh-tag" href="${esc(fq(k, v))}" title="Show all ${esc(v)}">${esc(v)}</a>`;
 const roleLabel = (f) => (f.role === 'original' ? 'Original' : 'Alternative');
 const noteLine = (f) =>
   f.flat.length ? `<b>Published notes:</b> ${esc(f.flat.join(', '))}` : [['Top', f.top], ['Heart', f.heart], ['Base', f.base]].filter(([, a]) => a.length).map(([k, a]) => `<b>${k}:</b> ${esc(a.join(', '))}`).join(' · ');
@@ -126,7 +128,7 @@ function productCard(f, rank) {
     <div class="meta">${metaLine(f)}${f.year ? ' · ' + f.year : ''}${f.size ? ' · ' + esc(f.size) : ''}</div>
     ${tierLine(f)}
     <p class="notes">${noteLine(f)}</p>
-    ${f.accords.length ? `<p class="notes"><b>Main accords (as listed):</b> ${esc(f.accords.join(', '))}</p>` : ''}
+    ${f.accords.length ? `<p class="notes"><b>Main accords (as listed):</b> ${f.accords.map((t) => tagA('accord', t)).join(' ')}</p>` : ''}
     ${other ? `<p class="notes"><b>${p.asClone ? 'Commonly compared to' : 'Commonly compared with'}:</b> <a href="/fragrance/${other.slug}/">${esc(other.full)}</a>.${p.main != null ? ' ' + mainTxt(p).replace(/^./, (c) => c.toUpperCase()) + (p.rep == null ? ` (${p.common.length} shared notes)` : '') + '.' : ''} <a href="/compare/${pairSlug(p.asClone ? other : f, p.asClone ? f : other)}/">Compare side by side</a>.</p>` : ''}
     <p>${buyBtn(f)} <a class="btn btn2" href="/fragrance/${f.slug}/">Full notes</a></p>
   </div>
@@ -469,8 +471,6 @@ write('database', page({ title: `Fragrance Dupes Database: Search and Filter | $
 // ---- detail pages ----
 const houseCount = {}; for (const f of F) houseCount[f.brand] = (houseCount[f.brand] || 0) + 1;
 const houseHref = (b) => (houseCount[b] > 1 ? `/house/${slugify(b)}/` : `/database/?brand=${encodeURIComponent(b)}`);
-const fq = (k, v) => `/database/?${k}=${encodeURIComponent(v)}`;
-const tagA = (k, v) => `<a class="hh-tag" href="${esc(fq(k, v))}" title="Show all ${esc(v)}">${esc(v)}</a>`;
 const kv = (rows) => `<dl class="hh-kv">${rows.filter((r) => r[1] && r[1] !== '?').map((r) => `<div><dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd></div>`).join('')}</dl>`;
 const carousel = (f) => {
   if (!f.n) return `<div class="hh-img dv-img">${pic(f, 'fetchpriority="high" decoding="async"')}</div>`;
@@ -518,10 +518,11 @@ const autoTake = (f) => {
   return { title: TAKE_TITLES[h % TAKE_TITLES.length], text: t };
 };
 const reviewBox = (f) => { const r = f.review || autoTake(f); return r ? `<section class="dv-panel take"><h2><span class="take-k">Quick take</span> ${esc(r.title)}</h2><p class="take-t">${esc(r.text)}</p></section>` : ''; };
+const noteTag = (n) => { const v = norm(n); return tagA('note', v.charAt(0).toUpperCase() + v.slice(1)).replace(/>[^<]*<\/a>$/, `>${esc(n)}</a>`); };
 const pyramid = (f) =>
   f.flat.length
-    ? `<div class="hh-tags">${f.flat.map((n) => `<span class="hh-tag">${esc(n)}</span>`).join('')}</div>`
-    : [['Top notes', f.top], ['Heart notes', f.heart], ['Base notes', f.base]].filter(([, a]) => a.length).map(([k, a]) => `<h3 class="nl">${k}</h3><div class="hh-tags">${a.map((n) => `<span class="hh-tag">${esc(n)}</span>`).join('')}</div>`).join('');
+    ? `<div class="hh-tags">${f.flat.map((n) => noteTag(n)).join('')}</div>`
+    : [['Top notes', f.top], ['Heart notes', f.heart], ['Base notes', f.base]].filter(([, a]) => a.length).map(([k, a]) => `<h3 class="nl">${k}</h3><div class="hh-tags">${a.map((n) => noteTag(n)).join('')}</div>`).join('');
 for (const f of F) {
   const p = pairOf(f);
   const other = p ? BY[p.with] : null;
