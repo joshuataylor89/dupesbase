@@ -494,7 +494,30 @@ const topThree = (f) => {
   if (!arr.length) return '';
   return `<section class="dv-panel top3"><h2>${asOrig ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2><div class="top3-g">${arr.map((q) => { const o = BY[q.with]; const href = asOrig ? pairSlug(f, o) : pairSlug(o, f); return `<a class="top3-c" href="/compare/${href}/"><span class="top3-i">${pic(o, 'loading="lazy" decoding="async"')}</span><span class="top3-n">${esc(o.full)}</span><b class="top3-p">${q.rep != null ? '~' : ''}${q.main}%</b></a>`; }).join('')}</div></section>`;
 };
-const reviewBox = (f) => f.review ? `<section class="dv-panel take"><h2><span class="take-k">Quick take</span> ${esc(f.review.title)}</h2><p class="take-t">${esc(f.review.text)}</p></section>` : '';
+const TAKE_TITLES = ['The Budget Flex', 'Smart Money Pick', 'The Pocket Original', 'Same Vibe, Smaller Bill', 'The Value Play'];
+const money = (n) => `$${Math.round(n)}`;
+const lc = (a) => a.map((s) => s.toLowerCase());
+const joinL = (a) => (a.length > 1 ? `${a.slice(0, -1).join(', ')} and ${a[a.length - 1]}` : a[0]);
+// Quick take written from data we hold only: both prices, the reported similarity and the published notes.
+const autoTake = (f) => {
+  if (f.role !== 'alternative' || !f.pair) return null;
+  const o = BY[f.pair.with];
+  if (!o) return null;
+  const rep = f.pair.rep;
+  const cheaper = o.price && f.price && o.price.amount >= f.price.amount * 1.5;
+  let t = cheaper
+    ? `Want ${o.full} vibes without the ${money(o.price.amount)} price tag? ${f.full} runs about ${money(f.price.amount)}${rep != null ? ` and is reported at ~${rep}% similar` : ''}.`
+    : `${f.full} is commonly compared to ${o.full}${rep != null ? ` and is reported at ~${rep}% similar` : ''}.`;
+  const bits = [];
+  if (f.top.length) bits.push(`${joinL(lc(f.top.slice(0, 2)))} up top`);
+  if (f.heart.length) bits.push(`${joinL(lc(f.heart.slice(0, 2)))} in the heart`);
+  if (f.base.length) bits.push(`${joinL(lc(f.base.slice(0, 2)))} at the base`);
+  if (bits.length) t += ` Published notes include ${joinL(bits)}.`;
+  else if (f.flat.length) t += ` Published notes include ${joinL(lc(f.flat.slice(0, 4)))}.`;
+  let h = 0; for (const ch of f.slug) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return { title: TAKE_TITLES[h % TAKE_TITLES.length], text: t };
+};
+const reviewBox = (f) => { const r = f.review || autoTake(f); return r ? `<section class="dv-panel take"><h2><span class="take-k">Quick take</span> ${esc(r.title)}</h2><p class="take-t">${esc(r.text)}</p></section>` : ''; };
 const pyramid = (f) =>
   f.flat.length
     ? `<div class="hh-tags">${f.flat.map((n) => `<span class="hh-tag">${esc(n)}</span>`).join('')}</div>`
