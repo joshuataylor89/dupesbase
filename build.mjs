@@ -510,6 +510,60 @@ vsPost("Angels' Share", 'Khamrah', {
   faq: [["Is Lattafa Khamrah a Kilian Angels' Share dupe?", "It is commonly compared to Angels' Share by reviewers and retailers. It is a different fragrance from Lattafa, and its notes list adds dates, nutmeg and tuberose."], ['Is Khamrah for men or women?', 'It is listed as unisex.'], ['Which is better for winter?', 'Both list warm, sweet accords that are usually described as fall and winter scents. We have not tested either.']]
 });
 
+// ---------- Armaf Odyssey line guide ----------
+{
+  const groups = [
+    ['Fresh and citrus', [['Odyssey Limoni', 'Lemon and grapefruit-style citrus with marine and musk notes'], ['Odyssey Aqua', 'Orange, mint and lavender over woods, in an aquatic style'], ['Odyssey Mega', 'Ginger, mint and pineapple over cedar and musk'], ['Odyssey Tryant', 'Grapefruit and pepper with lavender and vetiver'], ['Odyssey Wild One', 'Bergamot, mint and ginger over sandalwood and musk'], ['Odyssey Homme White Edition', 'Pink pepper, yuzu and sea notes over amber and guaiac wood']]],
+    ['Warm, spicy and woody', [['Odyssey Homme', 'Vanilla, spices and iris over leather and jasmine'], ['Odyssey Aoud', 'Lavender and saffron with oud over patchouli and musk'], ['Odyssey Revolution', 'Blackcurrant and pineapple over praline, plum and tonka']]],
+    ['Sweet and gourmand', [['Odyssey Mandarin Sky', 'Mandarin with caramel and tonka'], ['Odyssey Mandarin Sky Elixir', 'Mandarin and spice with caramel, incense and vanilla'], ['Odyssey Candee', 'Strawberry, raspberry and peach over caramel and musk'], ['Odyssey Toffee Coffee', 'Coffee and caramel with chocolate and tonka'], ['Odyssey Black Forest', 'Cherry, coffee and chocolate with praline and tonka'], ['Odyssey Marshmallow', 'Strawberry and a marshmallow accord over vanilla'], ['Odyssey Spectra Rainbow Edition', 'Apple and cinnamon over vanilla, tobacco and tonka'], ['Odyssey Eau de Montagne', 'Lactonic and citrus top over tonka and sandalwood']]],
+    ['Tropical', [['Odyssey Go Mango', 'Mango and tonka over guaiac wood, vanilla and nuts'], ['Odyssey Bahamas', 'Tropical fruit and a salty accord over woods and musk']]],
+  ];
+  const get = (n) => F.find((f) => f.brand === 'Armaf' && f.name === n);
+  const all = groups.flatMap(([, l]) => l.map(([n]) => get(n))).filter(Boolean);
+  if (all.length) {
+    const closest = (f) => { const o = (f.origs || []).filter((x) => !BY[x.with].full.includes('Body')); return o; };
+    const title = 'Armaf Odyssey Line Guide: Every Fragrance and What It Is Closest To';
+    const desc = `All ${all.length} Armaf Odyssey fragrances with published notes, the original each is described as inspired by, and a notes-overlap or reported figure where we have one.`;
+    const rowsHtml = all.map((f) => {
+      const o = closest(f);
+      const txt = o.length ? o.map((x) => `<a href="/fragrance/${x.with}/">${esc(BY[x.with].full)}</a>${x.main != null ? ` <small>(${esc(mainTxt(x))})</small>` : ''}`).join('<br>') : 'Original creation, as listed';
+      return `<tr><td><a href="/fragrance/${f.slug}/">${esc(f.name.replace(/^Odyssey /, ''))}</a></td><td>${txt}</td><td>${esc([...f.top, ...f.heart, ...f.base].slice(0, 6).join(', '))}</td></tr>`;
+    }).join('\n');
+    const cards = groups.map(([g, l]) => `<h2>${esc(g)}</h2><div class="cards">${l.map(([n, d]) => { const f = get(n); return f ? `<a class="postcard ody-card" href="/fragrance/${f.slug}/"><span class="ody-img">${pic(f)}</span><b>${esc(f.name)}</b><p>${esc(d)}.</p></a>` : ''; }).join('')}</div>`).join('\n');
+    const body = `<article>
+<span class="pill">GUIDE</span>
+<h1>${esc(title)}</h1>
+<p class="meta">Published ${esc(((ms) => new Date(ms).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' }))(Date.parse('2026-11-11T22:00:00Z')))} · Updated ${esc(cfg.updated)}</p>
+<p class="lead">Armaf's Odyssey range keeps growing, and most bottles are described as inspired by a better-known fragrance. This guide puts ${all.length} of them in one place with their published notes, the original each one is described as inspired by, and a figure where we have one.</p>
+<p><b>How to read the numbers.</b> Where a figure starts with a ~ it is a reported similarity that was supplied to us. Where a figure says "notes" it is an overlap we calculate between two published note lists, and only when both lists are in our database. Neither is a measure of how alike two fragrances smell, and we have not tested any of them.</p>
+<h2>Odyssey at a glance: what each one is closest to</h2>
+<div class="tablewrap"><table>
+<tr><th>Odyssey</th><th>Described as inspired by</th><th>Main notes</th></tr>
+${rowsHtml}
+</table></div>
+<p>The "inspired by" names come from a line-up of the Odyssey range supplied to us and from the pairings already on this site. Armaf's own bottle copy is the best place to confirm what each one is meant to evoke.</p>
+${cards}
+<h2>Which Odyssey should you start with?</h2>
+<ul>
+<li><b>Fresh daily wear:</b> Limoni, Aqua, Mega and Homme White Edition are the citrus and aquatic picks.</li>
+<li><b>Warm evening wear:</b> Homme, Aoud and Revolution lean spicy, woody or fruity-smoky.</li>
+<li><b>Sweet and dessert styles:</b> Mandarin Sky, Candee, Toffee Coffee, Black Forest and Marshmallow cover the gourmand side.</li>
+<li><b>Something different:</b> Go Mango and Bahamas are listed as original creations rather than inspired by a named fragrance.</li>
+</ul>
+${faqBlock([
+  ['What is the Armaf Odyssey line?', 'Odyssey is a range of Armaf eau de parfum fragrances, most listed at 100 ml, covering citrus, woody, sweet and tropical styles.'],
+  ['Which Armaf Odyssey is closest to a designer fragrance?', 'On the figures we hold, Odyssey Mandarin Sky (~99%) and Odyssey Aqua (~98%) carry the highest reported similarity figures. Those are reported figures supplied to us, not our measurements.'],
+  ['Are Armaf Odyssey fragrances for men or women?', 'It varies by bottle. Several are described as masculine, others as unisex or sweet and playful. Check each listing, and note that gender labels are only a guide.'],
+  ['Are these official dupes of the originals?', 'They are separate fragrances from Armaf that are described as inspired by the named originals. They are not copies, and fragrances smell different on different people.'],
+])}
+<h2>Where this guide comes from</h2>
+<p>Notes and the "inspired by" names come from a line-up of the Odyssey range supplied to Dupes Base. Note lists differ between sources, so treat them as a guide. Reported similarity figures were supplied to us and are not our own measurements. Price tiers are approximate, so check the Amazon listing for the live price, size and seller.</p>
+${disclosureBox}
+</article>`;
+    posts.push({ slug: 'armaf-odyssey-line-guide', title, desc, body, blurb: `Every Armaf Odyssey fragrance with published notes and the original each is described as inspired by.`, kicker: 'GUIDE', hero: get('Odyssey Mandarin Sky') || all[0] });
+  }
+}
+
 // ---------- Scheduled 1v1 articles (original vs best clone) ----------
 {
   const planPath = path.join(root, 'data', 'article-plan.json');

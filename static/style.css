@@ -418,3 +418,4 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .vs-hero figcaption{margin-top:8px;font-weight:700}.vs-hero figcaption small{display:block;color:var(--muted);font-weight:500}
 .vs-x{font-weight:800;font-size:22px;color:var(--accent)}
 @media(max-width:560px){.vs-hero img,.vs-hero svg{max-height:170px}}
+.ody-card{padding:16px;text-align:center}.ody-img{display:flex;justify-content:center;height:130px;margin-bottom:10px}.ody-img img,.ody-img svg{height:100%;width:auto;max-width:100%;object-fit:contain}.ody-card b{display:block;margin-bottom:4px}

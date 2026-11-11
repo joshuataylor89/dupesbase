@@ -964,16 +964,33 @@
     "brand": "Armaf",
     "role": "alternative",
     "year": 0,
-    "concentration": "",
+    "concentration": "EDP",
     "gender": "",
-    "size": "",
+    "size": "100 ml",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
+    "top": [
+      "Mandarin Orange",
+      "Orange",
+      "Saffron",
+      "Sage"
+    ],
+    "heart": [
+      "Caramel",
+      "Tonka Bean",
+      "Marigold"
+    ],
+    "base": [
+      "Ambroxan",
+      "Cedar",
+      "Vetiver"
+    ],
     "accords": [],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
   },
   {
     "name": "Kismet Magic",
@@ -4092,16 +4109,31 @@
     "brand": "Armaf",
     "role": "alternative",
     "year": 0,
-    "concentration": "",
+    "concentration": "EDP",
     "gender": "",
-    "size": "",
+    "size": "100 ml",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
+    "top": [
+      "Vanilla",
+      "Amber"
+    ],
+    "heart": [
+      "Oriental Notes",
+      "Spices",
+      "Iris"
+    ],
+    "base": [
+      "Vanilla",
+      "Leather",
+      "Jasmine"
+    ],
     "accords": [],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
   },
   {
     "name": "Mango Skin",
@@ -10140,16 +10172,31 @@
     "brand": "Armaf",
     "role": "alternative",
     "year": 0,
-    "concentration": "",
+    "concentration": "EDP",
     "gender": "",
-    "size": "",
+    "size": "100 ml",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
+    "top": [
+      "Orange",
+      "Grapefruit",
+      "Artemisia"
+    ],
+    "heart": [
+      "Mint",
+      "Lavender"
+    ],
+    "base": [
+      "Ambroxan",
+      "Patchouli",
+      "Cypress"
+    ],
     "accords": [],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
   },
   {
     "name": "Town & Country",
@@ -14615,16 +14662,36 @@
     "brand": "Armaf",
     "role": "alternative",
     "year": 0,
-    "concentration": "",
+    "concentration": "EDP",
     "gender": "",
-    "size": "",
+    "size": "100 ml",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
+    "top": [
+      "Ginger",
+      "Bergamot",
+      "Orange",
+      "Lemon",
+      "Mint"
+    ],
+    "heart": [
+      "Pineapple",
+      "Sage",
+      "Juniper Berries",
+      "Geranium"
+    ],
+    "base": [
+      "Musk",
+      "Cedar",
+      "Vetiver",
+      "Tonka Bean"
+    ],
     "accords": [],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
   },
   {
     "name": "Hunter",
@@ -19138,5 +19205,507 @@
     "accords": [],
     "season": [],
     "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Stronger With You",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 0,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Odyssey Limoni",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Lemon",
+      "Sweet Orange",
+      "Bergamot",
+      "Mandarin"
+    ],
+    "heart": [
+      "Ginger",
+      "Orange Blossom",
+      "Marine Notes"
+    ],
+    "base": [
+      "Amber",
+      "Musk",
+      "Blue Tea"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Mandarin Sky Elixir",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Mandarin",
+      "Orange",
+      "Lavender",
+      "Cardamom",
+      "Black Pepper"
+    ],
+    "heart": [
+      "Caramel",
+      "Tonka Bean",
+      "Incense",
+      "Patchouli"
+    ],
+    "base": [
+      "Vanilla",
+      "Vetiver"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Spectra Rainbow Edition",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Cinnamon",
+      "Apple",
+      "Bergamot"
+    ],
+    "heart": [
+      "Lavender",
+      "Orange Blossom",
+      "Lily of the Valley"
+    ],
+    "base": [
+      "Vanilla",
+      "Tobacco",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Revolution",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Black Currant",
+      "Blood Orange",
+      "Pineapple",
+      "Sage"
+    ],
+    "heart": [
+      "Praline",
+      "Plum",
+      "Cardamom",
+      "Vanilla"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Candee",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Strawberry",
+      "Raspberry",
+      "Peach",
+      "Geranium"
+    ],
+    "heart": [
+      "Caramel",
+      "Jasmine",
+      "Passion Fruit"
+    ],
+    "base": [
+      "Musk",
+      "Patchouli",
+      "Amber"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Eau de Montagne",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Lactonic Notes",
+      "Citrus Nuance"
+    ],
+    "heart": [
+      "Tonka Bean",
+      "Soft Spices"
+    ],
+    "base": [
+      "Sandalwood",
+      "Musk",
+      "Amber"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Homme White Edition",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Pink Pepper",
+      "Yuzu",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Violet Leaf",
+      "Sea Notes"
+    ],
+    "base": [
+      "Amber",
+      "Amberwood",
+      "Guaiac Wood"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Aoud",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Lavender",
+      "Saffron",
+      "Nutmeg"
+    ],
+    "heart": [
+      "Oud",
+      "Woody Notes"
+    ],
+    "base": [
+      "Patchouli",
+      "Ambroxan",
+      "Musk"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Tryant",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Grapefruit",
+      "Citrus Notes"
+    ],
+    "heart": [
+      "Pepper",
+      "Lavender",
+      "Geranium",
+      "Elemi"
+    ],
+    "base": [
+      "Vetiver",
+      "Cedar",
+      "Woody Notes",
+      "Ambroxan"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Go Mango",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Pepper",
+      "Ginger",
+      "Lemon",
+      "White Flowers"
+    ],
+    "heart": [
+      "Mango",
+      "Tonka Bean",
+      "Dry Wood"
+    ],
+    "base": [
+      "Guaiac Wood",
+      "Vanilla",
+      "Nutty Notes",
+      "Amber",
+      "Musk"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Bahamas",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Tropical Fruits",
+      "Salty Accord"
+    ],
+    "heart": [
+      "Sea Notes",
+      "Herbs"
+    ],
+    "base": [
+      "Woods",
+      "Musk",
+      "Amber"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Toffee Coffee",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Coffee",
+      "Caramel"
+    ],
+    "heart": [
+      "Chocolate",
+      "Tonka Bean"
+    ],
+    "base": [
+      "Vanilla",
+      "Woods",
+      "Musk"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Wild One",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Pepper",
+      "Lemon",
+      "Mint"
+    ],
+    "heart": [
+      "Lavender",
+      "Pink Pepper",
+      "Vetiver",
+      "Ginger"
+    ],
+    "base": [
+      "Patchouli",
+      "Vetiver",
+      "Elemi",
+      "Cedar",
+      "Sandalwood",
+      "Musk"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Black Forest",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Cherry",
+      "Coffee",
+      "Chocolate"
+    ],
+    "heart": [
+      "Praline",
+      "Dates",
+      "Coffee"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Vanilla",
+      "Woods"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Marshmallow",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [
+      "Strawberry",
+      "Marshmallow Accord"
+    ],
+    "heart": [
+      "Creamy Notes",
+      "Soft Florals"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Woods"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
+    "source": {
+      "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
   }
 ]
