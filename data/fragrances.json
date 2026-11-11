@@ -7482,17 +7482,49 @@
     "name": "Najdia",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lemon",
+      "Apple",
+      "Cinnamon",
+      "Bergamot",
+      "Lemongrass"
+    ],
+    "heart": [
+      "Watery Notes",
+      "Lavender",
+      "Cardamom",
+      "Rosemary"
+    ],
+    "base": [
+      "Musk",
+      "Amber",
+      "Sandalwood",
+      "Cedar",
+      "Tobacco"
+    ],
+    "accords": [
+      "Citrus",
+      "Aromatic",
+      "Fresh Spicy",
+      "Aquatic",
+      "Fresh",
+      "Warm Spicy",
+      "Woody",
+      "Cinnamon",
+      "Powdery",
+      "Lavender"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Najdia",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "The One Luminous Night",
