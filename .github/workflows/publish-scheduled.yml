@@ -1,4 +1,4 @@
-# Every 30 minutes: if an article in data/article-plan.json came due in the last 35 minutes,
+# Every 30 minutes (checks for due articles): if an article in data/article-plan.json came due in the last 35 minutes,
 # push an empty commit so Cloudflare rebuilds the site (build.mjs only includes articles whose time has passed).
 name: publish-scheduled
 on:
