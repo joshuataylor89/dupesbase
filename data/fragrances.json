@@ -11198,5 +11198,137 @@
       "title": "The Fire Flanker",
       "text": "A 2026 release with charred pineapple and citrus over lavender, vanilla, tonka and honey. Rated 4.41 out of 5 on Fragrantica, but only 87 votes so far, so it is early."
     }
+  },
+  {
+    "name": "Yeah! Parfum",
+    "brand": "Maison Alhambra",
+    "role": "alternative",
+    "year": 2022,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Apple",
+      "Aldehydes",
+      "Ginger",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Lavender",
+      "Sage",
+      "Geranium"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Frankincense",
+      "Cedar",
+      "Patchouli"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Fresh",
+      "Aromatic",
+      "Aldehydic",
+      "Fruity",
+      "Amber",
+      "Woody",
+      "Lavender",
+      "Citrus",
+      "Herbal"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Yeah! Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Ana Abiyedh Coral",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Watermelon",
+      "Peach",
+      "Orange"
+    ],
+    "heart": [
+      "Coconut",
+      "White Flowers"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla",
+      "Amber"
+    ],
+    "accords": [
+      "Ozonic",
+      "Aquatic",
+      "Fruity",
+      "Vanilla",
+      "Sweet",
+      "Powdery",
+      "Musky",
+      "Coconut",
+      "White Floral",
+      "Amber"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Ana Abiyedh Coral",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Al Noble Safeer",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Grapefruit",
+      "Bergamot",
+      "Ginger",
+      "Black Pepper"
+    ],
+    "heart": [
+      "Caramel",
+      "Jasmine",
+      "Heliotrope"
+    ],
+    "base": [
+      "Gaiac Wood",
+      "Cypriol Oil",
+      "Musk",
+      "Ambergris",
+      "Cashmeran"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Woody",
+      "Powdery",
+      "Caramel",
+      "Musky",
+      "Aromatic",
+      "Amber",
+      "Fresh"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Safeer",
+      "url": "https://www.fragrantica.com/"
+    }
   }
 ]
