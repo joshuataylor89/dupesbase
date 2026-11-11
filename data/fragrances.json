@@ -6657,7 +6657,7 @@
     "name": "1 Million Parfum",
     "brand": "Paco Rabanne",
     "role": "original",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
     "gender": "Men",
     "size": "",
@@ -6665,9 +6665,35 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "White floral",
+      "Tuberose",
+      "Amber",
+      "Animalic",
+      "Woody",
+      "Salty",
+      "Leather",
+      "Tropical",
+      "Musky",
+      "Coconut"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Fragrantica (a single list, with no top, heart and base split).",
+    "flat": [
+      "Tuberose",
+      "Solar notes",
+      "Salt",
+      "Monoi oil",
+      "Ambergris",
+      "Leather",
+      "Cashmeran",
+      "Labdanum",
+      "Pine"
+    ],
+    "source": {
+      "name": "Fragrantica: Rabanne 1 Million Parfum",
+      "url": "https://www.fragrantica.com/designers/Rabanne.html"
+    }
   },
   {
     "name": "Fakhar Gold",
