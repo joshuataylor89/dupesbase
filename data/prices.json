@@ -1,45 +1,72 @@
 {
   "Creed Aventus": {
-    "amount": 379.99,
-    "size": "100 ml / 3.4 oz",
-    "source": "Jomashop",
-    "date": "2026-11-11",
-    "note": "price supplied by site owner; matches Jomashop 100 ml listing"
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 379.99,
+        "source": "Jomashop",
+        "date": "2026-11-11"
+      }
+    ]
   },
   "Dior Sauvage Elixir": {
-    "amount": 224.99,
-    "size": "100 ml / 3.4 oz",
-    "source": "Jomashop",
-    "date": "2026-11-11"
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 224.99,
+        "source": "Jomashop",
+        "date": "2026-11-11"
+      }
+    ]
   },
   "Chanel Bleu De Chanel EDP": {
-    "amount": 173.0,
-    "size": "100 ml / 3.4 oz",
-    "source": "Ulta",
-    "date": "2026-11-11"
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 173.0,
+        "source": "Ulta",
+        "date": "2026-11-11"
+      }
+    ]
   },
   "Tom Ford Tobacco Vanille": {
-    "amount": 460.0,
-    "size": "100 ml / 3.4 oz",
-    "source": "Bluemercury",
-    "date": "2026-11-11"
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 460.0,
+        "source": "Bluemercury",
+        "date": "2026-11-11"
+      }
+    ]
   },
   "Giorgio Armani Acqua Di Gio": {
-    "amount": 69.11,
-    "size": "100 ml / 3.4 oz EDT",
-    "source": "The Perfume Spot",
-    "date": "2026-11-11"
+    "size": "3.4 oz / 100 ml EDT",
+    "quotes": [
+      {
+        "amount": 69.11,
+        "source": "The Perfume Spot",
+        "date": "2026-11-11"
+      }
+    ]
   },
   "Gucci Guilty Pour Homme": {
-    "amount": 64.39,
-    "size": "90 ml / 3 oz EDT",
-    "source": "The Perfume Spot",
-    "date": "2026-11-11"
+    "size": "3 oz / 90 ml EDT",
+    "quotes": [
+      {
+        "amount": 64.39,
+        "source": "The Perfume Spot",
+        "date": "2026-11-11"
+      }
+    ]
   },
   "Carolina Herrera Bad Boy Cobalt": {
-    "amount": 94.82,
-    "size": "100 ml / 3.4 oz EDP",
-    "source": "The Perfume Spot",
-    "date": "2026-11-11"
+    "size": "3.4 oz / 100 ml EDP",
+    "quotes": [
+      {
+        "amount": 94.82,
+        "source": "The Perfume Spot",
+        "date": "2026-11-11"
+      }
+    ]
   }
 }

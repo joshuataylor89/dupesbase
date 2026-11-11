@@ -18,9 +18,17 @@ const TIER_ORDER = ['Under $50', '$50 to $150', '$150 and up'];
 
 // ---------- Data ----------
 const F = JSON.parse(fs.readFileSync(path.join(root, 'data/fragrances.json'), 'utf8'));
-const PRICES = fs.existsSync(path.join(root, 'data/prices.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'data/prices.json'), 'utf8')) : {};
+const PRICES_RAW = fs.existsSync(path.join(root, 'data/prices.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'data/prices.json'), 'utf8')) : {};
+// Each entry: { size: "3.4 oz / 100 ml", quotes: [{ amount, source, date }] }. The site shows the average of the quotes.
+const PRICES = {};
+for (const [k, v] of Object.entries(PRICES_RAW)) {
+  const qs = (v.quotes || []).filter((q) => q.amount > 0);
+  if (!qs.length) continue;
+  PRICES[k] = { amount: Math.round((qs.reduce((t, q) => t + q.amount, 0) / qs.length) * 100) / 100, size: v.size, n: qs.length, sources: [...new Set(qs.map((q) => q.source))], date: qs.map((q) => q.date).sort().pop() };
+}
 const priceTxt = (p) => p ? `$${p.amount.toFixed(2)}` : '';
-const priceNote = (p) => p ? `${p.size} at ${p.source}, ${new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}` : '';
+const priceDate = (p) => new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+const priceNote = (p) => p ? (p.n > 1 ? `Average of ${p.n} retailers (${p.sources.join(', ')}), ${p.size}, ${priceDate(p)}` : `${p.size} at ${p.sources[0]}, ${priceDate(p)}`) : '';
 const SYN = { cassis: 'blackcurrant', 'black currant': 'blackcurrant', 'green apple': 'apple', 'pineapple leaf': 'pineapple', 'moroccan jasmine': 'jasmine', 'jasminum grandiflorum': 'jasmine', 'bitter almond': 'almond', 'candied almond': 'almond', cedar: 'cedarwood', 'woody notes': 'woods', 'dry woods': 'woods', 'wild lavender': 'lavender', 'tonka bean': 'tonka' };
 const norm = (n) => { const k = n.toLowerCase().trim(); return SYN[k] || k; };
 {
