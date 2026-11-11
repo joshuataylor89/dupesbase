@@ -183,13 +183,13 @@
     ],
     "accords": [
       "Sweet",
-      "Gourmand",
-      "Spicy",
-      "Warm",
+      "Warm Spicy",
       "Vanilla",
-      "Woody",
       "Amber",
-      "Creamy"
+      "Cinnamon",
+      "Woody",
+      "Fresh Spicy",
+      "Fruity"
     ],
     "season": [
       "Fall",
@@ -7120,17 +7120,55 @@
     "name": "Good Girl",
     "brand": "Carolina Herrera",
     "role": "original",
-    "year": 0,
+    "year": 2016,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Almond",
+      "Coffee",
+      "Bergamot",
+      "Lemon"
+    ],
+    "heart": [
+      "Tuberose",
+      "Jasmine Sambac",
+      "Orange Blossom",
+      "Bulgarian Rose",
+      "Orris"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Cacao",
+      "Vanilla",
+      "Praline",
+      "Sandalwood",
+      "Musk",
+      "Amber",
+      "Cashmere Wood",
+      "Patchouli",
+      "Cinnamon",
+      "Cedar"
+    ],
+    "accords": [
+      "Sweet",
+      "White Floral",
+      "Vanilla",
+      "Warm Spicy",
+      "Amber",
+      "Cacao",
+      "Woody",
+      "Tuberose",
+      "Almond",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Carolina Herrera Good Girl",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "BAD Femme",
@@ -9078,49 +9116,140 @@
     "name": "Dulzura",
     "brand": "Paris Corner",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Buttermilk",
+      "Black Pepper"
+    ],
+    "heart": [
+      "Cake",
+      "Vanilla",
+      "Whipped Cream"
+    ],
+    "base": [
+      "Musk",
+      "Amber"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Powdery",
+      "Musky",
+      "Amber",
+      "Fresh Spicy",
+      "Lactonic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Paris Corner Dulzura",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "La Nuit Trésor",
     "brand": "Lancôme",
     "role": "original",
-    "year": 0,
-    "concentration": "",
+    "year": 2015,
+    "concentration": "EDP",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Tangerine",
+      "Bergamot"
+    ],
+    "heart": [
+      "Strawberry",
+      "Black Rose",
+      "Vanilla Orchid",
+      "Passionfruit"
+    ],
+    "base": [
+      "Praline",
+      "Caramel",
+      "Vanilla",
+      "Litchi",
+      "Patchouli",
+      "Incense",
+      "Coffee",
+      "Licorice",
+      "Coumarin",
+      "Papyrus"
+    ],
+    "accords": [
+      "Sweet",
+      "Fruity",
+      "Vanilla",
+      "Caramel",
+      "Warm Spicy",
+      "Balsamic",
+      "Woody",
+      "Tropical",
+      "Patchouli",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lancôme La Nuit Trésor",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Mystique",
     "brand": "Armaf",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Tangerine",
+      "Bergamot",
+      "Orange"
+    ],
+    "heart": [
+      "Vanilla",
+      "Mimosa",
+      "Strawberry",
+      "Ylang Ylang",
+      "Rose",
+      "Jasmine",
+      "Passionfruit"
+    ],
+    "base": [
+      "Vanilla",
+      "Coffee",
+      "Patchouli",
+      "Tonka Bean",
+      "Vetiver"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Warm Spicy",
+      "Yellow Floral",
+      "Fruity",
+      "Coffee",
+      "Patchouli",
+      "Woody",
+      "Powdery",
+      "Floral"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Mystique",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Blanche Bête",
