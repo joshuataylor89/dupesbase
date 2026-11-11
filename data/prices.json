@@ -11,5 +11,35 @@
     "size": "100 ml / 3.4 oz",
     "source": "Jomashop",
     "date": "2026-11-11"
+  },
+  "Chanel Bleu De Chanel EDP": {
+    "amount": 173.0,
+    "size": "100 ml / 3.4 oz",
+    "source": "Ulta",
+    "date": "2026-11-11"
+  },
+  "Tom Ford Tobacco Vanille": {
+    "amount": 460.0,
+    "size": "100 ml / 3.4 oz",
+    "source": "Bluemercury",
+    "date": "2026-11-11"
+  },
+  "Giorgio Armani Acqua Di Gio": {
+    "amount": 69.11,
+    "size": "100 ml / 3.4 oz EDT",
+    "source": "The Perfume Spot",
+    "date": "2026-11-11"
+  },
+  "Gucci Guilty Pour Homme": {
+    "amount": 64.39,
+    "size": "90 ml / 3 oz EDT",
+    "source": "The Perfume Spot",
+    "date": "2026-11-11"
+  },
+  "Carolina Herrera Bad Boy Cobalt": {
+    "amount": 94.82,
+    "size": "100 ml / 3.4 oz EDP",
+    "source": "The Perfume Spot",
+    "date": "2026-11-11"
   }
 }
