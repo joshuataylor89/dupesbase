@@ -1,5077 +1,5097 @@
 {
-  "Creed Aventus": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 379.99,
-        "source": "Jomashop",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dior Sauvage Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 224.99,
-        "source": "Jomashop",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Chanel Bleu De Chanel EDP": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 173.0,
-        "source": "Ulta",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Tobacco Vanille": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 460.0,
-        "source": "Bluemercury",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Giorgio Armani Acqua Di Gio": {
-    "size": "3.4 oz / 100 ml EDT",
-    "quotes": [
-      {
-        "amount": 69.11,
-        "source": "The Perfume Spot",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Gucci Guilty Pour Homme": {
-    "size": "3 oz / 90 ml EDT",
-    "quotes": [
-      {
-        "amount": 64.39,
-        "source": "The Perfume Spot",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Carolina Herrera Bad Boy Cobalt": {
-    "size": "3.4 oz / 100 ml EDP",
-    "quotes": [
-      {
-        "amount": 94.82,
-        "source": "The Perfume Spot",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "AK France Seduction 1": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 315.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Amouage Interlude Man": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 245.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Amouage Jubilation XXV": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 395.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Amouage Outlands": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 245.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Amouage Reflection 45": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 379.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Arabian Oud Resala": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 167.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Azzaro The Most Wanted": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 76.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Azzaro The Most Wanted Parfum": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 89.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "BDK Parfums Gris Charnel": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 209.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "BDK Parfums Velvet Tonka": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 144.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bond No. 9 Bleeker Street": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 259.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bond No. 9 I Love New York": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 259.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bond No. 9 Lafayette Street": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 259.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bond No. 9 New York Nights": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 470.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bond No. 9 Nolita": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 259.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bond No. 9 Nomad": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 470.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bottega Veneta Pour Homme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 95.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Burberry Goddess": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 114.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bvlgari Aqva Pour Homme Marine": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 108.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bvlgari Le Gemme Orom": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 319.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bvlgari Le Gemme Tygar": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 314.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Carolina Herrera CH Men": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 69.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Carolina Herrera Good Girl": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Carolina Herrera Very Good Girl": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 109.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Chanel Allure Homme Sport": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 135.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Clive Christian Blonde Amber": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 610.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Clive Christian Town & Country": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 249.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Creed Aventus Absolu": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 449.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Creed Aventus Cologne": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 247.5,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Creed Centaurus": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 263.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Creed Green Irish Tweed": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 224.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Creed Millesime Imperial": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 232.93,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Creed Queen Of Silk": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 262.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Creed Silver Mountain Water": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 264.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dior Fahrenheit": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 94.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dior Homme Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 160.84,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dior Rouge Trafalgar": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 330.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dior Sauvage": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 158.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dolce&Gabbana K EDT": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 49.97,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dolce&Gabbana The One Luminous Night": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 350.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dolce&Gabbana The One Mysterious Night": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 240.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dolce&Gabbana Velvet Tender Oud": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 335.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Escentric Molecules Molecule 01": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 159.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Ex Nihilo Blue Talisman": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 445.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Giardini di Toscana Bianco Latte": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 159.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Giorgio Armani Acqua Di Gio Profondo": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 91.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Giorgio Armani Acqua Di Gio Profumo": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 124.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Giorgio Armani Code Profumo": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Giorgio Armani Stronger With You Intensely": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 94.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Giorgio Armani Stronger With You Tobacco": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 94.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Givenchy Gentleman Reserve Privée": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Goldfield & Banks Silky Woods": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 139.26,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Gucci A Chant For The Nymph": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 318.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Gucci A Midnight Stroll": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 249.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Gucci Pour Homme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 139.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Guerlain Epices Volees": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 419.45,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Guerlain Idylle": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Guerlain L'Homme Ideal Platine Prive": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Guerlain L'Homme ideal Extreme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Hermes Jour D'Hermes Absolu": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 88.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Hermes Terre D'Hermes Eau Givree": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 71.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Hermes Terre d'Hermes Parfum": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 174.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "House of Sillage Hufflepuff": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 360.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Hugo Boss Boss Bottled Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 119.89,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Hugo Boss Bottled Absolu": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 104.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Initio Atomic Rose": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 378.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Initio Musk Therapy": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 387.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Initio Oud For Greatness": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 391.5,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Initio Oud For Happiness": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 391.5,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Initio Paragon": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 387.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Initio Side Effect": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 420.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier La Belle": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 104.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Le Beau Le Parfum": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 87.41,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Le Male": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 74.39,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Le Male Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 111.59,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Le Male Elixir Absolu": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 167.39,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Le Male Le Parfum": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 97.65,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Paradise Garden": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 102.29,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Scandal Absolu Her": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 102.29,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Scandal Pour Homme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 73.46,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jean Paul Gaultier Ultra Male": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 92.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kayali Eden Juicy Apple 01": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 123.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kayali Eden Sparkling Lychee 39": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 123.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kayali Lovefest Burning Cherry 48": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 123.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kayali Vanilla Candy Rock Sugar 42": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 123.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kayali Yum Pistachio Gelato": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 118.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kenzo Homme EDT Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 59.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Angels' Share": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 325.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Angels' Share Paradis": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 324.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Apple Brandy On The Rocks": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 299.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Back To Black": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 199.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Black Panthom": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 109.24,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Blue Moon Ginger Dash": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 324.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Love Don't Be Shy": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 279.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Old Fashioned": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 306.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Smoking Hot": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 209.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Straight To Heaven": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 314.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Kilian Vodka On Rocks": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 229.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lacoste L.12.12 White": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 53.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lancôme Oud Bouquet": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 235.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Le Labo Santal 33": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 306.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Afternoon Swim": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 330.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton California Dream": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 350.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton City Of Stars": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 350.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Coeur Battant": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 350.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Imagination": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 330.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton L'Immensite": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 330.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Matiere Noire": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 350.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Nuit De Feu": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 330.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Ombre Nomade": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 410.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Orage": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 350.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Pacific Chill": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 330.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Stellar Times": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 350.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Louis Vuitton Symphony": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 560.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Crivelli Hibicus Mahajad": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 224.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Crivelli Oud Maracuja": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 314.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Francis Kurkdjian 724": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 246.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Francis Kurkdjian Aqua Celestia Cologne Forte": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 218.47,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Francis Kurkdjian Baccarat Rouge 540": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 494.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Francis Kurkdjian Grand Soir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 265.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Francis Kurkdjian Oud Satin Mood": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 174.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Margiela By The Fireplace": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Majda Bekkali Fusion Sacree Obscur": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 239.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mancera Amore Caffe": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 104.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mancera Cedrat Boise": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 73.5,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mancera Coco Vanille": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 72.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mancera Instant Crush": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 89.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mancera Red Tobacco": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 91.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mancera Roses Vanille": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mancera Tonka Cola": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 85.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Marc-Antoine Barrois Ganymede": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 264.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Matière Première Vanilla Powder": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 214.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Memo Paris Russian Leather": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 132.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Montale Arabians Tonka": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 109.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mugler Angel Nova": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 105.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Nishane Ani": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 168.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Nishane Hagivat": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 175.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Nishane Papilefiko": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 124.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Nishane Shem": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 224.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Orto Parisi Megamare": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 155.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne 1 Million": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 74.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne 1 Million Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 94.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne 1 Million Lucky": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 85.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne 1 Million Parfum": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 114.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Fame": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 109.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Invictus": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 69.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      },
-      {
-        "amount": 100.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Invictus Aqua": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 99.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Invictus Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 98.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Invictus Legend": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 99.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Invictus Platinum": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 109.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Invictus Victory": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 81.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Invictus Victory Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 99.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne Phantom": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 84.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Althair": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 360.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Carlisle": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 400.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Delina Exclusif": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 387.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Greenley": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 346.5,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Haltane": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 414.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Herod": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 360.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Kalan": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 400.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Layton": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 360.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Layton Exclusif": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 414.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Oajan": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 400.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Pegasus": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 360.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Percival": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 360.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Parfums de Marly Valaya": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 387.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Passion Island Mes Bisous": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 215.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Penhaligon's Halfeti Cedar": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 224.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Penhaligon's Sartorial": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 205.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Penhaligon's The Inimitable": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 284.69,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Prada Paradox": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 114.98,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Roja Parfums Apex": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 225.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Room 1015 Wavechild": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 155.55,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Shiseido Zen": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 54.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sospiro Vibrato": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 169.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Stéphane Humbert Lucas God Of Fire": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 224.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Stéphane Humbert Lucas Pink Boa": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 228.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Stéphane Humbert Lucas Sand Dance": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 224.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Stéphane Humbert Lucas Soleil De Jeddah Mango Kiss": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 224.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Stéphane Humbert Lucas Venom Incarnat": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 228.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Thameen Regent Leather": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 285.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tiziana Terenzi Andromeda": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 149.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tiziana Terenzi Kirké": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 99.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tiziana Terenzi Tuttle": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 495.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Amber Absolute": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 193.74,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Bitter Peach": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 143.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Black Orchid": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 121.24,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford F**cking Fabulous": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 326.59,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Lost Cherry": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 329.79,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Neroli Portofino": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 252.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Noir Extreme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 129.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Ombre Leather": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 143.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Oud Wood": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 232.74,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Soleil Blanc": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 153.58,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Vanilla Fatale": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 311.82,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Vanilla Sex": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 256.49,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Valentino BIR Coral Fantasy": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 94.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Valentino Born in Roma Green Stravaganza": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 89.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Valentino Donna Born In Roma Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 134.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Valentino Uomo Born in Roma": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 94.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Valentino Voce Viva": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 164.63,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Versace Dylan Blue Pour Homme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 69.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Versace Eau Fraiche": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 73.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Versace Eros": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 64.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Versace Eros Flame": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 71.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Vilhelm Parfumerie Mango Skin": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 295.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Xerjoff Accento": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 164.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Xerjoff Erba Gold": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 194.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Xerjoff Erba Pura": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 182.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Xerjoff La Capitale": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 295.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Xerjoff Naxos": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 195.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Xerjoff Opera": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 169.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Xerjoff Tony Iommi Monkey Special": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 325.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent Babycat": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 349.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent Black Opium Over Red": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 109.9,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent L'Homme Parfum Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 107.78,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent LNDL Bleu Electrique": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 99.74,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent Libre Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 120.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent Myself EDP": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 129.59,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent Tuxedo": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 374.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent Y EDP": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 99.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Yves Saint Laurent Y Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 99.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan 9PM": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 27.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Historic Olmeda": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 27.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Mystique Bouquet": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Rare Tiffany": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Souvenir Blooming Bliss": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Supremacy In Oud": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 36.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Supremacy Noir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 27.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Turathi Blue": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 32.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Turathi Brown": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 31.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Amber Oud Aqua Dubai": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 49.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Amber Oud Gold": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 44.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Amber Oud Tobacco": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 32.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Detour Noir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Detour Noir Exclusif": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Wataniah Al Layl": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Alexandria Fatal De Vanille": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 69.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Aquolina Pink Sugar": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Arabiyat Prestige Ramad": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Aura": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Aura Fresh": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club De Nuit Blue Iconic": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club De Nuit Milestone": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club De Nuit Precieux 1": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 46.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club De Nuit Urban Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 36.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club de Nuit Intense Man": {
-    "size": "6.8 oz / 200 ml",
-    "quotes": [
-      {
-        "amount": 50.79,
-        "source": "Amazon",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club de Nuit Sillage": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Effects of Uniq": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Excellus": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 23.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Hunter Men": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Odyssey Aqua": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 28.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Odyssey Homme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 23.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Odyssey Mandarin Sky": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 28.25,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Queen": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Radical Brown": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf The Warrior": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Voyage Brown": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 26.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Bentley For Men Absolute": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 27.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Borouj Perlador": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 54.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Cuba Cuba Gold": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 10.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dossier Floral Marshmallow": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.1,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Emir Cedrat Essence": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Emper Metropolis 9th Avenue": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.31,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Flavia Privee No: 5": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Aether Extrait": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue After Effect": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Arsh Extrait": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Azzure Aoud": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Barakkat Aqua Stellar": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Glorious Oud Royal Blanc": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Imperium X": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Inimitable": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Jack Of Clubs": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 23.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Pepper So Spicy": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 44.5,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Royal Blend Vintage": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Spectre Ghost": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Star Men Nebula": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 16.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Supreme L'homme Extreme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Tempète Jacques Yves": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Tropical Kiss": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 37.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Vulcan Sable": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 48.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Amber Empire": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Diwani Rabat": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 36.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Liquid Brun": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 25.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Lumiere Garcon": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Moonstone Bleu": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 89.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Pinnace": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 38.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Pinnace Noir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Pinnace Oryn": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Royal Blend Sequoia": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 49.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Spectre Wraith": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Sultry Woods": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 37.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Veneno Scarlet": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 41.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Vulcan Baie": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 41.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "French Avenue Vulcan Feu": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Gigglepuff Hekayat Attar": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 42.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jo Milano Game Of Spades Bid": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 55.75,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jo Milano Game Of Spades Moon": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 57.65,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Jo Milano Game Of Spades Queen": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 58.58,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Just Jack Orchid Noir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Khadlaj Aura Manga Splash": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 36.5,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Khadlaj Epoque Artistique": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Khadlaj Island Dreams": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Khadlaj Karus Secret Musk": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 49.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Khadlaj Shiyaaka Shadow": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "King of Kings Mens Anarchy Renegade Parfum": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 49.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "King of Kings Royal Amber": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 60.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Al Areeq Gold": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Al Noble Safeer Green": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Ameer Al Oudh Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Ana Abiyed Coral": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Angham": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 33.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Ansaam Silver": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Asad Bourbon": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 27.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Asad Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 31.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Atlas": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Bade'e Al Oud Sublime": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Breeze": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Confidential Private Gold": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 18.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Ekhtiari": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 14.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Emeer": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Eternal Oud": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Fakhar Gold": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Hayaati Florence": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Ishq Al Shuyuk Silver": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Jasoor": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Kashaf": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Khalta Blend Of": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Lahdath": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Liam Grey": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Mashrabya": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Mayar": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Mohra": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Najdia": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 18.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Najdia Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Nasheet": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Oud For Glory": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Pride La Collection D'Antiquites": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 33.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Pride Vintage Radio": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 26.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Raghba": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Rave Royal Supreme The King": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Sheikh Al Shuyukh Luxe": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 16.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa The Kingdom": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 23.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Thouq": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.49,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Wajood": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Yara Tous": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lumiere Elle": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Alpine Homme Sport": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Anarch": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 18.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Avant Silk": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra BAD Femme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Coral Blush": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Dark Aoud": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Extravagant Lover": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 25.5,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Fabulo Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 20.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Forbidden Love": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Fortnight": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 17.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Glacier Bella": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Glacier Bold": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Glacier Le Noir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Infini Rose": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Jean Lowe Immortel": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 44.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Jean Lowe Matiere": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Jorge Di Aqua": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 20.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Jorge Di Profondo": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 17.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Jorge Di Profumo": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Kalos": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Kingsman": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 14.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Kismet Magic": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Kismet Moscow": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 18.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Leonie Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Luxe Bold": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Monocline 01": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Montaigne Vanille": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 14.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Mysterious Amber": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 20.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Opera Rouge": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Pacific Blue": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Perseus": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Philos Opus Noir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 14.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Pink Eclipse": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Russe Leather": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Sceptre Oceana": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Sensual Vanilla": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 26.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra The Chant": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 20.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra The Trail": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Toro Pour Homme Glace": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra True Word": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Versencia Rouge": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Victorioso Myth": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Victorioso Nero": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Voices": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Yeah!": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Yeah! Man": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Your Touch Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Your Touch Tobacco": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Zaffiro Regale": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 36.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Zeno": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 17.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Milestone Solar Blanc": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 49.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Ministry of Oud Gladiators Oath": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 33.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Ministry of Oud Oud Satin": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 27.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Montblanc Legend": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 42.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mouj Jubilee XXVI": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 59.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Nusuk Fawah Midnight Edition": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 44.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Camaro Homme Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 25.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Emir Lueur D'espoir Noche": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 25.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Emir Unisex Cherry Cola": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Ibisco Nirvana": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Khair Confection": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 28.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Khair Fusion": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 22.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Mawj Appletini": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 31.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Mawj Moscow Mule": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 32.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Mysterium": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Ophidian Black Cherry": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.97,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Rifaaqat": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Super Crush": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner When Soul Gets High": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Wild And Tobacco": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Zodiac Stratos": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Pendora Milano Prive": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Rasasi Hawas Black": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Rasasi Hawas Diva": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Rasasi Hawas Ice": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 31.9,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Rasasi Sotoor Taa": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 68.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Rayhaan Crimson": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Reyane Tradition Insurrection II": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Reyane Tradition Insurrection II Wild": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Riiffs Imperial Blue": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Riiffs Montano Brave": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 34.59,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sapil Bound For Men": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sapil Dapper": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 15.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sapil Elixir Fusion": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 26.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sapil Iconic": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sapil Legend": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 17.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sapil Ombre Flame Aura": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sapil Royale Flair": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Sapil Yummy Pistachio": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 23.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Swiss Arabian Shaghaf Oud": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Swiss Arabian Shaghaf Oud Abyad": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 23.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Swiss Arabian Shaghaf Oud Tonka": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.95,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Volare Golden Hour": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 49.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Volare Moroccan Dream": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 49.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zara Night Pour Homme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 54.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya A Fairy Tale": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 24.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya Hawwa Red": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 19.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya Inekas Luna": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 23.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya Itqan Noir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 29.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya Night Shadow": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 21.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya Rabab Gems": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 20.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya Reserved Black Cedar": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 26.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya Tiramisu Coco": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 32.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zimaya Zukhruf Black": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 31.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mugler Amen Pure Coffee": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 90.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Mugler Amen Pure Malt": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 95.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paco Rabanne 1 Million Prive": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 135.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Tom Ford Tuscan Leather": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 295.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Valentino Donna Noir Absolu": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 160.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "ALT Fragrances Executive": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Supremacy Silver": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Afnan Turathi Electric": {
-    "size": "3 oz / 90 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Amber Oud Bleu Edition": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 45.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Amber Oud Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 45.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Amber Oud Rouge": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 40.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Al Haramain Leather Oudh": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 40.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Ariana Grande Cloud": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 60.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club de Nuit Untold": {
-    "size": "3.5 oz / 105 ml",
-    "quotes": [
-      {
-        "amount": 40.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Hunter": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Odyssey Mega": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Dossier Musky Oakmoss": {
-    "size": "1.7 oz / 50 ml",
-    "quotes": [
-      {
-        "amount": 29.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Fragrance World Enigma Une": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 25.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Asad": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 28.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Fakhar Black": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Hayaati Al Maleky": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Khamrah": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Suqraat": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Yara": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 28.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Bad Lad": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra La Rouge Baroque": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Tobacco Touch": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Toscano Leather": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Alhambra Victorioso Legend": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Missoni Parfum Pour Homme": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 60.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Montagne Parfums Pineapple Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 30.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Montblanc Explorer Eau de Parfum": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 65.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Paris Corner Charuto Tobacco Vanille": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Perry Ellis 360 Red for Men": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 25.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Perry Ellis Oud Black Vanilla Absolute": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 40.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Perry Ellis Oud Black Vanilla Reserve": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Rasasi La Yuqawam Pour Homme": {
-    "size": "2.5 oz / 75 ml",
-    "quotes": [
-      {
-        "amount": 40.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "The Dua Brand Poseidon's Elixir 2.0": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Zara Man Silver": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 25.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Khamrah Qahwa": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 32.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Musamam Black Intense": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 42.49,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Rugir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 37.99,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Rayhaan Terra": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 31.59,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Maison Asrar Muharib": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 50.0,
-        "source": "owner",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Her Confession": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.99,
-        "source": "Walmart",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Lattafa Yara Elixir": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 39.99,
-        "source": "Lattafa USA",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club De Nuit Lionheart Woman": {
-    "size": "3.4 oz / 100 ml",
-    "quotes": [
-      {
-        "amount": 35.92,
-        "source": "Walmart",
-        "date": "2026-11-11"
-      }
-    ]
-  },
-  "Armaf Club De Nuit White Imperiale": {
-    "size": "3.6 oz / 105 ml",
-    "quotes": [
-      {
-        "amount": 35.59,
-        "source": "Walmart",
-        "date": "2026-11-11"
-      }
-    ]
-  }
+ "Creed Aventus": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 379.99,
+    "source": "Jomashop",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dior Sauvage Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 224.99,
+    "source": "Jomashop",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Chanel Bleu De Chanel EDP": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 173.0,
+    "source": "Ulta",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Tobacco Vanille": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 460.0,
+    "source": "Bluemercury",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Giorgio Armani Acqua Di Gio": {
+  "size": "3.4 oz / 100 ml EDT",
+  "quotes": [
+   {
+    "amount": 69.11,
+    "source": "The Perfume Spot",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Gucci Guilty Pour Homme": {
+  "size": "3 oz / 90 ml EDT",
+  "quotes": [
+   {
+    "amount": 64.39,
+    "source": "The Perfume Spot",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Carolina Herrera Bad Boy Cobalt": {
+  "size": "3.4 oz / 100 ml EDP",
+  "quotes": [
+   {
+    "amount": 94.82,
+    "source": "The Perfume Spot",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "AK France Seduction 1": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 315.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Amouage Interlude Man": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 245.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Amouage Jubilation XXV": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 395.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Amouage Outlands": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 245.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Amouage Reflection 45": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 379.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Arabian Oud Resala": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 167.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Azzaro The Most Wanted": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 76.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Azzaro The Most Wanted Parfum": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 89.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "BDK Parfums Gris Charnel": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 209.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "BDK Parfums Velvet Tonka": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 144.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bond No. 9 Bleeker Street": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 259.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bond No. 9 I Love New York": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 259.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bond No. 9 Lafayette Street": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 259.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bond No. 9 New York Nights": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 470.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bond No. 9 Nolita": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 259.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bond No. 9 Nomad": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 470.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bottega Veneta Pour Homme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 95.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Burberry Goddess": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 114.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bvlgari Aqva Pour Homme Marine": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 108.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bvlgari Le Gemme Orom": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 319.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bvlgari Le Gemme Tygar": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 314.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Carolina Herrera CH Men": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 69.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Carolina Herrera Good Girl": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Carolina Herrera Very Good Girl": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 109.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Chanel Allure Homme Sport": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 135.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Clive Christian Blonde Amber": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 610.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Clive Christian Town & Country": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 249.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Creed Aventus Absolu": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 449.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Creed Aventus Cologne": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 247.5,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Creed Centaurus": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 263.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Creed Green Irish Tweed": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 224.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Creed Millesime Imperial": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 232.93,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Creed Queen Of Silk": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 262.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Creed Silver Mountain Water": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 264.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dior Fahrenheit": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 94.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dior Homme Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 160.84,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dior Rouge Trafalgar": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 330.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dior Sauvage": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 158.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dolce&Gabbana K EDT": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 49.97,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dolce&Gabbana The One Luminous Night": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 350.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dolce&Gabbana The One Mysterious Night": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 240.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dolce&Gabbana Velvet Tender Oud": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 335.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Escentric Molecules Molecule 01": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 159.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Ex Nihilo Blue Talisman": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 445.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Giardini di Toscana Bianco Latte": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 159.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Giorgio Armani Acqua Di Gio Profondo": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 91.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Giorgio Armani Acqua Di Gio Profumo": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 124.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Giorgio Armani Code Profumo": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Giorgio Armani Stronger With You Intensely": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 94.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Giorgio Armani Stronger With You Tobacco": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 94.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Givenchy Gentleman Reserve Privée": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Goldfield & Banks Silky Woods": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 139.26,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Gucci A Chant For The Nymph": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 318.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Gucci A Midnight Stroll": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 249.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Gucci Pour Homme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 139.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Guerlain Epices Volees": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 419.45,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Guerlain Idylle": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Guerlain L'Homme Ideal Platine Prive": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Guerlain L'Homme ideal Extreme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Hermes Jour D'Hermes Absolu": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 88.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Hermes Terre D'Hermes Eau Givree": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 71.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Hermes Terre d'Hermes Parfum": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 174.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "House of Sillage Hufflepuff": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 360.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Hugo Boss Boss Bottled Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 119.89,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Hugo Boss Bottled Absolu": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 104.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Initio Atomic Rose": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 378.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Initio Musk Therapy": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 387.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Initio Oud For Greatness": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 391.5,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Initio Oud For Happiness": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 391.5,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Initio Paragon": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 387.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Initio Side Effect": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 420.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier La Belle": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 104.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Le Beau Le Parfum": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 87.41,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Le Male": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 74.39,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Le Male Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 111.59,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Le Male Elixir Absolu": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 167.39,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Le Male Le Parfum": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 97.65,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Paradise Garden": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 102.29,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Scandal Absolu Her": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 102.29,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Scandal Pour Homme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 73.46,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jean Paul Gaultier Ultra Male": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 92.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kayali Eden Juicy Apple 01": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 123.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kayali Eden Sparkling Lychee 39": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 123.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kayali Lovefest Burning Cherry 48": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 123.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kayali Vanilla Candy Rock Sugar 42": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 123.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kayali Yum Pistachio Gelato": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 118.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kenzo Homme EDT Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 59.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Angels' Share": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 325.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Angels' Share Paradis": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 324.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Apple Brandy On The Rocks": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 299.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Back To Black": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 199.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Black Panthom": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 109.24,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Blue Moon Ginger Dash": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 324.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Love Don't Be Shy": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 279.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Old Fashioned": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 306.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Smoking Hot": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 209.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Straight To Heaven": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 314.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kilian Vodka On Rocks": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 229.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lacoste L.12.12 White": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 53.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lancôme Oud Bouquet": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 235.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Le Labo Santal 33": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 306.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Afternoon Swim": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 330.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton California Dream": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 350.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton City Of Stars": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 350.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Coeur Battant": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 350.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Imagination": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 330.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton L'Immensite": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 330.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Matiere Noire": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 350.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Nuit De Feu": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 330.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Ombre Nomade": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 410.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Orage": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 350.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Pacific Chill": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 330.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Stellar Times": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 350.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Louis Vuitton Symphony": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 560.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Crivelli Hibicus Mahajad": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 224.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Crivelli Oud Maracuja": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 314.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Francis Kurkdjian 724": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 246.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Francis Kurkdjian Aqua Celestia Cologne Forte": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 218.47,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Francis Kurkdjian Baccarat Rouge 540": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 494.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Francis Kurkdjian Grand Soir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 265.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Francis Kurkdjian Oud Satin Mood": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 174.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Margiela By The Fireplace": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Majda Bekkali Fusion Sacree Obscur": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 239.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mancera Amore Caffe": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 104.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mancera Cedrat Boise": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 73.5,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mancera Coco Vanille": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 72.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mancera Instant Crush": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 89.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mancera Red Tobacco": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 91.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mancera Roses Vanille": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mancera Tonka Cola": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 85.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Marc-Antoine Barrois Ganymede": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 264.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Matière Première Vanilla Powder": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 214.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Memo Paris Russian Leather": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 132.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Montale Arabians Tonka": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 109.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mugler Angel Nova": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 105.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Nishane Ani": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 168.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Nishane Hagivat": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 175.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Nishane Papilefiko": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 124.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Nishane Shem": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 224.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Orto Parisi Megamare": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 155.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne 1 Million": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 74.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne 1 Million Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 94.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne 1 Million Lucky": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 85.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne 1 Million Parfum": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 114.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Fame": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 109.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Invictus": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 69.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   },
+   {
+    "amount": 100.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Invictus Aqua": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 99.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Invictus Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 98.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Invictus Legend": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 99.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Invictus Platinum": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 109.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Invictus Victory": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 81.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Invictus Victory Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 99.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne Phantom": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 84.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Althair": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 360.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Carlisle": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 400.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Delina Exclusif": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 387.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Greenley": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 346.5,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Haltane": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 414.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Herod": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 360.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Kalan": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 400.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Layton": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 360.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Layton Exclusif": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 414.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Oajan": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 400.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Pegasus": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 360.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Percival": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 360.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Parfums de Marly Valaya": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 387.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Passion Island Mes Bisous": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 215.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Penhaligon's Halfeti Cedar": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 224.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Penhaligon's Sartorial": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 205.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Penhaligon's The Inimitable": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 284.69,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Prada Paradox": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 114.98,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Roja Parfums Apex": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 225.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Room 1015 Wavechild": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 155.55,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Shiseido Zen": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 54.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sospiro Vibrato": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 169.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Stéphane Humbert Lucas God Of Fire": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 224.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Stéphane Humbert Lucas Pink Boa": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 228.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Stéphane Humbert Lucas Sand Dance": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 224.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Stéphane Humbert Lucas Soleil De Jeddah Mango Kiss": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 224.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Stéphane Humbert Lucas Venom Incarnat": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 228.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Thameen Regent Leather": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 285.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tiziana Terenzi Andromeda": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 149.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tiziana Terenzi Kirké": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 99.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tiziana Terenzi Tuttle": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 495.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Amber Absolute": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 193.74,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Bitter Peach": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 143.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Black Orchid": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 121.24,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford F**cking Fabulous": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 326.59,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Lost Cherry": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 329.79,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Neroli Portofino": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 252.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Noir Extreme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 129.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Ombre Leather": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 143.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Oud Wood": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 232.74,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Soleil Blanc": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 153.58,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Vanilla Fatale": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 311.82,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Vanilla Sex": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 256.49,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Valentino BIR Coral Fantasy": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 94.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Valentino Born in Roma Green Stravaganza": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 89.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Valentino Donna Born In Roma Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 134.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Valentino Uomo Born in Roma": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 94.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Valentino Voce Viva": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 164.63,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Versace Dylan Blue Pour Homme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 69.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Versace Eau Fraiche": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 73.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Versace Eros": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 64.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Versace Eros Flame": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 71.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Vilhelm Parfumerie Mango Skin": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 295.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Xerjoff Accento": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 164.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Xerjoff Erba Gold": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 194.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Xerjoff Erba Pura": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 182.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Xerjoff La Capitale": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 295.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Xerjoff Naxos": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 195.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Xerjoff Opera": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 169.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Xerjoff Tony Iommi Monkey Special": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 325.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent Babycat": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 349.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent Black Opium Over Red": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 109.9,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent L'Homme Parfum Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 107.78,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent LNDL Bleu Electrique": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 99.74,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent Libre Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 120.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent Myself EDP": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 129.59,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent Tuxedo": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 374.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent Y EDP": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 99.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Yves Saint Laurent Y Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 99.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan 9PM": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 27.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Historic Olmeda": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 27.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Mystique Bouquet": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Rare Tiffany": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Souvenir Blooming Bliss": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Supremacy In Oud": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 36.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Supremacy Noir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 27.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Turathi Blue": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 32.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Turathi Brown": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 31.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Amber Oud Aqua Dubai": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 49.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Amber Oud Gold": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 44.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Amber Oud Tobacco": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 32.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Detour Noir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Detour Noir Exclusif": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Wataniah Al Layl": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Alexandria Fatal De Vanille": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 69.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Aquolina Pink Sugar": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Arabiyat Prestige Ramad": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Aura": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Aura Fresh": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club De Nuit Blue Iconic": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club De Nuit Milestone": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club De Nuit Precieux 1": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 46.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club De Nuit Urban Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 36.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club de Nuit Intense Man": {
+  "size": "6.8 oz / 200 ml",
+  "quotes": [
+   {
+    "amount": 50.79,
+    "source": "Amazon",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club de Nuit Sillage": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Effects of Uniq": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Excellus": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 23.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Hunter Men": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Odyssey Aqua": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 28.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Odyssey Homme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 23.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Odyssey Mandarin Sky": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 28.25,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Queen": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Radical Brown": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf The Warrior": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Voyage Brown": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 26.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Bentley For Men Absolute": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 27.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Borouj Perlador": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 54.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Cuba Cuba Gold": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 10.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dossier Floral Marshmallow": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.1,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Emir Cedrat Essence": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Emper Metropolis 9th Avenue": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.31,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Flavia Privee No: 5": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Aether Extrait": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue After Effect": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Arsh Extrait": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Azzure Aoud": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Barakkat Aqua Stellar": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Glorious Oud Royal Blanc": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Imperium X": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Inimitable": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Jack Of Clubs": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 23.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Pepper So Spicy": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 44.5,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Royal Blend Vintage": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Spectre Ghost": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Star Men Nebula": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 16.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Supreme L'homme Extreme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Tempète Jacques Yves": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Tropical Kiss": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 37.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Vulcan Sable": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 48.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Amber Empire": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Diwani Rabat": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 36.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Liquid Brun": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 25.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Lumiere Garcon": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Moonstone Bleu": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 89.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Pinnace": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 38.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Pinnace Noir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Pinnace Oryn": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Royal Blend Sequoia": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 49.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Spectre Wraith": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Sultry Woods": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 37.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Veneno Scarlet": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 41.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Vulcan Baie": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 41.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "French Avenue Vulcan Feu": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Gigglepuff Hekayat Attar": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 42.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jo Milano Game Of Spades Bid": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 55.75,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jo Milano Game Of Spades Moon": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 57.65,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Jo Milano Game Of Spades Queen": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 58.58,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Just Jack Orchid Noir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Khadlaj Aura Manga Splash": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 36.5,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Khadlaj Epoque Artistique": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Khadlaj Island Dreams": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Khadlaj Karus Secret Musk": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 49.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Khadlaj Shiyaaka Shadow": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "King of Kings Mens Anarchy Renegade Parfum": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 49.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "King of Kings Royal Amber": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 60.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Al Areeq Gold": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Al Noble Safeer Green": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Ameer Al Oudh Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Ana Abiyed Coral": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Angham": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 33.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Ansaam Silver": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Asad Bourbon": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 27.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Asad Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 31.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Atlas": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Bade'e Al Oud Sublime": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Breeze": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Confidential Private Gold": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 18.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Ekhtiari": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 14.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Emeer": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Eternal Oud": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Fakhar Gold": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Hayaati Florence": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Ishq Al Shuyuk Silver": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Jasoor": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Kashaf": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Khalta Blend Of": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Lahdath": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Liam Grey": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Mashrabya": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Mayar": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Mohra": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Najdia": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 18.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Najdia Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Nasheet": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Oud For Glory": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Pride La Collection D'Antiquites": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 33.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Pride Vintage Radio": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 26.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Raghba": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Rave Royal Supreme The King": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Sheikh Al Shuyukh Luxe": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 16.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa The Kingdom": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 23.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Thouq": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.49,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Wajood": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Yara Tous": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lumiere Elle": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Alpine Homme Sport": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Anarch": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 18.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Avant Silk": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra BAD Femme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Coral Blush": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Dark Aoud": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Extravagant Lover": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 25.5,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Fabulo Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 20.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Forbidden Love": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Fortnight": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 17.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Glacier Bella": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Glacier Bold": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Glacier Le Noir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Infini Rose": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Jean Lowe Immortel": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 44.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Jean Lowe Matiere": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Jorge Di Aqua": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 20.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Jorge Di Profondo": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 17.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Jorge Di Profumo": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Kalos": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Kingsman": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 14.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Kismet Magic": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Kismet Moscow": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 18.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Leonie Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Luxe Bold": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Monocline 01": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Montaigne Vanille": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 14.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Mysterious Amber": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 20.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Opera Rouge": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Pacific Blue": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Perseus": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Philos Opus Noir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 14.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Pink Eclipse": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Russe Leather": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Sceptre Oceana": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Sensual Vanilla": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 26.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra The Chant": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 20.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra The Trail": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Toro Pour Homme Glace": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra True Word": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Versencia Rouge": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Victorioso Myth": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Victorioso Nero": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Voices": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Yeah!": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Yeah! Man": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Your Touch Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Your Touch Tobacco": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Zaffiro Regale": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 36.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Zeno": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 17.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Milestone Solar Blanc": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 49.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Ministry of Oud Gladiators Oath": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 33.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Ministry of Oud Oud Satin": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 27.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Montblanc Legend": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 42.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mouj Jubilee XXVI": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 59.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Nusuk Fawah Midnight Edition": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 44.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Camaro Homme Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 25.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Emir Lueur D'espoir Noche": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 25.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Emir Unisex Cherry Cola": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Ibisco Nirvana": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Khair Confection": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 28.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Khair Fusion": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 22.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Mawj Appletini": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 31.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Mawj Moscow Mule": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 32.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Mysterium": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Ophidian Black Cherry": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.97,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Rifaaqat": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Super Crush": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner When Soul Gets High": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Wild And Tobacco": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Zodiac Stratos": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Pendora Milano Prive": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Rasasi Hawas Black": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Rasasi Hawas Diva": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Rasasi Hawas Ice": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 31.9,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Rasasi Sotoor Taa": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 68.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Rayhaan Crimson": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Reyane Tradition Insurrection II": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Reyane Tradition Insurrection II Wild": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Riiffs Imperial Blue": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Riiffs Montano Brave": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 34.59,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sapil Bound For Men": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sapil Dapper": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 15.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sapil Elixir Fusion": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 26.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sapil Iconic": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sapil Legend": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 17.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sapil Ombre Flame Aura": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sapil Royale Flair": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Sapil Yummy Pistachio": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 23.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Swiss Arabian Shaghaf Oud": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Swiss Arabian Shaghaf Oud Abyad": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 23.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Swiss Arabian Shaghaf Oud Tonka": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.95,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Volare Golden Hour": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 49.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Volare Moroccan Dream": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 49.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zara Night Pour Homme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 54.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya A Fairy Tale": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 24.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya Hawwa Red": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 19.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya Inekas Luna": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 23.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya Itqan Noir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 29.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya Night Shadow": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 21.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya Rabab Gems": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 20.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya Reserved Black Cedar": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 26.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya Tiramisu Coco": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 32.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zimaya Zukhruf Black": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 31.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mugler Amen Pure Coffee": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 90.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Mugler Amen Pure Malt": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 95.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paco Rabanne 1 Million Prive": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 135.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Tom Ford Tuscan Leather": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 295.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Valentino Donna Noir Absolu": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 160.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "ALT Fragrances Executive": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Supremacy Silver": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Afnan Turathi Electric": {
+  "size": "3 oz / 90 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Amber Oud Bleu Edition": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 45.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Amber Oud Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 45.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Amber Oud Rouge": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 40.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Al Haramain Leather Oudh": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 40.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Ariana Grande Cloud": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 60.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club de Nuit Untold": {
+  "size": "3.5 oz / 105 ml",
+  "quotes": [
+   {
+    "amount": 40.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Hunter": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Odyssey Mega": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Dossier Musky Oakmoss": {
+  "size": "1.7 oz / 50 ml",
+  "quotes": [
+   {
+    "amount": 29.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Fragrance World Enigma Une": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 25.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Asad": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 28.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Fakhar Black": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Hayaati Al Maleky": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Khamrah": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Suqraat": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Yara": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 28.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Bad Lad": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra La Rouge Baroque": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Tobacco Touch": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Toscano Leather": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Alhambra Victorioso Legend": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Missoni Parfum Pour Homme": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 60.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Montagne Parfums Pineapple Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 30.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Montblanc Explorer Eau de Parfum": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 65.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Charuto Tobacco Vanille": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Perry Ellis 360 Red for Men": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 25.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Perry Ellis Oud Black Vanilla Absolute": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 40.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Perry Ellis Oud Black Vanilla Reserve": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Rasasi La Yuqawam Pour Homme": {
+  "size": "2.5 oz / 75 ml",
+  "quotes": [
+   {
+    "amount": 40.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "The Dua Brand Poseidon's Elixir 2.0": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Zara Man Silver": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 25.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Khamrah Qahwa": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 32.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Musamam Black Intense": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 42.49,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Rugir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 37.99,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Rayhaan Terra": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 31.59,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Maison Asrar Muharib": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 50.0,
+    "source": "owner",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Her Confession": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.99,
+    "source": "Walmart",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Lattafa Yara Elixir": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 39.99,
+    "source": "Lattafa USA",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club De Nuit Lionheart Woman": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 35.92,
+    "source": "Walmart",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Club De Nuit White Imperiale": {
+  "size": "3.6 oz / 105 ml",
+  "quotes": [
+   {
+    "amount": 35.59,
+    "source": "Walmart",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Paris Corner Dulzura": {
+  "size": "",
+  "quotes": [
+   {
+    "amount": 25.82,
+    "source": "FragranceNet.com",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Armaf Mystique": {
+  "size": "",
+  "quotes": [
+   {
+    "amount": 24.49,
+    "source": "Beauty House",
+    "date": "2026-11-11"
+   }
+  ]
+ }
 }

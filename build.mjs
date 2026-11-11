@@ -28,7 +28,7 @@ for (const [k, v] of Object.entries(PRICES_RAW)) {
 }
 const priceTxt = (p) => p ? `$${p.amount.toFixed(2)}` : '';
 const priceDate = (p) => new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-const priceNote = (p) => p ? (p.sources.length === 1 && p.sources[0] === 'owner' ? `${p.size}, price as of ${priceDate(p)}` : p.n > 1 ? `Average of ${p.n} retailers (${p.sources.join(', ')}), ${p.size}, ${priceDate(p)}` : `${p.size} at ${p.sources[0]}, ${priceDate(p)}`) : '';
+const priceNote = (p) => p ? (p.sources.length === 1 && p.sources[0] === 'owner' ? `${p.size}, price as of ${priceDate(p)}` : p.n > 1 ? `Average of ${p.n} retailers (${p.sources.join(', ')}), ${p.size}, ${priceDate(p)}` : `${p.size ? p.size + ' ' : ''}at ${p.sources[0]}, ${priceDate(p)}`) : '';
 const SYN = { cassis: 'blackcurrant', 'black currant': 'blackcurrant', 'green apple': 'apple', 'pineapple leaf': 'pineapple', 'moroccan jasmine': 'jasmine', 'jasminum grandiflorum': 'jasmine', 'bitter almond': 'almond', 'candied almond': 'almond', cedar: 'cedarwood', 'woody notes': 'woods', 'dry woods': 'woods', 'wild lavender': 'lavender', 'tonka bean': 'tonka' };
 const norm = (n) => { const k = n.toLowerCase().trim(); return SYN[k] || k; };
 {
@@ -327,7 +327,7 @@ ${disclosureBox}
   const O = (n) => F.find((f) => f.full === n);
   const L = (name, label) => { const f = O(name); return f ? `<a href="/fragrance/${f.slug}/">${esc(label || f.full)}</a>` : esc(label || name); };
   const C = (orig, clone, label) => { const o = O(orig), a = O(clone); return o && a && (a.origs || []).some((x) => x.with === o.slug) ? `<a href="/compare/${pairSlug(o, a)}/">${esc(label || 'See the side-by-side comparison')}</a>` : ''; };
-  const px = (name) => { const f = O(name); return f && f.price ? ` Price on our site: about ${priceTxt(f.price)} (${esc(f.price.size)}).` : ''; };
+  const px = (name) => { const f = O(name); return f && f.price ? ` Price on our site: about ${priceTxt(f.price)}${f.price.size ? ` (${esc(f.price.size)})` : ""}.` : ''; };
   const picks = [
     { n: 10, h: 'Lattafa Khamrah Qahwa', db: 'Lattafa Khamrah Qahwa', short: 'Kilian Angels\u2019 Share (75% similar)', insp: 'Kilian Angels’ Share', origName: 'Kilian Angels\' Share', score: '7.5/10', last: '8 hours', tag: 'Warm gourmand dupe',
       text: 'Warm cinnamon, sweet dates, praline and vanilla, with a roasted coffee accord that gives it a darker character than the original Khamrah. It’s rich, cozy and sweet, but the coffee adds a bitterness that balances all that sugar. This is my pick for cold evenings.' },
@@ -399,7 +399,7 @@ ${disclosureBox}
   const O = (n) => F.find((f) => f.full === n);
   const L = (name, label) => { const f = O(name); return f ? `<a href="/fragrance/${f.slug}/">${esc(label || f.full)}</a>` : esc(label || name); };
   const C = (orig, clone, label) => { const o = O(orig), a = O(clone); return o && a && (a.origs || []).some((x) => x.with === o.slug) ? `<a href="/compare/${pairSlug(o, a)}/">${esc(label || 'See the side-by-side comparison')}</a>` : ''; };
-  const px = (name) => { const f = O(name); return f && f.price ? ` Price on our site: about ${priceTxt(f.price)} (${esc(f.price.size)}).` : ''; };
+  const px = (name) => { const f = O(name); return f && f.price ? ` Price on our site: about ${priceTxt(f.price)}${f.price.size ? ` (${esc(f.price.size)})` : ""}.` : ''; };
   const picks = [
     { n: 10, h: 'Khadlaj Panache Angel Dust', db: 'Khadlaj Panache Angel Dust', insp: 'Yves Saint Laurent Libre Vanille Couture', origName: 'Yves Saint Laurent Libre Vanille Couture', hrs: 8, tag: 'Lavender and vanilla', when: 'cozy evenings',
       text: 'Fresh lavender on top of warm vanilla. It’s sweet and elegant, and it’s exactly what I want for a cozy evening in the cold. If you like the Libre Vanille Couture style, this is a cheap way to get there.' },
