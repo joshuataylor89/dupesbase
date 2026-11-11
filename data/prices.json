@@ -5093,5 +5093,35 @@
     "date": "2026-11-11"
    }
   ]
+ },
+ "Liquides Imaginaires Blanche Bête": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 280.0,
+    "source": "Dermstore",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Kayali Yum Boujee Marshmallow 81": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 150.0,
+    "source": "Sephora",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "Serge Lutens L'Eau": {
+  "size": "3.4 oz / 100 ml",
+  "quotes": [
+   {
+    "amount": 225.0,
+    "source": "Serge Lutens",
+    "date": "2026-11-11"
+   }
+  ]
  }
 }
