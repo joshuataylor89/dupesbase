@@ -1526,6 +1526,11 @@
         "amount": 69.99,
         "source": "owner",
         "date": "2026-11-11"
+      },
+      {
+        "amount": 100.0,
+        "source": "owner",
+        "date": "2026-11-11"
       }
     ]
   },
@@ -4584,6 +4589,396 @@
     "quotes": [
       {
         "amount": 31.99,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Mugler Amen Pure Coffee": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 90.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Mugler Amen Pure Malt": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 95.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Paco Rabanne 1 Million Prive": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 135.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Tom Ford Tuscan Leather": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 295.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Valentino Donna Noir Absolu": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 160.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "ALT Fragrances Executive": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 35.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Afnan Supremacy Silver": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 35.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Afnan Turathi Electric": {
+    "size": "3 oz / 90 ml",
+    "quotes": [
+      {
+        "amount": 35.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Al Haramain Amber Oud Bleu Edition": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 45.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Al Haramain Amber Oud Elixir": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 45.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Al Haramain Amber Oud Rouge": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 40.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Al Haramain Leather Oudh": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 40.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Ariana Grande Cloud": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 60.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Armaf Club de Nuit Untold": {
+    "size": "3.5 oz / 105 ml",
+    "quotes": [
+      {
+        "amount": 40.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Armaf Hunter": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Armaf Odyssey Mega": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Dossier Musky Oakmoss": {
+    "size": "1.7 oz / 50 ml",
+    "quotes": [
+      {
+        "amount": 29.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Fragrance World Enigma Une": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 25.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Asad": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 28.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Fakhar Black": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Hayaati Al Maleky": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Khamrah": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Suqraat": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Yara": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 28.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Maison Alhambra Bad Lad": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Maison Alhambra La Rouge Baroque": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Maison Alhambra Tobacco Touch": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Maison Alhambra Toscano Leather": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Maison Alhambra Victorioso Legend": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Missoni Parfum Pour Homme": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 60.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Montagne Parfums Pineapple Intense": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 30.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Montblanc Explorer Eau de Parfum": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 65.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Paris Corner Charuto Tobacco Vanille": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 35.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Perry Ellis 360 Red for Men": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 25.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Perry Ellis Oud Black Vanilla Absolute": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 40.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Perry Ellis Oud Black Vanilla Reserve": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 35.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Rasasi La Yuqawam Pour Homme": {
+    "size": "2.5 oz / 75 ml",
+    "quotes": [
+      {
+        "amount": 40.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "The Dua Brand Poseidon's Elixir 2.0": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 35.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Zara Man Silver": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 25.0,
         "source": "owner",
         "date": "2026-11-11"
       }
