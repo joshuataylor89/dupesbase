@@ -7433,10 +7433,10 @@
     }
   },
   {
-    "name": "Hibicus Mahajad",
+    "name": "Hibiscus Mahajad",
     "brand": "Maison Crivelli",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
@@ -7444,9 +7444,38 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Floral",
+      "Rose",
+      "Vanilla",
+      "Aromatic",
+      "Green",
+      "Fresh Spicy",
+      "Musky",
+      "Leather",
+      "Soft Spicy",
+      "Fruity"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "aliases": [
+      "Hibicus Mahajad",
+      "Hibiscus Mahajád"
+    ],
+    "flat": [
+      "Hibiscus",
+      "Damask Rose",
+      "Vanilla",
+      "Cassis",
+      "Leather",
+      "Peppermint",
+      "Ambrette (Musk Mallow)",
+      "Cinnamon"
+    ],
+    "source": {
+      "name": "Fragrantica: Maison Crivelli Hibiscus Mahajád",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Ibisco Nirvana",
