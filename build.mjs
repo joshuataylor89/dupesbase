@@ -708,10 +708,11 @@ for (const f of F) {
 <aside class="dv-side">
   <h1 class="hh-title">${nameLink(f)}</h1>
   ${carousel(f)}
-  ${buyBtn(f, 'hh-buy dv-buy')}
+  <div class="buy-top">${buyBtn(f, 'hh-buy dv-buy')}</div>
   <a class="btn dv-cmp" href="/compare/?a=${f.slug}">Compare with another fragrance</a>
   <div class="dv-box">${kv([['Type', roleLabel(f)], ['Released', f.year ? String(f.year) : ''], ['Concentration', f.concentration], ['Gender', f.gender], ['Size', f.size], ['Price tier', f.tier + ' (approx.)'], ...(f.price ? [['Price', priceTxt(f.price) + ' (' + priceNote(f.price) + ')']] : [])])}</div>
   ${similarList(f) ? `<h2 class="dv-sim">${f.role === 'original' ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2>${similarList(f)}` : ''}
+  <div class="buy-m">${buyBtn(f, 'hh-buy dv-buy')}</div>
 </aside>
 <div class="dv-main">
   ${topThree(f)}

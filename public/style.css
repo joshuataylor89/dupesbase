@@ -402,3 +402,6 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .pick-photos img,.pick-photos svg{width:96px;height:96px;object-fit:contain;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:6px;color:var(--accent)}
 .pc-photos{display:flex;gap:6px;margin-bottom:8px}
 .pc-photos .pc-img img,.pc-photos .pc-img svg{width:56px;height:56px;object-fit:contain}
+
+.buy-m{display:none}
+@media(max-width:860px){.dv-side>.buy-top{display:none}.dv-side>.buy-m{display:block}.buy-m{margin-top:2px}.buy-m .buy{display:flex;width:100%}.buy-m .btn{width:100%}}
