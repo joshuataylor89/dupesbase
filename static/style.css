@@ -375,3 +375,4 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 @media(max-width:560px){.top3-g{grid-template-columns:1fr}}
 .cmp-ttl a{color:inherit;text-decoration:none}.cmp-ttl a:hover{text-decoration:underline}
 .cmp-img a{display:flex;align-items:center;justify-content:center;width:100%;height:100%}
+.hh-kv dd br{display:none}.hh-kv dd small{display:block;font-weight:400;color:#8e95b8;font-size:11px;line-height:1.25;margin-top:2px;text-align:right}
