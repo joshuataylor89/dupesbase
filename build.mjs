@@ -82,7 +82,11 @@ const pairOf = (f) => (f.pair ? { ...f.pair } : f.pairs ? f.pairs[0] : null);
 // ---------- Amazon ----------
 const amazonLink = (f) =>
   f.link ? f.link : f.asin ? `https://www.amazon.com/dp/${f.asin}?tag=${cfg.amazonTag}` : `https://www.amazon.com/s?k=${encodeURIComponent(f.full + ' perfume')}&tag=${cfg.amazonTag}`;
-const buyBtn = (f, cls = '') => `<a class="btn ${cls}" href="${esc(amazonLink(f))}" target="_blank" rel="sponsored nofollow noopener">${f.asin || f.link ? 'View on Amazon' : 'Check price on Amazon'} <small>→</small></a>`;
+const storeLinks = (f) => [
+  ['Jomashop', `https://www.jomashop.com/search?q=${encodeURIComponent(f.full)}${cfg.jomashopParams || ''}`],
+  ['FragranceNet', `https://www.fragrancenet.com/search?q=${encodeURIComponent(f.full)}${cfg.fragrancenetParams || ''}`],
+];
+const buyBtn = (f, cls = '') => `<span class="buy">${storeLinks(f).map(([n, u]) => `<a class="btn btn2 ${cls}" href="${esc(u)}" target="_blank" rel="nofollow noopener">Find on ${n} <small>→</small></a>`).join('')}<a class="btn ${cls}" href="${esc(amazonLink(f))}" target="_blank" rel="sponsored nofollow noopener">${f.asin || f.link ? 'View on Amazon' : 'Check price on Amazon'} <small>→</small></a></span>`;
 
 // ---------- Placeholder bottle art ----------
 const bottle = (f) => {
@@ -356,7 +360,7 @@ ${disclosureBox}</article>`;
 const disclosureBody = `<article><h1>Affiliate Disclosure</h1>
 <p><b>${DISCLOSURE}</b></p>
 <p>${esc(cfg.siteName)} is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. When you click a link to Amazon on this site and make a qualifying purchase, we may earn a commission at no extra cost to you.</p>
-<p>Commissions do not change what we list or how we describe it. Prices and availability on Amazon change at any time, so please check the Amazon listing for current information.</p></article>`;
+<p>Commissions do not change what we list or how we describe it. Prices and availability on Amazon change at any time, so please check the Amazon listing for current information.</p><p>Our "Find on Jomashop" and "Find on FragranceNet" buttons are plain links to search results on those stores. They are not affiliate links today and we earn nothing from them. If that changes, we will say so here. Those retailers set their own prices, stock and sellers, so check each listing before you buy.</p></article>`;
 const privacyBody = `<article><h1>Privacy Policy</h1>
 <p>Last updated ${esc(cfg.updated)}.</p>
 <p>${esc(cfg.siteName)} is a static website. We do not ask you to create an account, and we do not collect personal information through forms. If you email us, we use your address only to reply.</p>
@@ -527,7 +531,7 @@ ${tabs}<h1 id="cmp-h1" class="cmp-h1">${esc(h1)}</h1>
 ${extra || ''}
 <div id="cmp-out"></div>
 <section id="cmp-sugg"><h2 class="cmp-sh">Suggestions<span></span></h2><div class="cmp-sgrid">${PAIRS.slice(0, 12).map((p) => `<a href="/compare/${pairSlug(BY[p.a], BY[p.b])}/" data-pair="${p.a},${p.b}"><span class="cmp-sicon">${bottle(BY[p.a])}</span><b>${esc(BY[p.a].full)} <i>vs.</i> ${esc(BY[p.b].full)}</b><span class="cmp-sicon">${bottle(BY[p.b])}</span></a>`).join('')}</div></section>
-<p class="hh-note">Notes are as published by the sources named on each fragrance page, and we have not tested these fragrances. Green, red and yellow icons show which fragrance ranks higher, lower or equal where a hard number exists (price tier). Notes overlap compares two published lists and is not a measure of how alike they smell.</p>
+<p class="hh-note">Notes are as published by the sources named on each fragrance page, and we have not tested these fragrances. Notes overlap compares two published lists and is not a measure of how alike they smell.</p>
 ${disclosureBox}`;
 const cmpScripts = (init) => `${dataScript}<script id="cmp-init" type="application/json">${JSON.stringify(init)}</script><script src="/compare.js" defer></script>`;
 const cloneTabs = (a, b) => {

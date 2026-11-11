@@ -359,3 +359,4 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 @media(max-width:640px){.logo{justify-content:center}.logo-ico{width:28px;height:28px}}
 .logo .logo-t{color:var(--text)}.logo .logo-t span{color:var(--accent)}
 .cmp-ttl{border-bottom-color:var(--line)!important;border-color:var(--line)!important}
+.buy{display:inline-flex;flex-direction:column;gap:8px;align-items:stretch;max-width:100%}.buy .btn{text-align:center;margin:0}

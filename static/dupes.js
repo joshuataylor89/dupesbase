@@ -96,7 +96,7 @@
   function tagsHtml(d) { return [tagLink('role', roleLabel(d))].concat(d.gender ? [tagLink('gender', d.gender)] : [], d.conc ? [tagLink('conc', d.conc)] : [], [tagLink('tier', d.tier)]).join(''); }
   function kv(rows) { return '<dl class="hh-kv">' + rows.filter(function (r) { return r[1] && r[1] !== '?'; }).map(function (r) { return '<div><dt>' + esc(r[0]) + '</dt><dd>' + r[1] + '</dd></div>'; }).join('') + '</dl>'; }
   function top(d) { return [['Type', esc(roleLabel(d))], ['Released', d.year ? String(d.year) : ''], ['Concentration', esc(d.conc)], ['Gender', esc(d.gender)], ['Price tier', '<b class="hh-price">' + esc(d.tier) + '</b>']]; }
-  function buy(d) { return '<a class="btn hh-buy" href="' + esc(amazon(d)) + '" target="_blank" rel="sponsored nofollow noopener">' + (d.asin || d.link ? 'View on Amazon' : 'Check price on Amazon') + ' <small>→</small></a>'; }
+  function buy(d) { var q = encodeURIComponent(d.full), st = [['Jomashop', 'https://www.jomashop.com/search?q=' + q], ['FragranceNet', 'https://www.fragrancenet.com/search?q=' + q]].map(function (x) { return '<a class="btn btn2 hh-buy" href="' + esc(x[1]) + '" target="_blank" rel="nofollow noopener">Find on ' + x[0] + ' <small>→</small></a>'; }).join(''); return '<span class="buy">' + st + '<a class="btn hh-buy" href="' + esc(amazon(d)) + '" target="_blank" rel="sponsored nofollow noopener">' + (d.asin || d.link ? 'View on Amazon' : 'Check price on Amazon') + ' <small>→</small></a></span>'; }
   function notesBlock(d) {
     if (d.flat.length) return kv([['Notes', esc(d.flat.join(', '))]]);
     return kv([['Top notes', esc(d.top.join(', '))], ['Heart notes', esc(d.heart.join(', '))], ['Base notes', esc(d.base.join(', '))]]);
