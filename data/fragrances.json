@@ -6836,17 +6836,51 @@
     "name": "Zukhruf Black",
     "brand": "Zimaya",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Nutmeg",
+      "Black pepper",
+      "Cinnamon",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Lavender",
+      "Woodsy notes",
+      "Iris",
+      "Coffee"
+    ],
+    "base": [
+      "Licorice",
+      "Amber",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "accords": [
+      "Fresh spicy",
+      "Woody",
+      "Warm spicy",
+      "Lavender",
+      "Soft spicy",
+      "Powdery",
+      "Cinnamon",
+      "Aromatic",
+      "Iris",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Zimaya Zukhruf Black",
+      "url": "https://www.fragrantica.com/perfume/Zimaya/Zukhruf-Black-91884.html"
+    },
+    "review": {
+      "title": "The Winter Flex",
+      "text": "Want Sauvage Elixir vibes without the $225 price tag? Zukhruf Black brings the licorice, cinnamon and warm spice for about $32, with a smooth drydown and a heavy glass bottle that looks the part. Made for fall and winter nights."
+    }
   },
   {
     "name": "Nomad",
