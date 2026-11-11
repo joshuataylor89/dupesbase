@@ -1,0 +1,426 @@
+[
+  {
+    "name": "Aventus",
+    "brand": "Creed",
+    "role": "original",
+    "year": 2010,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "",
+    "tier": "$150 and up",
+    "top": [
+      "Lemon",
+      "Pink pepper",
+      "Apple",
+      "Bergamot",
+      "Blackcurrant"
+    ],
+    "heart": [
+      "Pineapple",
+      "Moroccan jasmine",
+      "Patchouli"
+    ],
+    "base": [
+      "Birch",
+      "Ambroxan",
+      "Cedarwood",
+      "Oakmoss",
+      "Musk"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "Published sources disagree on the exact layers. This list follows the Creed Boutique notes as reported by Scento.",
+    "source": {
+      "name": "Scento: Creed Aventus notes breakdown",
+      "url": "https://www.scento.com/blog/what-does-creed-aventus-smell-like-notes-breakdown"
+    }
+  },
+  {
+    "name": "Club de Nuit Intense Man",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2015,
+    "concentration": "EDT",
+    "gender": "Men",
+    "size": "105 ml (3.6 oz)",
+    "tier": "Under $50",
+    "top": [
+      "Cassis",
+      "Lime",
+      "Green apple",
+      "Pineapple leaf"
+    ],
+    "heart": [
+      "Rose",
+      "Jasmine",
+      "Birch"
+    ],
+    "base": [
+      "Ambergris",
+      "Patchouli",
+      "Vanilla"
+    ],
+    "accords": [],
+    "season": [],
+    "similarTo": "Aventus",
+    "pairSource": {
+      "name": "Bespoke Unit: Armaf Club de Nuit Intense Man",
+      "url": "https://bespokeunit.com/articles/fragrance/armaf-club-de-nuit-intense-man/"
+    },
+    "source": {
+      "name": "Bespoke Unit: Armaf Club de Nuit Intense Man",
+      "url": "https://bespokeunit.com/articles/fragrance/armaf-club-de-nuit-intense-man/"
+    },
+    "aliases": [
+      "CDNIM",
+      "Armaf CDNIM",
+      "Club de Nuit Intense"
+    ]
+  },
+  {
+    "name": "Angels' Share",
+    "brand": "Kilian",
+    "role": "original",
+    "year": 2020,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "$150 and up",
+    "top": [
+      "Cognac"
+    ],
+    "heart": [
+      "Cinnamon",
+      "Tonka bean",
+      "Oak",
+      "Hedione"
+    ],
+    "base": [
+      "Vanilla",
+      "Praline",
+      "Sandalwood",
+      "Candied almond"
+    ],
+    "accords": [
+      "Warm spicy",
+      "Woody",
+      "Sweet",
+      "Vanilla",
+      "Cinnamon",
+      "Amber",
+      "Powdery"
+    ],
+    "season": [
+      "Fall",
+      "Winter"
+    ],
+    "source": {
+      "name": "Vivir: Kilian Angels' Share",
+      "url": "https://vivir.com/article/kilian-angels-share-2"
+    },
+    "aliases": [
+      "Angels Share",
+      "Kilian Angel Share"
+    ]
+  },
+  {
+    "name": "Khamrah",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 2022,
+    "concentration": "EDP",
+    "gender": "Unisex",
+    "size": "100 ml (3.4 oz)",
+    "tier": "Under $50",
+    "top": [
+      "Cinnamon",
+      "Nutmeg",
+      "Bergamot"
+    ],
+    "heart": [
+      "Dates",
+      "Praline",
+      "Tuberose",
+      "Mahonial"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka bean",
+      "Amberwood",
+      "Myrrh",
+      "Benzoin",
+      "Akigalawood"
+    ],
+    "accords": [
+      "Sweet",
+      "Gourmand",
+      "Spicy",
+      "Warm",
+      "Vanilla",
+      "Woody",
+      "Amber",
+      "Creamy"
+    ],
+    "season": [
+      "Fall",
+      "Winter"
+    ],
+    "similarTo": "Angels' Share",
+    "pairSource": {
+      "name": "Intense Oud: Kilian Angels Share dupe, Lattafa Khamrah",
+      "url": "https://www.intenseoud.com/blogs/news/kilian-angels-share-dupe-introducing-lattafa-khamrah"
+    },
+    "source": {
+      "name": "Vivir: Lattafa Khamrah",
+      "url": "https://vivir.com/article/lattafa-khamrah"
+    }
+  },
+  {
+    "name": "Baccarat Rouge 540",
+    "brand": "Maison Francis Kurkdjian",
+    "role": "original",
+    "year": 2015,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "$150 and up",
+    "top": [
+      "Saffron",
+      "Jasmine"
+    ],
+    "heart": [
+      "Amberwood",
+      "Ambergris"
+    ],
+    "base": [
+      "Fir resin",
+      "Cedar"
+    ],
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy",
+      "Sweet",
+      "Floral",
+      "Resinous"
+    ],
+    "season": [],
+    "notesNote": "One source gives 2015 as the release year and its page metadata gives 2016.",
+    "source": {
+      "name": "Vivir: Baccarat Rouge 540",
+      "url": "https://vivir.com/article/maison-francis-kurkdjian-baccarat-rouge-540-by-maison-francis-kurkdjian"
+    },
+    "aliases": [
+      "BR540",
+      "MFK BR540"
+    ]
+  },
+  {
+    "name": "La Rouge Baroque",
+    "brand": "Maison Alhambra",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Under $50",
+    "top": [
+      "Jasmine",
+      "Saffron"
+    ],
+    "heart": [
+      "Bitter almond",
+      "Cedarwood"
+    ],
+    "base": [
+      "Ambergris",
+      "Musk",
+      "Woody notes"
+    ],
+    "accords": [
+      "Sweet",
+      "Oriental",
+      "Spicy",
+      "Gourmand"
+    ],
+    "season": [],
+    "similarTo": "Baccarat Rouge 540",
+    "pairSource": {
+      "name": "Parfumo: La Rouge Baroque",
+      "url": "https://www.parfumo.com/Perfumes/maison-alhambra/la-rouge-baroque-baroque-rouge-540"
+    },
+    "source": {
+      "name": "Parfumo: La Rouge Baroque",
+      "url": "https://www.parfumo.com/Perfumes/maison-alhambra/la-rouge-baroque-baroque-rouge-540"
+    },
+    "aliases": [
+      "Baroque Rouge 540",
+      "Maison Alhambra Baroque Rouge"
+    ]
+  },
+  {
+    "name": "Ultra Male",
+    "brand": "Jean Paul Gaultier",
+    "role": "original",
+    "year": 2015,
+    "concentration": "EDT",
+    "gender": "Men",
+    "size": "",
+    "tier": "$50 to $150",
+    "flat": [
+      "Pear",
+      "Lavender",
+      "Mint",
+      "Bergamot",
+      "Cinnamon",
+      "Clary sage",
+      "Cumin",
+      "Vanilla",
+      "Amber",
+      "Woods"
+    ],
+    "accords": [],
+    "season": [],
+    "notesNote": "The source lists these notes without clear top, heart and base layers, so they are shown as one list.",
+    "source": {
+      "name": "Vivir: Ultra Male",
+      "url": "https://vivir.com/article/paco-rabanne-ultra-male"
+    },
+    "aliases": [
+      "JPG Ultra Male",
+      "Ultra Male Gaultier"
+    ]
+  },
+  {
+    "name": "9PM",
+    "brand": "Afnan",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Men",
+    "size": "100 ml (3.4 oz)",
+    "tier": "Under $50",
+    "top": [
+      "Apple",
+      "Bergamot",
+      "Cinnamon",
+      "Wild lavender"
+    ],
+    "heart": [
+      "Orange blossom",
+      "Carnation"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka bean",
+      "Amber",
+      "Patchouli"
+    ],
+    "accords": [
+      "Vanilla",
+      "Amber",
+      "Sweet",
+      "Fruity",
+      "Warm",
+      "Spicy",
+      "Powdery",
+      "Cinnamon"
+    ],
+    "season": [
+      "Fall",
+      "Winter"
+    ],
+    "similarTo": "Ultra Male",
+    "pairSource": {
+      "name": "Dubai Aroma: 9PM by Afnan review",
+      "url": "https://www.dubai-aroma.co.za/blogs/news/9pm-by-afnan-review-south-africa"
+    },
+    "source": {
+      "name": "Vivir: Afnan 9PM",
+      "url": "https://vivir.com/article/afnan-9pm"
+    },
+    "aliases": [
+      "Afnan 9 PM",
+      "9 PM"
+    ]
+  },
+  {
+    "name": "Asad",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "100 ml (3.4 oz)",
+    "tier": "Under $50",
+    "top": [
+      "Black pepper",
+      "Pineapple",
+      "Tobacco"
+    ],
+    "heart": [
+      "Patchouli",
+      "Iris",
+      "Coffee"
+    ],
+    "base": [
+      "Amber",
+      "Benzoin",
+      "Dry woods",
+      "Labdanum",
+      "Vanilla"
+    ],
+    "accords": [
+      "Spicy",
+      "Sweet",
+      "Woody",
+      "Oriental",
+      "Fresh"
+    ],
+    "season": [
+      "Fall",
+      "Winter"
+    ],
+    "source": {
+      "name": "Parfumo: Lattafa Asad",
+      "url": "https://www.parfumo.com/Parfums/Lattafa/asad-1"
+    }
+  },
+  {
+    "name": "Yara",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Women",
+    "size": "100 ml (3.4 oz)",
+    "tier": "Under $50",
+    "top": [
+      "Heliotrope",
+      "Orchid",
+      "Tangerine"
+    ],
+    "heart": [
+      "Gourmand notes",
+      "Tropical notes"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Sweet",
+      "Citrus",
+      "Spicy",
+      "Woody",
+      "Fruity"
+    ],
+    "season": [],
+    "notesNote": "A second published listing gives a different note list for Yara, so treat the notes as approximate and check the product listing.",
+    "source": {
+      "name": "Perfume Box: Lattafa Yara",
+      "url": "https://perfumebox.com/products/wp-latyar"
+    }
+  }
+]
