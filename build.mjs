@@ -400,23 +400,23 @@ ${disclosureBox}
   const C = (orig, clone, label) => { const o = O(orig), a = O(clone); return o && a && (a.origs || []).some((x) => x.with === o.slug) ? `<a href="/compare/${pairSlug(o, a)}/">${esc(label || 'See the side-by-side comparison')}</a>` : ''; };
   const px = (name) => { const f = O(name); return f && f.price ? ` Price on our site: about ${priceTxt(f.price)} (${esc(f.price.size)}).` : ''; };
   const picks = [
-    { n: 10, h: 'Panache Angel Dust', db: 'Kad Large Perfumes Panache Angel Dust', insp: 'Yves Saint Laurent Libre Vanilla Couture', origName: 'Yves Saint Laurent Libre Vanilla Couture', hrs: 8, tag: 'Lavender and vanilla', when: 'cozy evenings',
-      text: 'Fresh lavender on top of warm vanilla. It’s sweet and elegant, and it’s exactly what I want for a cozy evening in the cold. If you like the Libre Vanilla Couture style, this is a cheap way to get there.' },
+    { n: 10, h: 'Khadlaj Panache Angel Dust', db: 'Khadlaj Panache Angel Dust', insp: 'Yves Saint Laurent Libre Vanille Couture', origName: 'Yves Saint Laurent Libre Vanille Couture', hrs: 8, tag: 'Lavender and vanilla', when: 'cozy evenings',
+      text: 'Fresh lavender on top of warm vanilla. It’s sweet and elegant, and it’s exactly what I want for a cozy evening in the cold. If you like the Libre Vanille Couture style, this is a cheap way to get there.' },
     { n: 9, h: 'Dulzura by Paris Corner', db: 'Paris Corner Dulzura', insp: 'Serge Lutens L’Eau', origName: 'Serge Lutens L\'Eau', hrs: 8, tag: 'Cotton candy and caramel', when: 'fall days',
       text: 'Sweet cotton candy with warm caramel. It’s playful and delicious, and it’s the one on this list that smells the most like a treat. Great for fall days and the first cold weeks.' },
     { n: 8, h: 'Armaf Mystique', db: 'Armaf Mystique', insp: 'Lancôme La Nuit Trésor', origName: 'Lancôme La Nuit Trésor', hrs: 9, tag: 'Dark berries and praline', when: 'romantic evenings',
       text: 'Dark berries and sweet praline. Deep and seductive, the kind of scent I’d pick for a romantic evening. It’s a take on La Nuit Trésor at a fraction of the price.' },
-    { n: 7, h: 'Lattafa Her Confession', db: 'Lattafa Her Confession', insp: 'Le Liquide Imaginaire Blanche Bête', origName: 'Le Liquide Imaginaire Blanche Bête', hrs: 10, tag: 'Creamy coconut and vanilla', when: 'date nights',
+    { n: 7, h: 'Lattafa Her Confession', db: 'Lattafa Her Confession', insp: 'Liquides Imaginaires Blanche Bête', origName: 'Liquides Imaginaires Blanche Bête', hrs: 10, tag: 'Creamy coconut and vanilla', when: 'date nights',
       text: 'Creamy coconut and warm vanilla. Soft, milky and easy to love, and it’s a good date night pick. If you want a cozy skin-scent feel in winter, start here.' },
     { n: 6, h: 'Armaf Club de Nuit Lionheart Woman', db: 'Armaf Club De Nuit Lionheart Woman', insp: 'Burberry Goddess', origName: 'Burberry Goddess', hrs: 8, tag: 'Vanilla and lavender', when: 'everyday wear',
       text: 'Sweet vanilla with fresh lavender. Warm and comforting, and it’s the one I’d call the easiest for everyday wear. It’s a take on Burberry Goddess.' },
-    { n: 5, h: 'Lattafa Yara Elixir', db: 'Lattafa Yara Elixir', insp: 'Kayali Yum Bu Gee Marshmallow | 81', origName: 'Kayali Yum Bu Gee Marshmallow | 81', hrs: 8, tag: 'Marshmallow and strawberry', when: 'cozy nights',
-      text: 'Fluffy marshmallow and sweet strawberry. Sweet and fluffy is the whole point here. It’s a cozy night fragrance inspired by Kayali’s Yum Bu Gee Marshmallow 81.' },
+    { n: 5, h: 'Lattafa Yara Elixir', db: 'Lattafa Yara Elixir', insp: 'Kayali Yum Boujee Marshmallow 81', origName: 'Kayali Yum Boujee Marshmallow 81', hrs: 8, tag: 'Marshmallow and strawberry', when: 'cozy nights',
+      text: 'Fluffy marshmallow and sweet strawberry. Sweet and fluffy is the whole point here. It’s a cozy night fragrance inspired by Kayali’s Yum Boujee Marshmallow 81.' },
     { n: 4, h: 'Lattafa Khamrah (for women)', db: 'Lattafa Khamrah', insp: 'Carolina Herrera Good Girl', origName: 'Carolina Herrera Good Girl', hrs: 9, tag: 'Almond and coffee', when: 'evening wear',
       text: 'Sweet almond and warm coffee. Rich and seductive, and it’s built for evenings. I’m comparing it to Good Girl here, so treat that as my take on the vibe rather than a one to one match.' },
     { n: 3, h: 'Armaf Club de Nuit White Imperiale', db: 'Armaf Club De Nuit White Imperiale', insp: 'Parfums de Marly Delina Exclusif', origName: 'Parfums de Marly Delina Exclusif', hrs: 10, tag: 'Vanilla and Turkish rose', when: 'special occasions',
       text: 'Creamy vanilla and sweet Turkish rose. Sweet and royal, and it’s my pick for special occasions. If you’ve wanted Delina Exclusif but not the price, look here.' },
-    { n: 2, h: 'Lattafa Starwalker Gold', db: 'Lattafa Starwalker Gold', insp: 'Yves Saint Laurent Libre Intense', origName: 'Yves Saint Laurent Libre Intense', hrs: 10, tag: 'Vanilla and lavender', when: 'cold evenings',
+    { n: 2, h: 'Lattafa Tharwah Gold', db: 'Lattafa Tharwah Gold', insp: 'Yves Saint Laurent Libre Intense', origName: 'Yves Saint Laurent Libre Intense', hrs: 10, tag: 'Vanilla and lavender', when: 'cold evenings',
       text: 'Warm vanilla and sweet lavender. Rich and elegant, and a really good cold evening scent. It’s inspired by Libre Intense.' },
     { n: 1, h: 'Lattafa Eclair', db: 'Lattafa Eclair', insp: 'Giardini di Toscana Bianco Latte', origName: 'Giardini di Toscana Bianco Latte', hrs: 12, tag: 'Caramel and vanilla', when: 'cozy winter days',
       text: 'Rich caramel and warm vanilla. Delicious, creamy and made for cozy winter days, and it has the longest wear time on this list. It’s inspired by Bianco Latte.' }
@@ -445,12 +445,12 @@ ${f ? `<p>${L(p.db, p.h)} is in the database.${px(p.db)} ${cmp}</p>` : ''}
 <h2>My top 10 winter fragrance dupes for women, from 10 to 1</h2>
 ${picks.map(card).join('\n')}
 <h2>How to wear sweet winter clones</h2>
-<p>Cold air mutes fragrance, so you can use a little more than in summer. Start with 3 to 4 sprays, and spray on clothes as well as skin if you want it to last. The sweetest ones, like Dulzura and Yara Elixir, are best in the evening or on cozy days. Lionheart Woman and Starwalker Gold are the easier picks for work.</p>
+<p>Cold air mutes fragrance, so you can use a little more than in summer. Start with 3 to 4 sprays, and spray on clothes as well as skin if you want it to last. The sweetest ones, like Dulzura and Yara Elixir, are best in the evening or on cozy days. Lionheart Woman and Tharwah Gold are the easier picks for work.</p>
 <p>Want to look up an original and its clones? Use the <a href="/database/?role=Original">database</a>, or line two fragrances up in <a href="/compare/">Compare</a>. For more, see our <a href="/best-winter-fragrance-dupes-for-men-2026/">winter clones for men</a>, the <a href="/best-winter-fragrance-dupes-2026/">warm winter dupes guide</a> and the <a href="/best-fragrance-dupes-under-50-2026/">best dupes under $50</a>.</p>
 ${faqBlock([
-  ['What are the best winter fragrance dupes for women?', 'My top picks are Lattafa Eclair (inspired by Bianco Latte), Lattafa Starwalker Gold (inspired by Libre Intense), Armaf Club de Nuit White Imperiale (inspired by Delina Exclusif), Lattafa Khamrah (compared here to Good Girl) and Armaf Club de Nuit Lionheart Woman (inspired by Burberry Goddess).'],
+  ['What are the best winter fragrance dupes for women?', 'My top picks are Lattafa Eclair (inspired by Bianco Latte), Lattafa Tharwah Gold (inspired by Libre Intense), Armaf Club de Nuit White Imperiale (inspired by Delina Exclusif), Lattafa Khamrah (compared here to Good Girl) and Armaf Club de Nuit Lionheart Woman (inspired by Burberry Goddess).'],
   ['What is the best Delina Exclusif dupe?', 'In my picks it is Armaf Club de Nuit White Imperiale, with creamy vanilla and sweet Turkish rose. It is its own fragrance, so treat it as a similar style rather than an exact copy.'],
-  ['What is a good Libre Intense dupe?', 'Lattafa Starwalker Gold. It has warm vanilla and sweet lavender and it works well on cold evenings.'],
+  ['What is a good Libre Intense dupe?', 'Lattafa Tharwah Gold. It has warm vanilla and sweet lavender and it works well on cold evenings.'],
   ['Which winter clone lasts the longest?', 'Lattafa Eclair, at about 12 hours in my estimate. Longevity depends on your skin and how many sprays you use.'],
   ['Are clones as good as the originals?', 'They are not the same fragrance and usually don’t smell identical. For a fraction of the price they can get close in feel, which is why I like them.'],
   ['Which one is best for a date night?', 'Lattafa Her Confession. It’s creamy coconut and warm vanilla, soft and milky, and it lasts about 10 hours.']

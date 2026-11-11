@@ -1370,8 +1370,9 @@
     "pct": 95
   },
   {
-    "original": "Yves Saint Laurent Libre Vanilla Couture",
-    "clone": "Kad Large Perfumes Panache Angel Dust"
+    "original": "Yves Saint Laurent Libre Vanille Couture",
+    "clone": "Khadlaj Panache Angel Dust",
+    "pct": 96
   },
   {
     "original": "Serge Lutens L'Eau",
@@ -1382,16 +1383,19 @@
     "clone": "Armaf Mystique"
   },
   {
-    "original": "Le Liquide Imaginaire Blanche Bête",
-    "clone": "Lattafa Her Confession"
+    "original": "Liquides Imaginaires Blanche Bête",
+    "clone": "Lattafa Her Confession",
+    "pct": 92
   },
   {
     "original": "Burberry Goddess",
-    "clone": "Armaf Club De Nuit Lionheart Woman"
+    "clone": "Armaf Club De Nuit Lionheart Woman",
+    "pct": 92
   },
   {
-    "original": "Kayali Yum Bu Gee Marshmallow | 81",
-    "clone": "Lattafa Yara Elixir"
+    "original": "Kayali Yum Boujee Marshmallow 81",
+    "clone": "Lattafa Yara Elixir",
+    "pct": 82
   },
   {
     "original": "Carolina Herrera Good Girl",
@@ -1399,16 +1403,18 @@
   },
   {
     "original": "Parfums de Marly Delina Exclusif",
-    "clone": "Armaf Club De Nuit White Imperiale"
+    "clone": "Armaf Club De Nuit White Imperiale",
+    "pct": 93
   },
   {
     "original": "Yves Saint Laurent Libre Intense",
-    "clone": "Lattafa Starwalker Gold"
+    "clone": "Lattafa Tharwah Gold",
+    "pct": 88
   },
   {
     "original": "Giardini di Toscana Bianco Latte",
     "clone": "Lattafa Eclair",
-    "pct": 96
+    "pct": 97
   },
   {
     "original": "Tom Ford Oud Wood",
