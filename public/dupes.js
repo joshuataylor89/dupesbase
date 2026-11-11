@@ -41,8 +41,8 @@
   try { var sv = localStorage.getItem('db-view'); if (sv) state.view = sv; } catch (e) {}
   LEAF.forEach(function (f) { state.sel[f.k] = {}; });
 
-  var SORTS = { name: 'Name: A to Z', new: 'Release: newest first', old: 'Release: oldest first', plo: 'Price tier: lowest first', phi: 'Price tier: highest first', ovl: 'Notes overlap: highest first (pairs)' };
-  function pairOverlapOf(d) { var m = 0; PR.forEach(function (p) { if (p.a === d.slug || p.b === d.slug) m = Math.max(m, p.pct); }); return m; }
+  var SORTS = { name: 'Name: A to Z', new: 'Release: newest first', old: 'Release: oldest first', plo: 'Price tier: lowest first', phi: 'Price tier: highest first', ovl: 'Match %: highest first (pairs)' };
+  function pairOverlapOf(d) { var m = 0; PR.forEach(function (p) { if (p.a === d.slug || p.b === d.slug) m = Math.max(m, p.main == null ? 0 : p.main); }); return m; }
   function itemSort(a, b) {
     var s = state.sort;
     if (s === 'new') return (b.year || 0) - (a.year || 0) || a.full.localeCompare(b.full);
@@ -71,7 +71,7 @@
     var q = state.q.trim().toLowerCase();
     if (q) { var w = q.split(/\s+/); list = list.filter(function (p) { var s = BY[p.a]._s + ' ' + BY[p.b]._s; return w.every(function (x) { return s.indexOf(x) > -1; }); }); }
     return list.sort(function (x, y) {
-      if (state.sort === 'ovl') return y.pct - x.pct;
+      if (state.sort === 'ovl') return (y.main == null ? -1 : y.main) - (x.main == null ? -1 : x.main);
       if (state.sort === 'plo') return tierRank(BY[x.b].tier) - tierRank(BY[y.b].tier) || BY[x.a].full.localeCompare(BY[y.a].full);
       if (state.sort === 'phi') return tierRank(BY[y.b].tier) - tierRank(BY[x.b].tier) || BY[x.a].full.localeCompare(BY[y.a].full);
       if (state.sort === 'new') return (BY[y.b].year || 0) - (BY[x.b].year || 0);
@@ -120,7 +120,7 @@
     var a = BY[p.a], b = BY[p.b];
     var cmpHref = '/compare/' + a.slug + '-vs-' + b.slug + '/';
     return '<article class="pr"><div class="pr-side"><span class="pr-lab">Original</span><a class="pr-img" href="' + href(a) + '">' + icon(a) + '</a><b class="pr-name">' + nameHtml(a) + '</b><span class="pr-tier">' + esc(a.tier) + '</span>' + buy(a).replace('class="btn hh-buy"', 'class="btn btn2 hh-buy"') + '</div>' +
-      '<div class="pr-mid"><span class="pr-arrow" aria-hidden="true">→</span><div class="pr-pct" title="Published notes overlap: a rough comparison of two published note lists. It does not measure how similar the two smell."><b>' + p.pct + '%</b><span>notes overlap</span></div><div class="pr-bar"><i style="width:' + p.pct + '%"></i></div><span class="pr-gender">' + esc(a.gender || b.gender) + '</span><a class="more" href="' + cmpHref + '">Compare →</a></div>' +
+      '<div class="pr-mid"><span class="pr-arrow" aria-hidden="true">→</span><div class="pr-pct" title="' + (p.rep != null ? 'Reported similarity: a figure supplied to us, not our own testing.' : 'Published notes overlap: a rough comparison of two published note lists. It does not measure how similar the two smell.') + '"><b>' + (p.main == null ? '—' : (p.rep != null ? '~' : '') + p.main + '%') + '</b><span>' + (p.main == null ? 'not rated yet' : p.lab) + '</span></div><div class="pr-bar"><i style="width:' + (p.main || 0) + '%"></i></div><span class="pr-gender">' + esc(a.gender || b.gender) + '</span><a class="more" href="' + cmpHref + '">Compare →</a></div>' +
       '<div class="pr-side"><span class="pr-lab">Alternative</span><a class="pr-img" href="' + href(b) + '">' + icon(b) + '</a><b class="pr-name">' + nameHtml(b) + '</b><span class="pr-tier">' + esc(b.tier) + '</span>' + buy(b) + '</div></article>';
   }
 

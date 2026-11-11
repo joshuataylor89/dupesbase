@@ -75,7 +75,8 @@
       "CDNIM",
       "Armaf CDNIM",
       "Club de Nuit Intense"
-    ]
+    ],
+    "reported": 88
   },
   {
     "name": "Angels' Share",
@@ -422,5 +423,149 @@
       "name": "Perfume Box: Lattafa Yara",
       "url": "https://perfumebox.com/products/wp-latyar"
     }
+  },
+  {
+    "name": "Pineapple Intense",
+    "brand": "Montagne Parfums",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "similarTo": "Aventus",
+    "reported": 89,
+    "pairSource": {
+      "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
+      "url": "/about/#similarity"
+    },
+    "notesNote": "Published notes have not been added yet.",
+    "source": {
+      "name": "Brand page: Montagne Parfums",
+      "url": "https://www.montagneparfums.com/fragrance/pineapple-intense"
+    }
+  },
+  {
+    "name": "Poseidon's Elixir 2.0",
+    "brand": "The Dua Brand",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "similarTo": "Aventus",
+    "reported": 88,
+    "pairSource": {
+      "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
+      "url": "/about/#similarity"
+    },
+    "notesNote": "Published notes have not been added yet.",
+    "source": {
+      "name": "Brand page: The Dua Brand",
+      "url": "https://theduabrand.com/products/poseidons-elixir-2-0-100ml"
+    }
+  },
+  {
+    "name": "Executive",
+    "brand": "ALT Fragrances",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "similarTo": "Aventus",
+    "reported": 87,
+    "pairSource": {
+      "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
+      "url": "/about/#similarity"
+    },
+    "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Supremacy Silver",
+    "brand": "Afnan",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "similarTo": "Aventus",
+    "reported": 85,
+    "pairSource": {
+      "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
+      "url": "/about/#similarity"
+    },
+    "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Explorer Eau de Parfum",
+    "brand": "Montblanc",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "similarTo": "Aventus",
+    "reported": 85,
+    "pairSource": {
+      "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
+      "url": "/about/#similarity"
+    },
+    "notesNote": "Published notes have not been added yet.",
+    "source": {
+      "name": "Brand page: Montblanc",
+      "url": "https://www.montblanc.com/en-us/fragrances/collection/explorer"
+    }
+  },
+  {
+    "name": "Musky Oakmoss",
+    "brand": "Dossier",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "similarTo": "Aventus",
+    "reported": 81,
+    "pairSource": {
+      "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
+      "url": "/about/#similarity"
+    },
+    "notesNote": "Published notes have not been added yet."
   }
 ]

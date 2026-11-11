@@ -313,3 +313,25 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .cmp-common{padding:14px 22px 18px}.cmp-pct{margin:0 0 10px;font-size:18px}.cmp-pct b{font-size:30px;color:var(--accent2);margin-right:6px}
 .hh-rimg svg,.hh-rimg img{height:46px;width:auto}
 .hh-row .hh-rimg{color:var(--accent)}
+
+/* Home tiles + compare clone tabs */
+.hero-slim{padding-top:28px;padding-bottom:8px}.hero-slim h1{font-size:clamp(1.6rem,4vw,2.3rem);margin:0 0 14px}
+.gtabs{display:inline-flex;gap:4px;padding:4px;margin:18px 0 14px;background:#12152b;border:1px solid #232846;border-radius:999px}
+.gtabs button{font:inherit;font-size:.9rem;font-weight:600;color:#aab0d0;background:none;border:0;padding:7px 20px;border-radius:999px;cursor:pointer}
+.gtabs button.on{background:#7c5cff;color:#fff}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-bottom:14px}
+.tiles[hidden]{display:none}
+.tile{display:flex;flex-direction:column;gap:8px;padding:16px;background:#12152b;border:1px solid #232846;border-radius:14px;color:inherit;text-decoration:none;transition:border-color .15s,transform .15s}
+.tile:hover{border-color:#7c5cff;transform:translateY(-2px)}
+.tile-k{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#8e95b8}
+.tile-t{font-size:1.15rem;line-height:1.25}
+.tile-l{list-style:none;margin:4px 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.tile-l li{display:flex;justify-content:space-between;gap:10px;align-items:baseline;font-size:.9rem;border-top:1px solid #1d2140;padding-top:6px}
+.tile-p{font-weight:700;color:#7ee2a8;white-space:nowrap}.tile-p small{font-weight:400;color:#8e95b8;margin-left:4px;font-size:.7rem}.tile-p.nt{color:#c9ccdf}
+.tile-go{margin-top:auto;font-size:.85rem;color:#a99bff;font-weight:600}
+.tiles-more{grid-column:1/-1}
+.ctabs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0 12px}
+.ctabs-k{font-size:.8rem;color:#8e95b8;margin-right:4px}
+.ctabs a{display:inline-flex;gap:6px;align-items:baseline;padding:6px 12px;border:1px solid #232846;border-radius:999px;color:#c9ccdf;text-decoration:none;font-size:.85rem;background:#12152b}
+.ctabs a small{color:#7ee2a8;font-weight:700}
+.ctabs a.on{background:#7c5cff;border-color:#7c5cff;color:#fff}.ctabs a.on small{color:#fff}

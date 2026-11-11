@@ -48,10 +48,18 @@ for (const f of F) {
   const o = byName(f.similarTo);
   if (!o) throw new Error('similarTo not found: ' + f.similarTo);
   const ov = overlap(o, f);
-  PAIRS.push({ a: o.slug, b: f.slug, pct: ov.pct, common: ov.common, source: f.pairSource });
-  f.pair = { with: o.slug, ...ov, source: f.pairSource };
-  (o.pairs = o.pairs || []).push({ with: f.slug, ...ov, source: f.pairSource });
+  const hasNotes = !!(o.nk.length && f.nk.length);
+  const rep = typeof f.reported === 'number' ? f.reported : null;
+  const main = rep != null ? rep : hasNotes ? ov.pct : null;
+  const lab = rep != null ? 'reported similarity' : 'notes overlap';
+  const extra = { rep, hasNotes, main, lab };
+  PAIRS.push({ a: o.slug, b: f.slug, pct: ov.pct, common: ov.common, source: f.pairSource, ...extra });
+  f.pair = { with: o.slug, ...ov, source: f.pairSource, ...extra };
+  (o.pairs = o.pairs || []).push({ with: f.slug, ...ov, source: f.pairSource, ...extra });
 }
+PAIRS.sort((x, y) => (y.main ?? -1) - (x.main ?? -1));
+for (const f of F) if (f.pairs) f.pairs.sort((x, y) => (y.main ?? -1) - (x.main ?? -1));
+const mainTxt = (p) => (p.main == null ? '' : `${p.rep != null ? '~' : ''}${p.main}% ${p.lab}`);
 const pairOf = (f) => (f.pair ? { ...f.pair } : f.pairs ? f.pairs[0] : null);
 
 // ---------- Amazon ----------
@@ -85,7 +93,7 @@ function productCard(f, rank) {
     ${tierLine(f)}
     <p class="notes">${noteLine(f)}</p>
     ${f.accords.length ? `<p class="notes"><b>Main accords (as listed):</b> ${esc(f.accords.join(', '))}</p>` : ''}
-    ${other ? `<p class="notes"><b>${f.role === 'alternative' ? 'Commonly compared to' : 'Commonly compared with'}:</b> <a href="/fragrance/${other.slug}/">${esc(other.full)}</a>. Published notes overlap: ${p.pct}% (${p.common.length} shared notes). <a href="/compare/${pairSlug(f.role === 'alternative' ? other : f, f.role === 'alternative' ? f : other)}/">Compare side by side</a>.</p>` : ''}
+    ${other ? `<p class="notes"><b>${f.role === 'alternative' ? 'Commonly compared to' : 'Commonly compared with'}:</b> <a href="/fragrance/${other.slug}/">${esc(other.full)}</a>.${p.main != null ? ' ' + mainTxt(p).replace(/^./, (c) => c.toUpperCase()) + (p.rep == null ? ` (${p.common.length} shared notes)` : '') + '.' : ''} <a href="/compare/${pairSlug(f.role === 'alternative' ? other : f, f.role === 'alternative' ? f : other)}/">Compare side by side</a>.</p>` : ''}
     <p>${buyBtn(f)} <a class="btn btn2" href="/fragrance/${f.slug}/">Full notes</a></p>
   </div>
 </section>`;
@@ -101,8 +109,8 @@ const sourcesFor = (list) => {
 const pairSlug = (a, b) => `${a.slug}-vs-${b.slug}`;
 function pairTable(ps) {
   return `<div class="tablewrap"><table>
-<tr><th>Original</th><th>Alternative</th><th>Notes overlap</th><th>Gender</th><th>Alt. price tier</th></tr>
-${ps.map((p) => { const a = BY[p.a], b = BY[p.b]; return `<tr><td><a href="#${a.slug}">${esc(a.full)}</a></td><td><a href="#${b.slug}">${esc(b.full)}</a></td><td>${p.pct}%</td><td>${esc(a.gender)}</td><td>${esc(b.tier)}</td></tr>`; }).join('\n')}
+<tr><th>Original</th><th>Alternative</th><th>Match</th><th>Gender</th><th>Alt. price tier</th></tr>
+${ps.map((p) => { const a = BY[p.a], b = BY[p.b]; return `<tr><td><a href="#${a.slug}">${esc(a.full)}</a></td><td><a href="#${b.slug}">${esc(b.full)}</a></td><td>${esc(mainTxt(p) || '—')}</td><td>${esc(a.gender)}</td><td>${esc(b.tier)}</td></tr>`; }).join('\n')}
 </table></div>`;
 }
 function listTable(ids) {
@@ -193,9 +201,9 @@ const alts = F.filter((f) => f.role === 'alternative');
 <p class="lead">A "dupe" is a cheaper fragrance that people commonly compare to a pricier one. It is not the same perfume, and it will not smell identical on your skin. Here are four widely discussed pairs, each shown with published notes, a rough notes-overlap score and an Amazon link for both sides.</p>
 <p>Short on time? Browse every pair in the <a href="/database/">Dupes Database</a> or run any two through <a href="/compare/">Compare</a>.</p>
 <h2>The four pairs at a glance</h2>
-${pairTable(PAIRS)}
+${pairTable(PAIRS.filter((p) => p.hasNotes))}
 <h2>Pair by pair</h2>
-${PAIRS.map((p) => { const a = BY[p.a], b = BY[p.b]; return `<h3 class="pairh">${esc(a.full)} vs ${esc(b.full)}</h3>${productCard(a)}${productCard(b)}`; }).join('\n')}
+${PAIRS.filter((p) => p.hasNotes).map((p) => { const a = BY[p.a], b = BY[p.b]; return `<h3 class="pairh">${esc(a.full)} vs ${esc(b.full)}</h3>${productCard(a)}${productCard(b)}`; }).join('\n')}
 <h2>How to shop for a dupe</h2>
 <ul>
 <li><b>Treat the notes as a starting point.</b> Two fragrances can share many notes and still smell different, because of the ratio of notes and the base materials.</li>
@@ -325,6 +333,8 @@ const aboutBody = `<article><h1>About ${esc(cfg.siteName)}</h1>
 <p>We list published notes, release years, concentrations and price tiers, and we show a rough notes-overlap score so you can compare two fragrances quickly. We have not smelled or tested these fragrances ourselves, and we say where each note list comes from. Our buttons go to Amazon, so please confirm the seller, size and price on the listing before you buy.</p>
 <p>The site is supported by Amazon affiliate commissions. See our <a href="/affiliate-disclosure/">affiliate disclosure</a>. Know a dupe we should add, or spotted a mistake? Email <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>.</p>
 <p><a class="btn" href="mailto:${esc(cfg.contactEmail)}?subject=Suggest%20a%20dupe">Suggest a dupe</a> <a class="btn btn2" href="mailto:${esc(cfg.contactEmail)}?subject=Report%20an%20issue">Report an issue</a></p>
+<h2 id="similarity">About the similarity percentages</h2>
+<p>Percentages marked with a ~ are reported similarity figures that were supplied to us. They are not our own measurements, and we have not tested these fragrances. Where no reported figure exists, we show a rough overlap of the published note lists, marked "notes". That overlap does not measure how alike two fragrances smell, because the amounts of each note and the base materials matter a lot. Fragrances also smell different on different people.</p>
 ${disclosureBox}</article>`;
 const disclosureBody = `<article><h1>Affiliate Disclosure</h1>
 <p><b>${DISCLOSURE}</b></p>
@@ -342,16 +352,24 @@ const privacyBody = `<article><h1>Privacy Policy</h1>
 // ---------- Home ----------
 const ordered = [...posts].reverse();
 const entryCard = (p, i) => `<article class="entry${i === 0 ? ' lead-entry' : ''}"><a class="entry-img ph" href="/${p.slug}/" aria-label="${esc(p.title)}">${p.hero ? pic(p.hero) : bottle(p.hero)}</a><div class="entry-body"><span class="pill">${esc(p.kicker)}</span><h2><a href="/${p.slug}/">${esc(p.title)}</a></h2><p>${esc(p.blurb)}</p><a class="more" href="/${p.slug}/">Read the guide →</a></div></article>`;
-const homeBody = `<section class="hero hero-modern">
+const tileSets = { Men: ['Men', 'Unisex'], Women: ['Women', 'Unisex'] };
+const topClones = (o) => (o.pairs || []).slice(0, 3);
+const tile = (o) => {
+  const ps = topClones(o);
+  return `<a class="tile" href="/compare/${pairSlug(o, BY[ps[0].with])}/" aria-label="Clones of ${esc(o.full)}"><span class="tile-k">Clones of</span><b class="tile-t">${esc(o.full)}</b><ol class="tile-l">${ps.map((q) => `<li><span class="tile-n">${esc(BY[q.with].full)}</span><span class="tile-p${q.rep == null ? ' nt' : ''}">${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}${q.rep == null && q.main != null ? '<small>notes</small>' : ''}</span></li>`).join('')}</ol><span class="tile-go">See all ${(o.pairs || []).length} ${(o.pairs || []).length === 1 ? 'clone' : 'clones'} →</span></a>`;
+};
+const tileGrid = (g) => {
+  const list = F.filter((f) => f.role === 'original' && (f.pairs || []).length && tileSets[g].includes(f.gender)).sort((x, y) => (y.pairs[0].main ?? -1) - (x.pairs[0].main ?? -1)).slice(0, 4);
+  return `<div class="tiles" data-g="${g}" role="tabpanel" id="tp-${g}"${g === 'Men' ? '' : ' hidden'}>${list.map(tile).join('')}${list.length < 4 ? `<p class="hh-note tiles-more">More ${g.toLowerCase()}'s originals are being added. <a href="/database/?gender=${g}">Browse the database</a>.</p>` : ''}</div>`;
+};
+const homeBody = `<section class="hero hero-modern hero-slim">
 <h1>Find the dupe. Skip the markup.</h1>
-<p class="tagline">A searchable database of designer and niche fragrances and the alternatives people compare them to, with published notes, side-by-side comparisons and no made-up reviews.</p>
 <form class="hero-search" action="/database/" method="get" role="search"><input type="search" name="q" placeholder="Search a fragrance, e.g. Aventus or Khamrah" aria-label="Search the database" autocomplete="off"><button class="btn" type="submit">Search</button></form>
-<p class="hero-links"><a href="/database/?gender=Men">Men's</a> · <a href="/database/?gender=Women">Women's</a> · <a href="/database/?gender=Unisex">Unisex</a> · <a href="/compare/">Compare two</a></p>
 </section>
-<div class="sec-head"><span class="pill">LATEST</span><span class="sec-line"></span></div>
-<div class="feed">
-${ordered.map(entryCard).join('\n')}
-</div>
+<div class="gtabs" role="tablist" aria-label="Show originals for"><button type="button" role="tab" class="on" aria-selected="true" aria-controls="tp-Men" data-g="Men">Men</button><button type="button" role="tab" aria-selected="false" aria-controls="tp-Women" data-g="Women">Women</button></div>
+${tileGrid('Men')}${tileGrid('Women')}
+<p class="hh-note">Percentages marked ~ are reported similarity figures supplied to us, not our own testing. Where none is available we show a rough overlap of published notes, marked "notes", which does not measure how alike two fragrances smell. Unisex originals appear under both tabs. <a href="/database/">Search the full database</a> or read the <a href="/guides/">guides</a>.</p>
+<script>(function(){var t=document.querySelectorAll('.gtabs button');Array.prototype.forEach.call(t,function(b){b.addEventListener('click',function(){Array.prototype.forEach.call(t,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});Array.prototype.forEach.call(document.querySelectorAll('.tiles'),function(g){g.hidden=g.getAttribute('data-g')!==b.getAttribute('data-g');});});});})();</script>
 ${disclosureBox}`;
 
 // ---------- Write ----------
@@ -370,7 +388,7 @@ write('privacy', page({ title: `Privacy Policy | ${cfg.siteName}`, desc: 'Privac
 
 // ---- data for client scripts ----
 const clientItems = F.map((f) => ({ slug: f.slug, name: f.name, brand: f.brand, full: f.full, role: f.role, year: f.year || 0, conc: f.concentration, gender: f.gender, size: f.size, tier: f.tier, top: f.top, heart: f.heart, base: f.base, flat: f.flat, accords: f.accords, season: f.season, nk: f.nk, img: f.img ? 1 : 0, imageUrl: f.imageUrl || '', asin: f.asin || '', link: f.link || '' }));
-const dataScript = `<script id="hh-data" type="application/json">${JSON.stringify({ tag: cfg.amazonTag, items: clientItems, pairs: PAIRS.map((p) => ({ a: p.a, b: p.b, pct: p.pct, common: p.common })) }).replace(/</g, '\\u003c')}</script>`;
+const dataScript = `<script id="hh-data" type="application/json">${JSON.stringify({ tag: cfg.amazonTag, items: clientItems, pairs: PAIRS.map((p) => ({ a: p.a, b: p.b, pct: p.pct, common: p.common, rep: p.rep, main: p.main, lab: p.lab, hasNotes: p.hasNotes })) }).replace(/</g, '\\u003c')}</script>`;
 
 // ---- database page ----
 const dbBody = `<div class="hh-head"><div><span class="pill">DATABASE</span><h1>Fragrance Dupes Database</h1></div></div>
@@ -408,9 +426,9 @@ const nameLink = (f) => `<a class="hh-brand" href="${esc(houseHref(f.brand))}" t
 const similarList = (f) => {
   const rel = new Map();
   const p = pairOf(f);
-  if (f.pair) rel.set(f.pair.with, f.pair.pct);
-  (f.pairs || []).forEach((q) => rel.set(q.with, q.pct));
-  return [...rel].map(([s, pct]) => `<a class="hh-row" href="/fragrance/${s}/"><span class="hh-rimg">${pic(BY[s])}</span><span class="hh-rmain"><b>${esc(BY[s].full)}</b><span class="hh-rtags"><span class="hh-tag">${roleLabel(BY[s])}</span></span></span><span class="hh-rside"><b>${pct}%</b><span>notes overlap</span></span></a>`).join('');
+  if (f.pair) rel.set(f.pair.with, f.pair);
+  (f.pairs || []).forEach((q) => rel.set(q.with, q));
+  return [...rel].map(([s, q]) => `<a class="hh-row" href="/fragrance/${s}/"><span class="hh-rimg">${pic(BY[s])}</span><span class="hh-rmain"><b>${esc(BY[s].full)}</b><span class="hh-rtags"><span class="hh-tag">${roleLabel(BY[s])}</span></span></span><span class="hh-rside"><b>${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}</b><span>${q.main == null ? 'not rated' : q.lab}</span></span></a>`).join('');
 };
 const pyramid = (f) =>
   f.flat.length
@@ -430,10 +448,10 @@ for (const f of F) {
   ${similarList(f) ? `<h2 class="dv-sim">${f.role === 'original' ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2>${similarList(f)}` : ''}
 </aside>
 <div class="dv-main">
-  <section class="dv-panel"><h2>Published notes</h2>${pyramid(f)}<p class="hh-note">Notes as published by <a href="${esc(f.source.url)}" rel="noopener nofollow" target="_blank">${esc(f.source.name)}</a>. We have not tested this fragrance. ${esc(f.notesNote || 'Note lists differ between sources.')}</p></section>
+  <section class="dv-panel"><h2>Published notes</h2>${f.allNotes.length ? pyramid(f) : '<p class="meta">Not added yet.</p>'}<p class="hh-note">${f.source ? `${f.allNotes.length ? 'Notes as published by ' : 'Brand page: '}<a href="${esc(f.source.url)}" rel="noopener nofollow" target="_blank">${esc(f.source.name)}</a>. ` : ''}We have not tested this fragrance. ${esc(f.notesNote || 'Note lists differ between sources.')}</p></section>
   ${f.accords.length ? `<section class="dv-panel"><h2>Main accords (as listed)</h2><div class="hh-tags">${f.accords.map((t) => tagA('accord', t)).join('')}</div></section>` : ''}
   ${f.season.length ? `<section class="dv-panel"><h2>Season</h2><div class="hh-tags">${f.season.map((t) => tagA('season', t)).join('')}</div><p class="hh-note">Our editorial read of the published accords, not a test result.</p></section>` : ''}
-  ${other ? `<section class="dv-panel"><h2>${f.role === 'alternative' ? 'The original it is compared to' : 'Alternative people compare it to'}</h2><p><a href="/fragrance/${other.slug}/">${esc(other.full)}</a> · published notes overlap <b>${p.pct}%</b> (${esc(p.common.join(', '))}).</p><p class="hh-note">Pairing as described by <a href="${esc(p.source.url)}" rel="noopener nofollow" target="_blank">${esc(p.source.name)}</a>. The overlap is a rough comparison of two published note lists, not a measure of how alike they smell. <a href="/compare/${pairSlug(f.role === 'alternative' ? other : f, f.role === 'alternative' ? f : other)}/">Compare side by side</a>.</p></section>` : ''}
+  ${other ? `<section class="dv-panel"><h2>${f.role === 'alternative' ? 'The original it is compared to' : 'Alternative people compare it to'}</h2><p><a href="/fragrance/${other.slug}/">${esc(other.full)}</a> ${p.main != null ? `· ${esc(mainTxt(p))}${p.rep == null && p.common.length ? ` (${esc(p.common.join(', '))})` : ''}` : ''}.</p><p class="hh-note">Pairing as described by <a href="${esc(p.source.url)}" rel="noopener nofollow" target="_blank">${esc(p.source.name)}</a>. ${p.rep != null ? 'The reported similarity is a community-style rating supplied to us. We have not tested either fragrance and it is not our measurement.' : 'The overlap is a rough comparison of two published note lists, not a measure of how alike they smell.'} <a href="/compare/${pairSlug(f.role === 'alternative' ? other : f, f.role === 'alternative' ? f : other)}/">Compare side by side</a>.</p></section>` : ''}
   <section class="dv-panel"><h2>Tags</h2><div class="hh-tags">${[tagA('brand', f.brand), f.gender && tagA('gender', f.gender), f.concentration && tagA('conc', f.concentration), tagA('tier', f.tier), tagA('role', roleLabel(f))].filter(Boolean).join('')}</div></section>
   ${disclosureBox}
 </div>
@@ -458,8 +476,8 @@ ${disclosureBox}`;
 }
 
 // ---- compare pages ----
-const cmpShell = (h1, extra) => `<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/database/">Database</a> / Comparison Tool</nav>
-<h1 id="cmp-h1" class="cmp-h1">${esc(h1)}</h1>
+const cmpShell = (h1, extra, tabs = '') => `<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/database/">Database</a> / Comparison Tool</nav>
+${tabs}<h1 id="cmp-h1" class="cmp-h1">${esc(h1)}</h1>
 <div class="cmp-pickers">
 <div class="cmp-pk"><label for="cmp-a">Compare</label><div class="cmp-sb"><input id="cmp-a" type="search" placeholder="Search" autocomplete="off" role="combobox" aria-expanded="true" aria-controls="cmp-a-list"><ul id="cmp-a-list" class="cmp-list" role="listbox" hidden></ul></div></div>
 <button type="button" id="cmp-swap" class="cmp-swap" aria-label="Swap fragrances">&#8646;</button>
@@ -471,15 +489,20 @@ ${extra || ''}
 <p class="hh-note">Notes are as published by the sources named on each fragrance page, and we have not tested these fragrances. Green, red and yellow icons show which fragrance ranks higher, lower or equal where a hard number exists (price tier). Notes overlap compares two published lists and is not a measure of how alike they smell.</p>
 ${disclosureBox}`;
 const cmpScripts = (init) => `${dataScript}<script id="cmp-init" type="application/json">${JSON.stringify(init)}</script><script src="/compare.js" defer></script>`;
+const cloneTabs = (a, b) => {
+  const ps = (a.pairs || []);
+  if (ps.length < 2) return '';
+  return `<nav class="ctabs" aria-label="Other clones of ${esc(a.full)}"><span class="ctabs-k">Clones of ${esc(a.full)}:</span>${ps.map((q) => `<a href="/compare/${pairSlug(a, BY[q.with])}/"${q.with === b.slug ? ' class="on" aria-current="page"' : ''}>${esc(BY[q.with].full)}<small>${q.main == null ? '' : (q.rep != null ? '~' : '') + q.main + '%'}</small></a>`).join('')}</nav>`;
+};
 const staticTable = (a, b) => {
-  const ov = overlap(a, b);
+  const ov = overlap(a, b), pr = PAIRS.find((q) => q.a === a.slug && q.b === b.slug);
   const rows = [['Type', (f) => roleLabel(f)], ['Concentration', (f) => f.concentration || 'Not listed'], ['Gender', (f) => f.gender || 'Not listed'], ['Released', (f) => f.year || 'Not listed'], ['Approx. price tier', (f) => f.tier], ['Notes', (f) => f.allNotes.join(', ')]];
-  return `<div id="cmp-static"><table class="cmp-table"><caption>${esc(a.full)} vs ${esc(b.full)} key facts</caption><thead><tr><th></th><th>${esc(a.full)}</th><th>${esc(b.full)}</th></tr></thead><tbody>${rows.map(([k, fn]) => `<tr><td>${esc(k)}</td><td>${esc(fn(a))}</td><td>${esc(fn(b))}</td></tr>`).join('')}<tr><td>Published notes in common</td><td colspan="2">${esc(ov.common.join(', ') || 'None found')} (${ov.pct}% overlap)</td></tr></tbody></table><p><a class="btn" href="${esc(amazonLink(a))}" target="_blank" rel="sponsored nofollow noopener">${esc(a.name)} on Amazon →</a> <a class="btn" href="${esc(amazonLink(b))}" target="_blank" rel="sponsored nofollow noopener">${esc(b.name)} on Amazon →</a></p></div>`;
+  return `<div id="cmp-static"><table class="cmp-table"><caption>${esc(a.full)} vs ${esc(b.full)} key facts</caption><thead><tr><th></th><th>${esc(a.full)}</th><th>${esc(b.full)}</th></tr></thead><tbody>${rows.map(([k, fn]) => `<tr><td>${esc(k)}</td><td>${esc(fn(a))}</td><td>${esc(fn(b))}</td></tr>`).join('')}${pr && pr.rep != null ? `<tr><td>Reported similarity</td><td colspan="2">~${pr.rep}% (as supplied to us, not our testing)</td></tr>` : ''}${a.nk.length && b.nk.length ? `<tr><td>Published notes in common</td><td colspan="2">${esc(ov.common.join(', ') || 'None found')} (${ov.pct}% overlap)</td></tr>` : ''}</tbody></table><p><a class="btn" href="${esc(amazonLink(a))}" target="_blank" rel="sponsored nofollow noopener">${esc(a.name)} on Amazon →</a> <a class="btn" href="${esc(amazonLink(b))}" target="_blank" rel="sponsored nofollow noopener">${esc(b.name)} on Amazon →</a></p></div>`;
 };
 write('compare', page({ title: `Compare Fragrances Side by Side | ${cfg.siteName}`, desc: `Pick any two of ${F.length} fragrances and compare published notes, concentration, gender, price tier and notes overlap side by side.`, url: '/compare/', wide: true, scripts: cmpScripts({}), body: cmpShell('Compare Fragrances'), crumbs: [['Home', '/'], ['Compare', '/compare/']] }));
 for (const p of PAIRS) {
   const a = BY[p.a], b = BY[p.b];
-  write(`compare/${pairSlug(a, b)}`, page({ title: `${a.full} vs ${b.full}: Notes Comparison | ${cfg.siteName}`, desc: `${a.full} vs ${b.full} compared side by side: published notes, ${p.pct}% notes overlap, concentration, gender and price tier.`, url: `/compare/${pairSlug(a, b)}/`, wide: true, scripts: cmpScripts({ a: a.slug, b: b.slug }), body: cmpShell(`${a.full} vs. ${b.full} Comparison`, staticTable(a, b)), crumbs: [['Home', '/'], ['Compare', '/compare/'], [`${a.name} vs ${b.name}`, `/compare/${pairSlug(a, b)}/`]] }));
+  write(`compare/${pairSlug(a, b)}`, page({ title: `${a.full} vs ${b.full}: Notes Comparison | ${cfg.siteName}`, desc: `${a.full} vs ${b.full} compared side by side: ${p.main != null ? mainTxt(p) + ', ' : ''}concentration, gender and price tier.`, url: `/compare/${pairSlug(a, b)}/`, wide: true, scripts: cmpScripts({ a: a.slug, b: b.slug }), body: cmpShell(`${a.full} vs. ${b.full} Comparison`, staticTable(a, b), cloneTabs(a, b)), crumbs: [['Home', '/'], ['Compare', '/compare/'], [`${a.name} vs ${b.name}`, `/compare/${pairSlug(a, b)}/`]] }));
 }
 
 // ---- sitemap, robots, headers ----
