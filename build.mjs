@@ -213,11 +213,12 @@ ${ld}
 ${body}
 </main>
 <footer class="site"><div class="wrap">
-  <p>${DISCLOSURE}</p>
+  <p>${DISCLOSURE} Links to Jomashop may also earn us a commission.</p>
   <p><a href="/affiliate-disclosure/">Affiliate Disclosure</a> · <a href="/privacy/">Privacy</a> · <a href="/about/">About</a> · <a href="mailto:${esc(cfg.contactEmail)}?subject=Suggest%20a%20dupe">Suggest a dupe</a> · <a href="mailto:${esc(cfg.contactEmail)}?subject=Report%20an%20issue">Report an issue</a> · © ${new Date().getFullYear()} ${esc(cfg.siteName)}</p>
   <p>Brand names and trademarks belong to their owners and are used only to identify products. ${esc(cfg.siteName)} is not affiliated with any fragrance house. Prices and availability change; check Amazon for current details.</p>
 </div></footer>
 ${scripts}
+<script src="https://www.anrdoezrs.net/am/101926594/include/allCj/am.js"></script>
 </body>
 </html>
 `;
@@ -529,12 +530,12 @@ ${disclosureBox}</article>`;
 const disclosureBody = `<article><h1>Affiliate Disclosure</h1>
 <p><b>${DISCLOSURE}</b></p>
 <p>${esc(cfg.siteName)} is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. When you click a link to Amazon on this site and make a qualifying purchase, we may earn a commission at no extra cost to you.</p>
-<p>Commissions do not change what we list or how we describe it. Prices and availability on Amazon change at any time, so please check the Amazon listing for current information.</p><p>Our "Find on Jomashop" and "Find on FragranceNet" buttons are plain links to search results on those stores. They are not affiliate links today and we earn nothing from them. If that changes, we will say so here. Those retailers set their own prices, stock and sellers, so check each listing before you buy.</p></article>`;
+<p>Commissions do not change what we list or how we describe it. Prices and availability on Amazon change at any time, so please check the Amazon listing for current information.</p><p>Our "Find on Jomashop" buttons are links to search results on Jomashop. We take part in the CJ Affiliate program for Jomashop, so when you click one of these links and make a qualifying purchase, we may earn a commission at no extra cost to you. Our "Find on FragranceNet" buttons are plain links to search results on that store. They are not affiliate links today and we earn nothing from them. If that changes, we will say so here. Those retailers set their own prices, stock and sellers, so check each listing before you buy.</p></article>`;
 const privacyBody = `<article><h1>Privacy Policy</h1>
 <p>Last updated ${esc(cfg.updated)}.</p>
 <p>${esc(cfg.siteName)} is a static website. We do not ask you to create an account, and we do not collect personal information through forms. If you email us, we use your address only to reply.</p>
 <p><b>Hosting and analytics.</b> The site is delivered through Cloudflare, which may process technical data such as IP addresses to deliver pages and protect the site. If we add privacy-friendly analytics, we will list it here.</p>
-<p><b>Third-party links.</b> Links to Amazon and other sites are governed by those sites' own privacy policies. Amazon may use cookies to attribute purchases to our affiliate account.</p>
+<p><b>Third-party links.</b> Links to Amazon and other sites are governed by those sites' own privacy policies. Amazon may use cookies to attribute purchases to our affiliate account. We also load a script from CJ Affiliate (anrdoezrs.net) that can tag links to Jomashop when you click them, and CJ and Jomashop may set cookies to attribute purchases to our account. We do not send CJ anything you type into the site.</p>
 <p><b>Your searches.</b> The database search and filters run in your browser. We do not send what you type to a server.</p>
 <p><b>Fonts.</b> We load a font from Google Fonts, which may receive your IP address when it serves the font file.</p>
 <p>Contact: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>.</p></article>`;
