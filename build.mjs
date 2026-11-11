@@ -411,7 +411,10 @@ ${disclosureBox}`;
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
 fs.cpSync(path.join(root, 'static'), out, { recursive: true });
-const write = (rel, html) => { const dir = path.join(out, rel); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, 'index.html'), html); };
+const assetV = (f) => createHash('md5').update(fs.readFileSync(path.join(root, 'static', f))).digest('hex').slice(0, 8);
+const ASSET_VER = Object.fromEntries(['style.css', 'compare.js', 'dupes.js', 'car.js'].filter((f) => fs.existsSync(path.join(root, 'static', f))).map((f) => [f, assetV(f)]));
+const versioned = (html) => html.replace(/(href|src)="\/(style\.css|compare\.js|dupes\.js|car\.js)"/g, (m, a, f) => `${a}="/${f}?v=${ASSET_VER[f]}"`);
+const write = (rel, html) => { const dir = path.join(out, rel); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, 'index.html'), versioned(html)); };
 const published = '2026-11-10';
 
 write('', page({ title: `${cfg.siteName}: Fragrance Dupes Database`, desc: 'A searchable database of fragrance dupes: designer and niche originals next to the alternatives people compare them to, with published notes and Amazon links.', url: '/', body: homeBody }));
