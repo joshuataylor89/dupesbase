@@ -1456,12 +1456,42 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lemon"
+    ],
+    "heart": [
+      "Saffron",
+      "Rose",
+      "Cardamom",
+      "Jasmine"
+    ],
+    "base": [
+      "Animal Notes",
+      "Vanilla",
+      "Cedar",
+      "Musk",
+      "Gurjan Balsam",
+      "Patchouli",
+      "Labdanum"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Woody",
+      "Animalic",
+      "Musky",
+      "Vanilla",
+      "Powdery",
+      "Rose",
+      "Patchouli",
+      "Metallic",
+      "Aromatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Zaffiro Regale",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Vanilla Fatale",
@@ -1616,12 +1646,35 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Citrus"
+    ],
+    "heart": [
+      "Cinnamon",
+      "Nutmeg"
+    ],
+    "base": [
+      "Tobacco",
+      "Vanilla",
+      "Cocoa"
+    ],
+    "accords": [
+      "Tobacco",
+      "Sweet",
+      "Vanilla",
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Cinnamon",
+      "Cacao",
+      "Powdery",
+      "Whiskey"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Your Touch Tobacco",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Grand Soir",
@@ -3175,12 +3228,36 @@
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Mandarin Orange",
+      "Bergamot",
+      "Ginger"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Gardenia"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Oakmoss"
+    ],
+    "accords": [
+      "Citrus",
+      "Vanilla",
+      "White Floral",
+      "Sweet",
+      "Fresh Spicy",
+      "Powdery",
+      "Aromatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Voices",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Coeur Battant",
@@ -3937,12 +4014,41 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pink Pepper",
+      "Violet",
+      "Juniper"
+    ],
+    "heart": [
+      "Toffee",
+      "Cinnamon",
+      "Lavender",
+      "Clary Sage"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka Bean",
+      "Amber",
+      "Suede"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Amber",
+      "Cinnamon",
+      "Warm Spicy",
+      "Aromatic",
+      "Powdery",
+      "Soft Spicy",
+      "Caramel",
+      "Lavender"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Your Touch Intense",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Eros Flame",
@@ -3969,12 +4075,38 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Mandarin",
+      "Lemon",
+      "Pepper",
+      "Chinotto",
+      "Rosemary"
+    ],
+    "heart": [
+      "Rose",
+      "Rosemary"
+    ],
+    "base": [
+      "Vanilla",
+      "Sandalwood",
+      "Tonka Bean",
+      "Patchouli",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "accords": [
+      "Citrus",
+      "Vanilla",
+      "Fresh Spicy",
+      "Aromatic",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Versencia Rouge",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Nolita",
@@ -4573,12 +4705,40 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Apple",
+      "Ginger",
+      "Bergamot"
+    ],
+    "heart": [
+      "Sage",
+      "Juniper Berries",
+      "Geranium"
+    ],
+    "base": [
+      "Amberwood",
+      "Tonka",
+      "Cedar",
+      "Vetiver",
+      "Olibanum"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Aromatic",
+      "Woody",
+      "Fruity",
+      "Fresh",
+      "Citrus",
+      "Amber",
+      "Herbal",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Yeah!",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "K EDT",
@@ -4929,17 +5089,43 @@
     "name": "Al Areeq Gold",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Black Tea"
+    ],
+    "heart": [
+      "Suede",
+      "Leather",
+      "Incense"
+    ],
+    "base": [
+      "Vanilla",
+      "Amberwood",
+      "Musk"
+    ],
+    "accords": [
+      "Leather",
+      "Amber",
+      "Warm Spicy",
+      "Vanilla",
+      "Smoky",
+      "Musky",
+      "Powdery",
+      "Animalic",
+      "Balsamic",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Al Areeq Gold",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Le Gemme Tygar",
@@ -5094,12 +5280,49 @@
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Bergamot",
+      "Pineapple",
+      "Orange",
+      "Rose"
+    ],
+    "heart": [
+      "Hyacinth",
+      "Lotus",
+      "Lily of the Valley",
+      "Apple",
+      "Freesia",
+      "Iris",
+      "Gardenia",
+      "Violet"
+    ],
+    "base": [
+      "Pine",
+      "Patchouli",
+      "White Musk",
+      "Cedar",
+      "Amber",
+      "Incense"
+    ],
+    "accords": [
+      "Woody",
+      "Citrus",
+      "Floral",
+      "Aromatic",
+      "Green",
+      "Fresh Spicy",
+      "Fruity",
+      "Sweet",
+      "Fresh",
+      "Conifer"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Zeno",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Hibicus Mahajad",
@@ -6237,17 +6460,37 @@
     "name": "Ameer Al Oudh Intense",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Woodsy Notes",
+      "Agarwood (Oud)"
+    ],
+    "heart": [
+      "Sugar",
+      "Vanilla"
+    ],
+    "base": [
+      "Agarwood (Oud)",
+      "Sandalwood",
+      "Herbal Notes"
+    ],
+    "accords": [
+      "Woody",
+      "Vanilla",
+      "Sweet",
+      "Oud",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Ameer Al Oudh Intense Oud",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Libre Intense",
@@ -7277,17 +7520,45 @@
     "name": "Angham",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Ginger",
+      "Mandarin",
+      "Pink Pepper"
+    ],
+    "heart": [
+      "Lavender",
+      "Praline",
+      "Cacao",
+      "Jasmine"
+    ],
+    "base": [
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Lavender",
+      "Fresh Spicy",
+      "Powdery",
+      "Amber",
+      "Musky",
+      "Citrus",
+      "Cacao",
+      "Aromatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Angham",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Allure Homme Sport",
@@ -9450,12 +9721,37 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Marine Notes",
+      "Salt",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Bay Leaf",
+      "Geranium",
+      "Spices"
+    ],
+    "base": [
+      "Guaiac Wood",
+      "Amber"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Aromatic",
+      "Marine",
+      "Salty",
+      "Citrus",
+      "Camphor",
+      "Woody",
+      "Amber",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Victorioso Legend",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Tobacco Touch",
