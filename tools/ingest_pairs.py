@@ -31,7 +31,7 @@ BRANDS = {
  'reyane tradition': 'Reyane Tradition', 'reyane': 'Reyane Tradition', 'volare': 'Volare', 'nusuk': 'Nusuk', 'king of kings': 'King of Kings',
  'borouj': 'Borouj', 'alexandria': 'Alexandria', 'flavia': 'Flavia', 'pendora milano': 'Pendora Milano',
  'milestone': 'Milestone', 'dossier': 'Dossier', 'zara': 'Zara', 'montblanc': 'Montblanc', 'emir': 'Emir',
- 'rayhaan': 'Rayhaan', 'cuba': 'Cuba', 'mouj': 'Mouj', 'arabiyat': 'Arabiyat', 'al wataniah': 'Al Wataniah',
+ 'rayhaan': 'Rayhaan', 'cuba': 'Cuba', 'mouj': 'Mouj', 'arabiyat': 'Arabiyat', 'the dua brand': 'The Dua Brand', 'dua brand': 'The Dua Brand', 'al wataniah': 'Al Wataniah',
  'emper': 'Emper', 'lumiere': 'Lumiere', 'bentley': 'Bentley', 'just jack': 'Just Jack', 'pink sugar': 'Aquolina',
  'gigglepuff': 'Gigglepuff', 'perry ellis': 'Perry Ellis', 'missoni': 'Missoni', 'ariana grande': 'Ariana Grande', 'paris corner': 'Paris Corner',
  'tom ford': 'Tom Ford', 'louis vuitton': 'Louis Vuitton', 'paco rabanne': 'Paco Rabanne', 'creed': 'Creed',

@@ -720,17 +720,40 @@
     "name": "Imagination",
     "brand": "Louis Vuitton",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Citron",
+      "Calabrian bergamot",
+      "Sicilian orange"
+    ],
+    "heart": [
+      "Tunisian neroli",
+      "Nigerian ginger",
+      "Ceylon cinnamon"
+    ],
+    "base": [
+      "Chinese black tea",
+      "Ambroxan",
+      "Guaiac wood",
+      "Olibanum"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh spicy",
+      "Green",
+      "Fresh",
+      "Aromatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Louis Vuitton Imagination",
+      "url": "https://www.fragrantica.com/designers/Louis-Vuitton.html"
+    }
   },
   {
     "name": "Amber Oud Aqua Dubai",
@@ -8501,6 +8524,70 @@
   {
     "name": "Hayaati Al Maleky",
     "brand": "Lattafa",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Essence de Blanc EDP",
+    "brand": "French Avenue",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "#Imagine",
+    "brand": "The Dua Brand",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Game of Spades Full House",
+    "brand": "Jo Milano",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Prestige Marwa",
+    "brand": "Arabiyat",
     "role": "alternative",
     "year": 0,
     "concentration": "",
