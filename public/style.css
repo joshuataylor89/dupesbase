@@ -360,3 +360,7 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .logo .logo-t{color:var(--text)}.logo .logo-t span{color:var(--accent)}
 .cmp-ttl{border-bottom-color:var(--line)!important;border-color:var(--line)!important}
 .buy{display:inline-flex;flex-direction:column;gap:8px;align-items:stretch;max-width:100%}.buy .btn{text-align:center;margin:0}
+.buy a[href*="jomashop.com"]{background:#6b7280;border-color:#6b7280;color:#fff}
+.buy a[href*="jomashop.com"]:hover{background:#4b5563;border-color:#4b5563;color:#fff}
+.buy a[href*="fragrancenet.com"]{background:#7c3aed;border-color:#7c3aed;color:#fff}
+.buy a[href*="fragrancenet.com"]:hover{background:#6d28d9;border-color:#6d28d9;color:#fff}
