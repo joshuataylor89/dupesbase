@@ -7469,17 +7469,40 @@
     "name": "Seduction 1",
     "brand": "AK France",
     "role": "original",
-    "year": 0,
+    "year": 2017,
     "concentration": "",
-    "gender": "Unisex",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Raspberry",
+      "Cinnamon",
+      "Mandarin orange",
+      "Orange blossom"
+    ],
+    "heart": [
+      "Rose",
+      "Cedar",
+      "Violet",
+      "Sandalwood"
+    ],
+    "base": [
+      "Biscuit",
+      "Vanilla",
+      "Benzoin",
+      "White musk"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Gourmand"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed on Fragrantica; note order and wording vary slightly between its listings.",
+    "source": {
+      "name": "Fragrantica: Seduction 1 by AK France (notes as supplied)",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Elixir Fusion",
