@@ -9305,5 +9305,420 @@
       "title": "The Parfum Upgrade",
       "text": "The Limited Edition Parfum keeps the lemon, pineapple and pepper opening people want from an Aventus-style scent, then dries down to ambroxan, musk and leather. Fragrantica voters rate it 4.44 out of 5 across 2,900+ votes, and the votes are spread across all four seasons. A good year-round pick if you want the Aventus idea in a richer, longer version."
     }
+  },
+  {
+    "name": "Club de Nuit Intense Man Parfum",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2022,
+    "concentration": "Parfum",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lemon",
+      "Pineapple",
+      "Bergamot",
+      "Black currant",
+      "Apple"
+    ],
+    "heart": [
+      "Birch",
+      "Jasmine",
+      "Rose"
+    ],
+    "base": [
+      "Ambergris",
+      "Musk",
+      "Patchouli",
+      "Vanilla"
+    ],
+    "accords": [
+      "Citrus",
+      "Fruity",
+      "Leather",
+      "Woody",
+      "Smoky",
+      "Sweet",
+      "Aromatic",
+      "Fresh",
+      "Amber",
+      "Musky"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intense Man Parfum",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Stronger Pour",
+      "text": "Same fruity-smoky Club de Nuit Intense Man profile in a Parfum concentration. Fragrantica voters rate it 4.28 out of 5 across 3,600+ votes, and the season votes are spread across the year. A popular pick if you want an Aventus-style scent."
+    },
+    "similarTo": "Aventus",
+    "reported": 96,
+    "pairSource": {
+      "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
+      "url": "/about/#similarity"
+    }
+  },
+  {
+    "name": "Club de Nuit Intense Man Extrait",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2025,
+    "concentration": "Extrait",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Pineapple",
+      "Lemon",
+      "Bergamot",
+      "Black currant",
+      "Apple"
+    ],
+    "heart": [
+      "Birch",
+      "Rose",
+      "Jasmine"
+    ],
+    "base": [
+      "Patchouli",
+      "Vanilla",
+      "Ambergris",
+      "Musk"
+    ],
+    "accords": [
+      "Fruity",
+      "Citrus",
+      "Woody",
+      "Leather",
+      "Patchouli",
+      "Smoky",
+      "Sweet",
+      "Vanilla",
+      "Balsamic",
+      "Aromatic"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intense Man Extrait",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Extrait Step Up",
+      "text": "The Extrait keeps the pineapple, birch and smoky patchouli of the line and adds a vanilla sweetness. Rated 4.38 out of 5 on Fragrantica across 770 votes."
+    }
+  },
+  {
+    "name": "Club de Nuit Intense Man Eau de Parfum",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lemon",
+      "Pineapple",
+      "Bergamot",
+      "Black currant",
+      "Apple"
+    ],
+    "heart": [
+      "Birch",
+      "Jasmine",
+      "Rose"
+    ],
+    "base": [
+      "Musk",
+      "Patchouli",
+      "Ambergris",
+      "Vanilla"
+    ],
+    "accords": [
+      "Citrus",
+      "Fruity",
+      "Woody",
+      "Patchouli",
+      "Musky",
+      "Leather",
+      "Smoky",
+      "Amber",
+      "Animalic",
+      "Sweet"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intense Man Eau de Parfum",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Plain EDP",
+      "text": "The Eau de Parfum listing of the Club de Nuit Intense Man profile. Rated 4.11 out of 5 on Fragrantica, but only 27 votes so far, so treat the score as early."
+    }
+  },
+  {
+    "name": "Club de Nuit Intense Man Perfume Oil",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2022,
+    "concentration": "Perfume Oil",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Pineapple",
+      "Bergamot",
+      "Lemon",
+      "Black currant",
+      "Apple"
+    ],
+    "heart": [
+      "Birch",
+      "Jasmine",
+      "Rose"
+    ],
+    "base": [
+      "Ambergris",
+      "Musk",
+      "Vanilla",
+      "Patchouli"
+    ],
+    "accords": [
+      "Amber",
+      "Citrus",
+      "Fruity",
+      "Sweet",
+      "Animalic",
+      "Tropical",
+      "Fresh",
+      "Aromatic",
+      "Musky",
+      "Leather"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intense Man Perfume Oil",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Oil Version",
+      "text": "The Club de Nuit Intense Man scent as a perfume oil, so it wears closer to the skin than the spray. Rated 4.05 out of 5 on Fragrantica across 57 votes."
+    }
+  },
+  {
+    "name": "Club de Nuit Intense Man Extreme Edition",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Lemon",
+      "Black currant",
+      "Pineapple",
+      "Apple"
+    ],
+    "heart": [
+      "Birch",
+      "Jasmine",
+      "Rose"
+    ],
+    "base": [
+      "Patchouli",
+      "Musk",
+      "Ambergris",
+      "Vanilla"
+    ],
+    "accords": [
+      "Fruity",
+      "Citrus",
+      "Woody",
+      "Patchouli",
+      "Leather",
+      "Fresh",
+      "Musky",
+      "Smoky",
+      "Sweet",
+      "White floral"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intense Man Extreme Edition",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Divisive One",
+      "text": "Same note list as the Club de Nuit Intense Man family. Fragrantica voters are split on this one: 3.16 out of 5 across 69 votes, with many more “hate” than “like” votes. Smell it before you buy."
+    }
+  },
+  {
+    "name": "Club de Nuit Intense Man Limited Edition Parfum 2024",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2024,
+    "concentration": "Parfum",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lemon",
+      "Pineapple",
+      "Bergamot",
+      "Lime",
+      "Black pepper",
+      "Pink pepper"
+    ],
+    "heart": [
+      "Jasmine",
+      "Rose",
+      "Lily-of-the-valley",
+      "Freesia"
+    ],
+    "base": [
+      "White musk",
+      "Leather",
+      "Ambroxan",
+      "Cedar",
+      "Patchouli",
+      "Ambergris"
+    ],
+    "accords": [
+      "Citrus",
+      "Musky",
+      "Sweet",
+      "Fruity",
+      "Fresh spicy",
+      "Amber",
+      "Woody",
+      "Aromatic",
+      "Leather",
+      "Animalic"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intense Man Limited Edition Parfum 2024",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The 2024 Edition",
+      "text": "The 2024 Limited Edition Parfum uses the same lemon, pineapple and pepper opening as the 2021 version, over ambroxan, musk and leather. Rated 4.27 out of 5 on Fragrantica across 409 votes."
+    }
+  },
+  {
+    "name": "Club de Nuit Intense Overdose",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Pineapple",
+      "Bergamot",
+      "Tangerine",
+      "Blue crystal"
+    ],
+    "heart": [
+      "Oakmoss",
+      "Vanilla flower",
+      "Plum"
+    ],
+    "base": [
+      "Patchouli",
+      "Amber",
+      "Tonka bean",
+      "White powder"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Citrus",
+      "Earthy",
+      "Mossy",
+      "Vanilla",
+      "Woody",
+      "Patchouli",
+      "Amber",
+      "Tropical"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intense Overdose",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Dark Flanker",
+      "text": "Armaf describes it as a darker, richer take on Club de Nuit Intense, launched July 2026, with pineapple over oakmoss, plum, amber and tonka. Rated 4.27 out of 5 on Fragrantica across 457 votes."
+    }
+  },
+  {
+    "name": "Club de Nuit Intenso Fuego",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2026,
+    "concentration": "EDP",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Mandarin",
+      "Grapefruit flare",
+      "Charred pineapple",
+      "Black currant",
+      "Terebinth tree",
+      "Bergamot",
+      "Pink pepper",
+      "Plum"
+    ],
+    "heart": [
+      "Solar flowers",
+      "Lavender",
+      "Geranium"
+    ],
+    "base": [
+      "Cedar",
+      "Vanilla",
+      "White musk",
+      "Ambrettolide",
+      "Tonka bean",
+      "Patchouli",
+      "Honey"
+    ],
+    "accords": [
+      "Citrus",
+      "Fruity",
+      "Aromatic",
+      "Fresh spicy",
+      "Woody",
+      "Musky",
+      "Sweet",
+      "Soft spicy",
+      "Vanilla",
+      "Lavender"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Intenso Fuego",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Fire Flanker",
+      "text": "A 2026 release with charred pineapple and citrus over lavender, vanilla, tonka and honey. Rated 4.41 out of 5 on Fragrantica, but only 87 votes so far, so it is early."
+    }
   }
 ]
