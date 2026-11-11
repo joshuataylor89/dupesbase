@@ -346,3 +346,10 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .ctabs-k{display:block;font-size:.78rem;color:#8e95b8;margin:0 0 6px}
 .ctabs-row{display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
 .ctabs-row a{flex:0 0 auto;white-space:nowrap}
+
+/* tile header: image sits beside the title, never over the list */
+.tile-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;min-height:88px}
+.tile-hd{display:flex;flex-direction:column;gap:6px;min-width:0}
+.tile .tile-img{position:static;flex:0 0 64px;width:64px;height:84px}
+.tile .tile-k,.tile .tile-t{padding-right:0}
+.tile-l li{padding-top:8px}
