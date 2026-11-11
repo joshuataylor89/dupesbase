@@ -9,30 +9,41 @@
     "size": "",
     "tier": "$150 and up",
     "top": [
-      "Lemon",
-      "Pink pepper",
-      "Apple",
       "Bergamot",
-      "Blackcurrant"
+      "Black currant",
+      "Apple",
+      "Lemon",
+      "Pink pepper"
     ],
     "heart": [
       "Pineapple",
-      "Moroccan jasmine",
-      "Patchouli"
+      "Patchouli",
+      "Moroccan jasmine"
     ],
     "base": [
       "Birch",
-      "Ambroxan",
-      "Cedarwood",
+      "Musk",
       "Oakmoss",
-      "Musk"
+      "Cedarwood",
+      "Ambroxan"
     ],
-    "accords": [],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Woody",
+      "Leather",
+      "Citrus",
+      "Smoky",
+      "Musky",
+      "Fresh",
+      "Tropical",
+      "Mossy"
+    ],
     "season": [],
-    "notesNote": "Published sources disagree on the exact layers. This list follows the Creed Boutique notes as reported by Scento.",
+    "notesNote": "Fragrantica also lists a second note version for Aventus, so published lists differ between sources.",
     "source": {
-      "name": "Scento: Creed Aventus notes breakdown",
-      "url": "https://www.scento.com/blog/what-does-creed-aventus-smell-like-notes-breakdown"
+      "name": "Fragrantica: Creed Aventus",
+      "url": "https://www.fragrantica.com/perfume/Creed/Aventus-9828.html"
     }
   },
   {
@@ -524,15 +535,38 @@
     "name": "Explorer Eau de Parfum",
     "brand": "Montblanc",
     "role": "alternative",
-    "year": 0,
+    "year": 2019,
     "concentration": "EDP",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bergamot",
+      "Pink pepper",
+      "Clary sage"
+    ],
+    "heart": [
+      "Haitian vetiver",
+      "Leather"
+    ],
+    "base": [
+      "Ambroxan",
+      "Akigalawood",
+      "Indonesian patchouli leaf",
+      "Cacao pod"
+    ],
+    "accords": [
+      "Woody",
+      "Citrus",
+      "Aromatic",
+      "Amber",
+      "Musky",
+      "Fresh spicy",
+      "Soft spicy",
+      "Oud",
+      "Warm spicy",
+      "Earthy"
+    ],
     "season": [],
     "similarTo": "Aventus",
     "reported": 85,
@@ -540,10 +574,9 @@
       "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
       "url": "/about/#similarity"
     },
-    "notesNote": "Published notes have not been added yet.",
     "source": {
-      "name": "Brand page: Montblanc",
-      "url": "https://www.montblanc.com/en-us/fragrances/collection/explorer"
+      "name": "Fragrantica: Montblanc Explorer",
+      "url": "https://www.fragrantica.com/perfume/Montblanc/Explorer-52002.html"
     }
   },
   {

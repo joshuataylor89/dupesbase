@@ -372,7 +372,7 @@ const entryCard = (p, i) => `<article class="entry${i === 0 ? ' lead-entry' : ''
 const topClones = (o) => (o.pairs || []).slice(0, 3);
 const tile = (o) => {
   const ps = topClones(o);
-  const gs = o.gender === 'Unisex' ? 'Men Women' : o.gender;
+  const gs = o.gender || 'Unisex';
   const hay = [o.full, ...(o.aliases || []), ...(o.pairs || []).flatMap((q) => [BY[q.with].full, ...(BY[q.with].aliases || [])])].join(' ').toLowerCase();
   return `<a class="tile" data-g="${esc(gs)}" data-s="${esc(hay)}" href="/compare/${pairSlug(o, BY[o.pairs[0].with])}/" aria-label="Clones of ${esc(o.full)}"><span class="tile-k">Clones of</span><b class="tile-t">${esc(o.full)}</b><ol class="tile-l">${ps.map((q) => `<li><span class="tile-n">${esc(BY[q.with].full)}</span><span class="tile-p${q.rep == null ? ' nt' : ''}">${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}${q.rep == null && q.main != null ? '<small>notes</small>' : ''}</span></li>`).join('')}</ol><span class="tile-go">See all ${o.pairs.length} ${o.pairs.length === 1 ? 'clone' : 'clones'} →</span></a>`;
 };
@@ -381,15 +381,15 @@ const homeBody = `<section class="hero hero-modern hero-slim">
 <h1>Find the dupe. Skip the markup.</h1>
 <form class="hero-search" id="tq-form" action="/" method="get" role="search"><input type="search" id="tq" name="q" placeholder="Search an original or a clone, e.g. Aventus or Khamrah" aria-label="Search the database" autocomplete="off"><button class="btn" type="submit">Search</button></form>
 </section>
-<div class="gtabs" role="tablist" aria-label="Show originals for"><button type="button" role="tab" class="on" aria-selected="true" data-g="Men">Men</button><button type="button" role="tab" aria-selected="false" data-g="Women">Women</button></div>
+<div class="gtabs" role="tablist" aria-label="Show originals for"><button type="button" role="tab" class="on" aria-selected="true" data-g="Men">Men</button><button type="button" role="tab" aria-selected="false" data-g="Women">Women</button><button type="button" role="tab" aria-selected="false" data-g="Unisex">Unisex</button></div>
 <div class="tiles" id="tiles">${tileList.map(tile).join('')}</div>
 <p class="hh-note tiles-more" id="tiles-empty" hidden></p>
-<p class="hh-note">Percentages marked ~ are reported similarity figures supplied to us, not our own testing. Where none is available we show a rough overlap of published notes, marked "notes", which does not measure how alike two fragrances smell. Unisex originals appear under both tabs. Want to filter by notes, price tier or house? Use the <a href="/database/">advanced filters</a>.</p>
+<p class="hh-note">Percentages marked ~ are reported similarity figures supplied to us, not our own testing. Where none is available we show a rough overlap of published notes, marked "notes", which does not measure how alike two fragrances smell. Want to filter by notes, price tier or house? Use the <a href="/database/">advanced filters</a>.</p>
 <p class="tiles-btn"><button type="button" class="btn" id="tiles-more" hidden>Show more</button></p>
 <script>(function(){var g='Men',lim=24,tabs=document.querySelectorAll('.gtabs button'),ts=document.querySelectorAll('#tiles .tile'),q=document.getElementById('tq'),em=document.getElementById('tiles-empty'),mb=document.getElementById('tiles-more');
 function run(){var v=q.value.trim().toLowerCase(),w=v?v.split(/\\s+/):[],n=0,shown=0;Array.prototype.forEach.call(ts,function(t){var s=t.getAttribute('data-s'),ok=w.length?w.every(function(x){return s.indexOf(x)>-1}):(' '+t.getAttribute('data-g')+' ').indexOf(' '+g+' ')>-1;if(ok)n++;var vis=ok&&shown<lim;if(vis)shown++;t.hidden=!vis;});
 mb.hidden=n<=shown;mb.textContent='Show more ('+(n-shown)+' left)';
-em.hidden=n>0;em.textContent=n?'':(w.length?'No match yet. Try the advanced filters, or send us the pair with the Suggest a dupe link below.':'More '+g.toLowerCase()+"'s originals are being added.");}
+em.hidden=n>0;em.textContent=n?'':(w.length?'No match yet. Try the advanced filters, or send us the pair with the Suggest a dupe link below.':'More originals are being added.');}
 Array.prototype.forEach.call(tabs,function(b){b.addEventListener('click',function(){g=b.getAttribute('data-g');lim=24;Array.prototype.forEach.call(tabs,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});run();});});
 mb.addEventListener('click',function(){lim+=24;run();});
 q.addEventListener('input',function(){lim=24;run();});document.getElementById('tq-form').addEventListener('submit',function(e){e.preventDefault();run();});
