@@ -166,6 +166,8 @@ function page({ title, desc, url, body, type = 'website', datePublished, wide = 
     const faqs = [...String(body).matchAll(/<details><summary>([\s\S]*?)<\/summary><p>([\s\S]*?)<\/p><\/details>/g)].map((m) => ({ '@type': 'Question', name: m[1].replace(/<[^>]+>/g, ''), acceptedAnswer: { '@type': 'Answer', text: m[2].replace(/<[^>]+>/g, '') } }));
     if (faqs.length) graph.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs });
   }
+  if (url === '/about/') graph.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: aboutFaq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) });
+  if (url === '/') graph.push({ '@context': 'https://schema.org', '@type': 'Organization', name: cfg.siteName, url: cfg.domain + '/', logo: cfg.domain + '/apple-touch-icon.png' });
   if (url === '/') graph.push({ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.siteName, url: cfg.domain + '/', potentialAction: { '@type': 'SearchAction', target: `${cfg.domain}/database/?q={search_term_string}`, 'query-input': 'required name=search_term_string' } });
   if (crumbs) graph.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map(([n, u], k) => ({ '@type': 'ListItem', position: k + 1, name: n, item: cfg.domain + u })) });
   if (product) graph.push({ '@context': 'https://schema.org', '@type': 'Product', ...product, url: full });
@@ -178,6 +180,7 @@ function page({ title, desc, url, body, type = 'website', datePublished, wide = 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#0d0f1f">
+${cfg.googleVerification ? `<meta name="google-site-verification" content="${esc(cfg.googleVerification)}">` : ''}
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${full}">
