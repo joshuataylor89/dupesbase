@@ -3186,17 +3186,55 @@
     "name": "Club De Nuit Blue Iconic",
     "brand": "Armaf",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Lemon",
+      "Mint",
+      "Pink pepper",
+      "Coriander"
+    ],
+    "heart": [
+      "Ginger",
+      "Melon",
+      "Jasmine",
+      "Nutmeg"
+    ],
+    "base": [
+      "Woody notes",
+      "Incense",
+      "Sandalwood",
+      "Amber",
+      "Cedar",
+      "Patchouli",
+      "Labdanum"
+    ],
+    "accords": [
+      "Citrus",
+      "Woody",
+      "Fresh spicy",
+      "Amber",
+      "Aromatic",
+      "Fresh",
+      "Warm spicy",
+      "Balsamic",
+      "Smoky",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Club de Nuit Blue Iconic",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Office Blue",
+      "text": "Want Bleu de Chanel EDP vibes without the $173 price tag? Blue Iconic opens with grapefruit, lemon and mint over incense and cedar, and Fragrantica members rate it 4.2 out of 5 for about $40. An easy pick for the office and the weekend."
+    }
   },
   {
     "name": "Andromeda",
