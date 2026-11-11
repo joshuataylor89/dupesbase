@@ -507,13 +507,21 @@ vsPost("Angels' Share", 'Khamrah', {
 });
 
 // ---------- Static pages ----------
+const aboutFaq = [
+  ['What is a fragrance clone, and how is it different from a fake perfume?', 'A fragrance clone, also called a perfume dupe or cologne alternative, is a fragrance made and sold under its own name by a real perfume house, inspired by the scent profile of a popular designer or niche original. A fake perfume copies the original brand’s name and packaging. Clones are sold openly by retailers worldwide.'],
+  ['How does the database work?', 'Dupes Base is a searchable database that connects expensive designer and niche fragrances with the closest affordable alternatives people compare them to. Type the name of the original and it shows the matched fragrance clones, a similarity rating, the price on our site, and how much you save versus the original.'],
+  ['What does the similarity percentage mean?', 'Each pairing shows a percentage. Figures marked with a ~ are reported similarity figures supplied to us, not our own measurements. As a rough guide, 90% and above is described as very close to the original, and 95% to 99% as nearly identical in overall scent character. Where no reported figure exists we show a notes overlap, marked “notes”.'],
+  ['Are fragrance clones good quality?', 'Many of the clones listed come from well-known clone houses such as Armaf, Lattafa, Al Haramain and Maison Alhambra, and people often praise their longevity and projection. We have not tested these fragrances ourselves, and fragrances smell different on different people.']
+];
 const aboutBody = `<article><h1>About ${esc(cfg.siteName)}</h1>
-<p class="lead">${esc(cfg.siteName)} is a searchable database of fragrance dupes: pricier designer and niche originals next to the alternatives people commonly compare them to.</p>
-<p>We list published notes, release years, concentrations and price tiers, and we show a rough notes-overlap score so you can compare two fragrances quickly. We have not smelled or tested these fragrances ourselves, and we say where each note list comes from. Our buttons go to Amazon, so please confirm the seller, size and price on the listing before you buy.</p>
+<p class="lead">${esc(cfg.siteName)} is a searchable fragrance dupe database. Find the best perfume dupes, cologne clones and cheaper alternatives to expensive designer and niche scents.</p>
+<h2>How to find the best perfume dupes</h2>
+<p>Search the database for the original you love and compare it with affordable fragrance clones. Perfume dupes let you get a similar scent profile without overspending, and a database like this makes the discovery quick.</p>
+<p>We list published notes, release years, concentrations and prices. We have not smelled or tested these fragrances, and we say where each note list comes from. Our buttons go to Amazon, so please confirm the seller, size and price on the listing before you buy.</p>
+${aboutFaq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('\n')}
 <p>The site is supported by Amazon affiliate commissions. See our <a href="/affiliate-disclosure/">affiliate disclosure</a>. Know a dupe we should add, or spotted a mistake? Email <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>.</p>
 <p><a class="btn" href="mailto:${esc(cfg.contactEmail)}?subject=Suggest%20a%20dupe">Suggest a dupe</a> <a class="btn btn2" href="mailto:${esc(cfg.contactEmail)}?subject=Report%20an%20issue">Report an issue</a></p>
-<h2 id="similarity">About the similarity percentages</h2>
-<p>Percentages marked with a ~ are reported similarity figures that were supplied to us. They are not our own measurements, and we have not tested these fragrances. Where no reported figure exists, we show a rough overlap of the published note lists, marked "notes". That overlap does not measure how alike two fragrances smell, because the amounts of each note and the base materials matter a lot. Fragrances also smell different on different people.</p>
+<span id="similarity"></span>
 ${disclosureBox}</article>`;
 const disclosureBody = `<article><h1>Affiliate Disclosure</h1>
 <p><b>${DISCLOSURE}</b></p>
@@ -585,7 +593,7 @@ const photoStrip = (p) => { const fr = postPhotos(p).slice(0, 10); return fr.len
 for (const p of posts) { const ps = photoStrip(p); if (ps) p.body = p.body.replace(/(<p class="meta">[^<]*<\/p>)/, `$1\n${ps}`); }
 for (const p of posts) write(p.slug, page({ title: `${p.title} | ${cfg.siteName}`, desc: p.desc, url: `/${p.slug}/`, body: p.body, type: 'article', datePublished: published, crumbs: [['Home', '/'], ['Latest', '/guides/'], [p.title, `/${p.slug}/`]] }));
 write('guides', page({ title: `Latest Fragrance Dupe News and Guides | ${cfg.siteName}`, desc: 'The latest fragrance dupe news and guides: popular pairs, budget picks, winter scents and side-by-side comparisons.', url: '/guides/', body: `<section class="hero"><span class="pill">LATEST</span><h1>Latest fragrance dupe news</h1><p>New dupe picks, season guides, budget lists and side-by-side comparisons.</p></section><div class="cards">${ordered.map((p) => `<a class="postcard" href="/${p.slug}/">${(p.photoFr || []).filter((f) => f.img || f.imageUrl).slice(0, 3).map((f) => `<span class="pc-img">${pic(f)}</span>`).join('') ? `<span class="pc-photos">${(p.photoFr || []).filter((f) => f.img || f.imageUrl).slice(0, 3).map((f) => `<span class="pc-img">${pic(f)}</span>`).join('')}</span>` : ''}<span class="pill">${esc(p.kicker)}</span><h2>${esc(p.title)}</h2><p>${esc(p.blurb)}</p></a>`).join('\n')}</div>${disclosureBox}` }));
-write('about', page({ title: `About | ${cfg.siteName}`, desc: 'About Dupes Base, a searchable fragrance dupes database.', url: '/about/', body: aboutBody }));
+write('about', page({ title: `About | ${cfg.siteName}`, desc: 'Dupes Base is a searchable fragrance dupe database. Find perfume dupes, cologne clones and cheaper alternatives to designer and niche fragrances.', url: '/about/', body: aboutBody }));
 write('affiliate-disclosure', page({ title: `Affiliate Disclosure | ${cfg.siteName}`, desc: 'Amazon Associates affiliate disclosure.', url: '/affiliate-disclosure/', body: disclosureBody }));
 write('privacy', page({ title: `Privacy Policy | ${cfg.siteName}`, desc: 'Privacy policy for Dupes Base.', url: '/privacy/', body: privacyBody }));
 
