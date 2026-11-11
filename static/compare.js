@@ -88,14 +88,13 @@
     $('#cmp-h1').textContent = a.full + ' vs. ' + b.full + ' Comparison';
     document.title = a.full + ' vs ' + b.full + ': Notes Comparison | Dupes Base';
     var ov = overlap(a, b);
-    var sc = score(a, b), ca = sc > 0 ? 'win' : sc < 0 ? 'lose' : 'tie', cb = sc > 0 ? 'lose' : sc < 0 ? 'win' : 'tie';
+    var sc = score(a, b), ca = '', cb = '';
     var head = function (d, c, x) { return '<h2 class="cmp-ttl ' + c + '">' + nameHtml(d) + (x ? '<button type="button" class="cmp-x" data-clear="b" aria-label="Remove ' + esc(d.full) + '">×</button>' : '') + '</h2>'; };
-    var pc = cmp(ROWS[5], a, b);
-    var info = function (d, ind) { return '<div class="cmp-info"><div class="cmp-img">' + icon(d) + '</div><dl class="hh-kv"><div><dt>Type</dt><dd>' + esc(roleLabel(d)) + '</dd></div>' + (d.year ? '<div><dt>Released</dt><dd>' + d.year + '</dd></div>' : '') + (d.conc ? '<div><dt>Concentration</dt><dd>' + esc(d.conc) + '</dd></div>' : '') + (d.gender ? '<div><dt>Gender</dt><dd>' + esc(d.gender) + '</dd></div>' : '') + '<div><dt>Price tier</dt><dd><b class="hh-price">' + esc(d.tier) + '</b> ' + ind + '</dd></div></dl></div>'; };
+    var pc = ['', ''];
+    var info = function (d, ind) { return '<div class="cmp-info"><div class="cmp-img">' + icon(d) + '</div><dl class="hh-kv"><div><dt>Type</dt><dd>' + esc(roleLabel(d)) + '</dd></div>' + (d.year ? '<div><dt>Released</dt><dd>' + d.year + '</dd></div>' : '') + (d.conc ? '<div><dt>Concentration</dt><dd>' + esc(d.conc) + '</dd></div>' : '') + (d.gender ? '<div><dt>Gender</dt><dd>' + esc(d.gender) + '</dd></div>' : '') + '<div><dt>Price tier</dt><dd><b>' + esc(d.tier) + '</b>' + ind + '</dd></div></dl></div>'; };
     var rp0 = pairFor(a, b), hasN = a.nk.length && b.nk.length;
     var h = '<div class="cmp-pair">' + head(a, ca) + head(b, cb, 1) + '</div>';
     h += '<div class="cmp-pair">' + info(a, pc[0]) + info(b, pc[1]) + '</div>';
-    h += '<div class="cmp-legend"><span>' + UP + ' Ranks higher in this category.</span><span>' + DN + ' Ranks lower in this category</span><span>' + EQ + ' Equal, or not ranked</span></div>';
     var panels = rp0 && rp0.rep != null ? '<section class="cmp-panel"><h2>Reported similarity</h2><p class="cmp-pct"><b>~' + rp0.rep + '%</b> reported similarity</p></section>' : '';
     if (hasN) panels += '<section class="cmp-panel"><h2>Notes in Common</h2><div class="cmp-common"><p class="cmp-pct"><b>' + ov.pct + '%</b> published notes overlap</p><div class="hh-tags">' + (ov.common.length ? ov.common.map(function (n) { return '<span class="hh-tag on">' + esc(cap(n)) + '</span>'; }).join('') : '<span class="meta">No shared notes in the published lists.</span>') + '</div><p class="cmp-note">A rough comparison of two published note lists. It does not measure how alike the two smell, and we have not tested either.</p></div></section>';
     h += panels;
@@ -104,7 +103,7 @@
       if (r[0] === 'Overview') return;
       var va = r[2](a), vb = r[2](b); if (!good(va) && !good(vb)) return;
       if (r[0] !== cur) { cur = r[0]; h += '<h3 class="cmp-sec">' + esc(cur) + '</h3>'; }
-      var c = cmp(r, a, b);
+      var c = ['', ''];
       var cell = function (v, i) { return '<div class="cmp-cell">' + (i ? '<span class="cmp-ind">' + i + '</span>' : '') + '<span class="cmp-l">' + esc(r[1]) + '</span><span class="cmp-v">' + (good(v) ? esc(v) : 'Not listed') + '</span></div>'; };
       h += '<div class="cmp-pair cmp-rowp">' + cell(va, c[0]) + cell(vb, c[1]) + '</div>';
     });
