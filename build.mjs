@@ -370,24 +370,39 @@ const privacyBody = `<article><h1>Privacy Policy</h1>
 const ordered = [...posts].reverse();
 const entryCard = (p, i) => `<article class="entry${i === 0 ? ' lead-entry' : ''}"><a class="entry-img ph" href="/${p.slug}/" aria-label="${esc(p.title)}">${p.hero ? pic(p.hero) : bottle(p.hero)}</a><div class="entry-body"><span class="pill">${esc(p.kicker)}</span><h2><a href="/${p.slug}/">${esc(p.title)}</a></h2><p>${esc(p.blurb)}</p><a class="more" href="/${p.slug}/">Read the guide →</a></div></article>`;
 const topClones = (o) => (o.pairs || []).slice(0, 3);
+const featuredCfg = fs.existsSync(path.join(root, 'data', 'featured.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'data', 'featured.json'), 'utf8')) : {};
+const featIdx = new Map(); // slug -> { Men: 0, ... } position in each tab's pinned list
+for (const [g, names] of Object.entries(featuredCfg)) {
+  let n = 0;
+  for (const nm of names) {
+    const f = byFull[nm];
+    if (!f || !(f.pairs || []).length) { console.warn(`featured.json (${g}): "${nm}" is not in the database yet, skipped`); continue; }
+    if (!featIdx.has(f.slug)) featIdx.set(f.slug, {});
+    featIdx.get(f.slug)[g] = n++;
+  }
+}
 const tile = (o) => {
   const ps = topClones(o);
-  const gs = o.gender || 'Unisex';
+  const fi = featIdx.get(o.slug) || {};
+  const gs = [o.gender || 'Unisex', ...Object.keys(fi).filter((g) => g !== o.gender)].join(' ');
   const hay = [o.full, ...(o.aliases || []), ...(o.pairs || []).flatMap((q) => [BY[q.with].full, ...(BY[q.with].aliases || [])])].join(' ').toLowerCase();
-  return `<a class="tile" data-g="${esc(gs)}" data-s="${esc(hay)}" href="/compare/${pairSlug(o, BY[o.pairs[0].with])}/" aria-label="Clones of ${esc(o.full)}"><span class="tile-img">${pic(o, 'loading="lazy" decoding="async"')}</span><span class="tile-k">Clones of</span><b class="tile-t">${esc(o.full)}</b><ol class="tile-l">${ps.map((q) => `<li><span class="tile-n">${esc(BY[q.with].full)}</span><span class="tile-p${q.rep == null ? ' nt' : ''}">${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}${q.rep == null && q.main != null ? '<small>notes</small>' : ''}</span></li>`).join('')}</ol><span class="tile-go">See all ${o.pairs.length} ${o.pairs.length === 1 ? 'clone' : 'clones'} →</span></a>`;
+  return `<a class="tile" data-g="${esc(gs)}" data-f='${JSON.stringify(fi)}' data-s="${esc(hay)}" href="/compare/${pairSlug(o, BY[o.pairs[0].with])}/" aria-label="Clones of ${esc(o.full)}"><span class="tile-img">${pic(o, 'loading="lazy" decoding="async"')}</span><span class="tile-k">Clones of</span><b class="tile-t">${esc(o.full)}</b><ol class="tile-l">${ps.map((q) => `<li><span class="tile-n">${esc(BY[q.with].full)}</span><span class="tile-p${q.rep == null ? ' nt' : ''}">${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}${q.rep == null && q.main != null ? '<small>notes</small>' : ''}</span></li>`).join('')}</ol><span class="tile-go">See all ${o.pairs.length} ${o.pairs.length === 1 ? 'clone' : 'clones'} →</span></a>`;
 };
+const featRank = (f, g) => { const v = (featIdx.get(f.slug) || {})[g]; return v == null ? 9999 : v; };
 const tileList = F.filter((f) => f.role === 'original' && (f.pairs || []).length).sort((x, y) => (y.pairs[0].main ?? -1) - (x.pairs[0].main ?? -1));
+// pinned originals first, in the order given, for the tab they are pinned in (client re-sorts per tab using data-f)
 const homeBody = `<section class="hero hero-modern hero-slim">
 <h1>Find the dupe. Skip the markup.</h1>
 <form class="hero-search" id="tq-form" action="/" method="get" role="search"><input type="search" id="tq" name="q" placeholder="Search an original or a clone, e.g. Aventus or Khamrah" aria-label="Search the database" autocomplete="off"><button class="btn" type="submit">Search</button></form>
 </section>
 <div class="gtabs" role="tablist" aria-label="Show originals for"><button type="button" role="tab" class="on" aria-selected="true" data-g="Men">Men</button><button type="button" role="tab" aria-selected="false" data-g="Women">Women</button><button type="button" role="tab" aria-selected="false" data-g="Unisex">Unisex</button></div>
-<div class="tiles" id="tiles">${tileList.map(tile).join('')}</div>
+<div class="tiles" id="tiles">${tileList.map((o, i) => tile(o).replace('<a class="tile"', `<a class="tile" data-i="${i}"`)).join('')}</div>
 <p class="hh-note tiles-more" id="tiles-empty" hidden></p>
 <p class="hh-note">Percentages marked ~ are reported similarity figures supplied to us, not our own testing. Where none is available we show a rough overlap of published notes, marked "notes", which does not measure how alike two fragrances smell. Want to filter by notes, price tier or house? Use the <a href="/database/">advanced filters</a>.</p>
 <p class="tiles-btn"><button type="button" class="btn" id="tiles-more" hidden>Show more</button></p>
 <script>(function(){var g='Men',lim=24,tabs=document.querySelectorAll('.gtabs button'),ts=document.querySelectorAll('#tiles .tile'),q=document.getElementById('tq'),em=document.getElementById('tiles-empty'),mb=document.getElementById('tiles-more');
-function run(){var v=q.value.trim().toLowerCase(),w=v?v.split(/\\s+/):[],n=0,shown=0;Array.prototype.forEach.call(ts,function(t){var s=t.getAttribute('data-s'),ok=w.length?w.every(function(x){return s.indexOf(x)>-1}):(' '+t.getAttribute('data-g')+' ').indexOf(' '+g+' ')>-1;if(ok)n++;var vis=ok&&shown<lim;if(vis)shown++;t.hidden=!vis;});
+function ord(){var arr=Array.prototype.slice.call(ts),c=document.getElementById('tiles');arr.sort(function(a,b){var x=JSON.parse(a.getAttribute('data-f'))[g],y=JSON.parse(b.getAttribute('data-f'))[g];x=x==null?9999:x;y=y==null?9999:y;return x-y||a.getAttribute('data-i')-b.getAttribute('data-i');});arr.forEach(function(t){c.appendChild(t);});}
+function run(){ord();var v=q.value.trim().toLowerCase(),w=v?v.split(/\\s+/):[],n=0,shown=0;Array.prototype.forEach.call(document.querySelectorAll('#tiles .tile'),function(t){var s=t.getAttribute('data-s'),ok=w.length?w.every(function(x){return s.indexOf(x)>-1}):(' '+t.getAttribute('data-g')+' ').indexOf(' '+g+' ')>-1;if(ok)n++;var vis=ok&&shown<lim;if(vis)shown++;t.hidden=!vis;});
 mb.hidden=n<=shown;mb.textContent='Show more ('+(n-shown)+' left)';
 em.hidden=n>0;em.textContent=n?'':(w.length?'No match yet. Try the advanced filters, or send us the pair with the Suggest a dupe link below.':'More originals are being added.');}
 Array.prototype.forEach.call(tabs,function(b){b.addEventListener('click',function(){g=b.getAttribute('data-g');lim=24;Array.prototype.forEach.call(tabs,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});run();});});
