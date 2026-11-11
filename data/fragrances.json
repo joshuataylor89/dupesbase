@@ -8788,6 +8788,10 @@
     "source": {
       "name": "Fragrantica: Lattafa Khamrah Qahwa",
       "url": "https://www.fragrantica.com/designers/Lattafa-Perfumes.html"
+    },
+    "review": {
+      "title": "The Coffee Khamrah",
+      "text": "Khamrah with coffee added. Cinnamon, ginger and praline up top, then vanilla, tonka and a roasted coffee note. Fragrantica voters give it 4.32 out of 5 across 17,000+ votes, and the vast majority say winter. At about $32 it's an easy cold-weather buy, as long as you like sweet."
     }
   },
   {
@@ -8835,6 +8839,10 @@
     "source": {
       "name": "Fragrantica: Lattafa Musamam Black Intense",
       "url": "https://www.fragrantica.com/designers/Lattafa-Perfumes.html"
+    },
+    "review": {
+      "title": "The Dark Horse",
+      "text": "Lavender, nutmeg and sage open it, then cedar, maple and cocoa-style notes. It's more aromatic and less sugary than most Lattafa picks. Rated 4.28 out of 5 on Fragrantica with 1,700+ votes, and most say winter or spring. Around $42."
     }
   },
   {
@@ -8883,23 +8891,73 @@
     "source": {
       "name": "Fragrantica: Armaf Rugir",
       "url": "https://www.fragrantica.com/designers/Armaf.html"
+    },
+    "review": {
+      "title": "The Layton Lane",
+      "text": "Apple, lavender and bergamot over vanilla, cardamom and guaiac wood. It sits in the Parfums de Marly Layton lane at a fraction of the price. Rated 4.10 out of 5 on Fragrantica, but only 154 votes so far, so the sample is small. Around $38."
     }
   },
   {
     "name": "Terra",
     "brand": "Rayhaan",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cardamom",
+      "Elemi",
+      "Sichuan pepper",
+      "Bergamot",
+      "Lemon"
+    ],
+    "heart": [
+      "Patchouli",
+      "Cumin",
+      "Coriander",
+      "Anise",
+      "Saffron",
+      "Wormwood",
+      "Orange blossom",
+      "Geranium",
+      "Rose"
+    ],
+    "base": [
+      "Frankincense",
+      "Vanilla",
+      "Amber",
+      "Benzoin",
+      "Opoponax",
+      "Oud",
+      "Labdanum",
+      "Birch",
+      "Musk",
+      "Ambergris",
+      "Maltol"
+    ],
+    "accords": [
+      "Amber",
+      "Warm spicy",
+      "Aromatic",
+      "Fresh spicy",
+      "Balsamic",
+      "Vanilla",
+      "Citrus",
+      "Woody",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Rayhaan Terra",
+      "url": "https://www.fragrantica.com/designers/Rayhaan.html"
+    },
+    "review": {
+      "title": "The Spice Cabinet",
+      "text": "A big spice-and-resin scent: cardamom and Sichuan pepper, then incense, amber and vanilla. Fragrantica voters rate it 4.30 out of 5 across 2,300+ votes, and most call it great value. Reviews say it's not a blind buy: the opening is divisive. Around $32 vs several hundred for Outlands."
+    }
   },
   {
     "name": "Muharib",
@@ -8942,6 +9000,10 @@
     "source": {
       "name": "Fragrantica: Maison Asrar Muharib",
       "url": "https://www.fragrantica.com/designers/Maison-Asrar.html"
+    },
+    "review": {
+      "title": "The Honey Smoke",
+      "text": "Lavender and lemon open into honey, cinnamon and cashmere wood, then tobacco and tonka. Rated 4.44 out of 5 on Fragrantica, the highest of this group, though from only 367 votes. About $50 and a good fit for winter nights."
     }
   }
 ]
