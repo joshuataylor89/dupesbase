@@ -405,3 +405,9 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 
 .buy-m{display:none}
 @media(max-width:860px){.dv-side>.buy-top{display:none}.dv-side>.buy-m{display:block}.buy-m{margin-top:2px}.buy-m .buy{display:flex;width:100%}.buy-m .btn{width:100%}}
+/* centre the Reported similarity and Notes in Common blocks on comparison pages */
+.cmp-panel:has(.cmp-pct){text-align:center}
+.cmp-panel:has(.cmp-pct)>h2{text-align:center}
+.cmp-panel:has(.cmp-pct) .cmp-pct{text-align:center}
+.cmp-panel:has(.cmp-pct) .hh-tags{justify-content:center}
+.cmp-table td[colspan="2"],table td[colspan="2"]{text-align:center}
