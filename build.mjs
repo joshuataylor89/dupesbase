@@ -184,7 +184,7 @@ ${ld}
 </head>
 <body>
 <header class="site"><div class="wrap">
-  <a class="logo" href="/">DUPES<span>BASE</span></a>
+  <a class="logo" href="/" aria-label="${esc(cfg.siteName)} home"><img class="logo-ico" src="/favicon.svg" alt="" width="34" height="34"><span class="logo-t">DUPES<span>BASE</span></span></a>
   <nav aria-label="Main">${NAV.map(([h, t]) => `<a href="${h}"${(h === '/' ? url === '/' : url.startsWith(h)) ? ' class="active" aria-current="page"' : ''}>${t}</a>`).join('')}</nav>
 </div></header>
 <main class="wrap${wide ? ' wide' : ''}">

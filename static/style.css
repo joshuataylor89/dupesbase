@@ -353,3 +353,8 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .tile .tile-img{position:static;flex:0 0 64px;width:64px;height:84px}
 .tile .tile-k,.tile .tile-t{padding-right:0}
 .tile-l li{padding-top:8px}
+
+.logo{display:inline-flex;align-items:center;gap:10px}
+.logo-ico{width:34px;height:34px;border-radius:8px;flex:none}
+@media(max-width:640px){.logo{justify-content:center}.logo-ico{width:28px;height:28px}}
+.logo .logo-t{color:var(--text)}.logo .logo-t span{color:var(--accent)}
