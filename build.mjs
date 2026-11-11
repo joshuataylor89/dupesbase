@@ -510,6 +510,113 @@ vsPost("Angels' Share", 'Khamrah', {
   faq: [["Is Lattafa Khamrah a Kilian Angels' Share dupe?", "It is commonly compared to Angels' Share by reviewers and retailers. It is a different fragrance from Lattafa, and its notes list adds dates, nutmeg and tuberose."], ['Is Khamrah for men or women?', 'It is listed as unisex.'], ['Which is better for winter?', 'Both list warm, sweet accords that are usually described as fall and winter scents. We have not tested either.']]
 });
 
+// ---------- Scheduled 1v1 articles (original vs best clone) ----------
+{
+  const planPath = path.join(root, 'data', 'article-plan.json');
+  const PLAN = fs.existsSync(planPath) ? JSON.parse(fs.readFileSync(planPath, 'utf8')) : [];
+  const nowMs = process.env.BUILD_NOW ? Date.parse(process.env.BUILD_NOW) : Date.now();
+  const hash = (s) => [...s].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7);
+  const tc = (s) => s.replace(/\b[a-z]/g, (c) => c.toUpperCase());
+  const lc = (a) => a.map((x) => x.toLowerCase());
+  const list = (a) => (a.length <= 1 ? a.join('') : a.length === 2 ? a.join(' and ') : a.slice(0, -1).join(', ') + ', and ' + a[a.length - 1]);
+  const fmtDate = (ms) => new Date(ms).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' });
+  const noteSet = (f) => (f.flat.length ? f.flat : [...f.top, ...f.heart, ...f.base]);
+  const genderWord = (g) => (g === 'Men' ? "men's" : g === 'Women' ? "women's" : 'unisex');
+  const slugsTaken = new Set(posts.map((p) => p.slug));
+  const live = [];
+  for (const [idx, item] of PLAN.entries()) {
+    const at = Date.parse(item.at);
+    if (at > nowMs) continue;
+    const o = F.find((f) => f.full === item.o), a = F.find((f) => f.full === item.c);
+    if (!o || !a) throw new Error('article-plan: unknown ' + (o ? item.c : item.o));
+    const p = o.pairs.find((x) => x.with === a.slug);
+    if (!p) throw new Error('article-plan: no pair ' + item.o + ' / ' + item.c);
+    let slug = `${a.slug}-vs-${o.slug}`; if (slugsTaken.has(slug)) slug += '-dupe'; slugsTaken.add(slug);
+    const h = hash(slug);
+    const title = [`${a.full} vs ${o.full}: Is It a Good Dupe?`, `${o.full} Dupe: ${a.full} Compared`, `${a.full} vs ${o.full}: Notes, Price and Similarity`][h % 3];
+    const reported = p.rep != null;
+    const mt = p.main != null ? `${reported ? '~' : ''}${p.main}% ${p.lab}` : '';
+    const desc = (`${a.full} vs ${o.full}: ${mt ? mt + ', ' : ''}published notes, accords and price compared side by side with links.`).slice(0, 158);
+    const tier = p.main == null ? '' : p.main >= 95 ? 'one of the closest matches we list' : p.main >= 90 ? 'a very close match on paper' : p.main >= 85 ? 'a close match on paper' : 'a looser match on paper';
+    const gw = genderWord(o.gender);
+    const oA = new Set(lc(o.accords)), aA = new Set(lc(a.accords));
+    const sharedAcc = o.accords.filter((x) => aA.has(x.toLowerCase())), onlyO = o.accords.filter((x) => !aA.has(x.toLowerCase())), onlyA = a.accords.filter((x) => !oA.has(x.toLowerCase()));
+    const bothNotes = o.nk.length && a.nk.length;
+    const nOnlyO = noteSet(o).filter((n) => !a.nk.includes(norm(n))).slice(0, 6), nOnlyA = noteSet(a).filter((n) => !o.nk.includes(norm(n))).slice(0, 6);
+    const po = o.price && o.price.amount, pa = a.price && a.price.amount;
+    const save = po && pa && po > pa ? Math.round((1 - pa / po) * 100) : null;
+    const rows = [['Concentration', (f) => f.concentration || 'Not listed'], ['Gender', (f) => f.gender || 'Not listed'], ['Released', (f) => f.year || 'Not listed'], ['Approx. price tier', (f) => f.tier], ['Price on our site', (f) => (f.price ? `${priceTxt(f.price)} (${f.price.size})` : 'See Amazon listing')], ['Top notes', (f) => f.top.join(', ') || (f.flat.length ? 'See notes below' : 'Not added yet')], ['Heart notes', (f) => f.heart.join(', ') || '—'], ['Base notes', (f) => f.base.join(', ') || '—'], ['Main accords', (f) => f.accords.join(', ') || 'Not added yet']];
+    const intro = [
+      `${a.full} is one of the alternatives people most often compare with ${o.full}, the ${gw} fragrance from ${o.brand}.`,
+      `If you like ${o.full} but not the price, ${a.full} is a name that comes up a lot. This page lines the two up on the facts we hold.`,
+      `Is ${a.full} a real stand-in for ${o.full}? Here is what the published notes, accords and price data say, side by side.`,
+    ][h % 3];
+    const simLine = mt ? `The ${reported ? 'reported similarity figure supplied to us' : 'notes overlap we calculate from the two published lists'} is <b>${reported ? '~' : ''}${p.main}%</b>, which puts it at ${tier}. ${reported ? 'That figure is not our own measurement.' : `That compares two lists and is not a measure of how alike they smell.`}` : `We do not yet hold enough published notes to show a similarity figure for this pair.`;
+    const verdict = `<b>Short answer:</b> ${a.name} is the alternative to try if you want the ${o.name} style${save ? ` and want to spend roughly ${save}% less than the original's price on our site` : pa || po ? '' : ''}. ${mt ? `On paper it is ${tier}.` : ''} It is a different fragrance from a different brand, so expect similarities rather than a copy. We have not tested either one.`;
+    const noteBlock = bothNotes
+      ? `<p>Both fragrances have published notes in our database. They share <b>${p.common.length}</b> note${p.common.length === 1 ? '' : 's'}${p.common.length ? `: ${esc(list(p.common.map(tc)))}` : ''}.</p>
+<ul>${nOnlyO.length ? `<li><b>Listed for ${esc(o.name)} but not ${esc(a.name)}:</b> ${esc(list(nOnlyO))}.</li>` : ''}${nOnlyA.length ? `<li><b>Listed for ${esc(a.name)} but not ${esc(o.name)}:</b> ${esc(list(nOnlyA))}.</li>` : ''}</ul>
+<p>Different sources list notes differently, so a missing note does not always mean it is absent from the bottle.</p>`
+      : `<p>${o.nk.length ? '' : `We have not added published notes for ${esc(o.full)} yet. `}${a.nk.length ? '' : `We have not added published notes for ${esc(a.full)} yet. `}Until both lists are in our database we can only compare what is available. See the cards below for what we hold, and use <a href="/compare/${pairSlug(o, a)}/">the Compare tool</a> for the current side-by-side.</p>`;
+    const accBlock = o.accords.length && a.accords.length
+      ? `<p>Fragrantica-style main accords are listed for both. They share ${sharedAcc.length ? `<b>${esc(list(sharedAcc.map((x) => x.toLowerCase())))}</b>` : 'none of the top accords'}.${onlyO.length ? ` ${esc(o.name)} also lists ${esc(list(onlyO.slice(0, 4).map((x) => x.toLowerCase())))}.` : ''}${onlyA.length ? ` ${esc(a.name)} also lists ${esc(list(onlyA.slice(0, 4).map((x) => x.toLowerCase())))}.` : ''}</p>`
+      : `<p>Main accords are not yet listed for ${[!o.accords.length && o.full, !a.accords.length && a.full].filter(Boolean).map(esc).join(' or ')} in our database.</p>`;
+    const priceBlock = `<p>${esc(o.full)} sits in the <b>${esc(o.tier)}</b> tier and ${esc(a.full)} in the <b>${esc(a.tier)}</b> tier${po && pa ? `. On our site the prices are ${priceTxt(o.price)} (${esc(o.price.size)}) and ${priceTxt(a.price)} (${esc(a.price.size)})${save ? `, a difference of about ${save}%` : ''}` : ''}. Sizes and sellers vary, so check the live Amazon listing before you buy and compare the price per ml.</p>`;
+    const others = o.pairs.filter((x) => x.with !== a.slug).slice(0, 4).map((x) => BY[x.with]);
+    const origs = (a.origs || []).filter((x) => x.with !== o.slug).slice(0, 3).map((x) => BY[x.with]);
+    const choose = [
+      `<b>Choose ${esc(a.name)}</b> if you want the ${esc(o.name)} direction at a lower price${a.accords.length ? ` and like ${esc(list(a.accords.slice(0, 3).map((x) => x.toLowerCase())))} scents` : ''}.`,
+      `<b>Choose ${esc(o.name)}</b> if you want the original ${esc(o.brand)} fragrance itself, including its own character and bottle.`,
+      `<b>Either way,</b> sample first if you can. Fragrances smell different on different people, and batches vary.`,
+    ];
+    const faq = [
+      [`Is ${a.full} a dupe of ${o.full}?`, `It is commonly compared to ${esc(o.full)}, and we list it as an alternative${mt ? ` with a ${reported ? 'reported similarity of ~' : 'notes overlap of '}${p.main}%` : ''}. It is a different fragrance from ${esc(a.brand)}, not a copy, and we have not tested either one.`],
+      [`How close is ${a.name} to ${o.name}?`, mt ? `${reported ? 'A reported figure supplied to us puts it at about ' : 'The published notes overlap by '}${p.main}%. ${reported ? 'That is not our measurement.' : 'That compares two lists and does not measure how alike they smell.'}` : `We do not yet have enough published notes to give a figure.`],
+      [`Which is cheaper, ${a.name} or ${o.name}?`, po && pa ? `On our site ${esc(a.full)} is listed at ${priceTxt(a.price)} (${esc(a.price.size)}) and ${esc(o.full)} at ${priceTxt(o.price)} (${esc(o.price.size)}). Prices change, so check the live Amazon listing.` : `${esc(a.full)} is in the ${esc(a.tier)} tier and ${esc(o.full)} in the ${esc(o.tier)} tier. Prices change, so check the live Amazon listing.`],
+      [`Is ${a.name} for men or women?`, `${esc(a.full)} is listed as ${esc(a.gender || 'not specified')}. ${esc(o.full)} is listed as ${esc(o.gender || 'not specified')}.`],
+    ];
+    const body = `<article>
+<span class="pill">ORIGINAL VS CLONE</span>
+<h1>${esc(title)}</h1>
+<p class="meta">Published ${esc(fmtDate(at))} · Updated ${esc(fmtDate(Math.max(at, Date.parse(cfg.updated) || at)))}</p>
+<div class="vs-hero"><figure><a href="/fragrance/${o.slug}/">${pic(o, 'loading="eager"')}</a><figcaption>${esc(o.full)}<small>Original</small></figcaption></figure><span class="vs-x">vs</span><figure><a href="/fragrance/${a.slug}/">${pic(a, 'loading="eager"')}</a><figcaption>${esc(a.full)}<small>Alternative</small></figcaption></figure></div>
+<p class="lead">${intro} ${simLine}</p>
+<p>${verdict}</p>
+<h2>${esc(a.name)} vs ${esc(o.name)} at a glance</h2>
+<div class="tablewrap"><table>
+<tr><th></th><th>${esc(o.full)}</th><th>${esc(a.full)}</th></tr>
+${rows.map(([k, fn]) => `<tr><td>${esc(k)}</td><td>${esc(fn(o))}</td><td>${esc(fn(a))}</td></tr>`).join('\n')}
+<tr><td>${esc(p.lab.replace(/^./, (c) => c.toUpperCase()))}</td><td colspan="2">${mt ? esc(mt.replace(/^./, (c) => c)) : '—'}</td></tr>
+</table></div>
+<h2>Notes compared</h2>
+${noteBlock}
+<h2>Accords compared</h2>
+${accBlock}
+<h2>Price and value</h2>
+${priceBlock}
+<h2>Which should you choose?</h2>
+<ul>${choose.map((c) => `<li>${c}</li>`).join('')}</ul>
+${productCard(o)}
+${productCard(a)}
+<p>Want to line them up interactively? <a href="/compare/${pairSlug(o, a)}/">Open the Compare tool for this pair</a>.</p>
+${others.length ? `<h2>Other alternatives to ${esc(o.name)}</h2><ul>${others.map((x) => `<li><a href="/fragrance/${x.slug}/">${esc(x.full)}</a>${(() => { const q = o.pairs.find((y) => y.with === x.slug); return q && q.main != null ? ` · ${esc(mainTxt(q))}` : ''; })()} · <a href="/compare/${pairSlug(o, x)}/">compare</a></li>`).join('')}</ul>` : ''}
+${origs.length ? `<h2>Other originals ${esc(a.name)} is compared to</h2><ul>${origs.map((x) => `<li><a href="/fragrance/${x.slug}/">${esc(x.full)}</a> · <a href="/compare/${pairSlug(x, a)}/">compare</a></li>`).join('')}</ul>` : ''}
+<!--MORE-->
+${faqBlock(faq)}
+${sourcesFor([o, a])}
+${disclosureBox}
+</article>`;
+    posts.push({ slug, title, desc, body, blurb: `${a.full} next to ${o.full}: published notes, accords, price and ${mt || 'similarity'}.`, kicker: 'ORIGINAL VS CLONE', hero: a, at: item.at, noStrip: true, gender: o.gender });
+    live.push(posts[posts.length - 1]);
+  }
+  // cross-links to other live articles of the same audience
+  for (const p of live) {
+    const more = live.filter((q) => q !== p && q.gender === p.gender).slice(-4).reverse();
+    p.body = p.body.replace('<!--MORE-->', more.length ? `<h2>More ${genderWord(p.gender)} comparisons</h2><ul>${more.map((q) => `<li><a href="/${q.slug}/">${esc(q.title)}</a></li>`).join('')}</ul>` : '');
+  }
+  console.log(`Scheduled articles live: ${live.length} of ${PLAN.length}`);
+}
+
 // ---------- Static pages ----------
 const aboutFaq = [
   ['What is a fragrance clone, and how is it different from a fake perfume?', 'A fragrance clone, also called a perfume dupe or cologne alternative, is a fragrance made and sold under its own name by a real perfume house, inspired by the scent profile of a popular designer or niche original. A fake perfume copies the original brand’s name and packaging. Clones are sold openly by retailers worldwide.'],
@@ -594,8 +701,8 @@ const published = '2026-11-10';
 write('', page({ title: `${cfg.siteName}: Fragrance Dupes Database`, desc: 'A searchable database of fragrance dupes: designer and niche originals next to the alternatives people compare them to, with published notes and Amazon links.', url: '/', body: homeBody }));
 const postPhotos = (p) => { const seen = []; for (const m of p.body.matchAll(/\/fragrance\/([a-z0-9-]+)\//g)) { const f = BY[m[1]]; if (f && !seen.includes(f)) seen.push(f); } p.photoFr = seen; return seen; };
 const photoStrip = (p) => { const fr = postPhotos(p).slice(0, 10); return fr.length ? `<div class="post-photos" aria-label="Bottles featured in this post">${fr.map((f) => `<a class="pp" href="/fragrance/${f.slug}/" title="${esc(f.full)}">${pic(f)}<span>${esc(f.full)}</span></a>`).join('')}</div>` : ''; };
-for (const p of posts) { const ps = photoStrip(p); if (ps) p.body = p.body.replace(/(<p class="meta">[^<]*<\/p>)/, `$1\n${ps}`); }
-for (const p of posts) write(p.slug, page({ title: `${p.title} | ${cfg.siteName}`, desc: p.desc, url: `/${p.slug}/`, body: p.body, type: 'article', datePublished: published, crumbs: [['Home', '/'], ['Latest', '/guides/'], [p.title, `/${p.slug}/`]] }));
+for (const p of posts) { if (p.noStrip) continue; const ps = photoStrip(p); if (ps) p.body = p.body.replace(/(<p class="meta">[^<]*<\/p>)/, `$1\n${ps}`); }
+for (const p of posts) write(p.slug, page({ title: `${p.title} | ${cfg.siteName}`, desc: p.desc, url: `/${p.slug}/`, body: p.body, type: 'article', datePublished: p.at ? p.at.slice(0, 10) : published, crumbs: [['Home', '/'], ['Latest', '/guides/'], [p.title, `/${p.slug}/`]] }));
 write('guides', page({ title: `Latest Fragrance Dupe News and Guides | ${cfg.siteName}`, desc: 'The latest fragrance dupe news and guides: popular pairs, budget picks, winter scents and side-by-side comparisons.', url: '/guides/', body: `<section class="hero"><span class="pill">LATEST</span><h1>Latest fragrance dupe news</h1><p>New dupe picks, season guides, budget lists and side-by-side comparisons.</p></section><div class="cards">${ordered.map((p) => `<a class="postcard" href="/${p.slug}/">${(p.photoFr || []).filter((f) => f.img || f.imageUrl).slice(0, 3).map((f) => `<span class="pc-img">${pic(f)}</span>`).join('') ? `<span class="pc-photos">${(p.photoFr || []).filter((f) => f.img || f.imageUrl).slice(0, 3).map((f) => `<span class="pc-img">${pic(f)}</span>`).join('')}</span>` : ''}<span class="pill">${esc(p.kicker)}</span><h2>${esc(p.title)}</h2><p>${esc(p.blurb)}</p></a>`).join('\n')}</div>${disclosureBox}` }));
 write('about', page({ title: `About | ${cfg.siteName}`, desc: 'Dupes Base is a searchable fragrance dupe database. Find perfume dupes, cologne clones and cheaper alternatives to designer and niche fragrances.', url: '/about/', body: aboutBody }));
 write('affiliate-disclosure', page({ title: `Affiliate Disclosure | ${cfg.siteName}`, desc: 'Amazon Associates affiliate disclosure.', url: '/affiliate-disclosure/', body: disclosureBody }));
