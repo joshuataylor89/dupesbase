@@ -380,3 +380,16 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
 .take h2{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:0}
 .take-k{font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:#7c5cff;color:#fff;border-radius:999px;padding:3px 10px}
 .take-t{font-size:16px;line-height:1.55;margin:6px 0 0}
+
+/* Search button in the site pink */
+.hero-search .btn{background:var(--accent);color:#14040c}
+.hero-search .btn:hover,.hero-search .btn:focus-visible{filter:brightness(1.08)}
+/* Compare page: shop links sit under Reported similarity on phones */
+.cmp-shop{display:none}
+@media(max-width:720px){
+  .cmp-shop{display:block;margin:14px 0}
+  .cmp-shop>div{margin-bottom:14px}
+  .cmp-shop h3{font-size:15px;margin:0 0 8px;text-align:center;color:var(--text)}
+  .cmp-shop .buy{display:flex;width:100%}
+  .cmp-foot .buy{display:none}
+}

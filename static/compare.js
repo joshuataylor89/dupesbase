@@ -97,6 +97,7 @@
     var h = '<div class="cmp-pair">' + head(a, ca) + head(b, cb, 1) + '</div>';
     h += '<div class="cmp-pair">' + info(a, pc[0]) + info(b, pc[1]) + '</div>';
     var panels = rp0 && rp0.rep != null ? '<section class="cmp-panel"><h2>Reported similarity</h2><p class="cmp-pct"><b>~' + rp0.rep + '%</b> reported similarity</p></section>' : '';
+    panels += '<section class="cmp-shop"><div><h3>Shop ' + esc(a.full) + '</h3>' + btn(a) + '</div><div><h3>Shop ' + esc(b.full) + '</h3>' + btn(b) + '</div></section>';
     if (hasN) panels += '<section class="cmp-panel"><h2>Notes in Common</h2><div class="cmp-common"><p class="cmp-pct"><b>' + ov.pct + '%</b> published notes overlap</p><div class="hh-tags">' + (ov.common.length ? ov.common.map(function (n) { return '<span class="hh-tag on">' + esc(cap(n)) + '</span>'; }).join('') : '<span class="meta">No shared notes in the published lists.</span>') + '</div><p class="cmp-note">A rough comparison of two published note lists. It does not measure how alike the two smell, and we have not tested either.</p></div></section>';
     h += panels;
     var cur = '';
