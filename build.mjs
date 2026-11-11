@@ -157,7 +157,7 @@ ${ids.map((f) => { const p = pairOf(f); return `<tr><td><a href="#${f.slug}">${e
 }
 
 // ---------- Page shell ----------
-const NAV = [['/', 'Database'], ['/compare/', 'Compare'], ['/guides/', 'Guides'], ['/about/', 'About']];
+const NAV = [['/', 'Database'], ['/compare/', 'Compare'], ['/guides/', 'Latest'], ['/about/', 'About']];
 function page({ title, desc, url, body, type = 'website', datePublished, wide = false, scripts = '', crumbs = null, product = null, image = null }) {
   const full = cfg.domain + url;
   const graph = [];
@@ -356,6 +356,7 @@ ${disclosureBox}
     const cmp = p.db && p.origName ? C(p.origName, p.db) : '';
     const orig = p.origName && O(p.origName) ? L(p.origName, p.insp) : esc(p.insp);
     return `<section class="dv-panel" id="pick-${p.n}"><h2>${p.n}. ${esc(p.h)} <small>(${esc(p.tag)})</small></h2>
+<div class="pick-photos">${f ? pic(f) : ''}${O(p.origName) ? pic(O(p.origName)) : ''}</div>
 <p><b>Inspired by:</b> ${orig}</p>
 <p>${esc(p.text)}</p>
 <p><b>My score:</b> ${esc(p.score)} &nbsp;|&nbsp; <b>How long it lasts on me:</b> ${esc(p.last)}</p>
@@ -426,6 +427,7 @@ ${disclosureBox}
     const cmp = C(p.origName, p.db);
     const orig = O(p.origName) ? L(p.origName, p.insp) : esc(p.insp);
     return `<section class="dv-panel" id="pick-${p.n}"><h2>${p.n}. ${esc(p.h)} <small>(${esc(p.tag)})</small></h2>
+<div class="pick-photos">${f ? pic(f) : ''}${O(p.origName) ? pic(O(p.origName)) : ''}</div>
 <p><b>Inspired by:</b> ${orig}</p>
 <p>${esc(p.text)}</p>
 <p><b>Best for:</b> ${esc(p.when)} &nbsp;|&nbsp; <b>Lasts about:</b> ${p.hrs} hours</p>
@@ -578,8 +580,11 @@ const write = (rel, html) => { const dir = path.join(out, rel); fs.mkdirSync(dir
 const published = '2026-11-10';
 
 write('', page({ title: `${cfg.siteName}: Fragrance Dupes Database`, desc: 'A searchable database of fragrance dupes: designer and niche originals next to the alternatives people compare them to, with published notes and Amazon links.', url: '/', body: homeBody }));
-for (const p of posts) write(p.slug, page({ title: `${p.title} | ${cfg.siteName}`, desc: p.desc, url: `/${p.slug}/`, body: p.body, type: 'article', datePublished: published, crumbs: [['Home', '/'], ['Guides', '/guides/'], [p.title, `/${p.slug}/`]] }));
-write('guides', page({ title: `Fragrance Dupe Guides | ${cfg.siteName}`, desc: 'Guides to fragrance dupes: popular pairs, budget picks, winter scents and side-by-side comparisons.', url: '/guides/', body: `<section class="hero"><span class="pill">GUIDES</span><h1>Fragrance dupe guides</h1><p>Popular pairs, budget picks, season guides and side-by-side comparisons.</p></section><div class="cards">${ordered.map((p) => `<a class="postcard" href="/${p.slug}/"><span class="pill">${esc(p.kicker)}</span><h2>${esc(p.title)}</h2><p>${esc(p.blurb)}</p></a>`).join('\n')}</div>${disclosureBox}` }));
+const postPhotos = (p) => { const seen = []; for (const m of p.body.matchAll(/\/fragrance\/([a-z0-9-]+)\//g)) { const f = BY[m[1]]; if (f && !seen.includes(f)) seen.push(f); } p.photoFr = seen; return seen; };
+const photoStrip = (p) => { const fr = postPhotos(p).slice(0, 10); return fr.length ? `<div class="post-photos" aria-label="Bottles featured in this post">${fr.map((f) => `<a class="pp" href="/fragrance/${f.slug}/" title="${esc(f.full)}">${pic(f)}<span>${esc(f.full)}</span></a>`).join('')}</div>` : ''; };
+for (const p of posts) { const ps = photoStrip(p); if (ps) p.body = p.body.replace(/(<p class="meta">[^<]*<\/p>)/, `$1\n${ps}`); }
+for (const p of posts) write(p.slug, page({ title: `${p.title} | ${cfg.siteName}`, desc: p.desc, url: `/${p.slug}/`, body: p.body, type: 'article', datePublished: published, crumbs: [['Home', '/'], ['Latest', '/guides/'], [p.title, `/${p.slug}/`]] }));
+write('guides', page({ title: `Latest Fragrance Dupe News and Guides | ${cfg.siteName}`, desc: 'The latest fragrance dupe news and guides: popular pairs, budget picks, winter scents and side-by-side comparisons.', url: '/guides/', body: `<section class="hero"><span class="pill">LATEST</span><h1>Latest fragrance dupe news</h1><p>New dupe picks, season guides, budget lists and side-by-side comparisons.</p></section><div class="cards">${ordered.map((p) => `<a class="postcard" href="/${p.slug}/">${(p.photoFr || []).filter((f) => f.img || f.imageUrl).slice(0, 3).map((f) => `<span class="pc-img">${pic(f)}</span>`).join('') ? `<span class="pc-photos">${(p.photoFr || []).filter((f) => f.img || f.imageUrl).slice(0, 3).map((f) => `<span class="pc-img">${pic(f)}</span>`).join('')}</span>` : ''}<span class="pill">${esc(p.kicker)}</span><h2>${esc(p.title)}</h2><p>${esc(p.blurb)}</p></a>`).join('\n')}</div>${disclosureBox}` }));
 write('about', page({ title: `About | ${cfg.siteName}`, desc: 'About Dupes Base, a searchable fragrance dupes database.', url: '/about/', body: aboutBody }));
 write('affiliate-disclosure', page({ title: `Affiliate Disclosure | ${cfg.siteName}`, desc: 'Amazon Associates affiliate disclosure.', url: '/affiliate-disclosure/', body: disclosureBody }));
 write('privacy', page({ title: `Privacy Policy | ${cfg.siteName}`, desc: 'Privacy policy for Dupes Base.', url: '/privacy/', body: privacyBody }));

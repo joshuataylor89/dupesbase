@@ -393,3 +393,12 @@ h3.nl{font-size:15px;margin:14px 0 6px;color:var(--accent2)}
   .cmp-shop .buy{display:flex;width:100%}
   .cmp-foot .buy{display:none}
 }
+
+.post-photos{display:flex;gap:10px;overflow-x:auto;padding:4px 0 10px;margin:12px 0}
+.post-photos .pp{flex:0 0 auto;width:92px;text-align:center;text-decoration:none;color:var(--muted,inherit);font-size:11px;line-height:1.2}
+.post-photos .pp img,.post-photos .pp svg{display:block;width:92px;height:92px;object-fit:contain;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:6px;color:var(--accent)}
+.post-photos .pp span{display:block;margin-top:4px}
+.pick-photos{display:flex;gap:10px;margin:6px 0 10px}
+.pick-photos img,.pick-photos svg{width:96px;height:96px;object-fit:contain;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:6px;color:var(--accent)}
+.pc-photos{display:flex;gap:6px;margin-bottom:8px}
+.pc-photos .pc-img img,.pc-photos .pc-img svg{width:56px;height:56px;object-fit:contain}

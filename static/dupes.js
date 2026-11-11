@@ -16,7 +16,7 @@
     { k: 'tier', l: 'Price tier (approx.)', g: 'General', v: function (d) { return [d.tier]; }, order: TIERS },
     { k: 'gender', l: 'Gender', g: 'General', v: function (d) { return d.gender ? [d.gender] : []; }, order: ['Men', 'Women', 'Unisex'] },
     { k: 'role', l: 'Original or alternative', g: 'General', v: function (d) { return [roleLabel(d)]; }, order: ['Original', 'Alternative'] },
-    { k: 'brand', l: 'House / brand', g: 'General', v: function (d) { return [d.brand]; } },
+    { k: 'brand', l: 'House', g: 'General', v: function (d) { return [d.brand]; } },
     { k: 'conc', l: 'Concentration', g: 'Specifications', v: function (d) { return d.conc ? [d.conc] : []; }, order: ['EDT', 'EDP', 'Parfum', 'Cologne'] },
     { k: 'accord', l: 'Main accords', g: 'Specifications', v: function (d) { return d.accords; } },
     { k: 'season', l: 'Season (editorial)', g: 'Specifications', v: function (d) { return d.season; }, order: ['Spring', 'Summer', 'Fall', 'Winter'] },
