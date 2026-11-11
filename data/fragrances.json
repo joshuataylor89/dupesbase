@@ -2320,17 +2320,40 @@
     "name": "Itqan Noir",
     "brand": "Zimaya",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bergamot"
+    ],
+    "heart": [
+      "Orange blossom"
+    ],
+    "base": [
+      "Ambrofix",
+      "Patchouli"
+    ],
+    "accords": [
+      "Citrus",
+      "White floral",
+      "Patchouli",
+      "Woody",
+      "Fresh spicy",
+      "Sweet",
+      "Warm spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Zimaya Itqan Noir",
+      "url": "https://www.fragrantica.com/designers/Zimaya.html"
+    },
+    "review": {
+      "title": "The Clean Cut",
+      "text": "Want YSL MYSLF vibes without the pricey bottle? Itqan Noir pairs bright bergamot with orange blossom over a patchouli base for about $30, and Fragrantica members rate it 4.4 out of 5. Clean, easy and made for the office or a casual day."
+    }
   },
   {
     "name": "Eros",
