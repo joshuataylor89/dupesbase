@@ -87,7 +87,7 @@
  {
   "original": "Parfums de Marly Valaya",
   "clone": "Afnan Mystique Bouquet",
-  "pct": 97
+  "pct": 92
  },
  {
   "original": "Xerjoff Opera",
@@ -1423,5 +1423,125 @@
   "original": "Tom Ford Oud Wood",
   "clone": "Fragrance World Oud Wonder",
   "pct": 95
+ },
+ {
+  "original": "Parfums de Marly Delina",
+  "clone": "Maison Alhambra Delilah",
+  "pct": 90
+ },
+ {
+  "original": "Chanel Coco Mademoiselle",
+  "clone": "Dossier Woody Oakmoss",
+  "pct": 90
+ },
+ {
+  "original": "Valentino Donna Born in Roma",
+  "clone": "Dossier Ambery Jasmine",
+  "pct": 88
+ },
+ {
+  "original": "Dior J'adore",
+  "clone": "Dossier Floral Pear",
+  "pct": 85
+ },
+ {
+  "original": "Yves Saint Laurent Libre",
+  "clone": "Maison Alhambra Leonie",
+  "pct": 90
+ },
+ {
+  "original": "Le Labo Santal 33",
+  "clone": "Dossier Woody Sandalwood",
+  "pct": 88
+ },
+ {
+  "original": "Byredo Mojave Ghost",
+  "clone": "Lattafa Petra Viola",
+  "pct": 92
+ },
+ {
+  "original": "Gucci Flora Gorgeous Gardenia",
+  "clone": "Dossier Floral Gardenia",
+  "pct": 85
+ },
+ {
+  "original": "Viktor & Rolf Flowerbomb",
+  "clone": "Dossier Gourmand White Flowers",
+  "pct": 90
+ },
+ {
+  "original": "Lancôme La Vie Est Belle",
+  "clone": "La Rive Queen of Life",
+  "pct": 85
+ },
+ {
+  "original": "Glossier You",
+  "clone": "Clean Reserve Radiant Nectar",
+  "pct": 80
+ },
+ {
+  "original": "Jo Malone Wood Sage & Sea Salt",
+  "clone": "Jenny Glow Wood & Sage",
+  "pct": 90
+ },
+ {
+  "original": "Tom Ford Café Rose",
+  "clone": "Maison Alhambra Cafè Rose",
+  "pct": 85
+ },
+ {
+  "original": "Kilian Angels' Share",
+  "clone": "Fragrance World Royal Blend",
+  "pct": 95
+ },
+ {
+  "original": "Chanel Chance Eau Tendre",
+  "clone": "Zara Applejuice",
+  "pct": 85
+ },
+ {
+  "original": "Hermes Un Jardin Sur Le Nil",
+  "clone": "The Dua Brand River of Nil",
+  "pct": 88
+ },
+ {
+  "original": "Prada Paradoxe",
+  "clone": "Zara Sublime Epoque",
+  "pct": 85
+ },
+ {
+  "original": "Sol de Janeiro Cheirosa '68",
+  "clone": "Ariana Grande Cloud Pink",
+  "pct": 80
+ },
+ {
+  "original": "Creed Spring Flower",
+  "clone": "Oil Perfumery Spring Flower",
+  "pct": 88
+ },
+ {
+  "original": "Diptyque Orphéon",
+  "clone": "ALT Fragrances Jazz Club",
+  "pct": 82
+ },
+ {
+  "original": "Dior Miss Dior (2026 Edition)",
+  "clone": "Zara Nude Bouquet",
+  "pct": 82
+ },
+ {
+  "original": "By Rosie Jane Rosie",
+  "clone": "Nemat Amber Oil",
+  "pct": 80
+ },
+ {
+  "original": "Phlur Father Figure",
+  "clone": "Bath & Body Works Guilty as Fig",
+  "pct": 85
+ },
+ {
+  "original": "Sabrina Carpenter Sweet Tooth",
+  "clone": "Philosophy Fresh Cream Warm Cashmere",
+  "pct": 82
  }
 ]
