@@ -411,7 +411,7 @@ const featRank = (f, g) => { const v = (featIdx.get(f.slug) || {})[g]; return v 
 const tileList = F.filter((f) => f.role === 'original' && (f.pairs || []).length).sort((x, y) => (y.pairs[0].main ?? -1) - (x.pairs[0].main ?? -1));
 // pinned originals first, in the order given, for the tab they are pinned in (client re-sorts per tab using data-f)
 const homeBody = `<section class="hero hero-modern hero-slim">
-<h1>Find the dupe. Skip the markup.</h1>
+<h1 id="hl">Find the dupe. Skip the markup.</h1><script>(function(){var h=['Shop the dupes. Skip the markup.','Great dupes. Fraction of the price.','Love the original? Meet the dupes.','Dupes worth comparing, without the price tag.','Find your dupes. Keep your money.','Every dupe, side by side with the original.','The smart way to shop fragrance dupes.','Skip the $300 bottle. Find the dupes.','Find the dupe. Skip the markup.'];try{document.getElementById('hl').textContent=h[Math.floor(Math.random()*h.length)]}catch(e){}})()</script>
 <form class="hero-search" id="tq-form" action="/" method="get" role="search"><input type="search" id="tq" name="q" placeholder="Search an original or a clone, e.g. Aventus or Khamrah" aria-label="Search the database" autocomplete="off"><button class="btn" type="submit">Search</button></form>
 </section>
 <div class="gtabs" role="tablist" aria-label="Show originals for"><button type="button" role="tab" class="on" aria-selected="true" data-g="Men">Men</button><button type="button" role="tab" aria-selected="false" data-g="Women">Women</button><button type="button" role="tab" aria-selected="false" data-g="Unisex">Unisex</button></div>
