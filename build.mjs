@@ -319,6 +319,77 @@ ${disclosureBox}
   posts.push({ slug, title, desc, body, blurb: 'Warm vanilla, amber and spice fragrances for fall and winter, with published notes and Amazon links.', kicker: 'WINTER' });
 }
 
+// POST: 10 winter clones for men (owner's own picks, written in his voice)
+{
+  const slug = 'best-winter-fragrance-dupes-for-men-2026';
+  const title = '10 Best Winter Fragrance Dupes for Men (2026): The Clones I Wear When It Gets Cold';
+  const desc = 'My 10 favorite winter clones and dupes for men, ranked, with what each one smells like, what it is inspired by, my score and how long it lasts on me. Khamrah Qahwa, Liam Grey, Amber Empire, Muharib and more.';
+  const O = (n) => F.find((f) => f.full === n);
+  const L = (name, label) => { const f = O(name); return f ? `<a href="/fragrance/${f.slug}/">${esc(label || f.full)}</a>` : esc(label || name); };
+  const C = (orig, clone, label) => { const o = O(orig), a = O(clone); return o && a && (a.origs || []).some((x) => x.with === o.slug) ? `<a href="/compare/${pairSlug(o, a)}/">${esc(label || 'See the side-by-side comparison')}</a>` : ''; };
+  const px = (name) => { const f = O(name); return f && f.price ? ` Price on our site: about ${priceTxt(f.price)} (${esc(f.price.size)}).` : ''; };
+  const picks = [
+    { n: 10, h: 'Lattafa Khamrah Qahwa', db: null, short: 'Khamrah DNA, loosely Kilian Angels\u2019 Share', insp: 'Khamrah DNA with a coffee twist, loosely associated with Kilian Angels’ Share', origName: 'Kilian Angels\' Share', score: '7.5/10', last: '8 hours', tag: 'Warm gourmand dupe',
+      text: 'Warm cinnamon, sweet dates, praline and vanilla, with a roasted coffee accord that gives it a darker character than the original Khamrah. It’s rich, cozy and sweet, but the coffee adds a bitterness that balances all that sugar. This is my pick for cold evenings.' },
+    { n: 9, h: 'French Avenue After Effect', db: 'Fragrance World After Effect', insp: 'Initio Side Effect', origName: 'Initio Side Effect', score: '7.5/10', last: '7 hours', tag: 'Sweet boozy tobacco',
+      text: 'Sweet, spicy and sensual without smelling juvenile. After Effect has a warm, boozy feel with tobacco, vanilla and resinous depth. It’s rich, seductive and bold. The sweetness is big, but there’s enough spice and darkness to keep it interesting. For me this is an evening fragrance, really good for dates and nights out.' },
+    { n: 8, h: 'French Avenue Spectre Ghost', db: 'Fragrance World Spectre Ghost', insp: 'Nishane Ani', origName: 'Nishane Ani', score: '8/10', last: '10 hours', tag: 'Spicy vanilla',
+      text: 'A great mix of bright spices and a rich, creamy vanilla base. The opening has plenty of ginger and cardamom, so it almost sparkles before the warmer woods and vanilla take over. I love that it isn’t just another straight sweet vanilla. It has character and enough freshness to make it more versatile than you’d expect.' },
+    { n: 7, h: 'French Avenue Royal Blend Vintage', db: 'Fragrance World Royal Blend Vintage', insp: 'By Kilian Old Fashioned', origName: 'Kilian Old Fashioned', score: '8/10', last: '6 hours', tag: 'Boozy whiskey cocktail',
+      text: 'A hidden gem in my opinion. Rich, boozy, fruity and perfect for cold weather. To me it’s a photorealistic Old Fashioned, and as a whiskey lover this one has my heart. It has a dark sweetness with warm woods, spice and a tobacco-like depth. It’s indulgent without turning into a straight-up dessert. Think a drink by the fireplace on a cold night.' },
+    { n: 6, h: 'Lattafa Musamam Black Intense', db: null, short: 'Original creation', insp: 'Original creation (not a clone of one specific fragrance)', origName: null, score: '8.2/10', last: '9 hours', tag: 'Dark spicy woods',
+      text: 'This one can be challenging, but to me it’s a masterpiece. It’s unusual: dark, spicy woods with a creamy undertone and a subtle cocoa-like warmth. There’s a contrast between freshness and darkness that makes it hard to put in a box. Modern, mysterious and smells a lot more expensive than it costs. A great alternative if you’re tired of vanilla-heavy winter scents. It’s not higher on my list because it’s just not as wearable as the others.' },
+    { n: 5, h: 'Lattafa Liam Grey', db: 'Lattafa Liam Grey', insp: 'BDK Gris Charnel', origName: 'BDK Parfums Gris Charnel', score: '8.5/10', last: '12 hours', tag: 'Tea, iris and creamy woods',
+      text: 'This one should get more love. It’s one of my favorite profiles for everyday wear, comforting and elegant. Aromatic tea, warm cardamom, soft iris and creamy woods make something really smooth and inviting. Lightly sweet, a little powdery and well balanced. Sophisticated enough for the office, relaxed enough for the weekend, and lovely on a cool autumn day.' },
+    { n: 4, h: 'Armaf Rugir', db: null, insp: 'Parfums de Marly Layton', origName: 'Parfums de Marly Layton', score: '8.5/10', last: '10 hours', tag: 'Compliment magnet',
+      text: 'The most complimented fragrance on this whole list. I get compliments almost every time I wear it. Rugir mixes fresh aromatic spices with a warm, creamy, woody sweetness. The opening is slightly cooling, then it dries down to a smooth vanilla and woods. It captures that unmistakable Layton character and stays easy to wear. If you want warmth and personality without going too dark or heavy, start here. It’s a daily wear, and office-safe in my opinion.' },
+    { n: 3, h: 'Rayhaan Terra', db: null, insp: 'Amouage Outlands', origName: 'Amouage Outlands', score: '9.5/10', last: '12 hours', tag: 'Bold and resinous',
+      text: 'One of the more complex and adventurous ones here. Terra opens with strong spices, incense and aromatic freshness, then gets warmer, smoother and a little sweet. There’s a dark, resinous quality that gives it real depth. It’s definitely not a typical crowd-pleasing vanilla, and probably not a safe blind buy. But if you like bold, sophisticated scents, there’s a lot to enjoy.' },
+    { n: 2, h: 'French Avenue Amber Empire', db: 'French Avenue Amber Empire', insp: 'Clive Christian Blonde Amber', origName: 'Clive Christian Blonde Amber', score: '10/10', last: '10 hours', tag: 'Deep luxurious amber',
+      text: 'This one is for lovers of deep, luxurious amber. Warm, resinous, creamy and a little boozy, with dried-fruit sweetness and lots of spice. It feels opulent but refined, not overly sweet. It really shines in the cold, especially when you want something rich and sophisticated. For me it’s an impressive take on a ridiculously expensive fragrance.' },
+    { n: 1, h: 'Maison Asrar Muharib', db: null, insp: 'Xerjoff Naxos', origName: 'Xerjoff Naxos', score: '10/10', last: '10 hours', tag: 'Honeyed tobacco',
+      text: 'My current favorite winter clone, although my top 3 swap places a lot. It’s a beautiful take on the Naxos DNA: honeyed tobacco, warm spices and aromatic freshness. What I like most about Muharib is the darker, tobacco-forward character. Rich and comforting without getting too sweet, with an elegant, mature feel that works for a winter evening or a smart office day. If you’re into tobacco, get this.' }
+  ];
+  const card = (p) => {
+    const f = p.db ? O(p.db) : null;
+    const hl = f ? L(p.db, p.h) : esc(p.h);
+    const cmp = p.db && p.origName ? C(p.origName, p.db) : '';
+    const orig = p.origName && O(p.origName) ? L(p.origName, p.insp) : esc(p.insp);
+    return `<section class="dv-panel" id="pick-${p.n}"><h2>${p.n}. ${esc(p.h)} <small>(${esc(p.tag)})</small></h2>
+<p><b>Inspired by:</b> ${orig}</p>
+<p>${esc(p.text)}</p>
+<p><b>My score:</b> ${esc(p.score)} &nbsp;|&nbsp; <b>How long it lasts on me:</b> ${esc(p.last)}</p>
+${f ? `<p>${hl} is in the database.${px(p.db)} ${cmp}</p>` : ''}
+</section>`;
+  };
+  const rows = picks.slice().reverse().map((p) => `<tr><td>${p.n}</td><td>${esc(p.h)}</td><td>${esc(p.short || p.insp)}</td><td>${esc(p.score)}</td><td>${esc(p.last)}</td></tr>`).join('');
+  const body = `<article>
+<span class="pill">WINTER · FOR MEN</span>
+<h1>${esc(title)}</h1>
+<p class="meta">Updated ${esc(cfg.updated)}</p>
+<p class="lead">Winter is when fragrance gets fun for me. Cold air asks for something warm: spice, amber, tobacco, vanilla, a little booze. You don’t need to spend $300 to get there. These are my 10 favorite winter fragrance dupes and clones for men, ranked from 10 down to 1, with what each one smells like and which expensive fragrance it’s inspired by.</p>
+<p>A quick note before the list. Everything below is my own opinion. The scores and the longevity numbers are how each one wears on me, and your skin, your climate and the number of sprays will change that. A clone is also its own fragrance. It’s inspired by the original, and it won’t smell identical.</p>
+<h2>The 10 best winter clones for men at a glance</h2>
+<div class="tbl-wrap"><table class="cmp-table"><caption>My winter clone ranking</caption><thead><tr><th>#</th><th>Clone</th><th>Inspired by</th><th>My score</th><th>Lasts on me</th></tr></thead><tbody>${rows}</tbody></table></div>
+<p>Short on time? My top three are <a href="#pick-1">Maison Asrar Muharib</a> if you like tobacco, <a href="#pick-2">French Avenue Amber Empire</a> if you like deep amber, and <a href="#pick-3">Rayhaan Terra</a> if you like bold, resinous scents. For an easy everyday choice, go with <a href="#pick-4">Armaf Rugir</a> or <a href="#pick-5">Lattafa Liam Grey</a>.</p>
+<h2>My top 10 winter fragrance dupes, from 10 to 1</h2>
+${picks.map(card).join('\n')}
+<h2>How to wear winter clones</h2>
+<p>Cold air mutes fragrance, so these can take a little more than you’d use in summer. Start with 3 to 4 sprays and go up from there, and spray on clothes as well as skin if you want it to last. For the sweetest picks, like After Effect and Khamrah Qahwa, I stick to evenings. For Liam Grey, Rugir and Muharib, the office is fine.</p>
+<p>Want to look up an original and its clones? Use the <a href="/database/?role=Original">database</a>, or line two fragrances up in <a href="/compare/">Compare</a>. If you’re after more, see our <a href="/best-winter-fragrance-dupes-2026/">warm winter dupes guide</a> and the <a href="/best-fragrance-dupes-under-50-2026/">best dupes under $50</a>.</p>
+${faqBlock([
+  ['What are the best winter fragrance dupes for men?', 'My top picks are Maison Asrar Muharib (a Xerjoff Naxos take), French Avenue Amber Empire (inspired by Clive Christian Blonde Amber), Rayhaan Terra (inspired by Amouage Outlands), Armaf Rugir (inspired by Parfums de Marly Layton) and Lattafa Liam Grey (inspired by BDK Gris Charnel).'],
+  ['What is the best Xerjoff Naxos dupe?', 'For me it is Maison Asrar Muharib. It’s honeyed tobacco, warm spices and aromatic freshness. It is a different fragrance from Naxos, so treat this as my personal pick.'],
+  ['Is Armaf Rugir a good Layton alternative?', 'In my opinion yes. It has the same kind of fresh spice and creamy, woody vanilla, and I get more compliments in Rugir than in any other fragrance on this list.'],
+  ['Are clones as good as the originals?', 'They are not the same fragrance, and they usually don’t smell identical. For a fraction of the price they can come close in feel which is why I wear them.'],
+  ['Which winter clone is safest for the office?', 'Lattafa Liam Grey and Armaf Rugir. Both are easy, comforting and not too loud.'],
+  ['Which one is the best for a date night?', 'French Avenue After Effect. It’s sweet, boozy and sensual, and it works best in the evening.']
+])}
+${disclosureBox}
+</article>`;
+  posts.push({ slug, title, desc, body, blurb: 'My 10 favorite winter clones for men, ranked, with the original each one is inspired by, my score and how long it lasts on me.', kicker: 'WINTER · MEN' });
+}
+
 // POST 4: Aventus vs CDNIM
 function vsPost(origName, altName, extra) {
   const o = O(origName), a = O(altName);
