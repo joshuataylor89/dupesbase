@@ -14084,5 +14084,1147 @@
       "name": "Fragrantica: Lattafa Perfumes Safeer",
       "url": "https://www.fragrantica.com/"
     }
+  },
+  {
+    "name": "Odyssey Homme Body Mist",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Vanilla",
+      "Amber"
+    ],
+    "heart": [
+      "Oriental Notes",
+      "Spices",
+      "Iris"
+    ],
+    "base": [
+      "Vanilla",
+      "Jasmine",
+      "Leather"
+    ],
+    "accords": [
+      "Amber",
+      "Warm Spicy",
+      "Powdery",
+      "White Floral",
+      "Vanilla",
+      "Leather",
+      "Iris",
+      "Animalic",
+      "Violet",
+      "Earthy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Odyssey Homme Body Mist",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Odyssey Mega Body Spray",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Orange",
+      "Lemon",
+      "Mint",
+      "Ginger"
+    ],
+    "heart": [
+      "Pineapple",
+      "Geranium",
+      "Juniper",
+      "Sage"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Cedar",
+      "Vetiver",
+      "Musk"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Aromatic",
+      "Sweet",
+      "Fruity",
+      "Woody",
+      "Fresh",
+      "Green"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Odyssey Mega Body Spray",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Hunter Intense",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Pomelo",
+      "Mandarin Orange",
+      "Lemon"
+    ],
+    "heart": [
+      "Lavender",
+      "Geranium",
+      "Ylang Ylang",
+      "Tuberose"
+    ],
+    "base": [
+      "Black Pepper",
+      "Cardamom"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Aromatic",
+      "Warm Spicy",
+      "Lavender"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Hunter Intense",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Odyssey Mandarin Sky Body Mist",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Mandarin Orange",
+      "Orange",
+      "Saffron",
+      "Sage"
+    ],
+    "heart": [
+      "Caramel",
+      "Tonka Bean",
+      "Marigold"
+    ],
+    "base": [
+      "Ambroxan",
+      "Vetiver",
+      "Cedar"
+    ],
+    "accords": [
+      "Citrus",
+      "Sweet",
+      "Caramel",
+      "Aromatic",
+      "Woody",
+      "Amber"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Odyssey Mandarin Sky Body Mist",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Odyssey Aqua Body Mist",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Orange",
+      "Grapefruit",
+      "Artemisia"
+    ],
+    "heart": [
+      "Mint",
+      "Lavender"
+    ],
+    "base": [
+      "Ambroxan",
+      "Patchouli",
+      "Cypress"
+    ],
+    "accords": [
+      "Citrus",
+      "Aromatic",
+      "Fresh Spicy",
+      "Green",
+      "Amber",
+      "Musky",
+      "Herbal",
+      "Sweet"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Odyssey Aqua Body Mist",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Muskethanol",
+    "brand": "Aether",
+    "role": "alternative",
+    "year": 2016,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Musky",
+      "Woody",
+      "Amber",
+      "Green",
+      "Sweet",
+      "Fruity",
+      "Sand",
+      "Earthy",
+      "Powdery"
+    ],
+    "season": [],
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "source": {
+      "name": "Fragrantica: Aether Muskethanol",
+      "url": "https://www.fragrantica.com/"
+    },
+    "flat": [
+      "Woody Notes",
+      "Ambroxan",
+      "Musk",
+      "Green Notes",
+      "Fruity Notes",
+      "Sand",
+      "Earthy Notes",
+      "Sweet Notes",
+      "Floral Notes"
+    ]
+  },
+  {
+    "name": "Happiness Oud",
+    "brand": "French Avenue",
+    "role": "alternative",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Ginger",
+      "Bergamot"
+    ],
+    "heart": [
+      "Licorice",
+      "Cedar",
+      "Agarwood",
+      "Oud"
+    ],
+    "base": [
+      "Herbal Notes",
+      "Vanilla",
+      "Musk"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Soft Spicy",
+      "Green",
+      "Citrus",
+      "Vanilla",
+      "Sweet",
+      "Fresh",
+      "Powdery",
+      "Woody",
+      "Musky"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: French Avenue Happiness Oud",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Fantasy Kids Sunny World",
+    "brand": "We Pink",
+    "role": "alternative",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Apricot",
+      "Red Fruits",
+      "Peach"
+    ],
+    "heart": [
+      "Davana",
+      "Tropical Fruits"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk"
+    ],
+    "accords": [
+      "Fruity",
+      "Green",
+      "Aromatic",
+      "Sweet",
+      "Balsamic",
+      "Vanilla",
+      "Lactonic",
+      "Powdery"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: We Pink Fantasy Kids Sunny World",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Idnà",
+    "brand": "Tiziana Terenzi",
+    "role": "original",
+    "year": 2024,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Chamomile",
+      "Pine",
+      "Resin",
+      "Cardamom"
+    ],
+    "heart": [
+      "Artemisia",
+      "Broom",
+      "Lavender",
+      "Jasmine"
+    ],
+    "base": [
+      "Australian Sandalwood",
+      "Milk",
+      "Fig",
+      "Tonka Bean",
+      "Vanilla"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Herbal",
+      "Amber",
+      "Balsamic",
+      "Fresh Spicy",
+      "Conifer",
+      "Warm Spicy",
+      "Green",
+      "Floral"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Tiziana Terenzi Idnà",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Emir Frenetic Homme Intense",
+    "brand": "Paris Corner",
+    "role": "alternative",
+    "year": 2021,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lavender"
+    ],
+    "heart": [
+      "Iris",
+      "Ambrette",
+      "Pear"
+    ],
+    "base": [
+      "Vetiver",
+      "Virginia Cedar"
+    ],
+    "accords": [
+      "Woody",
+      "Aromatic",
+      "Lavender",
+      "Iris",
+      "Earthy",
+      "Powdery",
+      "Floral",
+      "Musky",
+      "Fruity",
+      "Violet"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Paris Corner Emir Frenetic Homme Intense",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Charuto Regal Reserve",
+    "brand": "Pendora Scents",
+    "role": "alternative",
+    "year": 2024,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Tobacco",
+      "Incense",
+      "Black Pepper",
+      "Bergamot"
+    ],
+    "heart": [
+      "Lavender",
+      "Cardamom",
+      "Osmanthus",
+      "Labdanum"
+    ],
+    "base": [
+      "Blonde Woods",
+      "Tonka Bean",
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "accords": [
+      "Amber",
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Tobacco",
+      "Aromatic",
+      "Sweet",
+      "Vanilla",
+      "Lavender",
+      "Musky",
+      "Floral"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Pendora Scents Charuto Regal Reserve",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Crazy Good",
+    "brand": "Oakcha",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lavender",
+      "Clary Sage"
+    ],
+    "heart": [
+      "Leather",
+      "Orris",
+      "Bitter Almond",
+      "Vanilla"
+    ],
+    "base": [
+      "Leather",
+      "White Woods",
+      "Tonka Bean",
+      "Cashmeran",
+      "Amber"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Leather",
+      "Lavender",
+      "Amber",
+      "Iris",
+      "Powdery",
+      "Animalic",
+      "Soft Spicy",
+      "Vanilla"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Oakcha Crazy Good",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Costa Azzurra Acqua",
+    "brand": "Tom Ford",
+    "role": "original",
+    "year": 2019,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lemon",
+      "Juniper Berries",
+      "Myrtle"
+    ],
+    "heart": [
+      "Cypress",
+      "Pine Tree Needles"
+    ],
+    "base": [
+      "Mastic or Lentisque",
+      "Amber",
+      "Labdanum"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Fresh Spicy",
+      "Citrus",
+      "Amber",
+      "Balsamic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Tom Ford Costa Azzurra Acqua",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Ombré Leather Reserve",
+    "brand": "Tom Ford",
+    "role": "original",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Cypress",
+      "Juniper",
+      "Black Pepper"
+    ],
+    "heart": [
+      "Green Accord",
+      "Floral Notes",
+      "Pepperwood",
+      "Vetiver"
+    ],
+    "base": [
+      "Black Leather",
+      "Benzoin"
+    ],
+    "accords": [
+      "Aromatic",
+      "Fresh Spicy",
+      "Woody",
+      "Green",
+      "Amber",
+      "Warm Spicy",
+      "Floral"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Tom Ford Ombré Leather Reserve",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Oud Wood Intense",
+    "brand": "Tom Ford",
+    "role": "original",
+    "year": 2017,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Woody",
+      "Fresh Spicy",
+      "Aromatic",
+      "Leather",
+      "Oud",
+      "Musky",
+      "Smoky",
+      "Amber"
+    ],
+    "season": [],
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "source": {
+      "name": "Fragrantica: Tom Ford Oud Wood Intense",
+      "url": "https://www.fragrantica.com/"
+    },
+    "flat": [
+      "Castoreum",
+      "Agarwood (Oud)",
+      "Cypress",
+      "Juniper",
+      "Angelica",
+      "Ginger"
+    ]
+  },
+  {
+    "name": "Torrid Day",
+    "brand": "Oakcha",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Tobacco Leaf",
+      "Spices"
+    ],
+    "heart": [
+      "Tobacco",
+      "Tonka Bean",
+      "Vanilla",
+      "Cocoa"
+    ],
+    "base": [],
+    "accords": [
+      "Vanilla",
+      "Warm Spicy",
+      "Tobacco",
+      "Sweet",
+      "Cacao",
+      "Amber"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Oakcha Torrid Day",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Cocaigne",
+    "brand": "Oakcha",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Raspberry",
+      "Saffron",
+      "Thyme"
+    ],
+    "heart": [
+      "Jasmine",
+      "Olibanum"
+    ],
+    "base": [
+      "Suede",
+      "Leather",
+      "Amberwood"
+    ],
+    "accords": [
+      "Leather",
+      "Amber",
+      "Warm Spicy",
+      "White Floral",
+      "Fruity",
+      "Musky",
+      "Animalic",
+      "Sweet",
+      "Woody"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Oakcha Cocaigne",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Vanilla",
+    "brand": "Tom Ford",
+    "role": "original",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Vanilla",
+      "Powdery",
+      "Woody",
+      "Balsamic",
+      "Sweet"
+    ],
+    "season": [],
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "source": {
+      "name": "Fragrantica: Tom Ford Vanilla",
+      "url": "https://www.fragrantica.com/"
+    },
+    "flat": [
+      "Indian Vanilla",
+      "Vanilla Absolute",
+      "Sandalwood",
+      "Animal Notes",
+      "Orris Root",
+      "Jasmine"
+    ]
+  },
+  {
+    "name": "Moira",
+    "brand": "Oakcha",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Cinnamon",
+      "Pepper"
+    ],
+    "heart": [
+      "Tobacco Leaf",
+      "Frankincense",
+      "Labdanum",
+      "Osmanthus"
+    ],
+    "base": [
+      "Vanilla Pod",
+      "Atlas Cedar",
+      "Iso E Super",
+      "Patchouli",
+      "Musk",
+      "Vetiver",
+      "Cypriol"
+    ],
+    "accords": [
+      "Woody",
+      "Amber",
+      "Warm Spicy",
+      "Tobacco",
+      "Vanilla",
+      "Musky",
+      "Cinnamon",
+      "Sweet",
+      "Fresh Spicy",
+      "Powdery"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Oakcha Moira",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Blue Smoke",
+    "brand": "Oakcha",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Apple",
+      "Lavender",
+      "Mandarin"
+    ],
+    "heart": [
+      "Geranium",
+      "Jasmine",
+      "Violet"
+    ],
+    "base": [
+      "Vanilla",
+      "Cardamom",
+      "Guaiac Wood",
+      "Pepper",
+      "Patchouli",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Vanilla",
+      "Fresh Spicy",
+      "Aromatic",
+      "Woody",
+      "Fruity",
+      "Powdery",
+      "Lavender",
+      "Fresh",
+      "Green"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Oakcha Blue Smoke",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Gypsy Beats",
+    "brand": "Oakcha",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Mandarin",
+      "Orange Blossom"
+    ],
+    "heart": [
+      "Ginger",
+      "Orange"
+    ],
+    "base": [
+      "Ambergris"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Amber",
+      "Animalic",
+      "Fresh"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Oakcha Gypsy Beats",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Persephone",
+    "brand": "Velixir",
+    "role": "alternative",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Mandarin",
+      "Pear"
+    ],
+    "heart": [
+      "Ambrette"
+    ],
+    "base": [
+      "Benzoin",
+      "Musk"
+    ],
+    "accords": [
+      "Musky",
+      "Amber",
+      "Floral",
+      "Warm Spicy",
+      "Citrus",
+      "Vanilla",
+      "Fruity"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Velixir Persephone",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Aromatic Ginger",
+    "brand": "Dossier",
+    "role": "alternative",
+    "year": 2022,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Ginger",
+      "Grapefruit",
+      "Marine Notes"
+    ],
+    "heart": [
+      "Rosemary",
+      "Geranium",
+      "Clary Sage"
+    ],
+    "base": [
+      "Amberwood",
+      "Labdanum"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Aromatic",
+      "Citrus",
+      "Woody",
+      "Amber",
+      "Marine",
+      "Fresh"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dossier Aromatic Ginger",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Dune Dance",
+    "brand": "Oakcha",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Raspberry",
+      "Frankincense"
+    ],
+    "heart": [
+      "Agarwood",
+      "Benzoin"
+    ],
+    "base": [
+      "Amber"
+    ],
+    "accords": [
+      "Amber",
+      "Oud",
+      "Fruity",
+      "Warm Spicy",
+      "Sweet",
+      "Vanilla",
+      "Fresh Spicy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Oakcha Dune Dance",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Fame Parfum",
+    "brand": "Paco Rabanne",
+    "role": "original",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Mango",
+      "Bergamot",
+      "Pink Pepper"
+    ],
+    "heart": [
+      "Jasmine",
+      "Frankincense",
+      "Patchouli"
+    ],
+    "base": [
+      "Sandalwood",
+      "Benzoin",
+      "Musk",
+      "Helvetolide"
+    ],
+    "accords": [
+      "Tropical",
+      "Woody",
+      "Amber",
+      "Fruity",
+      "Warm Spicy",
+      "Sweet",
+      "White Floral",
+      "Powdery",
+      "Musky",
+      "Balsamic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Rabanne Fame Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Al Sheik Platinum Edition",
+    "brand": "Fragrance World",
+    "role": "alternative",
+    "year": 2018,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Mandarin Orange",
+      "Marine Notes",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Bay Leaf",
+      "Jasmine"
+    ],
+    "base": [
+      "Ambergris",
+      "Oakmoss",
+      "Guaiac Wood",
+      "Patchouli"
+    ],
+    "accords": [
+      "Citrus",
+      "Amber",
+      "Woody",
+      "Animalic",
+      "Fresh Spicy",
+      "Aromatic",
+      "Marine",
+      "Mossy",
+      "Earthy",
+      "Balsamic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Fragrance World Al Sheik Platinum Edition",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Invictus Victory Absolu",
+    "brand": "Paco Rabanne",
+    "role": "original",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Black Pepper"
+    ],
+    "heart": [
+      "Amber",
+      "Ambergris",
+      "Woodsy Notes"
+    ],
+    "base": [
+      "Sandalwood",
+      "Frankincense",
+      "Patchouli"
+    ],
+    "accords": [
+      "Amber",
+      "Woody",
+      "Fresh Spicy",
+      "Warm Spicy",
+      "Powdery",
+      "Animalic",
+      "Balsamic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Rabanne Invictus Victory Absolu",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Excellus Woman",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Blood Orange",
+      "Orange",
+      "Lemon"
+    ],
+    "heart": [
+      "Jasmine",
+      "Honeysuckle",
+      "Magnolia",
+      "Rose",
+      "Lily of the Valley"
+    ],
+    "base": [
+      "Orris Root",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "accords": [
+      "White Floral",
+      "Citrus",
+      "Floral",
+      "Powdery",
+      "Iris",
+      "Rose",
+      "Woody",
+      "Fruity",
+      "Fresh",
+      "Vanilla"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Excellus Woman",
+      "url": "https://www.fragrantica.com/"
+    }
   }
 ]
