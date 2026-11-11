@@ -5211,17 +5211,43 @@
     "name": "Atlas",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Sea Notes",
+      "Salt",
+      "Lemon"
+    ],
+    "heart": [
+      "Davana",
+      "Iris"
+    ],
+    "base": [
+      "Ambergris",
+      "Oakmoss",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Marine",
+      "Salty",
+      "Aromatic",
+      "Amber",
+      "Mossy",
+      "Woody",
+      "Animalic",
+      "Earthy",
+      "Balsamic",
+      "Citrus"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Atlas",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Sartorial",
