@@ -844,12 +844,34 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cognac"
+    ],
+    "heart": [
+      "Cinnamon",
+      "Tonka Bean",
+      "Oak"
+    ],
+    "base": [
+      "Vanilla",
+      "Praline",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Woody",
+      "Sweet",
+      "Cinnamon",
+      "Vanilla",
+      "Amber",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Kismet Magic",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Paradise Garden",
@@ -1291,12 +1313,41 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Fruits",
+      "Turkish Rose"
+    ],
+    "heart": [
+      "Ylang-Ylang",
+      "Leather",
+      "Nutmeg",
+      "Amber"
+    ],
+    "base": [
+      "Patchouli",
+      "Vanilla",
+      "Vetiver",
+      "Musk",
+      "Cedar"
+    ],
+    "accords": [
+      "Woody",
+      "Sweet",
+      "Yellow Floral",
+      "Leather",
+      "Fruity",
+      "Fresh Spicy",
+      "Animalic",
+      "Powdery",
+      "Patchouli",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Philos Opus Noir",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Amber Absolute",
@@ -1323,12 +1374,30 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Incense"
+    ],
+    "heart": [
+      "Amber",
+      "Woody Notes"
+    ],
+    "base": [
+      "Labdanum",
+      "Vanilla"
+    ],
+    "accords": [
+      "Amber",
+      "Smoky",
+      "Woody",
+      "Balsamic",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Mysterious Amber",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Ombre Nomade",
@@ -2212,12 +2281,39 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Heliotrope",
+      "Cumin",
+      "Bergamot"
+    ],
+    "heart": [
+      "Almond",
+      "Lavender",
+      "Jasmine"
+    ],
+    "base": [
+      "Vanilla",
+      "Amber",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Vanilla",
+      "Almond",
+      "Powdery",
+      "Fresh Spicy",
+      "Nutty",
+      "Lavender",
+      "Sweet",
+      "Floral",
+      "Fruity",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Perseus",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Greenley",
@@ -2276,12 +2372,40 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Blood Orange",
+      "Black Pepper",
+      "Spices"
+    ],
+    "heart": [
+      "Lavender",
+      "Orange Blossom"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Amber",
+      "Musk",
+      "Sandalwood",
+      "Woody Notes"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Warm Spicy",
+      "Citrus",
+      "Amber",
+      "Lavender",
+      "Aromatic",
+      "Sweet",
+      "Powdery",
+      "Vanilla",
+      "Musky"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Kalos",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Haltane",
@@ -2404,12 +2528,38 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lemon",
+      "Mandarin",
+      "Bergamot",
+      "Bitter Orange",
+      "Rosemary",
+      "Lavender",
+      "Myrtle"
+    ],
+    "heart": [
+      "Neroli",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base": [
+      "Angelica",
+      "Amber",
+      "Ambrette"
+    ],
+    "accords": [
+      "Citrus",
+      "White Floral",
+      "Aromatic",
+      "Fresh Spicy",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Pacific Blue",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "F**cking Fabulous",
@@ -3153,12 +3303,34 @@
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Frangipani"
+    ],
+    "heart": [
+      "Tiare",
+      "Ylang Ylang"
+    ],
+    "base": [
+      "Vanilla"
+    ],
+    "accords": [
+      "Floral",
+      "Tropical",
+      "White Floral",
+      "Yellow Floral",
+      "Sweet",
+      "Lactonic",
+      "Vanilla",
+      "Fruity",
+      "Woody",
+      "Citrus"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra The Chant",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Tuttle",
@@ -3634,9 +3806,22 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Woody",
+      "Musky",
+      "Amber",
+      "Animalic",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists this as a single note, with no top, heart and base layers.",
+    "flat": [
+      "Iso E Super"
+    ],
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Monocline 01",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Fame",
@@ -4329,12 +4514,39 @@
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Bergamot",
+      "Tangerine"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Jasmine",
+      "Neroli"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Amber",
+      "Benzoin"
+    ],
+    "accords": [
+      "White Floral",
+      "Citrus",
+      "Sweet",
+      "Vanilla",
+      "Fruity",
+      "Powdery",
+      "Musky",
+      "Amber",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Pink Eclipse",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Y EDP",
@@ -4393,12 +4605,37 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Juniper Berries",
+      "Blood Orange",
+      "Citruses",
+      "Sicilian Lemon"
+    ],
+    "heart": [
+      "Sage",
+      "Lavender",
+      "Black Pepper",
+      "Geranium"
+    ],
+    "base": [
+      "Cedar",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "accords": [
+      "Aromatic",
+      "Fresh Spicy",
+      "Citrus",
+      "Woody",
+      "Herbal",
+      "Lavender"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Kingsman",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Reflection 45",
@@ -5180,12 +5417,39 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Aldehydes",
+      "Coriander",
+      "Cardamom"
+    ],
+    "heart": [
+      "Rhubarb",
+      "Lily-of-the-Valley",
+      "Pink Rose"
+    ],
+    "base": [
+      "Ambroxan",
+      "Oak Moss",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Aromatic",
+      "Aldehydic",
+      "Fresh",
+      "Amber",
+      "Green",
+      "Warm Spicy",
+      "White Floral",
+      "Mossy",
+      "Musky",
+      "Soapy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Kismet Moscow",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Roses Vanille",
@@ -5292,12 +5556,39 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Black Currant",
+      "Grapefruit blossom"
+    ],
+    "heart": [
+      "Green Lily",
+      "Osmanthus",
+      "Nutmeg"
+    ],
+    "base": [
+      "Musk",
+      "Vetiver",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "accords": [
+      "Woody",
+      "Fruity",
+      "White Floral",
+      "Musky",
+      "Aromatic",
+      "Powdery",
+      "Earthy",
+      "Soft Spicy",
+      "Floral",
+      "Patchouli"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Luxe Bold",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Black Opium Over Red",
@@ -5324,12 +5615,37 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cherry",
+      "Mandarin"
+    ],
+    "heart": [
+      "Jasmine Tea",
+      "Orange Blossom"
+    ],
+    "base": [
+      "Vanilla",
+      "Coffee",
+      "Patchouli"
+    ],
+    "accords": [
+      "Cherry",
+      "Sweet",
+      "Citrus",
+      "Vanilla",
+      "Coffee",
+      "Warm Spicy",
+      "White Floral",
+      "Patchouli",
+      "Fresh",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Opera Rouge",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Tony Iommi Monkey Special",
@@ -5958,12 +6274,41 @@
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lavender",
+      "Tangerine",
+      "Blackcurrant",
+      "Petitgrain"
+    ],
+    "heart": [
+      "Lavender",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base": [
+      "Madagascar Vanilla",
+      "Amber",
+      "Cedar",
+      "Musk"
+    ],
+    "accords": [
+      "White Floral",
+      "Vanilla",
+      "Citrus",
+      "Lavender",
+      "Amber",
+      "Powdery",
+      "Sweet",
+      "Aromatic",
+      "Fruity",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Léonie Intense",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Phantom",
@@ -6042,12 +6387,40 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Siberian Pine",
+      "Fern",
+      "Basil",
+      "Cedarwood",
+      "Coriander"
+    ],
+    "heart": [
+      "Lavender",
+      "Rosemary",
+      "Guaiac Wood",
+      "Mint",
+      "Nutmeg"
+    ],
+    "base": [
+      "Cypress",
+      "Leather",
+      "Patchouli",
+      "Clary Sage",
+      "Tonka Bean"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Fresh Spicy",
+      "Green",
+      "Leather"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Russe Leather",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Stellar Times",
@@ -6342,12 +6715,35 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bitter Almond"
+    ],
+    "heart": [
+      "Vanilla",
+      "Floral Notes"
+    ],
+    "base": [
+      "Vanilla Absolute",
+      "Tonka Bean",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Vanilla",
+      "Almond",
+      "Sweet",
+      "Nutty",
+      "Powdery",
+      "Fruity",
+      "Floral",
+      "Woody",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Sensual Vanilla",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "New York Nights",
@@ -6977,12 +7373,30 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Incense"
+    ],
+    "heart": [
+      "Cade oil"
+    ],
+    "base": [
+      "Cypress"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Fresh Spicy",
+      "Amber",
+      "Smoky",
+      "Balsamic",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra The Trail",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Apple Brandy On The Rocks",
@@ -7869,12 +8283,33 @@
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lemon"
+    ],
+    "heart": [
+      "Turkish Rose"
+    ],
+    "base": [
+      "Vanilla",
+      "White Musk",
+      "Cedar"
+    ],
+    "accords": [
+      "Rose",
+      "Vanilla",
+      "Powdery",
+      "Musky",
+      "Citrus",
+      "Woody",
+      "Floral",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Montaigne Vanille",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Le Male Elixir Absolu",
@@ -7917,12 +8352,29 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bourbon Vanilla"
+    ],
+    "heart": [
+      "Siam Benzoin"
+    ],
+    "base": [
+      "Agarwood"
+    ],
+    "accords": [
+      "Vanilla",
+      "Oud",
+      "Amber",
+      "Warm Spicy",
+      "Balsamic",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Sceptre Oceana",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Layton Exclusif",
@@ -8789,12 +9241,40 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Animal notes",
+      "Saffron",
+      "Thyme"
+    ],
+    "heart": [
+      "Leather",
+      "Raspberry",
+      "Incense",
+      "Woody Notes",
+      "Jasmine"
+    ],
+    "base": [
+      "Leather",
+      "Amber"
+    ],
+    "accords": [
+      "Animalic",
+      "Leather",
+      "Amber",
+      "Smoky",
+      "Woody",
+      "Fruity",
+      "Warm Spicy",
+      "Sweet",
+      "Musky",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Toscano Leather",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Enigma Une",
@@ -8986,12 +9466,36 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Tobacco",
+      "Spicy Notes"
+    ],
+    "heart": [
+      "Tobacco",
+      "Vanilla",
+      "Tonka Bean",
+      "Cacao"
+    ],
+    "base": [
+      "Dried Fruits",
+      "Woody Notes"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Warm Spicy",
+      "Tobacco",
+      "Woody",
+      "Fruity",
+      "Cacao",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Tobacco Touch",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Charuto Tobacco Vanille",
