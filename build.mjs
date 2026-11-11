@@ -193,7 +193,7 @@ ${cfg.googleVerification ? `<meta name="google-site-verification" content="${esc
 <meta property="og:image" content="${og}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="${esc(cfg.siteName)} logo">
+<meta property="og:image:alt" content="${image ? esc(title) : esc(cfg.siteName) + " logo"}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
@@ -680,9 +680,29 @@ const pyramid = (f) =>
   f.flat.length
     ? `<div class="hh-tags">${f.flat.map((n) => noteTag(n)).join('')}</div>`
     : [['Top notes', f.top], ['Heart notes', f.heart], ['Base notes', f.base]].filter(([, a]) => a.length).map(([k, a]) => `<h3 class="nl">${k}</h3><div class="hh-tags">${a.map((n) => noteTag(n)).join('')}</div>`).join('');
+// ---------- Share cards (1200x630) ----------
+const OG_SPECS = [];
+const ogSpec = (f) => {
+  let p = pairOf(f);
+  if (!p) return { slug: f.slug, solo: { name: f.name, brand: f.brand, slug: f.slug }, price: f.price ? Math.round(f.price.amount) : null };
+  if (!p.asClone && f.pairs && f.pairs.length) p = f.pairs.filter((q) => q.main != null).sort((a, b) => b.main - a.main)[0] || f.pairs[0];
+  const other = BY[p.with];
+  const asClone = !!p.asClone || f.role === 'alternative';
+  const o = asClone ? other : f, c = asClone ? f : other;
+  return { slug: f.slug, orig: { name: o.name, brand: o.brand, slug: o.slug }, clone: { name: c.name, brand: c.brand, slug: c.slug, full: c.full }, origFull: o.full, pct: p.main == null ? null : p.main, rep: p.rep != null, price: c.price ? Math.round(c.price.amount) : null };
+};
+const ogDesc = (sp, f) => {
+  if (sp.solo) return null;
+  const rel = sp.pct == null ? 'commonly compared to' : sp.rep ? `~${sp.pct}% similar to` : `${sp.pct}% notes overlap with`;
+  const pr = sp.price ? `, about $${sp.price}` : '';
+  const tail = ' Published notes, similar fragrances and where to find it on Amazon.';
+  return f.role === 'alternative' ? `${f.full}, ${rel} ${sp.origFull}${pr}.${tail}` : `${f.full} alternative: ${sp.clone.full}, ${rel.replace('similar to', 'similar').replace('notes overlap with', 'notes overlap')}${pr}.${tail}`;
+};
+const ogFile = (slug) => (fs.existsSync(path.join(root, 'static', 'og', slug + '.png')) ? `/og/${slug}.png` : null);
 for (const f of F) {
   const p = pairOf(f);
   const other = p ? BY[p.with] : null;
+  const sp = ogSpec(f); OG_SPECS.push(sp);
   const body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/database/">Database</a> / <a href="${esc(houseHref(f.brand))}">${esc(f.brand)}</a> / ${esc(f.name)}</nav>
 <div class="dv">
 <aside class="dv-side">
@@ -706,7 +726,7 @@ for (const f of F) {
 </div>`;
   const product = { '@type': 'Product', name: f.full, brand: { '@type': 'Brand', name: f.brand }, description: `${f.full}${f.concentration ? ' ' + f.concentration : ''} for ${f.gender || 'everyone'}. Published notes: ${f.allNotes.join(', ')}.`, ...(f.img ? { image: `${cfg.domain}/img/f/${f.slug}/icon.webp` } : f.imageUrl ? { image: f.imageUrl } : {}) };
   delete product['@type']; const productLd = { ...product };
-  write(`fragrance/${f.slug}`, page({ title: `${f.full}: Notes, Dupes and Alternatives | ${cfg.siteName}`, desc: `${f.full}${f.concentration ? ' ' + f.concentration : ''}: published notes (${f.allNotes.slice(0, 5).join(', ')}), ${other ? `commonly compared to ${other.full}, ` : ''}and where to find it on Amazon.`, url: `/fragrance/${f.slug}/`, body, product: productLd, image: f.img ? `/img/f/${f.slug}/icon.webp` : null, crumbs: [['Home', '/'], ['Database', '/database/'], [f.full, `/fragrance/${f.slug}/`]] }));
+  write(`fragrance/${f.slug}`, page({ title: `${f.full}: Notes, Dupes and Alternatives | ${cfg.siteName}`, desc: ogDesc(sp, f) || `${f.full}${f.concentration ? ' ' + f.concentration : ''}: published notes (${f.allNotes.slice(0, 5).join(', ')}), ${other ? `commonly compared to ${other.full}, ` : ''}and where to find it on Amazon.`, url: `/fragrance/${f.slug}/`, body, product: productLd, image: ogFile(f.slug) || (f.img ? `/img/f/${f.slug}/icon.webp` : null), crumbs: [['Home', '/'], ['Database', '/database/'], [f.full, `/fragrance/${f.slug}/`]] }));
 }
 
 // ---- house pages ----
@@ -755,6 +775,7 @@ for (const p of PAIRS) {
 
 // ---- sitemap, robots, headers ----
 const urls = ['/', ...posts.map((p) => `/${p.slug}/`), '/guides/', '/database/', ...F.map((f) => `/fragrance/${f.slug}/`), ...houses.map((b) => `/house/${slugify(b)}/`), '/compare/', ...PAIRS.map((p) => `/compare/${pairSlug(BY[p.a], BY[p.b])}/`), '/about/', '/affiliate-disclosure/', '/privacy/'];
+fs.writeFileSync(path.join(root, 'tools', 'og-cards.json'), JSON.stringify(OG_SPECS));
 fs.writeFileSync(path.join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${cfg.domain}${u}</loc><lastmod>${published}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${cfg.domain}/sitemap.xml\n`);
 fs.writeFileSync(path.join(out, '_headers'), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: DENY\n`);

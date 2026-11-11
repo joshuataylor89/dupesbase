@@ -15,3 +15,6 @@ Set `asin` on the fragrance in data/fragrances.json. The build makes `https://ww
 - Find ASINs with WebSearch restricted to `allowed_domains: ["amazon.com"]` ("<Brand> <Name> <size>"). Accept only a `/dp/<10-char ASIN>` result whose title clearly names the same brand, fragrance, concentration and about 100 ml / 3.4 oz.
 - Skip gift sets, bundles, testers, minis, hair mists, oils, other editions, or sizes far from 100 ml. If nothing clean, leave `asin` empty (the button opens an Amazon search).
 - Amazon blocks automated browsing, so never open Amazon pages. The seller cannot be verified: say so in the report. ~25 fragrances per run, originals first, then the most-compared clones; report how many were set.
+
+# Share cards
+After any change to pairs, percentages, prices or icons run: `node build.mjs && python3 tools/og_cards.py && node build.mjs`. This renders static/og/<slug>.png (1200x630) for every fragrance page and the build uses them as og:image and in the description. Commit static/og.
