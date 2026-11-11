@@ -1,7 +1,6 @@
 (function () {
-  var dataEl = document.getElementById('hh-data');
-  if (!dataEl) return;
-  var CFG = JSON.parse(dataEl.textContent);
+  var CFG = window.HH_DATA;
+  if (!CFG) return;
   var D = CFG.items, PR = CFG.pairs, TAG = CFG.tag;
   var BY = {}; D.forEach(function (d) { BY[d.slug] = d; });
   var $ = function (s, r) { return (r || document).querySelector(s); };

@@ -1,6 +1,6 @@
 (function () {
-  var dataEl = document.getElementById('hh-data'); if (!dataEl) return;
-  var CFG = JSON.parse(dataEl.textContent), D = CFG.items, TAG = CFG.tag;
+  var CFG = window.HH_DATA; if (!CFG) return;
+  var D = CFG.items, TAG = CFG.tag;
   var init = {}; try { init = JSON.parse(document.getElementById('cmp-init').textContent) || {}; } catch (e) {}
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };

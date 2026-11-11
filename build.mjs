@@ -1,6 +1,7 @@
 // Static site generator for DupesBase.com
 // Usage: node build.mjs   -> writes the finished site to ./public
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -43,22 +44,38 @@ function overlap(a, b) {
   return { common, pct: union ? Math.round((common.length / union) * 100) : 0 };
 }
 const PAIRS = [];
+const byFull = Object.fromEntries(F.map((f) => [f.full, f]));
+const PAIR_SRC = { name: 'Reported similarity figure as supplied to Dupes Base (not our testing)', url: '/about/#similarity' };
+const specs = new Map();
 for (const f of F) {
   if (!f.similarTo) continue;
   const o = byName(f.similarTo);
   if (!o) throw new Error('similarTo not found: ' + f.similarTo);
+  specs.set(o.slug + '|' + f.slug, { o, c: f, rep: typeof f.reported === 'number' ? f.reported : null, source: f.pairSource });
+}
+{
+  const pj = path.join(root, 'data', 'pairs.json');
+  const list = fs.existsSync(pj) ? JSON.parse(fs.readFileSync(pj, 'utf8')) : [];
+  for (const p of list) {
+    const o = byFull[p.original], c = byFull[p.clone];
+    if (!o || !c) throw new Error('pairs.json: unknown fragrance ' + (o ? p.clone : p.original));
+    const k = o.slug + '|' + c.slug, prev = specs.get(k);
+    specs.set(k, { o, c, rep: p.pct, source: (prev && prev.source) || p.source || PAIR_SRC });
+  }
+}
+for (const { o, c: f, rep, source } of specs.values()) {
   const ov = overlap(o, f);
   const hasNotes = !!(o.nk.length && f.nk.length);
-  const rep = typeof f.reported === 'number' ? f.reported : null;
   const main = rep != null ? rep : hasNotes ? ov.pct : null;
   const lab = rep != null ? 'reported similarity' : 'notes overlap';
   const extra = { rep, hasNotes, main, lab };
-  PAIRS.push({ a: o.slug, b: f.slug, pct: ov.pct, common: ov.common, source: f.pairSource, ...extra });
-  f.pair = { with: o.slug, ...ov, source: f.pairSource, ...extra };
-  (o.pairs = o.pairs || []).push({ with: f.slug, ...ov, source: f.pairSource, ...extra });
+  PAIRS.push({ a: o.slug, b: f.slug, pct: ov.pct, common: ov.common, source, ...extra });
+  (o.pairs = o.pairs || []).push({ with: f.slug, ...ov, source, ...extra });
+  (f.origs = f.origs || []).push({ with: o.slug, ...ov, source, ...extra });
 }
-PAIRS.sort((x, y) => (y.main ?? -1) - (x.main ?? -1));
-for (const f of F) if (f.pairs) f.pairs.sort((x, y) => (y.main ?? -1) - (x.main ?? -1));
+const byMain = (x, y) => (y.main ?? -1) - (x.main ?? -1);
+PAIRS.sort(byMain);
+for (const f of F) { if (f.pairs) f.pairs.sort(byMain); if (f.origs) { f.origs.sort(byMain); f.pair = f.origs[0]; } }
 const mainTxt = (p) => (p.main == null ? '' : `${p.rep != null ? '~' : ''}${p.main}% ${p.lab}`);
 const pairOf = (f) => (f.pair ? { ...f.pair } : f.pairs ? f.pairs[0] : null);
 
@@ -368,11 +385,14 @@ const homeBody = `<section class="hero hero-modern hero-slim">
 <div class="tiles" id="tiles">${tileList.map(tile).join('')}</div>
 <p class="hh-note tiles-more" id="tiles-empty" hidden></p>
 <p class="hh-note">Percentages marked ~ are reported similarity figures supplied to us, not our own testing. Where none is available we show a rough overlap of published notes, marked "notes", which does not measure how alike two fragrances smell. Unisex originals appear under both tabs. Want to filter by notes, price tier or house? Use the <a href="/database/">advanced filters</a>.</p>
-<script>(function(){var g='Men',tabs=document.querySelectorAll('.gtabs button'),ts=document.querySelectorAll('#tiles .tile'),q=document.getElementById('tq'),em=document.getElementById('tiles-empty');
-function run(){var v=q.value.trim().toLowerCase(),w=v?v.split(/\s+/):[],n=0;Array.prototype.forEach.call(ts,function(t){var s=t.getAttribute('data-s'),ok=w.length?w.every(function(x){return s.indexOf(x)>-1}):(' '+t.getAttribute('data-g')+' ').indexOf(' '+g+' ')>-1;t.hidden=!ok;if(ok)n++;});
+<p class="tiles-btn"><button type="button" class="btn" id="tiles-more" hidden>Show more</button></p>
+<script>(function(){var g='Men',lim=24,tabs=document.querySelectorAll('.gtabs button'),ts=document.querySelectorAll('#tiles .tile'),q=document.getElementById('tq'),em=document.getElementById('tiles-empty'),mb=document.getElementById('tiles-more');
+function run(){var v=q.value.trim().toLowerCase(),w=v?v.split(/\\s+/):[],n=0,shown=0;Array.prototype.forEach.call(ts,function(t){var s=t.getAttribute('data-s'),ok=w.length?w.every(function(x){return s.indexOf(x)>-1}):(' '+t.getAttribute('data-g')+' ').indexOf(' '+g+' ')>-1;if(ok)n++;var vis=ok&&shown<lim;if(vis)shown++;t.hidden=!vis;});
+mb.hidden=n<=shown;mb.textContent='Show more ('+(n-shown)+' left)';
 em.hidden=n>0;em.textContent=n?'':(w.length?'No match yet. Try the advanced filters, or send us the pair with the Suggest a dupe link below.':'More '+g.toLowerCase()+"'s originals are being added.");}
-Array.prototype.forEach.call(tabs,function(b){b.addEventListener('click',function(){g=b.getAttribute('data-g');Array.prototype.forEach.call(tabs,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});run();});});
-q.addEventListener('input',run);document.getElementById('tq-form').addEventListener('submit',function(e){e.preventDefault();run();});
+Array.prototype.forEach.call(tabs,function(b){b.addEventListener('click',function(){g=b.getAttribute('data-g');lim=24;Array.prototype.forEach.call(tabs,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});run();});});
+mb.addEventListener('click',function(){lim+=24;run();});
+q.addEventListener('input',function(){lim=24;run();});document.getElementById('tq-form').addEventListener('submit',function(e){e.preventDefault();run();});
 try{var p=new URLSearchParams(location.search).get('q');if(p)q.value=p;}catch(e){}run();})();</script>
 ${disclosureBox}`;
 
@@ -392,7 +412,10 @@ write('privacy', page({ title: `Privacy Policy | ${cfg.siteName}`, desc: 'Privac
 
 // ---- data for client scripts ----
 const clientItems = F.map((f) => ({ slug: f.slug, name: f.name, brand: f.brand, full: f.full, role: f.role, year: f.year || 0, conc: f.concentration, gender: f.gender, size: f.size, tier: f.tier, top: f.top, heart: f.heart, base: f.base, flat: f.flat, accords: f.accords, season: f.season, nk: f.nk, img: f.img ? 1 : 0, imageUrl: f.imageUrl || '', asin: f.asin || '', link: f.link || '' }));
-const dataScript = `<script id="hh-data" type="application/json">${JSON.stringify({ tag: cfg.amazonTag, items: clientItems, pairs: PAIRS.map((p) => ({ a: p.a, b: p.b, pct: p.pct, common: p.common, rep: p.rep, main: p.main, lab: p.lab, hasNotes: p.hasNotes })) }).replace(/</g, '\\u003c')}</script>`;
+const dataJs = 'window.HH_DATA=' + JSON.stringify({ tag: cfg.amazonTag, items: clientItems, pairs: PAIRS.map((p) => ({ a: p.a, b: p.b, pct: p.pct, common: p.common, rep: p.rep, main: p.main, lab: p.lab, hasNotes: p.hasNotes })) }).replace(/</g, '\\u003c') + ';';
+const dataHash = createHash('md5').update(dataJs).digest('hex').slice(0, 8);
+const dataScript = `<script src="/data.js?v=${dataHash}"></script>`;
+fs.writeFileSync(path.join(out, 'data.js'), dataJs);
 
 // ---- database page ----
 const dbBody = `<div class="hh-head"><div><span class="pill">DATABASE</span><h1>Fragrance Dupes Database</h1></div></div>
@@ -430,7 +453,7 @@ const nameLink = (f) => `<a class="hh-brand" href="${esc(houseHref(f.brand))}" t
 const similarList = (f) => {
   const rel = new Map();
   const p = pairOf(f);
-  if (f.pair) rel.set(f.pair.with, f.pair);
+  (f.origs || []).forEach((q) => rel.set(q.with, q));
   (f.pairs || []).forEach((q) => rel.set(q.with, q));
   return [...rel].map(([s, q]) => `<a class="hh-row" href="/fragrance/${s}/"><span class="hh-rimg">${pic(BY[s])}</span><span class="hh-rmain"><b>${esc(BY[s].full)}</b><span class="hh-rtags"><span class="hh-tag">${roleLabel(BY[s])}</span></span></span><span class="hh-rside"><b>${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}</b><span>${q.main == null ? 'not rated' : q.lab}</span></span></a>`).join('');
 };
@@ -489,7 +512,7 @@ ${tabs}<h1 id="cmp-h1" class="cmp-h1">${esc(h1)}</h1>
 </div>
 ${extra || ''}
 <div id="cmp-out"></div>
-<section id="cmp-sugg"><h2 class="cmp-sh">Suggestions<span></span></h2><div class="cmp-sgrid">${PAIRS.map((p) => `<a href="/compare/${pairSlug(BY[p.a], BY[p.b])}/" data-pair="${p.a},${p.b}"><span class="cmp-sicon">${bottle(BY[p.a])}</span><b>${esc(BY[p.a].full)} <i>vs.</i> ${esc(BY[p.b].full)}</b><span class="cmp-sicon">${bottle(BY[p.b])}</span></a>`).join('')}</div></section>
+<section id="cmp-sugg"><h2 class="cmp-sh">Suggestions<span></span></h2><div class="cmp-sgrid">${PAIRS.slice(0, 12).map((p) => `<a href="/compare/${pairSlug(BY[p.a], BY[p.b])}/" data-pair="${p.a},${p.b}"><span class="cmp-sicon">${bottle(BY[p.a])}</span><b>${esc(BY[p.a].full)} <i>vs.</i> ${esc(BY[p.b].full)}</b><span class="cmp-sicon">${bottle(BY[p.b])}</span></a>`).join('')}</div></section>
 <p class="hh-note">Notes are as published by the sources named on each fragrance page, and we have not tested these fragrances. Green, red and yellow icons show which fragrance ranks higher, lower or equal where a hard number exists (price tier). Notes overlap compares two published lists and is not a measure of how alike they smell.</p>
 ${disclosureBox}`;
 const cmpScripts = (init) => `${dataScript}<script id="cmp-init" type="application/json">${JSON.stringify(init)}</script><script src="/compare.js" defer></script>`;
