@@ -475,6 +475,11 @@ const similarList = (f) => {
   (f.pairs || []).forEach((q) => rel.set(q.with, q));
   return [...rel].map(([s, q]) => `<a class="hh-row" href="/fragrance/${s}/"><span class="hh-rimg">${pic(BY[s])}</span><span class="hh-rmain"><b>${esc(BY[s].full)}</b><span class="hh-rtags"><span class="hh-tag">${roleLabel(BY[s])}</span></span></span><span class="hh-rside"><b>${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}</b><span>${q.main == null ? 'not rated' : q.lab}</span></span></a>`).join('');
 };
+const topThree = (f) => {
+  const arr = (f.role === 'original' ? (f.pairs || []) : (f.origs || [])).filter((q) => q.main != null).slice().sort((x, y) => y.main - x.main).slice(0, 3);
+  if (!arr.length) return '';
+  return `<section class="dv-panel top3"><h2>${f.role === 'original' ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2><div class="top3-g">${arr.map((q) => { const o = BY[q.with]; const href = f.role === 'original' ? pairSlug(f, o) : pairSlug(o, f); return `<a class="top3-c" href="/compare/${href}/"><span class="top3-i">${pic(o, 'loading="lazy" decoding="async"')}</span><span class="top3-n">${esc(o.full)}</span><b class="top3-p">${q.rep != null ? '~' : ''}${q.main}%</b></a>`; }).join('')}</div></section>`;
+};
 const pyramid = (f) =>
   f.flat.length
     ? `<div class="hh-tags">${f.flat.map((n) => `<span class="hh-tag">${esc(n)}</span>`).join('')}</div>`
@@ -493,6 +498,7 @@ for (const f of F) {
   ${similarList(f) ? `<h2 class="dv-sim">${f.role === 'original' ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2>${similarList(f)}` : ''}
 </aside>
 <div class="dv-main">
+  ${topThree(f)}
   <section class="dv-panel"><h2>Published notes</h2>${f.allNotes.length ? pyramid(f) : '<p class="meta">Not added yet.</p>'}<p class="hh-note">${f.source ? `${f.allNotes.length ? 'Notes as published by ' : 'Brand page: '}<a href="${esc(f.source.url)}" rel="noopener nofollow" target="_blank">${esc(f.source.name)}</a>. ` : ''}We have not tested this fragrance. ${esc(f.notesNote || 'Note lists differ between sources.')}</p></section>
   ${f.accords.length ? `<section class="dv-panel"><h2>Main accords (as listed)</h2><div class="hh-tags">${f.accords.map((t) => tagA('accord', t)).join('')}</div></section>` : ''}
   ${f.season.length ? `<section class="dv-panel"><h2>Season</h2><div class="hh-tags">${f.season.map((t) => tagA('season', t)).join('')}</div><p class="hh-note">Our editorial read of the published accords, not a test result.</p></section>` : ''}
