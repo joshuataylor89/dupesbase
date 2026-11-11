@@ -89,11 +89,12 @@ const byMain = (x, y) => (y.main ?? -1) - (x.main ?? -1);
 PAIRS.sort(byMain);
 for (const f of F) { if (f.pairs) f.pairs.sort(byMain); if (f.origs) { f.origs.sort(byMain); f.pair = f.origs[0]; } }
 const mainTxt = (p) => (p.main == null ? '' : `${p.rep != null ? '~' : ''}${p.main}% ${p.lab}`);
-const pairOf = (f) => (f.pair ? { ...f.pair } : f.pairs ? f.pairs[0] : null);
+const pairOf = (f) => (f.pair ? { ...f.pair, asClone: true } : f.pairs ? f.pairs[0] : null);
 
 // ---------- Amazon ----------
+const withTag = (u) => (/^https?:\/\/(www\.)?amazon\.com\//i.test(u) && !/[?&]tag=/.test(u) ? u + (u.includes('?') ? '&' : '?') + 'tag=' + cfg.amazonTag : u);
 const amazonLink = (f) =>
-  f.link ? f.link : f.asin ? `https://www.amazon.com/dp/${f.asin}?tag=${cfg.amazonTag}` : `https://www.amazon.com/s?k=${encodeURIComponent(f.full + ' perfume')}&tag=${cfg.amazonTag}`;
+  f.link ? withTag(f.link) : f.asin ? `https://www.amazon.com/dp/${f.asin}?tag=${cfg.amazonTag}` : `https://www.amazon.com/s?k=${encodeURIComponent(f.full + ' perfume')}&tag=${cfg.amazonTag}`;
 const storeLinks = (f) => [
   ['Jomashop', `https://www.jomashop.com/search?q=${encodeURIComponent(f.full)}${cfg.jomashopParams || ''}`],
   ['FragranceNet', `https://www.fragrancenet.com/search?q=${encodeURIComponent(f.full)}${cfg.fragrancenetParams || ''}`],
@@ -126,7 +127,7 @@ function productCard(f, rank) {
     ${tierLine(f)}
     <p class="notes">${noteLine(f)}</p>
     ${f.accords.length ? `<p class="notes"><b>Main accords (as listed):</b> ${esc(f.accords.join(', '))}</p>` : ''}
-    ${other ? `<p class="notes"><b>${f.role === 'alternative' ? 'Commonly compared to' : 'Commonly compared with'}:</b> <a href="/fragrance/${other.slug}/">${esc(other.full)}</a>.${p.main != null ? ' ' + mainTxt(p).replace(/^./, (c) => c.toUpperCase()) + (p.rep == null ? ` (${p.common.length} shared notes)` : '') + '.' : ''} <a href="/compare/${pairSlug(f.role === 'alternative' ? other : f, f.role === 'alternative' ? f : other)}/">Compare side by side</a>.</p>` : ''}
+    ${other ? `<p class="notes"><b>${p.asClone ? 'Commonly compared to' : 'Commonly compared with'}:</b> <a href="/fragrance/${other.slug}/">${esc(other.full)}</a>.${p.main != null ? ' ' + mainTxt(p).replace(/^./, (c) => c.toUpperCase()) + (p.rep == null ? ` (${p.common.length} shared notes)` : '') + '.' : ''} <a href="/compare/${pairSlug(p.asClone ? other : f, p.asClone ? f : other)}/">Compare side by side</a>.</p>` : ''}
     <p>${buyBtn(f)} <a class="btn btn2" href="/fragrance/${f.slug}/">Full notes</a></p>
   </div>
 </section>`;
@@ -488,9 +489,10 @@ const similarList = (f) => {
   return [...rel].map(([s, q]) => `<a class="hh-row" href="/fragrance/${s}/"><span class="hh-rimg">${pic(BY[s])}</span><span class="hh-rmain"><b>${esc(BY[s].full)}</b><span class="hh-rtags"><span class="hh-tag">${roleLabel(BY[s])}</span></span></span><span class="hh-rside"><b>${q.main == null ? '—' : (q.rep != null ? '~' : '') + q.main + '%'}</b><span>${q.main == null ? 'not rated' : q.lab}</span></span></a>`).join('');
 };
 const topThree = (f) => {
-  const arr = (f.role === 'original' ? (f.pairs || []) : (f.origs || [])).filter((q) => q.main != null).slice().sort((x, y) => y.main - x.main).slice(0, 3);
+  const asOrig = (f.pairs || []).length > 0;
+  const arr = (asOrig ? f.pairs : (f.origs || [])).filter((q) => q.main != null).slice().sort((x, y) => y.main - x.main).slice(0, 3);
   if (!arr.length) return '';
-  return `<section class="dv-panel top3"><h2>${f.role === 'original' ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2><div class="top3-g">${arr.map((q) => { const o = BY[q.with]; const href = f.role === 'original' ? pairSlug(f, o) : pairSlug(o, f); return `<a class="top3-c" href="/compare/${href}/"><span class="top3-i">${pic(o, 'loading="lazy" decoding="async"')}</span><span class="top3-n">${esc(o.full)}</span><b class="top3-p">${q.rep != null ? '~' : ''}${q.main}%</b></a>`; }).join('')}</div></section>`;
+  return `<section class="dv-panel top3"><h2>${asOrig ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2><div class="top3-g">${arr.map((q) => { const o = BY[q.with]; const href = asOrig ? pairSlug(f, o) : pairSlug(o, f); return `<a class="top3-c" href="/compare/${href}/"><span class="top3-i">${pic(o, 'loading="lazy" decoding="async"')}</span><span class="top3-n">${esc(o.full)}</span><b class="top3-p">${q.rep != null ? '~' : ''}${q.main}%</b></a>`; }).join('')}</div></section>`;
 };
 const pyramid = (f) =>
   f.flat.length
@@ -514,7 +516,7 @@ for (const f of F) {
   <section class="dv-panel"><h2>Published notes</h2>${f.allNotes.length ? pyramid(f) : '<p class="meta">Not added yet.</p>'}<p class="hh-note">${f.source ? `${f.allNotes.length ? 'Notes as published by ' : 'Brand page: '}<a href="${esc(f.source.url)}" rel="noopener nofollow" target="_blank">${esc(f.source.name)}</a>. ` : ''}We have not tested this fragrance. ${esc(f.notesNote || 'Note lists differ between sources.')}</p></section>
   ${f.accords.length ? `<section class="dv-panel"><h2>Main accords (as listed)</h2><div class="hh-tags">${f.accords.map((t) => tagA('accord', t)).join('')}</div></section>` : ''}
   ${f.season.length ? `<section class="dv-panel"><h2>Season</h2><div class="hh-tags">${f.season.map((t) => tagA('season', t)).join('')}</div><p class="hh-note">Our editorial read of the published accords, not a test result.</p></section>` : ''}
-  ${other ? `<section class="dv-panel"><h2>${f.role === 'alternative' ? 'The original it is compared to' : 'Alternative people compare it to'}</h2><p><a href="/fragrance/${other.slug}/">${esc(other.full)}</a> ${p.main != null ? `· ${esc(mainTxt(p))}${p.rep == null && p.common.length ? ` (${esc(p.common.join(', '))})` : ''}` : ''}.</p><p class="hh-note">Pairing as described by <a href="${esc(p.source.url)}" rel="noopener nofollow" target="_blank">${esc(p.source.name)}</a>. ${p.rep != null ? 'The reported similarity is a community-style rating supplied to us. We have not tested either fragrance and it is not our measurement.' : 'The overlap is a rough comparison of two published note lists, not a measure of how alike they smell.'} <a href="/compare/${pairSlug(f.role === 'alternative' ? other : f, f.role === 'alternative' ? f : other)}/">Compare side by side</a>.</p></section>` : ''}
+  ${other ? `<section class="dv-panel"><h2>${p.asClone ? 'The original it is compared to' : 'Alternative people compare it to'}</h2><p><a href="/fragrance/${other.slug}/">${esc(other.full)}</a> ${p.main != null ? `· ${esc(mainTxt(p))}${p.rep == null && p.common.length ? ` (${esc(p.common.join(', '))})` : ''}` : ''}.</p><p class="hh-note">Pairing as described by <a href="${esc(p.source.url)}" rel="noopener nofollow" target="_blank">${esc(p.source.name)}</a>. ${p.rep != null ? 'The reported similarity is a community-style rating supplied to us. We have not tested either fragrance and it is not our measurement.' : 'The overlap is a rough comparison of two published note lists, not a measure of how alike they smell.'} <a href="/compare/${pairSlug(p.asClone ? other : f, p.asClone ? f : other)}/">Compare side by side</a>.</p></section>` : ''}
   <section class="dv-panel"><h2>Tags</h2><div class="hh-tags">${[tagA('brand', f.brand), f.gender && tagA('gender', f.gender), f.concentration && tagA('conc', f.concentration), tagA('tier', f.tier), tagA('role', roleLabel(f))].filter(Boolean).join('')}</div></section>
   ${disclosureBox}
 </div>

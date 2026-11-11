@@ -33,7 +33,7 @@ BRANDS = {
  'milestone': 'Milestone', 'dossier': 'Dossier', 'zara': 'Zara', 'montblanc': 'Montblanc', 'emir': 'Emir',
  'rayhaan': 'Rayhaan', 'cuba': 'Cuba', 'mouj': 'Mouj', 'arabiyat': 'Arabiyat', 'al wataniah': 'Al Wataniah',
  'emper': 'Emper', 'lumiere': 'Lumiere', 'bentley': 'Bentley', 'just jack': 'Just Jack', 'pink sugar': 'Aquolina',
- 'gigglepuff': 'Gigglepuff',
+ 'gigglepuff': 'Gigglepuff', 'perry ellis': 'Perry Ellis', 'missoni': 'Missoni', 'ariana grande': 'Ariana Grande', 'paris corner': 'Paris Corner',
  'tom ford': 'Tom Ford', 'louis vuitton': 'Louis Vuitton', 'paco rabanne': 'Paco Rabanne', 'creed': 'Creed',
  'xerjoff': 'Xerjoff', 'mancera': 'Mancera', 'initio': 'Initio', 'valentino': 'Valentino', 'bond no 9': 'Bond No. 9',
  'dior': 'Dior', 'kayali': 'Kayali', 'amouage': 'Amouage', 'versace': 'Versace', 'carolina herrera': 'Carolina Herrera',

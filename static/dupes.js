@@ -86,7 +86,7 @@
     var s = '#0d0f1f', o = d.role === 'original';
     return '<svg viewBox="0 0 120 150" aria-hidden="true"><rect x="46" y="6" width="28" height="22" rx="4" fill="' + s + '" stroke="currentColor" stroke-width="3"/><rect x="52" y="28" width="16" height="10" fill="currentColor"/><rect x="22" y="38" width="76" height="104" rx="' + (o ? 8 : 20) + '" fill="currentColor"/><rect x="34" y="62" width="52" height="46" rx="4" fill="' + s + '"/><rect x="42" y="74" width="36" height="4" fill="currentColor" opacity=".7"/><rect x="42" y="84" width="26" height="4" fill="currentColor" opacity=".7"/></svg>';
   }
-  function amazon(d) { return d.link ? d.link : d.asin ? 'https://www.amazon.com/dp/' + d.asin + '?tag=' + TAG : 'https://www.amazon.com/s?k=' + encodeURIComponent(d.full + ' perfume') + '&tag=' + TAG; }
+  function amazon(d) { return d.link ? (/^https?:\/\/(www\.)?amazon\.com\//i.test(d.link) && !/[?&]tag=/.test(d.link) ? d.link + (d.link.indexOf('?') >= 0 ? '&' : '?') + 'tag=' + TAG : d.link) : d.asin ? 'https://www.amazon.com/dp/' + d.asin + '?tag=' + TAG : 'https://www.amazon.com/s?k=' + encodeURIComponent(d.full + ' perfume') + '&tag=' + TAG; }
   var HC = {}; D.forEach(function (d) { HC[d.brand] = (HC[d.brand] || 0) + 1; });
   function slugify(s) { return s.toLowerCase().replace(/&/g, 'and').replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
   function houseHref(b) { return HC[b] > 1 ? '/house/' + slugify(b) + '/' : '/database/?brand=' + encodeURIComponent(b); }

@@ -1117,7 +1117,7 @@
   {
     "original": "Tom Ford Tobacco Vanille",
     "clone": "Al Haramain Amber Oud Tobacco",
-    "pct": 94
+    "pct": 95
   },
   {
     "original": "Paco Rabanne Invictus Victory Elixir",
@@ -1172,6 +1172,156 @@
   {
     "original": "Tom Ford Tuscan Leather",
     "clone": "Maison Alhambra Toscano Leather",
-    "pct": 86
+    "pct": 90
+  },
+  {
+    "original": "Dior Sauvage Elixir",
+    "clone": "Fragrance World Enigma Une",
+    "pct": 95
+  },
+  {
+    "original": "Dior Sauvage Elixir",
+    "clone": "Lattafa Asad",
+    "pct": 94
+  },
+  {
+    "original": "Dior Sauvage Elixir",
+    "clone": "Afnan Turathi Electric",
+    "pct": 90
+  },
+  {
+    "original": "Dior Sauvage Elixir",
+    "clone": "Al Haramain Amber Oud Elixir",
+    "pct": 90
+  },
+  {
+    "original": "Chanel Bleu De Chanel EDP",
+    "clone": "Al Haramain Amber Oud Bleu Edition",
+    "pct": 85
+  },
+  {
+    "original": "Chanel Bleu De Chanel EDP",
+    "clone": "Missoni Parfum Pour Homme",
+    "pct": 80
+  },
+  {
+    "original": "Tom Ford Tuscan Leather",
+    "clone": "Al Haramain Leather Oudh",
+    "pct": 80
+  },
+  {
+    "original": "Maison Francis Kurkdjian Baccarat Rouge 540",
+    "clone": "Armaf Club de Nuit Untold",
+    "pct": 95
+  },
+  {
+    "original": "Maison Francis Kurkdjian Baccarat Rouge 540",
+    "clone": "Al Haramain Amber Oud Rouge",
+    "pct": 90
+  },
+  {
+    "original": "Maison Francis Kurkdjian Baccarat Rouge 540",
+    "clone": "Ariana Grande Cloud",
+    "pct": 80
+  },
+  {
+    "original": "Valentino Uomo Born in Roma",
+    "clone": "Lattafa Jasoor",
+    "pct": 90
+  },
+  {
+    "original": "Valentino Uomo Born in Roma",
+    "clone": "Maison Alhambra Victorioso Legend",
+    "pct": 85
+  },
+  {
+    "original": "Valentino Uomo Born in Roma",
+    "clone": "Maison Alhambra Victorioso Nero",
+    "pct": 85
+  },
+  {
+    "original": "Valentino Uomo Born in Roma",
+    "clone": "Paco Rabanne Invictus",
+    "pct": 80
+  },
+  {
+    "original": "Tom Ford Tobacco Vanille",
+    "clone": "Maison Alhambra Tobacco Touch",
+    "pct": 90
+  },
+  {
+    "original": "Tom Ford Tobacco Vanille",
+    "clone": "Paris Corner Charuto Tobacco Vanille",
+    "pct": 85
+  },
+  {
+    "original": "Giorgio Armani Acqua Di Gio",
+    "clone": "Perry Ellis 360 Red for Men",
+    "pct": 90
+  },
+  {
+    "original": "Giorgio Armani Acqua Di Gio",
+    "clone": "Maison Alhambra Jorge Di Profumo",
+    "pct": 90
+  },
+  {
+    "original": "Giorgio Armani Acqua Di Gio",
+    "clone": "Lattafa Suqraat",
+    "pct": 85
+  },
+  {
+    "original": "Yves Saint Laurent Y EDP",
+    "clone": "Lattafa Fakhar Black",
+    "pct": 90
+  },
+  {
+    "original": "Yves Saint Laurent Y EDP",
+    "clone": "Maison Alhambra Yeah! Man",
+    "pct": 90
+  },
+  {
+    "original": "Yves Saint Laurent Y EDP",
+    "clone": "Armaf Odyssey Mega",
+    "pct": 85
+  },
+  {
+    "original": "Gucci Guilty Pour Homme",
+    "clone": "Armaf Aura Fresh",
+    "pct": 80
+  },
+  {
+    "original": "Gucci Guilty Pour Homme",
+    "clone": "Armaf Hunter",
+    "pct": 80
+  },
+  {
+    "original": "Gucci Guilty Pour Homme",
+    "clone": "Zara Man Silver",
+    "pct": 80
+  },
+  {
+    "original": "Gucci Guilty Pour Homme",
+    "clone": "Perry Ellis Oud Black Vanilla Absolute",
+    "pct": 80
+  },
+  {
+    "original": "Gucci Guilty Pour Homme",
+    "clone": "Perry Ellis Oud Black Vanilla Reserve",
+    "pct": 80
+  },
+  {
+    "original": "Carolina Herrera Bad Boy Cobalt",
+    "clone": "Maison Alhambra Bad Lad",
+    "pct": 85
+  },
+  {
+    "original": "Carolina Herrera Bad Boy Cobalt",
+    "clone": "Lattafa Hayaati Al Maleky",
+    "pct": 80
+  },
+  {
+    "original": "Carolina Herrera Bad Boy Cobalt",
+    "clone": "Paco Rabanne Phantom",
+    "pct": 80
   }
 ]
