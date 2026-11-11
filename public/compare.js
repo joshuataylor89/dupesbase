@@ -92,7 +92,7 @@
     var sc = score(a, b), ca = '', cb = '';
     var head = function (d, c, x) { return '<h2 class="cmp-ttl ' + c + '">' + nameHtml(d) + (x ? '<button type="button" class="cmp-x" data-clear="b" aria-label="Remove ' + esc(d.full) + '">×</button>' : '') + '</h2>'; };
     var pc = ['', ''];
-    var info = function (d, ind) { return '<div class="cmp-info"><div class="cmp-img">' + icon(d) + '</div><dl class="hh-kv"><div><dt>Type</dt><dd>' + esc(roleLabel(d)) + '</dd></div>' + (d.year ? '<div><dt>Released</dt><dd>' + d.year + '</dd></div>' : '') + (d.conc ? '<div><dt>Concentration</dt><dd>' + esc(d.conc) + '</dd></div>' : '') + (d.gender ? '<div><dt>Gender</dt><dd>' + esc(d.gender) + '</dd></div>' : '') + '<div><dt>Price tier</dt><dd><b>' + esc(d.tier) + '</b>' + ind + '</dd></div></dl></div>'; };
+    var info = function (d, ind) { return '<div class="cmp-info"><div class="cmp-img">' + icon(d) + '</div><dl class="hh-kv"><div><dt>Type</dt><dd>' + esc(roleLabel(d)) + '</dd></div>' + (d.year ? '<div><dt>Released</dt><dd>' + d.year + '</dd></div>' : '') + (d.conc ? '<div><dt>Concentration</dt><dd>' + esc(d.conc) + '</dd></div>' : '') + (d.gender ? '<div><dt>Gender</dt><dd>' + esc(d.gender) + '</dd></div>' : '') + '<div><dt>Price tier</dt><dd><b>' + esc(d.tier) + '</b>' + ind + '</dd></div>' + (d.price ? '<div><dt>Price</dt><dd><b>' + esc(d.price.t) + '</b><br><small>' + esc(d.price.n) + '</small></dd></div>' : '') + '</dl></div>'; };
     var rp0 = pairFor(a, b), hasN = a.nk.length && b.nk.length;
     var h = '<div class="cmp-pair">' + head(a, ca) + head(b, cb, 1) + '</div>';
     h += '<div class="cmp-pair">' + info(a, pc[0]) + info(b, pc[1]) + '</div>';

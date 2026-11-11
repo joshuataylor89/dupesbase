@@ -18,6 +18,9 @@ const TIER_ORDER = ['Under $50', '$50 to $150', '$150 and up'];
 
 // ---------- Data ----------
 const F = JSON.parse(fs.readFileSync(path.join(root, 'data/fragrances.json'), 'utf8'));
+const PRICES = fs.existsSync(path.join(root, 'data/prices.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'data/prices.json'), 'utf8')) : {};
+const priceTxt = (p) => p ? `$${p.amount.toFixed(2)}` : '';
+const priceNote = (p) => p ? `${p.size} at ${p.source}, ${new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}` : '';
 const SYN = { cassis: 'blackcurrant', 'black currant': 'blackcurrant', 'green apple': 'apple', 'pineapple leaf': 'pineapple', 'moroccan jasmine': 'jasmine', 'jasminum grandiflorum': 'jasmine', 'bitter almond': 'almond', 'candied almond': 'almond', cedar: 'cedarwood', 'woody notes': 'woods', 'dry woods': 'woods', 'wild lavender': 'lavender', 'tonka bean': 'tonka' };
 const norm = (n) => { const k = n.toLowerCase().trim(); return SYN[k] || k; };
 {
@@ -27,6 +30,7 @@ const norm = (n) => { const k = n.toLowerCase().trim(); return SYN[k] || k; };
     while (seen[s]) s = `${slugify(`${f.brand} ${f.name}`)}-${n++}`;
     seen[s] = 1; f.slug = s;
     f.full = `${f.brand} ${f.name}`;
+    if (PRICES[f.full]) f.price = PRICES[f.full];
     f.top = f.top || []; f.heart = f.heart || []; f.base = f.base || []; f.flat = f.flat || [];
     f.allNotes = [...f.top, ...f.heart, ...f.base, ...f.flat];
     f.nk = [...new Set(f.allNotes.map(norm))];
@@ -429,7 +433,7 @@ write('affiliate-disclosure', page({ title: `Affiliate Disclosure | ${cfg.siteNa
 write('privacy', page({ title: `Privacy Policy | ${cfg.siteName}`, desc: 'Privacy policy for Dupes Base.', url: '/privacy/', body: privacyBody }));
 
 // ---- data for client scripts ----
-const clientItems = F.map((f) => ({ slug: f.slug, name: f.name, brand: f.brand, full: f.full, role: f.role, year: f.year || 0, conc: f.concentration, gender: f.gender, size: f.size, tier: f.tier, top: f.top, heart: f.heart, base: f.base, flat: f.flat, accords: f.accords, season: f.season, nk: f.nk, img: f.img ? 1 : 0, imageUrl: f.imageUrl || '', asin: f.asin || '', link: f.link || '' }));
+const clientItems = F.map((f) => ({ slug: f.slug, name: f.name, brand: f.brand, full: f.full, role: f.role, year: f.year || 0, conc: f.concentration, gender: f.gender, size: f.size, tier: f.tier, top: f.top, heart: f.heart, base: f.base, flat: f.flat, accords: f.accords, season: f.season, nk: f.nk, img: f.img ? 1 : 0, imageUrl: f.imageUrl || '', asin: f.asin || '', link: f.link || '', price: f.price ? { t: priceTxt(f.price), n: priceNote(f.price) } : null }));
 const dataJs = 'window.HH_DATA=' + JSON.stringify({ tag: cfg.amazonTag, items: clientItems, pairs: PAIRS.map((p) => ({ a: p.a, b: p.b, pct: p.pct, common: p.common, rep: p.rep, main: p.main, lab: p.lab, hasNotes: p.hasNotes })) }).replace(/</g, '\\u003c') + ';';
 const dataHash = createHash('md5').update(dataJs).digest('hex').slice(0, 8);
 const dataScript = `<script src="/data.js?v=${dataHash}"></script>`;
@@ -494,7 +498,7 @@ for (const f of F) {
   ${carousel(f)}
   ${buyBtn(f, 'hh-buy dv-buy')}
   <a class="btn dv-cmp" href="/compare/?a=${f.slug}">Compare with another fragrance</a>
-  <div class="dv-box">${kv([['Type', roleLabel(f)], ['Released', f.year ? String(f.year) : ''], ['Concentration', f.concentration], ['Gender', f.gender], ['Size', f.size], ['Price tier', f.tier + ' (approx.)']])}</div>
+  <div class="dv-box">${kv([['Type', roleLabel(f)], ['Released', f.year ? String(f.year) : ''], ['Concentration', f.concentration], ['Gender', f.gender], ['Size', f.size], ['Price tier', f.tier + ' (approx.)'], ...(f.price ? [['Price', priceTxt(f.price) + ' (' + priceNote(f.price) + ')']] : [])])}</div>
   ${similarList(f) ? `<h2 class="dv-sim">${f.role === 'original' ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2>${similarList(f)}` : ''}
 </aside>
 <div class="dv-main">
