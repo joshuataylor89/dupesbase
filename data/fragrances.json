@@ -3215,7 +3215,7 @@
     "name": "Bleu De Chanel EDP",
     "brand": "Chanel",
     "role": "original",
-    "year": 0,
+    "year": 2014,
     "concentration": "",
     "gender": "Men",
     "size": "",
@@ -3223,10 +3223,30 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Woody",
+      "Spicy",
+      "Aquatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet.",
-    "asin": "B00NAH3GNI"
+    "notesNote": "Published notes as listed by Parfumo.",
+    "asin": "B00NAH3GNI",
+    "flat": [
+      "Sicilian lemon",
+      "Mandarin orange",
+      "New Caledonian sandalwood",
+      "Woody notes",
+      "Cedar",
+      "Haitian vetiver",
+      "Venezuelan tonka bean",
+      "Vanilla"
+    ],
+    "source": {
+      "name": "Parfumo: Chanel Bleu de Chanel Eau de Parfum",
+      "url": "https://www.parfumo.com/Perfumes/Chanel/Bleu_de_Chanel_Eau_de_Parfum"
+    }
   },
   {
     "name": "Club De Nuit Blue Iconic",
@@ -5559,7 +5579,7 @@
     "name": "Phantom",
     "brand": "Paco Rabanne",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Men",
     "size": "",
@@ -5567,9 +5587,29 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Sweet",
+      "Synthetic",
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Parfumo.",
+    "flat": [
+      "Fruity notes",
+      "Rhubarb",
+      "Vanilla absolute",
+      "Italian lemon zest",
+      "Provençal lavender absolute",
+      "Clary sage",
+      "Haitian vetiver",
+      "Indonesian patchouli"
+    ],
+    "source": {
+      "name": "Parfumo: Rabanne Phantom",
+      "url": "https://www.parfumo.com/Perfumes/rabanne/phantom"
+    }
   },
   {
     "name": "Iconic",
@@ -6959,17 +6999,40 @@
     "name": "Sauvage Elixir",
     "brand": "Dior",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Nutmeg",
+      "Cardamom",
+      "Cinnamon",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Provençal lavender"
+    ],
+    "base": [
+      "Liquorice",
+      "Amber notes",
+      "Patchouli",
+      "Woods",
+      "Haitian vetiver"
+    ],
+    "accords": [
+      "Spicy",
+      "Woody",
+      "Sweet",
+      "Fresh",
+      "Synthetic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Parfumo.",
+    "source": {
+      "name": "Parfumo: Dior Sauvage Elixir",
+      "url": "https://www.parfumo.com/Perfumes/dior/sauvage-elixir"
+    }
   },
   {
     "name": "Zukhruf Black",
@@ -8270,15 +8333,34 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Jasmine"
+    ],
+    "heart": [
+      "Ambergris",
+      "Amberwood"
+    ],
+    "base": [
+      "Cedar",
+      "Fir resin"
+    ],
+    "accords": [
+      "Sweet",
+      "Synthetic",
+      "Oriental",
+      "Gourmand",
+      "Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Parfumo.",
+    "source": {
+      "name": "Parfumo: Armaf Club de Nuit Untold",
+      "url": "https://www.parfumo.com/Perfumes/Armaf/club-de-nuit-untold"
+    }
   },
   {
     "name": "Amber Oud Rouge",
@@ -8383,15 +8465,36 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Calone",
+      "Lemon",
+      "Sage"
+    ],
+    "heart": [
+      "Freesia",
+      "Frankincense"
+    ],
+    "base": [
+      "Cedarwood",
+      "Musk",
+      "Patchouli"
+    ],
+    "accords": [
+      "Fresh",
+      "Aquatic",
+      "Woody",
+      "Citrus",
+      "Synthetic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Parfumo.",
+    "source": {
+      "name": "Parfumo: Lattafa Suqraat",
+      "url": "https://www.parfumo.com/Perfumes/Lattafa/suqraat"
+    }
   },
   {
     "name": "Fakhar Black",
@@ -8565,9 +8668,31 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Synthetic",
+      "Aquatic",
+      "Fruity"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Parfumo.",
+    "flat": [
+      "Calabrian bergamot",
+      "Ambroxan",
+      "Chinese black tea CO2",
+      "Citron",
+      "Tunisian neroli",
+      "Nigerian ginger",
+      "Sicilian orange",
+      "Ceylonese cinnamon",
+      "Frankincense",
+      "Gaiac wood"
+    ],
+    "source": {
+      "name": "Parfumo: The Dua Brand #Imagine",
+      "url": "https://www.parfumo.com/Perfumes/the-dua-brand/imagine"
+    }
   },
   {
     "name": "Game of Spades Full House",
@@ -8589,16 +8714,38 @@
     "name": "Prestige Marwa",
     "brand": "Arabiyat",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bergamot",
+      "Ginger",
+      "Petitgrain"
+    ],
+    "heart": [
+      "Chinese black tea",
+      "Geranium",
+      "Frankincense"
+    ],
+    "base": [
+      "Musk",
+      "Ambroxan",
+      "Gaiac wood"
+    ],
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Aquatic",
+      "Synthetic",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Published notes as listed by Parfumo.",
+    "source": {
+      "name": "Parfumo: Arabiyat Prestige Marwa",
+      "url": "https://www.parfumo.com/Perfumes/arabiyat-prestige/marwa"
+    }
   }
 ]
