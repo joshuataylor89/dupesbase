@@ -398,16 +398,12 @@ const homeBody = `<section class="hero hero-modern hero-slim">
 <div class="gtabs" role="tablist" aria-label="Show originals for"><button type="button" role="tab" class="on" aria-selected="true" data-g="Men">Men</button><button type="button" role="tab" aria-selected="false" data-g="Women">Women</button><button type="button" role="tab" aria-selected="false" data-g="Unisex">Unisex</button></div>
 <div class="tiles" id="tiles">${tileList.map((o, i) => tile(o).replace('<a class="tile"', `<a class="tile" data-i="${i}"`)).join('')}</div>
 <p class="hh-note tiles-more" id="tiles-empty" hidden></p>
-<p class="hh-note">Percentages marked ~ are reported similarity figures supplied to us, not our own testing. Where none is available we show a rough overlap of published notes, marked "notes", which does not measure how alike two fragrances smell. Want to filter by notes, price tier or house? Use the <a href="/database/">advanced filters</a>.</p>
-<p class="tiles-btn"><button type="button" class="btn" id="tiles-more" hidden>Show more</button></p>
-<script>(function(){var g='Men',lim=24,tabs=document.querySelectorAll('.gtabs button'),ts=document.querySelectorAll('#tiles .tile'),q=document.getElementById('tq'),em=document.getElementById('tiles-empty'),mb=document.getElementById('tiles-more');
+<script>(function(){var g='Men',lim=1e9,tabs=document.querySelectorAll('.gtabs button'),ts=document.querySelectorAll('#tiles .tile'),q=document.getElementById('tq'),em=document.getElementById('tiles-empty');
 function ord(){var arr=Array.prototype.slice.call(ts),c=document.getElementById('tiles');arr.sort(function(a,b){var x=JSON.parse(a.getAttribute('data-f'))[g],y=JSON.parse(b.getAttribute('data-f'))[g];x=x==null?9999:x;y=y==null?9999:y;return x-y||a.getAttribute('data-i')-b.getAttribute('data-i');});arr.forEach(function(t){c.appendChild(t);});}
 function run(){ord();var v=q.value.trim().toLowerCase(),w=v?v.split(/\\s+/):[],n=0,shown=0;Array.prototype.forEach.call(document.querySelectorAll('#tiles .tile'),function(t){var s=t.getAttribute('data-s'),ok=w.length?w.every(function(x){return s.indexOf(x)>-1}):(' '+t.getAttribute('data-g')+' ').indexOf(' '+g+' ')>-1;if(ok)n++;var vis=ok&&shown<lim;if(vis)shown++;t.hidden=!vis;});
-mb.hidden=n<=shown;mb.textContent='Show more ('+(n-shown)+' left)';
 em.hidden=n>0;em.textContent=n?'':(w.length?'No match yet. Try the advanced filters, or send us the pair with the Suggest a dupe link below.':'More originals are being added.');}
-Array.prototype.forEach.call(tabs,function(b){b.addEventListener('click',function(){g=b.getAttribute('data-g');lim=24;Array.prototype.forEach.call(tabs,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});run();});});
-mb.addEventListener('click',function(){lim+=24;run();});
-q.addEventListener('input',function(){lim=24;run();});document.getElementById('tq-form').addEventListener('submit',function(e){e.preventDefault();run();});
+Array.prototype.forEach.call(tabs,function(b){b.addEventListener('click',function(){g=b.getAttribute('data-g');Array.prototype.forEach.call(tabs,function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});run();});});
+q.addEventListener('input',function(){run();});document.getElementById('tq-form').addEventListener('submit',function(e){e.preventDefault();run();});
 try{var p=new URLSearchParams(location.search).get('q');if(p)q.value=p;}catch(e){}run();})();</script>
 ${disclosureBox}`;
 
