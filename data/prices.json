@@ -2734,7 +2734,7 @@
       }
     ]
   },
-  "Fragrance World After Effect": {
+  "French Avenue After Effect": {
     "size": "3.4 oz / 100 ml",
     "quotes": [
       {
@@ -2824,7 +2824,7 @@
       }
     ]
   },
-  "Fragrance World Royal Blend Vintage": {
+  "French Avenue Royal Blend Vintage": {
     "size": "3.4 oz / 100 ml",
     "quotes": [
       {
@@ -2834,7 +2834,7 @@
       }
     ]
   },
-  "Fragrance World Spectre Ghost": {
+  "French Avenue Spectre Ghost": {
     "size": "3.4 oz / 100 ml",
     "quotes": [
       {
@@ -4979,6 +4979,56 @@
     "quotes": [
       {
         "amount": 25.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Khamrah Qahwa": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 32.0,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Lattafa Musamam Black Intense": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 42.49,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Armaf Rugir": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 37.99,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Rayhaan Terra": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 31.59,
+        "source": "owner",
+        "date": "2026-11-11"
+      }
+    ]
+  },
+  "Maison Asrar Muharib": {
+    "size": "3.4 oz / 100 ml",
+    "quotes": [
+      {
+        "amount": 50.0,
         "source": "owner",
         "date": "2026-11-11"
       }

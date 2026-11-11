@@ -1733,7 +1733,7 @@
   },
   {
     "name": "Royal Blend Vintage",
-    "brand": "Fragrance World",
+    "brand": "French Avenue",
     "role": "alternative",
     "year": 0,
     "concentration": "",
@@ -2493,7 +2493,7 @@
   },
   {
     "name": "Spectre Ghost",
-    "brand": "Fragrance World",
+    "brand": "French Avenue",
     "role": "alternative",
     "year": 0,
     "concentration": "",
@@ -5401,7 +5401,7 @@
   },
   {
     "name": "After Effect",
-    "brand": "Fragrance World",
+    "brand": "French Avenue",
     "role": "alternative",
     "year": 0,
     "concentration": "",
@@ -8746,6 +8746,202 @@
     "source": {
       "name": "Parfumo: Arabiyat Prestige Marwa",
       "url": "https://www.parfumo.com/Perfumes/arabiyat-prestige/marwa"
+    }
+  },
+  {
+    "name": "Khamrah Qahwa",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Cinnamon",
+      "Cardamom",
+      "Ginger"
+    ],
+    "heart": [
+      "Praline",
+      "Candied fruits",
+      "White flowers"
+    ],
+    "base": [
+      "Vanilla",
+      "Coffee",
+      "Tonka bean",
+      "Benzoin",
+      "Musk"
+    ],
+    "accords": [
+      "Warm spicy",
+      "Sweet",
+      "Vanilla",
+      "Cinnamon",
+      "Coffee",
+      "Amber",
+      "Powdery"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Khamrah Qahwa",
+      "url": "https://www.fragrantica.com/designers/Lattafa-Perfumes.html"
+    }
+  },
+  {
+    "name": "Musamam Black Intense",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lavender",
+      "Nutmeg",
+      "Sage",
+      "Bergamot"
+    ],
+    "heart": [
+      "Cedarwood",
+      "Geranium",
+      "Mahonial",
+      "Rosyfolia"
+    ],
+    "base": [
+      "Cocoapulse",
+      "Tonka bean",
+      "Maple",
+      "Ambrofix",
+      "Patchouli"
+    ],
+    "accords": [
+      "Fresh spicy",
+      "Woody",
+      "Aromatic",
+      "Lavender",
+      "Floral",
+      "Vanilla",
+      "Herbal",
+      "Sweet",
+      "Warm spicy",
+      "Amber"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Musamam Black Intense",
+      "url": "https://www.fragrantica.com/designers/Lattafa-Perfumes.html"
+    }
+  },
+  {
+    "name": "Rugir",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 2024,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Apple",
+      "Lavender",
+      "Mandarin orange",
+      "Bergamot"
+    ],
+    "heart": [
+      "Geranium",
+      "Violet",
+      "Jasmine"
+    ],
+    "base": [
+      "Vanilla",
+      "Cardamom",
+      "Guaiac wood",
+      "Amber",
+      "Sandalwood",
+      "Patchouli",
+      "Pink pepper"
+    ],
+    "accords": [
+      "Vanilla",
+      "Woody",
+      "Aromatic",
+      "Warm spicy",
+      "Fruity",
+      "Fresh spicy",
+      "Lavender",
+      "Powdery",
+      "Fresh",
+      "Citrus"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Armaf Rugir",
+      "url": "https://www.fragrantica.com/designers/Armaf.html"
+    }
+  },
+  {
+    "name": "Terra",
+    "brand": "Rayhaan",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "Published notes have not been added yet."
+  },
+  {
+    "name": "Muharib",
+    "brand": "Maison Asrar",
+    "role": "alternative",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lavender",
+      "Lemon",
+      "Bergamot"
+    ],
+    "heart": [
+      "Honey",
+      "Cinnamon",
+      "Cashmere wood"
+    ],
+    "base": [
+      "Tobacco",
+      "Tonka bean",
+      "Jasmine"
+    ],
+    "accords": [
+      "Sweet",
+      "Honey",
+      "Tobacco",
+      "Lavender",
+      "Citrus",
+      "Aromatic",
+      "Floral",
+      "Warm spicy",
+      "Cinnamon",
+      "Amber"
+    ],
+    "season": [],
+    "notesNote": "Published notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Asrar Muharib",
+      "url": "https://www.fragrantica.com/designers/Maison-Asrar.html"
     }
   }
 ]

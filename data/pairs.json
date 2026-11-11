@@ -176,7 +176,7 @@
   },
   {
     "original": "Kilian Old Fashioned",
-    "clone": "Fragrance World Royal Blend Vintage",
+    "clone": "French Avenue Royal Blend Vintage",
     "pct": 95
   },
   {
@@ -291,7 +291,7 @@
   },
   {
     "original": "Nishane Ani",
-    "clone": "Fragrance World Spectre Ghost",
+    "clone": "French Avenue Spectre Ghost",
     "pct": 90
   },
   {
@@ -746,7 +746,7 @@
   },
   {
     "original": "Initio Side Effect",
-    "clone": "Fragrance World After Effect",
+    "clone": "French Avenue After Effect",
     "pct": 90
   },
   {
@@ -1343,5 +1343,30 @@
     "original": "Louis Vuitton Imagination",
     "clone": "Arabiyat Prestige Marwa",
     "pct": 90
+  },
+  {
+    "original": "Kilian Angels' Share",
+    "clone": "Lattafa Khamrah Qahwa",
+    "pct": 75
+  },
+  {
+    "original": "Bvlgari Le Gemme Tygar",
+    "clone": "Lattafa Musamam Black Intense",
+    "pct": 85
+  },
+  {
+    "original": "Parfums de Marly Layton",
+    "clone": "Armaf Rugir",
+    "pct": 85
+  },
+  {
+    "original": "Amouage Outlands",
+    "clone": "Rayhaan Terra",
+    "pct": 90
+  },
+  {
+    "original": "Xerjoff Naxos",
+    "clone": "Maison Asrar Muharib",
+    "pct": 95
   }
 ]
