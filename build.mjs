@@ -494,6 +494,7 @@ const topThree = (f) => {
   if (!arr.length) return '';
   return `<section class="dv-panel top3"><h2>${asOrig ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2><div class="top3-g">${arr.map((q) => { const o = BY[q.with]; const href = asOrig ? pairSlug(f, o) : pairSlug(o, f); return `<a class="top3-c" href="/compare/${href}/"><span class="top3-i">${pic(o, 'loading="lazy" decoding="async"')}</span><span class="top3-n">${esc(o.full)}</span><b class="top3-p">${q.rep != null ? '~' : ''}${q.main}%</b></a>`; }).join('')}</div></section>`;
 };
+const reviewBox = (f) => f.review ? `<section class="dv-panel take"><h2><span class="take-k">Quick take</span> ${esc(f.review.title)}</h2><p class="take-t">${esc(f.review.text)}</p></section>` : '';
 const pyramid = (f) =>
   f.flat.length
     ? `<div class="hh-tags">${f.flat.map((n) => `<span class="hh-tag">${esc(n)}</span>`).join('')}</div>`
@@ -513,6 +514,7 @@ for (const f of F) {
 </aside>
 <div class="dv-main">
   ${topThree(f)}
+  ${reviewBox(f)}
   <section class="dv-panel"><h2>Published notes</h2>${f.allNotes.length ? pyramid(f) : '<p class="meta">Not added yet.</p>'}<p class="hh-note">${f.source ? `${f.allNotes.length ? 'Notes as published by ' : 'Brand page: '}<a href="${esc(f.source.url)}" rel="noopener nofollow" target="_blank">${esc(f.source.name)}</a>. ` : ''}We have not tested this fragrance. ${esc(f.notesNote || 'Note lists differ between sources.')}</p></section>
   ${f.accords.length ? `<section class="dv-panel"><h2>Main accords (as listed)</h2><div class="hh-tags">${f.accords.map((t) => tagA('accord', t)).join('')}</div></section>` : ''}
   ${f.season.length ? `<section class="dv-panel"><h2>Season</h2><div class="hh-tags">${f.season.map((t) => tagA('season', t)).join('')}</div><p class="hh-note">Our editorial read of the published accords, not a test result.</p></section>` : ''}

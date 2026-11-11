@@ -57,22 +57,34 @@
     "size": "105 ml (3.6 oz)",
     "tier": "Under $50",
     "top": [
-      "Cassis",
-      "Lime",
-      "Green apple",
-      "Pineapple leaf"
+      "Lemon",
+      "Pineapple",
+      "Bergamot",
+      "Black currant",
+      "Apple"
     ],
     "heart": [
-      "Rose",
+      "Birch",
       "Jasmine",
-      "Birch"
+      "Rose"
     ],
     "base": [
+      "Musk",
       "Ambergris",
       "Patchouli",
       "Vanilla"
     ],
-    "accords": [],
+    "accords": [
+      "Citrus",
+      "Fruity",
+      "Leather",
+      "Smoky",
+      "Woody",
+      "Aromatic",
+      "Sweet",
+      "Fresh",
+      "Musky"
+    ],
     "season": [],
     "similarTo": "Aventus",
     "pairSource": {
@@ -80,8 +92,8 @@
       "url": "https://bespokeunit.com/articles/fragrance/armaf-club-de-nuit-intense-man/"
     },
     "source": {
-      "name": "Bespoke Unit: Armaf Club de Nuit Intense Man",
-      "url": "https://bespokeunit.com/articles/fragrance/armaf-club-de-nuit-intense-man/"
+      "name": "Fragrantica: Armaf Club de Nuit Intense Man",
+      "url": "https://www.fragrantica.com/perfume/Armaf/Club-de-Nuit-Intense-Man-34696.html"
     },
     "aliases": [
       "CDNIM",
@@ -89,7 +101,11 @@
       "Club de Nuit Intense"
     ],
     "reported": 88,
-    "link": "https://link.amazon/B00C8eVj5"
+    "link": "https://link.amazon/B00C8eVj5",
+    "review": {
+      "title": "The Budget Flex",
+      "text": "Want Aventus vibes without the $380 price tag? This is the one everyone points to. Fresh lemon and pineapple up top, smoky birch underneath, and it lasts all day."
+    }
   },
   {
     "name": "Angels' Share",
