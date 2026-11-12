@@ -7228,17 +7228,46 @@
     "name": "Sotoor Taa",
     "brand": "Rasasi",
     "role": "alternative",
-    "year": 0,
+    "year": 2017,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Neroli",
+      "Lavender",
+      "Cardamom",
+      "Pink Pepper"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Sea Notes",
+      "Geranium"
+    ],
+    "base": [
+      "Vanilla",
+      "Amber",
+      "Cedar",
+      "Patchouli"
+    ],
+    "accords": [
+      "Aromatic",
+      "White Floral",
+      "Fresh Spicy",
+      "Citrus",
+      "Marine",
+      "Warm Spicy",
+      "Woody",
+      "Vanilla",
+      "Lavender",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Rasasi Sotoor Taa'",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Papilefiko",
@@ -9987,17 +10016,44 @@
     "name": "Hawas Diva",
     "brand": "Rasasi",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Red Fruits",
+      "Rhubarb",
+      "Lychee"
+    ],
+    "heart": [
+      "Rose",
+      "Frankincense",
+      "Cedar"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Ambergris"
+    ],
+    "accords": [
+      "Fruity",
+      "Vanilla",
+      "Amber",
+      "Sweet",
+      "Powdery",
+      "Rose",
+      "Musky",
+      "Green",
+      "Fresh",
+      "Aromatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Rasasi Hawas Diva",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Le Beau Le Parfum",
@@ -12619,17 +12675,46 @@
     "name": "Hawas Ice",
     "brand": "Rasasi",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Apple",
+      "Italian Lemon",
+      "Sicilian Bergamot",
+      "Star Anise"
+    ],
+    "heart": [
+      "Plum",
+      "Orange Blossom",
+      "Cardamon"
+    ],
+    "base": [
+      "Musk",
+      "Amber",
+      "Driftwood",
+      "Moss"
+    ],
+    "accords": [
+      "Fruity",
+      "Citrus",
+      "Sweet",
+      "Fresh",
+      "Aromatic",
+      "Musky",
+      "Powdery",
+      "Fresh Spicy",
+      "Green",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Rasasi Hawas Ice",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Le Male",
@@ -18344,17 +18429,47 @@
     "name": "La Yuqawam Pour Homme",
     "brand": "Rasasi",
     "role": "alternative",
-    "year": 0,
+    "year": 2012,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Raspberry",
+      "Saffron",
+      "Thyme"
+    ],
+    "heart": [
+      "Olibanum",
+      "Jasmine",
+      "Artemisia"
+    ],
+    "base": [
+      "Leather",
+      "Suede",
+      "Woody Notes",
+      "Amber"
+    ],
+    "accords": [
+      "Leather",
+      "Fruity",
+      "Sweet",
+      "Animalic",
+      "Amber",
+      "Woody",
+      "Musky",
+      "Warm Spicy",
+      "Smoky"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Rasasi La Yuqawam Homme",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "La Yuqawam Homme"
+    ]
   },
   {
     "name": "Toscano Leather",
