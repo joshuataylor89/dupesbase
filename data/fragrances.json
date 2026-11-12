@@ -4110,7 +4110,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -4127,7 +4127,9 @@
       "Leather",
       "Jasmine"
     ],
-    "accords": [],
+    "accords": [
+      "Amber"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -10173,7 +10175,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -10190,7 +10192,9 @@
       "Patchouli",
       "Cypress"
     ],
-    "accords": [],
+    "accords": [
+      "Fougère"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19228,7 +19232,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Unisex",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19247,7 +19251,9 @@
       "Musk",
       "Blue Tea"
     ],
-    "accords": [],
+    "accords": [
+      "Fresh"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19261,7 +19267,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19281,7 +19287,9 @@
       "Vanilla",
       "Vetiver"
     ],
-    "accords": [],
+    "accords": [
+      "Fresh"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19295,7 +19303,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19314,13 +19322,18 @@
       "Tonka Bean",
       "Amber"
     ],
-    "accords": [],
+    "accords": [
+      "Leather"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
       "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
       "url": "/about/"
-    }
+    },
+    "aliases": [
+      "Odyssey Spectra"
+    ]
   },
   {
     "name": "Odyssey Revolution",
@@ -19328,7 +19341,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19347,13 +19360,18 @@
       "Tonka Bean",
       "Patchouli"
     ],
-    "accords": [],
+    "accords": [
+      "Woody"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
       "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
       "url": "/about/"
-    }
+    },
+    "aliases": [
+      "Odyssey Revolution Ultra Edition"
+    ]
   },
   {
     "name": "Odyssey Candee",
@@ -19361,7 +19379,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Women",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19381,13 +19399,18 @@
       "Patchouli",
       "Amber"
     ],
-    "accords": [],
+    "accords": [
+      "Floral"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
       "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
       "url": "/about/"
-    }
+    },
+    "aliases": [
+      "Odyssey Candee Special Edition"
+    ]
   },
   {
     "name": "Odyssey Eau de Montagne",
@@ -19395,7 +19418,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Unisex",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19411,7 +19434,9 @@
       "Musk",
       "Amber"
     ],
-    "accords": [],
+    "accords": [
+      "Floral"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19425,7 +19450,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19442,7 +19467,9 @@
       "Amberwood",
       "Guaiac Wood"
     ],
-    "accords": [],
+    "accords": [
+      "Fresh"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19456,7 +19483,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19473,7 +19500,9 @@
       "Ambroxan",
       "Musk"
     ],
-    "accords": [],
+    "accords": [
+      "Leather"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19482,12 +19511,12 @@
     }
   },
   {
-    "name": "Odyssey Tryant",
+    "name": "Odyssey Tyrant",
     "brand": "Armaf",
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19506,7 +19535,9 @@
       "Woody Notes",
       "Ambroxan"
     ],
-    "accords": [],
+    "accords": [
+      "Woody"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19520,7 +19551,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Unisex",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19541,7 +19572,9 @@
       "Amber",
       "Musk"
     ],
-    "accords": [],
+    "accords": [
+      "Floral"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19550,12 +19583,12 @@
     }
   },
   {
-    "name": "Odyssey Bahamas",
+    "name": "Odyssey Ba Ha Mas",
     "brand": "Armaf",
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Unisex",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19571,7 +19604,9 @@
       "Musk",
       "Amber"
     ],
-    "accords": [],
+    "accords": [
+      "Fresh"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19585,7 +19620,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Unisex",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19601,7 +19636,9 @@
       "Woods",
       "Musk"
     ],
-    "accords": [],
+    "accords": [
+      "Gourmand"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19615,7 +19652,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Men",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19638,7 +19675,9 @@
       "Sandalwood",
       "Musk"
     ],
-    "accords": [],
+    "accords": [
+      "Woody"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19670,7 +19709,9 @@
       "Vanilla",
       "Woods"
     ],
-    "accords": [],
+    "accords": [
+      "Gourmand"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
@@ -19684,7 +19725,7 @@
     "role": "alternative",
     "year": 0,
     "concentration": "EDP",
-    "gender": "",
+    "gender": "Unisex",
     "size": "100 ml",
     "tier": "Not rated",
     "top": [
@@ -19700,11 +19741,302 @@
       "Musk",
       "Woods"
     ],
-    "accords": [],
+    "accords": [
+      "Gourmand"
+    ],
     "season": [],
     "notesNote": "Notes as listed in a line-up of the Armaf Odyssey range supplied to Dupes Base.",
     "source": {
       "name": "Armaf Odyssey line list supplied to Dupes Base (notes and \"inspired by\" as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Femme White Edition",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Women",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Floral"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Spectra Blue Edition",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Leather"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Dubai Chocolate",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Unisex",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Gourmand"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Mandarin Sky Vintage Edition",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Fresh"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Li'Chi Lush EDP",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Soda Pop",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Artisto",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Unisex",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Woody"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Pink Pop EDP",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey French Kiss",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Women",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Floral",
+      "Gourmand"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Nexus",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Fresh",
+      "Aromatic",
+      "Aquatic"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Ring My Bell",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Spicy",
+      "Green",
+      "Woody"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Jalapeach-O",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Spicy",
+      "Fruity",
+      "Gourmand"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
+      "url": "/about/"
+    }
+  },
+  {
+    "name": "Odyssey Bloody Hot",
+    "brand": "Armaf",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "EDP",
+    "gender": "Men",
+    "size": "100 ml",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Spicy",
+      "Fruity",
+      "Amber"
+    ],
+    "season": [],
+    "notesNote": "No notes supplied yet.",
+    "source": {
+      "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
       "url": "/about/"
     }
   }
