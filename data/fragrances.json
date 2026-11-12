@@ -991,17 +991,38 @@
     "name": "Scandal Pour Homme",
     "brand": "Jean Paul Gaultier",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Mandarin Orange",
+      "Clary Sage"
+    ],
+    "heart": [
+      "Caramel",
+      "Tonka Bean"
+    ],
+    "base": [
+      "Vetiver"
+    ],
+    "accords": [
+      "Caramel",
+      "Aromatic",
+      "Sweet",
+      "Citrus",
+      "Vanilla",
+      "Amber",
+      "Soft Spicy",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jean Paul Gaultier Scandal Pour Homme",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Odyssey Mandarin Sky",
@@ -1371,17 +1392,41 @@
     "name": "Oud For Greatness",
     "brand": "Initio",
     "role": "original",
-    "year": 0,
+    "year": 2018,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Nutmeg",
+      "Lavender"
+    ],
+    "heart": [
+      "Agarwood (Oud)"
+    ],
+    "base": [
+      "Patchouli",
+      "Musk"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Oud",
+      "Lavender",
+      "Patchouli",
+      "Metallic",
+      "Musky",
+      "Leather",
+      "Woody",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Initio Parfums Prives Oud for Greatness",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Oud For Glory",
@@ -1461,17 +1506,39 @@
     "name": "Atomic Rose",
     "brand": "Initio",
     "role": "original",
-    "year": 0,
+    "year": 2019,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "heart": [
+      "Bulgarian Rose",
+      "Turkish Rose",
+      "Egyptian Jasmine"
+    ],
+    "base": [
+      "Madagascar Vanilla",
+      "Amber"
+    ],
+    "accords": [
+      "Rose",
+      "Vanilla",
+      "Soft Spicy",
+      "Citrus",
+      "Floral",
+      "Amber",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Initio Parfums Prives Atomic Rose",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Infini Rose",
@@ -1567,17 +1634,48 @@
     "name": "Royal Amber",
     "brand": "King of Kings",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Mango",
+      "Calabrian bergamot",
+      "Ginger",
+      "Amalfi Lemon"
+    ],
+    "heart": [
+      "Melon",
+      "Pear",
+      "Green Apple",
+      "Cardamom",
+      "Clove",
+      "Cinnamon"
+    ],
+    "base": [
+      "White Musk",
+      "Amber",
+      "Bourbon Vanilla"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Fresh",
+      "Citrus",
+      "Warm Spicy",
+      "Tropical",
+      "Aquatic",
+      "Fresh Spicy",
+      "Musky",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: King of Kings Royal Amber",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Herod",
@@ -2501,17 +2599,42 @@
     "name": "Le Male Elixir",
     "brand": "Jean Paul Gaultier",
     "role": "original",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lavender",
+      "Mint"
+    ],
+    "heart": [
+      "Vanilla",
+      "Benzoin"
+    ],
+    "base": [
+      "Honey",
+      "Tonka Bean",
+      "Tobacco"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Honey",
+      "Aromatic",
+      "Amber",
+      "Lavender",
+      "Tobacco",
+      "Green",
+      "Fresh Spicy",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jean Paul Gaultier Le Male Elixir",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "The Kingdom",
@@ -3014,17 +3137,43 @@
     "name": "La Belle",
     "brand": "Jean Paul Gaultier",
     "role": "original",
-    "year": 0,
+    "year": 2019,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Bergamot"
+    ],
+    "heart": [
+      "Floral Notes",
+      "Leather"
+    ],
+    "base": [
+      "Vanilla",
+      "Vetiver",
+      "Amber",
+      "Musk"
+    ],
+    "accords": [
+      "Vanilla",
+      "Fruity",
+      "Sweet",
+      "Powdery",
+      "Aquatic",
+      "Aromatic",
+      "Amber",
+      "Woody",
+      "Floral",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jean Paul Gaultier La Belle",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Glacier Bella",
@@ -4241,12 +4390,39 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Lavender",
+      "Pink Pepper"
+    ],
+    "heart": [
+      "Amber",
+      "Cedarwood",
+      "Cashmere Wood"
+    ],
+    "base": [
+      "Moss",
+      "Patchouli",
+      "Musk"
+    ],
+    "accords": [
+      "Woody",
+      "Citrus",
+      "Lavender",
+      "Musky",
+      "Amber",
+      "Earthy",
+      "Soft Spicy",
+      "Mossy",
+      "Aromatic",
+      "Patchouli"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Khadlaj Perfumes Shiyaaka Shadow",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Ani",
@@ -4539,17 +4715,55 @@
     "name": "Yum Pistachio Gelato",
     "brand": "Kayali",
     "role": "original",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pistachio",
+      "Ice cream",
+      "Bergamot",
+      "Hazelnut",
+      "Rum",
+      "Cardamom"
+    ],
+    "heart": [
+      "Lily-of-the-Valley",
+      "Pear",
+      "Jasmine",
+      "Peony",
+      "Geranium",
+      "Raspberry",
+      "White Peach"
+    ],
+    "base": [
+      "Whipped Cream",
+      "Marshmallow",
+      "Cotton Candy",
+      "Tonka Bean",
+      "Loukhoum",
+      "Sandalwood",
+      "Cedar",
+      "Cacao"
+    ],
+    "accords": [
+      "Sweet",
+      "Woody",
+      "Vanilla",
+      "Nutty",
+      "Powdery",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Kayali Fragrances Yum Pistachio Gelato | 33",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Yum Pistachio Gelato | 33"
+    ]
   },
   {
     "name": "Yummy Pistachio Oud",
@@ -5042,17 +5256,39 @@
     "name": "A Chant For The Nymph",
     "brand": "Gucci",
     "role": "original",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Frangipani"
+    ],
+    "heart": [
+      "Tiare Flower",
+      "Ylang-Ylang"
+    ],
+    "base": [
+      "Vanilla"
+    ],
+    "accords": [
+      "Floral",
+      "White Floral",
+      "Tropical",
+      "Yellow Floral",
+      "Sweet",
+      "Vanilla",
+      "Lactonic",
+      "Fruity",
+      "Woody",
+      "Citrus"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Gucci A Chant for the Nymph",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "The Chant",
@@ -5524,17 +5760,45 @@
     "name": "Hufflepuff",
     "brand": "House of Sillage",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Italian Lemon",
+      "Coconut",
+      "Peach"
+    ],
+    "heart": [
+      "Gardenia",
+      "Freesia",
+      "Jasmine Sambac"
+    ],
+    "base": [
+      "Bourbon Vanilla",
+      "Vanilla Bean",
+      "Virginia Cedar"
+    ],
+    "accords": [
+      "Vanilla",
+      "Citrus",
+      "Coconut",
+      "Sweet",
+      "Powdery",
+      "White Floral",
+      "Lactonic",
+      "Fruity"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: House Of Sillage Hufflepuff Parfum",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Hufflepuff Parfum"
+    ]
   },
   {
     "name": "Hekayat Attar",
@@ -6235,34 +6499,88 @@
     "name": "Game Of Spades Queen",
     "brand": "Jo Milano",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Tangerine",
+      "Freesia"
+    ],
+    "heart": [
+      "Jasmine Sambac",
+      "Rose",
+      "Lily"
+    ],
+    "base": [
+      "Musk",
+      "Sandalwood",
+      "Amber"
+    ],
+    "accords": [
+      "White Floral",
+      "Floral",
+      "Citrus",
+      "Rose",
+      "Musky",
+      "Powdery",
+      "Woody",
+      "Amber",
+      "Animalic",
+      "Soft Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jo Milano Paris Game of Spades Queen",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Guilty Pour Homme",
     "brand": "Gucci",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Juniper",
+      "Lavender",
+      "Lemon"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Nutmeg",
+      "Spanish Labdanum"
+    ],
+    "base": [
+      "Dry Wood",
+      "Patchouli",
+      "Musk"
+    ],
+    "accords": [
+      "Woody",
+      "Fresh Spicy",
+      "Aromatic",
+      "Citrus",
+      "Lavender",
+      "Musky",
+      "White Floral",
+      "Patchouli"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet.",
-    "asin": "B00D58PEE6"
+    "notesNote": "Notes as listed by Fragrantica.",
+    "asin": "B00D58PEE6",
+    "source": {
+      "name": "Fragrantica: Gucci Gucci Guilty Pour Homme Parfum",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Gucci Guilty Pour Homme Parfum"
+    ]
   },
   {
     "name": "Sotoor Taa",
@@ -6341,17 +6659,35 @@
     "name": "Terre D'Hermes Eau Givree",
     "brand": "Hermes",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Citron"
+    ],
+    "heart": [
+      "Juniper Berries",
+      "Timur"
+    ],
+    "base": [
+      "Mineral notes",
+      "Woody Notes"
+    ],
+    "accords": [
+      "Citrus",
+      "Woody",
+      "Fresh Spicy",
+      "Aromatic",
+      "Mineral"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Hermès Terre d'Hermès Eau Givrée",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Toro Pour Homme Glace",
@@ -6501,17 +6837,43 @@
     "name": "Idylle",
     "brand": "Guerlain",
     "role": "original",
-    "year": 0,
+    "year": 2009,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Tincture of Rose",
+      "Freesia",
+      "Litchi",
+      "Raspberry"
+    ],
+    "heart": [
+      "Lily-of-the-Valley",
+      "Jasmine",
+      "Lilac",
+      "Peony",
+      "Lily"
+    ],
+    "base": [
+      "Musk",
+      "Patchouli"
+    ],
+    "accords": [
+      "White Floral",
+      "Floral",
+      "Fresh",
+      "Rose",
+      "Musky",
+      "Green",
+      "Fruity"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Guerlain Idylle",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Rare Tiffany",
@@ -6560,17 +6922,49 @@
     "name": "Love Don't Be Shy",
     "brand": "Kilian",
     "role": "original",
-    "year": 0,
+    "year": 2007,
     "concentration": "",
-    "gender": "Unisex",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Neroli",
+      "Bergamot",
+      "Pink Pepper",
+      "Coriander"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Honeysuckle",
+      "Jasmine",
+      "Marshmallow",
+      "Iris",
+      "Rose"
+    ],
+    "base": [
+      "Sugar",
+      "Vanilla",
+      "Caramel",
+      "Musk",
+      "Civet",
+      "Labdanum"
+    ],
+    "accords": [
+      "Sweet",
+      "White Floral",
+      "Vanilla",
+      "Citrus",
+      "Caramel",
+      "Powdery",
+      "Musky",
+      "Animalic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: By Kilian Love Don't Be Shy",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Floral Marshmallow",
@@ -6637,28 +7031,85 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Red Fruits"
+    ],
+    "heart": [
+      "Tonka Bean",
+      "Rose",
+      "Chocolate"
+    ],
+    "base": [
+      "Musk",
+      "Amber",
+      "Oakmoss",
+      "Moss",
+      "Ambergris"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Amber",
+      "Rose",
+      "Musky",
+      "Sweet",
+      "Vanilla",
+      "Chocolate",
+      "Powdery",
+      "Metallic",
+      "Animalic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Khadlaj Perfumes Karus Secret Musk",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Silky Woods",
     "brand": "Goldfield & Banks",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Ceylon Cinnamon"
+    ],
+    "heart": [
+      "Suede",
+      "Agarwood (Oud)",
+      "Madagascar Ylang-Ylang",
+      "Jasmine"
+    ],
+    "base": [
+      "Tahitian Vanilla",
+      "Australian Sandalwood",
+      "Tobacco Leaf",
+      "Musk",
+      "Olibanum"
+    ],
+    "accords": [
+      "Vanilla",
+      "Powdery",
+      "Warm Spicy",
+      "Leather",
+      "Musky",
+      "Woody",
+      "Tobacco",
+      "Sweet",
+      "Oud",
+      "Cinnamon"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Goldfield & Banks Australia Silky Woods",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Gladiators Oath",
@@ -7546,17 +7997,40 @@
     "name": "Le Male Le Parfum",
     "brand": "Jean Paul Gaultier",
     "role": "original",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cardamom"
+    ],
+    "heart": [
+      "Lavender",
+      "Iris"
+    ],
+    "base": [
+      "Vanilla",
+      "Oriental notes",
+      "Woodsy Notes"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Vanilla",
+      "Lavender",
+      "Aromatic",
+      "Powdery",
+      "Iris",
+      "Woody",
+      "Amber",
+      "Violet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jean Paul Gaultier Le Male Le Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Glacier Le Noir",
@@ -8466,17 +8940,40 @@
     "name": "Jour D'Hermes Absolu",
     "brand": "Hermes",
     "role": "original",
-    "year": 0,
+    "year": 2014,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Apricot Blossom"
+    ],
+    "heart": [
+      "Gardenia",
+      "Floral Notes",
+      "Jasmine Sambac"
+    ],
+    "base": [
+      "Woody Notes",
+      "Oakmoss"
+    ],
+    "accords": [
+      "Floral",
+      "White Floral",
+      "Citrus",
+      "Woody",
+      "Mossy",
+      "Fresh Spicy",
+      "Fruity",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Hermès Jour d'Hermes Absolu",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Ekhtiari",
@@ -8530,17 +9027,45 @@
     "name": "Le Beau Le Parfum",
     "brand": "Jean Paul Gaultier",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pineapple",
+      "Iris",
+      "Ginger",
+      "Cypress"
+    ],
+    "heart": [
+      "Coconut",
+      "Woodsy Notes"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Sandalwood",
+      "Amber",
+      "Ambergris"
+    ],
+    "accords": [
+      "Sweet",
+      "Woody",
+      "Coconut",
+      "Amber",
+      "Vanilla",
+      "Tropical",
+      "Fruity",
+      "Powdery",
+      "Iris",
+      "Lactonic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jean Paul Gaultier Le Beau Le Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Glacier Bold",
@@ -8673,17 +9198,48 @@
     "name": "Boss Bottled Intense",
     "brand": "Hugo Boss",
     "role": "original",
-    "year": 0,
+    "year": 2015,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Apple",
+      "Orange Blossom",
+      "Bergamot"
+    ],
+    "heart": [
+      "Cinnamon",
+      "Cloves",
+      "Cardamom",
+      "Geranium",
+      "Lavender"
+    ],
+    "base": [
+      "Vanilla",
+      "Sandalwood",
+      "Coumarin",
+      "Cedar",
+      "Vetiver"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Vanilla",
+      "Woody",
+      "Cinnamon",
+      "Fruity",
+      "Aromatic",
+      "Powdery",
+      "Fresh Spicy",
+      "Fresh",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Hugo Boss Boss Bottled Intense",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Pinnace Noir",
@@ -8940,17 +9496,49 @@
     "name": "Black Panthom",
     "brand": "Kilian",
     "role": "original",
-    "year": 0,
+    "year": 2017,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Rum"
+    ],
+    "heart": [
+      "Dark Chocolate",
+      "Coffee",
+      "Almond",
+      "Heliotrope"
+    ],
+    "base": [
+      "Caramel",
+      "Sugar Cane",
+      "Sandalwood",
+      "Vanilla",
+      "Tonka",
+      "Vetiver"
+    ],
+    "accords": [
+      "Sweet",
+      "Warm Spicy",
+      "Caramel",
+      "Chocolate",
+      "Coffee",
+      "Rum",
+      "Woody",
+      "Almond",
+      "Vanilla",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: By Kilian Black Phantom",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Black Phantom"
+    ]
   },
   {
     "name": "Spectre Wraith",
@@ -9919,17 +10507,41 @@
     "name": "Game Of Spades Bid",
     "brand": "Jo Milano",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Violet",
+      "Cardamom"
+    ],
+    "heart": [
+      "Iris",
+      "Ambroxan"
+    ],
+    "base": [
+      "Sandalwood",
+      "Cedarwood",
+      "Leather"
+    ],
+    "accords": [
+      "Woody",
+      "Powdery",
+      "Violet",
+      "Warm Spicy",
+      "Iris",
+      "Amber",
+      "Leather",
+      "Aromatic",
+      "Musky"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jo Milano Paris Game Of Spades Bid",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Red Tobacco",
@@ -10035,7 +10647,7 @@
     "name": "Side Effect",
     "brand": "Initio",
     "role": "original",
-    "year": 0,
+    "year": 2016,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
@@ -10043,9 +10655,28 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Warm Spicy",
+      "Tobacco",
+      "Rum",
+      "Cinnamon",
+      "Woody",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Rum",
+      "Tobacco",
+      "Cinnamon",
+      "Saffron",
+      "Sandalwood",
+      "Hedione"
+    ],
+    "source": {
+      "name": "Fragrantica: Initio Parfums Prives Side Effect",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "After Effect",
@@ -10149,17 +10780,43 @@
     "name": "Gentleman Reserve Privée",
     "brand": "Givenchy",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bergamot"
+    ],
+    "heart": [
+      "Iris",
+      "Chestnut"
+    ],
+    "base": [
+      "Whiskey",
+      "Woodsy Notes",
+      "Amber"
+    ],
+    "accords": [
+      "Woody",
+      "Iris",
+      "Whiskey",
+      "Powdery",
+      "Amber",
+      "Violet",
+      "Warm Spicy",
+      "Earthy",
+      "Nutty"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Givenchy Gentleman Eau de Parfum Reserve Privée",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Gentleman Eau de Parfum Reserve Privée"
+    ]
   },
   {
     "name": "Inekas Luna",
@@ -10715,17 +11372,48 @@
     "name": "Le Male",
     "brand": "Jean Paul Gaultier",
     "role": "original",
-    "year": 0,
+    "year": 1995,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lavender",
+      "Mint",
+      "Cardamom",
+      "Bergamot",
+      "Artemisia"
+    ],
+    "heart": [
+      "Cinnamon",
+      "Orange Blossom",
+      "Caraway"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka Bean",
+      "Amber",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "accords": [
+      "Aromatic",
+      "Vanilla",
+      "Fresh Spicy",
+      "Lavender",
+      "Warm Spicy",
+      "Green",
+      "Powdery",
+      "Sweet",
+      "Amber",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jean Paul Gaultier Le Male",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Cuba Gold",
@@ -11052,17 +11740,42 @@
     "name": "Game Of Spades Moon",
     "brand": "Jo Milano",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Caramel",
+      "Floral",
+      "Warm Spicy",
+      "White Floral",
+      "Woody",
+      "Coffee",
+      "Sweet",
+      "Patchouli",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Caramel",
+      "Flowers",
+      "Coffee",
+      "Gardenia",
+      "Sandalwood",
+      "Patchouli",
+      "Jasmine",
+      "Carnation",
+      "Sea Notes"
+    ],
+    "source": {
+      "name": "Fragrantica: Jo Milano Paris Game of Spades Moon",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Invictus Platinum",
@@ -11190,17 +11903,47 @@
     "name": "L.12.12 White",
     "brand": "Lacoste",
     "role": "original",
-    "year": 0,
+    "year": 2011,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Rosemary",
+      "Cardamom"
+    ],
+    "heart": [
+      "Ylang-Ylang",
+      "Tuberose"
+    ],
+    "base": [
+      "Virginia Cedar",
+      "Suede",
+      "Vetiver",
+      "Leather"
+    ],
+    "accords": [
+      "Woody",
+      "Aromatic",
+      "Citrus",
+      "Yellow Floral",
+      "Tuberose",
+      "Fresh Spicy",
+      "White Floral",
+      "Leather",
+      "Sweet",
+      "Animalic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lacoste Fragrances Eau de Lacoste L.12.12. White",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Eau de Lacoste L.12.12. White"
+    ]
   },
   {
     "name": "Hunter Men",
@@ -11310,17 +12053,43 @@
     "name": "Oud For Happiness",
     "brand": "Initio",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Ginger",
+      "Bergamot"
+    ],
+    "heart": [
+      "Licorice",
+      "Agarwood (Oud)",
+      "Cedar"
+    ],
+    "base": [
+      "Vanilla",
+      "Herbal Notes",
+      "Musk"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Citrus",
+      "Soft Spicy",
+      "Vanilla",
+      "Green",
+      "Powdery",
+      "Oud",
+      "Sweet",
+      "Musky",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Initio Parfums Prives Oud for Happiness",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Al Noble Safeer Green",
@@ -11768,17 +12537,37 @@
     "name": "L'Homme Ideal Platine Prive",
     "brand": "Guerlain",
     "role": "original",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Bergamot"
+    ],
+    "heart": [
+      "Green Almond",
+      "Neroli"
+    ],
+    "base": [
+      "Musk",
+      "Vetiver"
+    ],
+    "accords": [
+      "Citrus",
+      "Aromatic",
+      "Almond",
+      "Fresh Spicy",
+      "Nutty",
+      "Musky"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Guerlain L'Homme Idéal Platine Privé",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Arsh Extrait",
@@ -12225,17 +13014,35 @@
     "name": "A Midnight Stroll",
     "brand": "Gucci",
     "role": "original",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Incense"
+    ],
+    "heart": [
+      "Cade oil"
+    ],
+    "base": [
+      "Cypress"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Amber",
+      "Fresh Spicy",
+      "Smoky",
+      "Balsamic",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Gucci A Midnight Stroll",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "The Trail",
@@ -12439,17 +13246,45 @@
     "name": "Epices Volees",
     "brand": "Guerlain",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Coriander",
+      "Artemisia",
+      "Lemon",
+      "Bergamot"
+    ],
+    "heart": [
+      "Cardamom",
+      "Sage",
+      "Clove",
+      "Bulgarian Rose"
+    ],
+    "base": [
+      "Sandalwood",
+      "Patchouli",
+      "Benzoin",
+      "Labdanum"
+    ],
+    "accords": [
+      "Aromatic",
+      "Warm Spicy",
+      "Herbal",
+      "Woody",
+      "Soft Spicy",
+      "Amber",
+      "Citrus",
+      "Rose"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Guerlain Épices Volées",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Pepper So Spicy",
@@ -12869,17 +13704,45 @@
     "name": "L'Homme ideal Extreme",
     "brand": "Guerlain",
     "role": "original",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Almond",
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "heart": [
+      "Plum",
+      "Cinnamon",
+      "Heliotrope"
+    ],
+    "base": [
+      "Tobacco",
+      "Leather",
+      "Cedar",
+      "Patchouli"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Almond",
+      "Tobacco",
+      "Leather",
+      "Warm Spicy",
+      "Nutty",
+      "Cinnamon",
+      "Woody",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Guerlain L'Homme Idéal Extrême",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Supreme L'homme Extreme",
@@ -13586,17 +14449,50 @@
     "name": "Lovefest Burning Cherry 48",
     "brand": "Kayali",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Burning Cherry",
+      "Raspberry",
+      "Bergamot"
+    ],
+    "heart": [
+      "Praline",
+      "Heliotrope",
+      "Damask Rose",
+      "Jasmine Sambac"
+    ],
+    "base": [
+      "Palo Santo",
+      "Tonka Bean",
+      "Guaiac Wood",
+      "Peru Balsam",
+      "Ambrettolide",
+      "Patchouli",
+      "Haitian Vetiver"
+    ],
+    "accords": [
+      "Woody",
+      "Sweet",
+      "Amber",
+      "Aromatic",
+      "Vanilla",
+      "Balsamic",
+      "Fruity",
+      "Citrus"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Kayali Fragrances Lovefest Burning Cherry | 48 Eau de Parfum",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Lovefest Burning Cherry | 48 Eau de Parfum"
+    ]
   },
   {
     "name": "Ophidian Black Cherry",
@@ -14249,17 +15145,37 @@
     "name": "Terre d'Hermes Parfum",
     "brand": "Hermes",
     "role": "original",
-    "year": 0,
+    "year": 2009,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Orange",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Flint"
+    ],
+    "base": [
+      "Woodsy Notes",
+      "oak moss",
+      "Benzoin"
+    ],
+    "accords": [
+      "Citrus",
+      "Woody",
+      "Mossy",
+      "Amber",
+      "Earthy",
+      "Fresh Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Hermès Terre d'Hermes Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Legend",
@@ -14798,12 +15714,31 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Ginger",
+      "Bergamot"
+    ],
+    "heart": [
+      "Grapefruit"
+    ],
+    "base": [
+      "Musk",
+      "Ambroxan"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Musky",
+      "Amber",
+      "Aromatic",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Khadlaj Perfumes Island Dreams",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Vibrato",
@@ -14967,12 +15902,40 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cardamom",
+      "Pepper"
+    ],
+    "heart": [
+      "Musk",
+      "Geranium"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka Bean",
+      "Woody Notes",
+      "Amber"
+    ],
+    "accords": [
+      "Amber",
+      "Aromatic",
+      "Warm Spicy",
+      "Rose",
+      "Musky",
+      "Fresh Spicy",
+      "Herbal",
+      "Animalic",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Khadlaj Perfumes Maison Epoque Artistique",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Maison Epoque Artistique"
+    ]
   },
   {
     "name": "Black Orchid",
@@ -15037,15 +16000,46 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Black Currant",
+      "Bergamot",
+      "Ylang-Ylang",
+      "Orange"
+    ],
+    "heart": [
+      "Spicy Notes",
+      "Fruity Notes",
+      "Jasmine",
+      "Gardenia"
+    ],
+    "base": [
+      "Patchouli",
+      "Incense",
+      "Amber",
+      "Vanilla",
+      "Musk"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Amber",
+      "Fruity",
+      "Woody",
+      "Patchouli",
+      "Balsamic",
+      "Smoky",
+      "Citrus",
+      "Sweet",
+      "Vanilla"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Just Jack Orchid Noir",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Outlands",
@@ -15360,17 +16354,41 @@
     "name": "Bottled Absolu",
     "brand": "Hugo Boss",
     "role": "original",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Incense",
+      "Leather"
+    ],
+    "heart": [
+      "Myrrh",
+      "Patchouli"
+    ],
+    "base": [
+      "Cedarwood",
+      "Davana"
+    ],
+    "accords": [
+      "Amber",
+      "Balsamic",
+      "Woody",
+      "Warm Spicy",
+      "Smoky",
+      "Patchouli",
+      "Leather",
+      "Aromatic",
+      "Animalic",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Hugo Boss Bottled Absolu",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Asad Elixir",
@@ -16339,17 +17357,40 @@
     "name": "Game of Spades Full House",
     "brand": "Jo Milano",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Citron",
+      "Calabrian bergamot",
+      "Sicilian Orange"
+    ],
+    "heart": [
+      "Nigerian Ginger",
+      "Tunisian Neroli",
+      "Ceylon Cinnamon"
+    ],
+    "base": [
+      "Chinese Black Tea",
+      "Ambroxan",
+      "Guaiac Wood",
+      "Olibanum"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Amber",
+      "Fresh",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jo Milano Paris Game of Spades Full House",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Prestige Marwa",
@@ -16689,12 +17730,40 @@
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Vanilla",
+      "Mandarin",
+      "Red Currant"
+    ],
+    "heart": [
+      "Tuberose",
+      "Rum",
+      "Sandalwood"
+    ],
+    "base": [
+      "Vanilla",
+      "Whipped Cream",
+      "Musk",
+      "Benzoin"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Tuberose",
+      "Powdery",
+      "White Floral",
+      "Citrus",
+      "Musky",
+      "Woody",
+      "Warm Spicy",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Khadlaj Perfumes Panache Angel Dust",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "L'Eau",
@@ -20254,17 +21323,41 @@
     "name": "Flora Gorgeous Gardenia",
     "brand": "Gucci",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear Blossom",
+      "Red Berries",
+      "Italian Mandarin"
+    ],
+    "heart": [
+      "Gardenia",
+      "Jasmine",
+      "Frangipani"
+    ],
+    "base": [
+      "Brown sugar",
+      "Patchouli"
+    ],
+    "accords": [
+      "White Floral",
+      "Floral",
+      "Sweet",
+      "Fruity",
+      "Lactonic",
+      "Patchouli",
+      "Citrus",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Gucci Flora Gorgeous Gardenia",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Floral Gardenia",
@@ -20392,33 +21485,80 @@
     "name": "Queen of Life",
     "brand": "La Rive",
     "role": "alternative",
-    "year": 0,
+    "year": 2014,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Black Currant",
+      "Pear"
+    ],
+    "heart": [
+      "Iris",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base": [
+      "Vanilla",
+      "Praline",
+      "Patchouli",
+      "Tonka Bean",
+      "Almond"
+    ],
+    "accords": [
+      "Sweet",
+      "Vanilla",
+      "Fruity",
+      "Patchouli",
+      "Woody",
+      "White Floral",
+      "Powdery",
+      "Nutty",
+      "Warm Spicy",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: La Rive Queen of Life",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "You",
     "brand": "Glossier",
     "role": "original",
-    "year": 0,
+    "year": 2017,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Musky",
+      "Iris",
+      "Amber",
+      "Soft Spicy",
+      "Powdery",
+      "Floral",
+      "Violet",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Iris",
+      "Pink Pepper",
+      "Ambroxan",
+      "Ambrette"
+    ],
+    "source": {
+      "name": "Fragrantica: Glossier You",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Radiant Nectar",
@@ -20465,17 +21605,38 @@
     "name": "Wood Sage & Sea Salt",
     "brand": "Jo Malone",
     "role": "original",
-    "year": 0,
+    "year": 2014,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Aromatic",
+      "Salty",
+      "Marine",
+      "Citrus",
+      "Musky",
+      "Herbal",
+      "Soft Spicy",
+      "Floral",
+      "Aquatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Sea Salt",
+      "Sage",
+      "Grapefruit",
+      "Ambrette (Musk Mallow)",
+      "Seaweed"
+    ],
+    "source": {
+      "name": "Fragrantica: Jo Malone London Wood Sage & Sea Salt",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Wood & Sage",
@@ -20483,15 +21644,37 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lemon"
+    ],
+    "heart": [
+      "Water Notes",
+      "Peach"
+    ],
+    "base": [
+      "Cedar",
+      "Musk"
+    ],
+    "accords": [
+      "Woody",
+      "Aquatic",
+      "Musky",
+      "Powdery",
+      "Citrus",
+      "Fresh",
+      "Fruity",
+      "Aromatic",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Jenny Glow Wood & Sage",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Café Rose",
@@ -20603,17 +21786,49 @@
     "name": "Un Jardin Sur Le Nil",
     "brand": "Hermes",
     "role": "original",
-    "year": 0,
+    "year": 2005,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Green Mango",
+      "Tomato",
+      "Carrot"
+    ],
+    "heart": [
+      "Lotus",
+      "Bulrush",
+      "Orange",
+      "Hiacynth",
+      "Peony"
+    ],
+    "base": [
+      "Musk",
+      "Iris",
+      "Incense",
+      "Labdanum",
+      "Cinnamon"
+    ],
+    "accords": [
+      "Citrus",
+      "Aromatic",
+      "Floral",
+      "Fresh Spicy",
+      "Green",
+      "Fruity",
+      "Tropical",
+      "Powdery",
+      "Sweet",
+      "Herbal"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Hermès Un Jardin Sur Le Nil",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "River of Nil",
