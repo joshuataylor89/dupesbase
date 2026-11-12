@@ -18526,17 +18526,44 @@
     "name": "Donna Born in Roma",
     "brand": "Valentino",
     "role": "original",
-    "year": 0,
-    "concentration": "",
+    "year": 2019,
+    "concentration": "EDP",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Black Currant",
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "heart": [
+      "Jasmine",
+      "Jasmine Sambac",
+      "Jasmine Tea"
+    ],
+    "base": [
+      "Bourbon Vanilla",
+      "Cashmeran",
+      "Guaiac Wood"
+    ],
+    "accords": [
+      "Woody",
+      "Vanilla",
+      "Fruity",
+      "White Floral",
+      "Soft Spicy",
+      "Powdery",
+      "Floral",
+      "Musky",
+      "Citrus",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Valentino Donna Born In Roma",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Ambery Jasmine",
@@ -18702,17 +18729,46 @@
     "name": "Flowerbomb",
     "brand": "Viktor & Rolf",
     "role": "original",
-    "year": 0,
+    "year": 2005,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Tea",
+      "Bergamot",
+      "Osmanthus"
+    ],
+    "heart": [
+      "Orchid",
+      "Jasmine",
+      "Rose",
+      "Freesia",
+      "African Orange Flower"
+    ],
+    "base": [
+      "Patchouli",
+      "Musk",
+      "Vanilla"
+    ],
+    "accords": [
+      "Floral",
+      "Patchouli",
+      "White Floral",
+      "Woody",
+      "Powdery",
+      "Citrus",
+      "Sweet",
+      "Musky",
+      "Warm Spicy",
+      "Rose"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Viktor&Rolf Flowerbomb",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Gourmand White Flowers",
@@ -18942,17 +18998,45 @@
     "name": "Paradoxe",
     "brand": "Prada",
     "role": "original",
-    "year": 0,
-    "concentration": "",
+    "year": 2022,
+    "concentration": "EDP",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Tangerine",
+      "Bergamot"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Neroli Essence",
+      "Neroli",
+      "Jasmine Sambac"
+    ],
+    "base": [
+      "Bourbon Vanilla",
+      "Amber",
+      "White Musk",
+      "Benzoin"
+    ],
+    "accords": [
+      "White Floral",
+      "Citrus",
+      "Sweet",
+      "Amber",
+      "Vanilla",
+      "Fruity",
+      "Powdery",
+      "Musky",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Prada Paradoxe",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Sublime Epoque",
@@ -18974,17 +19058,42 @@
     "name": "Cheirosa '68",
     "brand": "Sol de Janeiro",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pitahaya",
+      "Litchi"
+    ],
+    "heart": [
+      "Jasmine",
+      "Hibiscus",
+      "Sea Notes"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk"
+    ],
+    "accords": [
+      "Tropical",
+      "Fruity",
+      "Floral",
+      "Musky",
+      "White Floral",
+      "Vanilla",
+      "Marine",
+      "Fresh",
+      "Powdery",
+      "Aromatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Sol de Janeiro Cheirosa '68",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Cloud Pink",
@@ -20038,6 +20147,83 @@
     "source": {
       "name": "Armaf Odyssey store listing supplied to Dupes Base (name, family and gender as listed; not our testing)",
       "url": "/about/"
+    }
+  },
+  {
+    "name": "Sweet Tooth Cherry Baby",
+    "brand": "Sabrina Carpenter",
+    "role": "original",
+    "year": 2024,
+    "concentration": "EDP",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Cherry",
+      "Brown sugar",
+      "Plum",
+      "Apple"
+    ],
+    "heart": [
+      "Dark Chocolate",
+      "Vanilla Orchid",
+      "Red Poppy",
+      "Peony"
+    ],
+    "base": [
+      "Musk",
+      "Cashmere Wood",
+      "Amber",
+      "Patchouli",
+      "Resin"
+    ],
+    "accords": [
+      "Sweet",
+      "Cherry",
+      "Fruity",
+      "Amber",
+      "Musky",
+      "Chocolate",
+      "Warm Spicy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Sabrina Carpenter Sweet Tooth Cherry Baby",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Libre L’Eau Nue",
+    "brand": "Yves Saint Laurent",
+    "role": "original",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Mandarin",
+      "Lemon"
+    ],
+    "heart": [
+      "Orange Blossom"
+    ],
+    "base": [
+      "Lavender"
+    ],
+    "accords": [
+      "Citrus",
+      "White Floral",
+      "Lavender",
+      "Aromatic",
+      "Sweet"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Yves Saint Laurent Libre L’Eau Nue",
+      "url": "https://www.fragrantica.com/"
     }
   }
 ]
