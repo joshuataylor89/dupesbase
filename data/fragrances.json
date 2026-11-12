@@ -7995,20 +7995,53 @@
     }
   },
   {
-    "name": "Insurrection II",
+    "name": "Insurrection II Pure",
     "brand": "Reyane Tradition",
     "role": "alternative",
-    "year": 0,
+    "year": 2013,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pineapple",
+      "Apple",
+      "Bergamot",
+      "Cassis"
+    ],
+    "heart": [
+      "Birch",
+      "Patchouli",
+      "Jasmine"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla",
+      "Oakmoss",
+      "Amber"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Fresh",
+      "Leather",
+      "Woody",
+      "Smoky",
+      "Citrus",
+      "Green",
+      "Tropical",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Reyane Tradition Insurrection II Pure",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Insurrection II",
+      "Insurrection Pure II"
+    ]
   },
   {
     "name": "Delina Exclusif",
@@ -9033,17 +9066,49 @@
     "name": "Y EDP",
     "brand": "Yves Saint Laurent",
     "role": "original",
-    "year": 0,
+    "year": 2018,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Apple",
+      "Ginger",
+      "Bergamot"
+    ],
+    "heart": [
+      "Sage",
+      "Juniper Berries",
+      "Geranium"
+    ],
+    "base": [
+      "Amberwood",
+      "Tonka Bean",
+      "Cedar",
+      "Vetiver",
+      "Olibanum"
+    ],
+    "accords": [
+      "Aromatic",
+      "Fresh Spicy",
+      "Woody",
+      "Fruity",
+      "Fresh",
+      "Amber",
+      "Citrus",
+      "Herbal",
+      "Green",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Yves Saint Laurent Y Eau de Parfum",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Y Eau de Parfum"
+    ]
   },
   {
     "name": "Yeah!",
@@ -30133,51 +30198,6 @@
     "notesNote": "Notes as listed by Fragrantica.",
     "source": {
       "name": "Fragrantica: Reyane Tradition Insurrection II Emperor",
-      "url": "https://www.fragrantica.com/"
-    }
-  },
-  {
-    "name": "Insurrection II Pure",
-    "brand": "Reyane Tradition",
-    "role": "alternative",
-    "year": 2013,
-    "concentration": "",
-    "gender": "Men",
-    "size": "",
-    "tier": "Not rated",
-    "top": [
-      "Pineapple",
-      "Apple",
-      "Bergamot",
-      "Cassis"
-    ],
-    "heart": [
-      "Birch",
-      "Patchouli",
-      "Jasmine"
-    ],
-    "base": [
-      "Musk",
-      "Vanilla",
-      "Oakmoss",
-      "Amber"
-    ],
-    "accords": [
-      "Fruity",
-      "Sweet",
-      "Fresh",
-      "Leather",
-      "Woody",
-      "Smoky",
-      "Citrus",
-      "Green",
-      "Tropical",
-      "Earthy"
-    ],
-    "season": [],
-    "notesNote": "Notes as listed by Fragrantica.",
-    "source": {
-      "name": "Fragrantica: Reyane Tradition Insurrection II Pure",
       "url": "https://www.fragrantica.com/"
     }
   },
