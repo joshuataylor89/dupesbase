@@ -673,6 +673,70 @@ ${disclosureBox}
   console.log(`Scheduled articles live: ${live.length} of ${PLAN.length}`);
 }
 
+
+// ---------- Guide: Baccarat Rouge 540 dupes ----------
+{
+  const o = byFull['Maison Francis Kurkdjian Baccarat Rouge 540'];
+  const why = {
+    'Armaf Club de Nuit Untold': 'Its published note list names the same six notes as Baccarat Rouge 540: saffron, jasmine, ambergris, amberwood, cedar and fir resin. On paper it is the closest match in our database, and it is listed for men although the original is unisex.',
+    'Zimaya Itqan Noir': 'It carries one of the highest reported similarity figures we hold for Baccarat Rouge 540, yet its published notes read differently: bergamot, orange blossom, Ambrofix and patchouli. It is also the lowest-priced pick here on the prices we have recorded.',
+    'Al Haramain Amber Oud Rouge': 'Saffron, jasmine and ambergris all appear in its published notes, with musk and white cedar in the base. It is listed as unisex, like the original.',
+    'Ariana Grande Cloud': 'This is the best-known mainstream comparison. Its notes are much sweeter on paper (pear, whipped cream, coconut and praline over musk and woods), and its reported figure is the lowest of the picks here, so read it as a sweeter relative, not a copy.',
+  };
+  const picks = o ? (o.pairs || []).map((p) => ({ p, f: BY[p.with] })).filter((x) => why[x.f.full]) : [];
+  if (o && picks.length >= 3) {
+    const at = '2026-11-12T19:15:00Z';
+    const usd = (n) => '$' + (Math.round(n * 100) / 100).toFixed(2).replace(/\.00$/, '');
+    const priced = picks.filter((x) => x.f.price);
+    const min = priced.length ? Math.min(...priced.map((x) => x.f.price.amount)) : null;
+    const slug = 'baccarat-rouge-540-dupes';
+    const title = `Best Baccarat Rouge 540 Dupes (2026): ${picks.length} Cheaper Alternatives${min ? ` From ${usd(Math.round(min))}` : ''}`;
+    const desc = `The ${picks.length} Baccarat Rouge 540 dupes in our database compared: published notes, reported similarity figures and recorded prices${min ? ` from ${usd(min)}` : ''}, next to the original.`;
+    const sim = (p) => (p.rep != null ? `~${p.rep}% reported` : p.hasNotes && p.pct > 0 ? `${p.pct}% notes overlap` : 'No figure held');
+    const save = (f) => (o.price && f.price ? `${usd(o.price.amount - f.price.amount)} (${Math.round((1 - f.price.amount / o.price.amount) * 100)}%)` : '—');
+    const rows = picks.map(({ p, f }) => `<tr><td><a href="#${f.slug}">${esc(f.full)}</a></td><td>${f.price ? esc(priceTxt(f.price)) + (f.price.size ? ` <small>${esc(f.price.size)}</small>` : '') : 'Check Amazon'}</td><td>${save(f)}</td><td>${sim(p)}</td><td>${p.common && p.common.length ? esc(p.common.join(', ')) : 'None listed in common'}</td></tr>`).join('\n');
+    const noteStr = (f) => [...f.top, ...f.heart, ...f.base, ...(f.flat || [])].join(', ');
+    const body = `<article>
+<span class="pill">GUIDE · BACCARAT ROUGE 540</span>
+<h1>${esc(title)}</h1>
+<p class="meta">Published ${esc(new Date(Date.parse(at)).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' }))} · Updated ${esc(cfg.updated)}</p>
+<p class="lead">Baccarat Rouge 540 by Maison Francis Kurkdjian has more alternatives in our database than almost any other fragrance${o.price ? `, and at ${esc(priceTxt(o.price))} for ${esc(o.price.size || 'a full bottle')} it is easy to see why people look for alternatives` : ''}. These are the ${picks.length} fragrances in our database that are compared to it, with their published notes, the similarity figures reported to us and the prices we have recorded.</p>
+<p><b>How to read this guide.</b> We have not smelled or tested any of these. A figure with a ~ is a reported similarity that was supplied to us. A "notes overlap" figure is our own count of how many published notes two fragrances share. Neither tells you how alike two fragrances smell on skin, so use them to build a shortlist, then sample before you commit.</p>
+<h2>Baccarat Rouge 540 dupes at a glance</h2>
+<div class="tablewrap"><table>
+<tr><th>Alternative</th><th>Recorded price</th><th>Saving vs the original</th><th>Similarity figure</th><th>Notes shared with the original</th></tr>
+${rows}
+</table></div>
+<p><small>Prices are the figures we recorded on the dates shown on each fragrance page${o.price ? `, compared with ${esc(priceTxt(o.price))} for the original` : ''}. They change often, so use the buttons below for the live price and size.</small></p>
+<h2>What does Baccarat Rouge 540 smell like on paper?</h2>
+<p>The original launched in ${o.year} and is listed as ${esc((o.gender || 'unisex').toLowerCase())}. Its published notes are short: ${esc(noteStr(o))}. The accords listed for it are ${esc(o.accords.join(', ').toLowerCase())}. That mix of saffron, amber woods and sweetness is what the alternatives below are compared against. See the full <a href="/fragrance/${o.slug}/">Baccarat Rouge 540 page</a> for the details.</p>
+<h2>The ${picks.length} alternatives</h2>
+${picks.map(({ p, f }, i) => `${productCard(f, i + 1)}
+<p><b>Why it is on this list:</b> ${esc(why[f.full])} <a href="/compare/${pairSlug(o, f)}/">Compare it with Baccarat Rouge 540 side by side</a>.</p>`).join('\n')}
+<h2>How to choose between them</h2>
+<ul>
+<li><b>Closest on paper:</b> Armaf Club de Nuit Untold lists the same six notes as the original.</li>
+<li><b>Lowest recorded price:</b> ${priced.length ? esc(priced.slice().sort((a, b) => a.f.price.amount - b.f.price.amount)[0].f.full) + ' at ' + esc(priceTxt(priced.slice().sort((a, b) => a.f.price.amount - b.f.price.amount)[0].f.price)) : 'check the live Amazon prices'}.</li>
+<li><b>Best-known name:</b> Ariana Grande Cloud, but its published notes are much sweeter.</li>
+<li><b>Listed as unisex, like the original:</b> ${esc(picks.filter((x) => x.f.gender === 'Unisex').map((x) => x.f.full).join(' and ') || 'check each listing')}.</li>
+</ul>
+<p>Whichever you pick, buy from the brand's own Amazon storefront or Amazon itself where you can, check the bottle size, and remember that batches and skin chemistry change how a fragrance comes across.</p>
+${faqBlock([
+  ['What is the closest dupe for Baccarat Rouge 540?', `On published notes, Armaf Club de Nuit Untold is the closest in our database because it lists the same six notes. On reported similarity, Club de Nuit Untold and Zimaya Itqan Noir carry the highest figures we hold. Those figures were supplied to us and are not our own testing.`],
+  ['Is Ariana Grande Cloud a dupe for Baccarat Rouge 540?', 'It is the most common mainstream comparison, but its published notes are different and much sweeter: pear, whipped cream, coconut and praline. The reported similarity figure we hold for it is lower than for the other picks here.'],
+  ['How much cheaper are Baccarat Rouge 540 dupes?', o.price && min ? `On the prices we have recorded, the alternatives here start at ${esc(usd(min))}, against ${esc(priceTxt(o.price))} for ${esc(o.price.size || 'the original')}. Prices move, so check the live listing.` : 'Most are a fraction of the price of the original. Check the live listings for current prices.'],
+  ['Do the dupes last as long as Baccarat Rouge 540?', 'We have not tested them, so we do not publish longevity claims. Performance varies by batch, by skin and by how you apply it.'],
+  ['Are these official copies of Baccarat Rouge 540?', 'No. They are separate fragrances from other brands that are compared to it or described as inspired by it. None is made by Maison Francis Kurkdjian.'],
+])}
+${sourcesFor([o, ...picks.map((x) => x.f)])}
+${disclosureBox}
+</article>`;
+    const post = { slug, title, desc, body, blurb: `${picks.length} cheaper alternatives to Baccarat Rouge 540 with published notes, reported similarity figures and recorded prices.`, kicker: 'GUIDE', hero: o, at };
+    let idx = -1; posts.forEach((q, i) => { if (q.at && q.at <= at) idx = i; });
+    if (idx >= 0) posts.splice(idx + 1, 0, post); else posts.push(post);
+  }
+}
+
 // ---------- Static pages ----------
 const aboutFaq = [
   ['What is a fragrance clone, and how is it different from a fake perfume?', 'A fragrance clone, also called a perfume dupe or cologne alternative, is a fragrance made and sold under its own name by a real perfume house, inspired by the scent profile of a popular designer or niche original. A fake perfume copies the original brand’s name and packaging. Clones are sold openly by retailers worldwide.'],
