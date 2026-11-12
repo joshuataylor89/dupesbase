@@ -891,7 +891,7 @@ for (const f of F) {
 </div>`;
   const product = { '@type': 'Product', name: f.full, brand: { '@type': 'Brand', name: f.brand }, description: `${f.full}${f.concentration ? ' ' + f.concentration : ''} for ${f.gender || 'everyone'}. Published notes: ${f.allNotes.join(', ')}.`, ...(f.img ? { image: `${cfg.domain}/img/f/${f.slug}/icon.webp` } : f.imageUrl ? { image: f.imageUrl } : {}) };
   delete product['@type']; const productLd = { ...product };
-  write(`fragrance/${f.slug}`, page({ title: `${f.full}: Notes, Dupes and Alternatives | ${cfg.siteName}`, desc: ogDesc(sp, f) || `${f.full}${f.concentration ? ' ' + f.concentration : ''}: published notes (${f.allNotes.slice(0, 5).join(', ')}), ${other ? `commonly compared to ${other.full}, ` : ''}and where to find it on Amazon.`, url: `/fragrance/${f.slug}/`, body, product: productLd, image: ogFile(f.slug) || (f.img ? `/img/f/${f.slug}/icon.webp` : null), crumbs: [['Home', '/'], ['Database', '/database/'], [f.full, `/fragrance/${f.slug}/`]] }));
+  write(`fragrance/${f.slug}`, page({ title: `${f.full}: Notes, Dupes and Alternatives | ${cfg.siteName}`, desc: ogDesc(sp, f) || `${f.full}${f.concentration ? ' ' + f.concentration : ''}: published notes (${f.allNotes.slice(0, 5).join(', ')}), ${other ? `commonly compared to ${other.full}, ` : ''}and where to find it on Amazon.`, url: `/fragrance/${f.slug}/`, body, product: null, image: ogFile(f.slug) || (f.img ? `/img/f/${f.slug}/icon.webp` : null), crumbs: [['Home', '/'], ['Database', '/database/'], [f.full, `/fragrance/${f.slug}/`]] }));
 }
 
 // ---- house pages ----
