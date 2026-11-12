@@ -7,6 +7,22 @@
   var PR = CFG.pairs || [];
   var pairFor = function (a, b) { for (var i = 0; i < PR.length; i++) { var p = PR[i]; if ((p.a === a.slug && p.b === b.slug) || (p.a === b.slug && p.b === a.slug)) return p; } return null; };
   var BY = {}; D.forEach(function (d) { BY[d.slug] = d; });
+  // Pair pages ship only the two fragrances inline; the full list loads when someone starts searching.
+  var fullState = CFG.full ? 0 : 2, waiting = [];
+  function needFull(cb) {
+    if (fullState === 2) { if (cb) cb(); return; }
+    if (cb) waiting.push(cb);
+    if (fullState === 1) return;
+    fullState = 1;
+    var sc = document.createElement('script'); sc.src = CFG.full;
+    sc.onload = function () {
+      var F = window.HH_DATA; if (!F || !F.items) return;
+      D = F.items; PR = F.pairs || []; BY = {}; D.forEach(function (d) { BY[d.slug] = d; });
+      if (sel.a) sel.a = BY[sel.a.slug] || sel.a; if (sel.b) sel.b = BY[sel.b.slug] || sel.b;
+      fullState = 2; var w = waiting; waiting = []; w.forEach(function (f) { f(); });
+    };
+    document.head.appendChild(sc);
+  }
   var TIERS = ['Under $50', '$50 to $150', '$150 and up'];
   var roleLabel = function (d) { return d.role === 'original' ? 'Original' : 'Alternative'; };
   var cap = function (s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; };
@@ -123,7 +139,7 @@
       list.hidden = false;
     }
     function pick(i) { if (cur[i]) { list.hidden = true; inp.blur(); setSel(side, cur[i]); } }
-    inp.addEventListener('focus', function () { inp.select(); show(); });
+    inp.addEventListener('focus', function () { inp.select(); show(); needFull(function () { if (document.activeElement === inp) show(); }); });
     inp.addEventListener('input', show);
     inp.addEventListener('keydown', function (e) {
       if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); idx = Math.max(0, Math.min(cur.length - 1, idx + (e.key === 'ArrowDown' ? 1 : -1))); Array.prototype.forEach.call(list.children, function (li, i) { li.classList.toggle('on', i === idx); }); }
@@ -137,7 +153,7 @@
   $('#cmp-swap').addEventListener('click', function () { var t = sel.a; sel.a = sel.b; sel.b = t; sync(); render(); });
   document.addEventListener('click', function (e) {
     var x = e.target.closest('[data-clear]'); if (x) { sel[x.getAttribute('data-clear')] = null; sync(); render(); return; }
-    var s = e.target.closest('a[data-pair]'); if (s) { e.preventDefault(); var p = s.getAttribute('data-pair').split(','); sel.a = BY[p[0]]; sel.b = BY[p[1]]; sync(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    var s = e.target.closest('a[data-pair]'); if (s && fullState !== 2) return; if (s) { e.preventDefault(); var p = s.getAttribute('data-pair').split(','); sel.a = BY[p[0]]; sel.b = BY[p[1]]; sync(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
   });
   var qs = {}; try { new URLSearchParams(location.search).forEach(function (v, k) { qs[k] = v; }); } catch (e) {}
   sel.a = BY[qs.a || init.a] || null; sel.b = BY[qs.b || init.b] || null;

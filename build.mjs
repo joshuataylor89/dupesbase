@@ -11,7 +11,7 @@ const out = path.join(root, 'public');
 if (/^YOURTAG/i.test(cfg.amazonTag)) console.warn('WARNING: config.json still has the placeholder Amazon tag. Set amazonTag before publishing.');
 
 const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const slugify = (s) => s.toLowerCase().replace(/&/g, 'and').replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const slugify = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, 'and').replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const DISCLOSURE = 'As an Amazon Associate I earn from qualifying purchases.';
 const disclosureBox = `<div class="disclosure"><b>Affiliate disclosure:</b> ${DISCLOSURE} Links to Amazon on this page may earn us a commission at no extra cost to you. <a href="/affiliate-disclosure/">Details</a>.</div>`;
 const TIER_ORDER = ['Under $50', '$50 to $150', '$150 and up'];
@@ -200,8 +200,7 @@ ${cfg.googleVerification ? `<meta name="google-site-verification" content="${esc
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${og}">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="preload" href="/fonts/playfair-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/style.css">
 ${ld}
 </head>
@@ -764,7 +763,7 @@ const privacyBody = `<article><h1>Privacy Policy</h1>
 <p><b>Hosting and analytics.</b> The site is delivered through Cloudflare, which may process technical data such as IP addresses to deliver pages and protect the site. If we add privacy-friendly analytics, we will list it here.</p>
 <p><b>Third-party links.</b> Links to Amazon and other sites are governed by those sites' own privacy policies. Amazon may use cookies to attribute purchases to our affiliate account. We also load a script from CJ Affiliate (anrdoezrs.net) that can tag links to Jomashop when you click them, and CJ and Jomashop may set cookies to attribute purchases to our account. We do not send CJ anything you type into the site.</p>
 <p><b>Your searches.</b> The database search and filters run in your browser. We do not send what you type to a server.</p>
-<p><b>Fonts.</b> We load a font from Google Fonts, which may receive your IP address when it serves the font file.</p>
+<p><b>Fonts.</b> The site's fonts are served from our own domain, so no font provider receives your visit.</p>
 <p>Contact: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>.</p></article>`;
 
 // ---------- Home ----------
@@ -985,7 +984,10 @@ ${extra || ''}
 <section id="cmp-sugg"><h2 class="cmp-sh">Suggestions<span></span></h2><div class="cmp-sgrid">${PAIRS.slice(0, 12).map((p) => `<a href="/compare/${pairSlug(BY[p.a], BY[p.b])}/" data-pair="${p.a},${p.b}"><span class="cmp-sicon">${bottle(BY[p.a])}</span><b>${esc(BY[p.a].full)} <i>vs.</i> ${esc(BY[p.b].full)}</b><span class="cmp-sicon">${bottle(BY[p.b])}</span></a>`).join('')}</div></section>
 <p class="hh-note">Notes are as published by the sources named on each fragrance page, and we have not tested these fragrances. Notes overlap compares two published lists and is not a measure of how alike they smell.</p>
 ${disclosureBox}`;
-const cmpScripts = (init) => `${dataScript}<script id="cmp-init" type="application/json">${JSON.stringify(init)}</script><script src="/compare.js" defer></script>`;
+const itemBySlug = Object.fromEntries(clientItems.map((d) => [d.slug, d]));
+const pairData = (p) => ({ a: p.a, b: p.b, pct: p.pct, common: p.common, rep: p.rep, main: p.main, lab: p.lab, hasNotes: p.hasNotes });
+const inlineData = (sa, sb) => `<script>window.HH_DATA=${JSON.stringify({ tag: cfg.amazonTag, full: `/data.js?v=${dataHash}`, items: [itemBySlug[sa], itemBySlug[sb]], pairs: PAIRS.filter((p) => [sa, sb].includes(p.a) && [sa, sb].includes(p.b)).map(pairData) }).replace(/</g, '\\u003c')};</script>`;
+const cmpScripts = (init) => `${init.a ? inlineData(init.a, init.b) : dataScript}<script id="cmp-init" type="application/json">${JSON.stringify(init)}</script><script src="/compare.js" defer></script>`;
 const cloneTabs = (a, b) => {
   const ps = (a.pairs || []);
   if (ps.length < 2) return '';
@@ -1007,5 +1009,7 @@ const urls = ['/', ...posts.map((p) => `/${p.slug}/`), '/guides/', '/database/',
 fs.writeFileSync(path.join(root, 'tools', 'og-cards.json'), JSON.stringify(OG_SPECS));
 fs.writeFileSync(path.join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${cfg.domain}${u}</loc><lastmod>${published}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${cfg.domain}/sitemap.xml\n`);
-fs.writeFileSync(path.join(out, '_headers'), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: DENY\n`);
+const longCache = ['/style.css', '/compare.js', '/dupes.js', '/data.js', '/fonts/*'].map((u) => `${u}\n  Cache-Control: public, max-age=31536000, immutable\n`).join('');
+const imgCache = ['/img/*', '/og/*', '/og-image.png', '/favicon.svg', '/apple-touch-icon.png'].map((u) => `${u}\n  Cache-Control: public, max-age=604800\n`).join('');
+fs.writeFileSync(path.join(out, '_headers'), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: DENY\n${longCache}${imgCache}`);
 console.log(`Built ${urls.length} pages into ${out} (affiliate tag: ${cfg.amazonTag})`);

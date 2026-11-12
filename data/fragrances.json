@@ -6805,8 +6805,8 @@
     ]
   },
   {
-    "name": "Hekayat Attar",
-    "brand": "Gigglepuff",
+    "name": "Gigglepuff",
+    "brand": "Hekayat Attar",
     "role": "alternative",
     "year": 0,
     "concentration": "",
@@ -6849,7 +6849,8 @@
       "url": "https://www.fragrantica.com/"
     },
     "aliases": [
-      "GIGGLEPUFF"
+      "GIGGLEPUFF",
+      "Hekayat Attar"
     ]
   },
   {
@@ -11207,7 +11208,7 @@
     }
   },
   {
-    "name": "Black Panthom",
+    "name": "Black Phantom",
     "brand": "Kilian",
     "role": "original",
     "year": 2017,
@@ -11251,7 +11252,7 @@
       "url": "https://www.fragrantica.com/"
     },
     "aliases": [
-      "Black Phantom"
+      "Black Panthom"
     ]
   },
   {
@@ -11294,7 +11295,7 @@
     }
   },
   {
-    "name": "Bleeker Street",
+    "name": "Bleecker Street",
     "brand": "Bond No. 9",
     "role": "original",
     "year": 2005,
@@ -11340,7 +11341,7 @@
       "url": "https://www.fragrantica.com/"
     },
     "aliases": [
-      "Bleecker Street"
+      "Bleeker Street"
     ]
   },
   {
@@ -11971,7 +11972,7 @@
     }
   },
   {
-    "name": "Hagivat",
+    "name": "Hacivat",
     "brand": "Nishane",
     "role": "original",
     "year": 2017,
@@ -12012,7 +12013,7 @@
       "url": "https://www.fragrantica.com/"
     },
     "aliases": [
-      "Hacivat"
+      "Hagivat"
     ]
   },
   {
@@ -13227,8 +13228,8 @@
     }
   },
   {
-    "name": "Elle",
-    "brand": "Lumiere",
+    "name": "Lumière Elle",
+    "brand": "French Avenue",
     "role": "alternative",
     "year": 2024,
     "concentration": "",
@@ -13269,7 +13270,7 @@
       "url": "https://www.fragrantica.com/"
     },
     "aliases": [
-      "Lumière Elle"
+      "Elle"
     ]
   },
   {
@@ -18461,8 +18462,8 @@
     }
   },
   {
-    "name": "Mes Bisous",
-    "brand": "Passion Island",
+    "name": "Passion Island",
+    "brand": "Mes Bisous",
     "role": "original",
     "year": 2024,
     "concentration": "",
@@ -18508,7 +18509,7 @@
       "url": "https://www.fragrantica.com/"
     },
     "aliases": [
-      "Passion Island"
+      "Mes Bisous"
     ]
   },
   {
