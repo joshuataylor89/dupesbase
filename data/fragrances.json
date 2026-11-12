@@ -862,17 +862,42 @@
     "name": "Ansaam Silver",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cardamom",
+      "Bergamot"
+    ],
+    "heart": [
+      "Lavender",
+      "Davana"
+    ],
+    "base": [
+      "Vanilla",
+      "Amber",
+      "Patchouli"
+    ],
+    "accords": [
+      "Aromatic",
+      "Warm Spicy",
+      "Vanilla",
+      "Amber",
+      "Lavender",
+      "Citrus",
+      "Fresh Spicy",
+      "Powdery",
+      "Balsamic",
+      "Patchouli"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Ansaam Silver",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Imagination",
@@ -1142,17 +1167,46 @@
     "name": "Najdia Intense",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pineapple",
+      "Apple",
+      "Mint",
+      "Ginger"
+    ],
+    "heart": [
+      "Marine notes",
+      "Lavender",
+      "Geranium"
+    ],
+    "base": [
+      "Sandalwood",
+      "Tonka Bean",
+      "Musk",
+      "Patchouli"
+    ],
+    "accords": [
+      "Aromatic",
+      "Fruity",
+      "Fresh Spicy",
+      "Sweet",
+      "Green",
+      "Marine",
+      "Fresh",
+      "Woody",
+      "Warm Spicy",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Najdia Intense",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Acqua Di Gio Profondo",
@@ -1432,17 +1486,46 @@
     "name": "Oud For Glory",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Nutmeg",
+      "Lavender"
+    ],
+    "heart": [
+      "Agarwood (Oud)",
+      "Patchouli"
+    ],
+    "base": [
+      "Agarwood (Oud)",
+      "Patchouli",
+      "Musk"
+    ],
+    "accords": [
+      "Oud",
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Patchouli",
+      "Metallic",
+      "Musky",
+      "Woody",
+      "Lavender",
+      "Earthy",
+      "Leather"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Bade'e Al Oud Oud for Glory",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Bade'e Al Oud Oud for Glory"
+    ]
   },
   {
     "name": "Interlude Man",
@@ -1994,7 +2077,7 @@
     "name": "Ombre Nomade",
     "brand": "Louis Vuitton",
     "role": "original",
-    "year": 0,
+    "year": 2018,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
@@ -2002,9 +2085,35 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Oud",
+      "Rose",
+      "Amber",
+      "Warm Spicy",
+      "Fruity",
+      "Leather",
+      "Smoky",
+      "Sweet",
+      "Woody",
+      "Metallic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Agarwood (Oud)",
+      "Rose",
+      "Raspberry",
+      "Saffron",
+      "Amberwood",
+      "Benzoin",
+      "Birch",
+      "Incense",
+      "Geranium"
+    ],
+    "source": {
+      "name": "Fragrantica: Louis Vuitton Ombre Nomade",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Night Shadow",
@@ -2525,17 +2634,41 @@
     "name": "Eternal Oud",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Plum",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Heliotrope",
+      "Orchid"
+    ],
+    "base": [
+      "Amber",
+      "Benzoin",
+      "Vanilla",
+      "Labdanum",
+      "Tonka Bean",
+      "Agarwood (Oud)"
+    ],
+    "accords": [
+      "Amber",
+      "Vanilla",
+      "Sweet",
+      "Powdery",
+      "Fruity",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Eternal Oud",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Paragon",
@@ -2640,23 +2773,53 @@
     "name": "The Kingdom",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lavender",
+      "Mint",
+      "Sage"
+    ],
+    "heart": [
+      "Vanilla",
+      "Tobacco",
+      "Orange Blossom"
+    ],
+    "base": [
+      "Tonka",
+      "Benzoin",
+      "Labdanum"
+    ],
+    "accords": [
+      "Vanilla",
+      "Aromatic",
+      "Sweet",
+      "Amber",
+      "Lavender",
+      "Green",
+      "Fresh Spicy",
+      "Tobacco",
+      "Herbal",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes The Kingdom For Men",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "The Kingdom For Men"
+    ]
   },
   {
     "name": "California Dream",
     "brand": "Louis Vuitton",
     "role": "original",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
@@ -2664,9 +2827,28 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Citrus",
+      "Musky",
+      "Fruity",
+      "Sweet",
+      "Powdery",
+      "Aquatic",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Mandarin Orange",
+      "Pear",
+      "Musk",
+      "Ambrette (Musk Mallow)",
+      "Benzoin"
+    ],
+    "source": {
+      "name": "Fragrantica: Louis Vuitton California Dream",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Moroccan Dream",
@@ -2869,17 +3051,43 @@
     "name": "Breeze",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bergamot",
+      "Cardamom",
+      "Incense"
+    ],
+    "heart": [
+      "Jasmine",
+      "Cyclamen"
+    ],
+    "base": [
+      "Musk",
+      "Cedar",
+      "Sandalwood"
+    ],
+    "accords": [
+      "White Floral",
+      "Woody",
+      "Floral",
+      "Powdery",
+      "Musky",
+      "Citrus",
+      "Warm Spicy",
+      "Aromatic",
+      "Fresh",
+      "Fresh Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Breeze",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Old Fashioned",
@@ -4643,17 +4851,46 @@
     "name": "Ana Abiyed Coral",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Watermelon",
+      "Peach",
+      "Orange"
+    ],
+    "heart": [
+      "Coconut",
+      "White Flowers"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla",
+      "Amber"
+    ],
+    "accords": [
+      "Ozonic",
+      "Aquatic",
+      "Fruity",
+      "Vanilla",
+      "Sweet",
+      "Powdery",
+      "Musky",
+      "Coconut",
+      "White Floral",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Ana Abiyedh Coral",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Ana Abiyedh Coral"
+    ]
   },
   {
     "name": "Homme EDT Intense",
@@ -4989,17 +5226,41 @@
     "name": "Mayar",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Litchi",
+      "Raspberry",
+      "Violet Leaf"
+    ],
+    "heart": [
+      "White Rose",
+      "Peony",
+      "Jasmine"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla"
+    ],
+    "accords": [
+      "Fruity",
+      "Rose",
+      "Sweet",
+      "Fresh",
+      "Tropical",
+      "Floral",
+      "Aquatic",
+      "Musky"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Mayar",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Voce Viva",
@@ -5240,17 +5501,36 @@
     "name": "Hayaati Florence",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Citrus",
+      "Sweet",
+      "Floral",
+      "Musky",
+      "Fresh",
+      "Fresh Spicy",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Floral Notes",
+      "Sweet Notes",
+      "Citruses",
+      "Pink Grapefruit",
+      "Musk"
+    ],
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Hayaati Florence",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "A Chant For The Nymph",
@@ -5441,12 +5721,38 @@
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cardamom",
+      "Pineapple"
+    ],
+    "heart": [
+      "Vanilla",
+      "Sage",
+      "Incense"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Patchouli",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Vanilla",
+      "Woody",
+      "Warm Spicy",
+      "Aromatic",
+      "Patchouli",
+      "Balsamic",
+      "Powdery",
+      "Amber",
+      "Sweet",
+      "Herbal"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra True Word",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Gris Charnel",
@@ -6203,17 +6509,43 @@
     "name": "Yara Tous",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Mango",
+      "Coconut",
+      "Passionfruit"
+    ],
+    "heart": [
+      "Jasmine",
+      "Orange Blossom",
+      "Heliotrope"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Cashmeran"
+    ],
+    "accords": [
+      "Tropical",
+      "Sweet",
+      "White Floral",
+      "Vanilla",
+      "Fruity",
+      "Powdery",
+      "Coconut",
+      "Musky",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Yara Tous",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Queen Of Silk",
@@ -6698,12 +7030,32 @@
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Citron",
+      "Mineral notes"
+    ],
+    "heart": [
+      "Juniper Berries",
+      "Pepper"
+    ],
+    "base": [
+      "Vetiver",
+      "Woody Notes"
+    ],
+    "accords": [
+      "Woody",
+      "Aromatic",
+      "Citrus",
+      "Fresh Spicy",
+      "Mineral",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Toro Pour Homme Glace",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Aventus Cologne",
@@ -6821,17 +7173,41 @@
     "name": "Thouq",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Litchi",
+      "Bergamot"
+    ],
+    "heart": [
+      "Rose",
+      "Incense"
+    ],
+    "base": [
+      "Amber",
+      "Vetiver"
+    ],
+    "accords": [
+      "Amber",
+      "Rose",
+      "Smoky",
+      "Balsamic",
+      "Fruity",
+      "Tropical",
+      "Warm Spicy",
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Thouq",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Idylle",
@@ -8924,17 +9300,36 @@
     "name": "Nasheet",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Guaiac Wood"
+    ],
+    "heart": [
+      "Nutmeg"
+    ],
+    "base": [
+      "Frankincense",
+      "Cashmeran",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Woody",
+      "Amber",
+      "Fresh Spicy",
+      "Powdery",
+      "Warm Spicy",
+      "Musky"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Nasheet",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Jour D'Hermes Absolu",
@@ -8979,17 +9374,39 @@
     "name": "Ekhtiari",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2019,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Mandarin Orange",
+      "Fruits"
+    ],
+    "heart": [
+      "Jasmine",
+      "Gardenia"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "accords": [
+      "White Floral",
+      "Fruity",
+      "Citrus",
+      "Sweet",
+      "Musky",
+      "Vanilla",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Ekhtiari",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Donna Born In Roma Intense",
@@ -9991,17 +10408,41 @@
     "name": "L'Immensite",
     "brand": "Louis Vuitton",
     "role": "original",
-    "year": 0,
+    "year": 2018,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Bergamot",
+      "Ginger"
+    ],
+    "heart": [
+      "Rosemary",
+      "Sage",
+      "Geranium",
+      "Water Notes"
+    ],
+    "base": [
+      "Amber",
+      "Ambroxan",
+      "Labdanum"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Aromatic",
+      "Amber",
+      "Herbal",
+      "Aquatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Louis Vuitton L'Immensité",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Jean Lowe Immortel",
@@ -10323,15 +10764,38 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Oud",
+      "Amber",
+      "Powdery",
+      "Balsamic",
+      "Smoky",
+      "Woody",
+      "Warm Spicy",
+      "Musky"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Vanilla",
+      "Sugar",
+      "Agarwood (Oud)",
+      "Incense",
+      "Sandalwood",
+      "Musk"
+    ],
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Raghba",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Scandal Absolu Her",
@@ -10491,7 +10955,7 @@
     "name": "Santal 33",
     "brand": "Le Labo",
     "role": "original",
-    "year": 0,
+    "year": 2011,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
@@ -10499,9 +10963,29 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Woody",
+      "Powdery",
+      "Leather",
+      "Warm Spicy",
+      "Violet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Sandalwood",
+      "Leather",
+      "Papyrus",
+      "Virginia Cedar",
+      "Cardamom",
+      "Violet",
+      "Iris",
+      "Amber"
+    ],
+    "source": {
+      "name": "Fragrantica: Le Labo Santal 33",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Game Of Spades Bid",
@@ -11208,17 +11692,47 @@
     "name": "Elle",
     "brand": "Lumiere",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Ginger",
+      "Mandarin",
+      "Pear"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Rose",
+      "Jasmine"
+    ],
+    "base": [
+      "Ambergris",
+      "Peruvian Pepper",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Citrus",
+      "White Floral",
+      "Amber",
+      "Animalic",
+      "Fresh Spicy",
+      "Rose",
+      "Sweet",
+      "Fruity",
+      "Fresh",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: French Avenue Lumière Elle",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Lumière Elle"
+    ]
   },
   {
     "name": "Acqua Di Gio",
@@ -11476,17 +11990,43 @@
     "name": "Confidential Private Gold",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Peach",
+      "Passionfruit",
+      "Pear",
+      "Raspberry",
+      "Cassis"
+    ],
+    "heart": [
+      "Lily of the Valley"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla",
+      "Sandalwood",
+      "Patchouli",
+      "Heliotrope"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Powdery",
+      "Fresh",
+      "Musky",
+      "Tropical",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Confidential Private Gold",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Accento",
@@ -11887,17 +12427,47 @@
     "name": "Emeer",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lemon",
+      "Bergamot",
+      "Clary Sage",
+      "Juniper Berries"
+    ],
+    "heart": [
+      "White Tea",
+      "Sandalwood",
+      "Cardamom",
+      "Olibanum"
+    ],
+    "base": [
+      "Ambergris",
+      "Cedarwood",
+      "Cashmeran",
+      "Patchouli"
+    ],
+    "accords": [
+      "Citrus",
+      "Aromatic",
+      "Woody",
+      "Amber",
+      "Fresh Spicy",
+      "Warm Spicy",
+      "Powdery",
+      "Green",
+      "Balsamic",
+      "Soft Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Emeer",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "L.12.12 White",
@@ -12308,7 +12878,7 @@
     "name": "Afternoon Swim",
     "brand": "Louis Vuitton",
     "role": "original",
-    "year": 0,
+    "year": 2019,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
@@ -12316,9 +12886,26 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Sweet",
+      "Aromatic",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Sicilian Orange",
+      "Bergamot",
+      "Mandarin Orange",
+      "Ambergris",
+      "Ginger"
+    ],
+    "source": {
+      "name": "Fragrantica: Louis Vuitton Afternoon Swim",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Pinnace Oryn",
@@ -14351,15 +14938,45 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Blood Orange",
+      "Lavender",
+      "Bergamot"
+    ],
+    "heart": [
+      "Black Pepper",
+      "Cashmeran",
+      "Rose"
+    ],
+    "base": [
+      "Cedar",
+      "Patchouli",
+      "Sandalwood",
+      "Labdanum",
+      "Musk"
+    ],
+    "accords": [
+      "Woody",
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Powdery",
+      "Musky",
+      "Citrus",
+      "Patchouli",
+      "Amber",
+      "Lavender",
+      "Aromatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Mohra",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Vanilla Candy Rock Sugar 42",
@@ -14679,17 +15296,40 @@
     "name": "Bade'e Al Oud Sublime",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Apple",
+      "Litchi",
+      "Rose"
+    ],
+    "heart": [
+      "Plum",
+      "Jasmine"
+    ],
+    "base": [
+      "Moss",
+      "Vanilla",
+      "Patchouli"
+    ],
+    "accords": [
+      "Fruity",
+      "Fresh",
+      "Tropical",
+      "Rose",
+      "Green",
+      "Earthy",
+      "Mossy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Bade'e Al Oud Sublime",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Coco Vanille",
@@ -15370,7 +16010,7 @@
     "name": "Oud Bouquet",
     "brand": "Lancôme",
     "role": "original",
-    "year": 0,
+    "year": 2016,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
@@ -15378,25 +16018,78 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Sweet",
+      "Oud",
+      "Vanilla",
+      "Rose",
+      "Amber",
+      "Woody",
+      "Lactonic",
+      "Balsamic",
+      "Nutty",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Praline",
+      "Agarwood (Oud)",
+      "Vanilla",
+      "Rose",
+      "Guaiac Wood",
+      "Copahu Balm"
+    ],
+    "source": {
+      "name": "Fragrantica: Lancôme Oud Bouquet",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Sheikh Al Shuyukh Luxe",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2015,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Rose",
+      "Cinnamon",
+      "Saffron"
+    ],
+    "heart": [
+      "Caramel",
+      "Patchouli"
+    ],
+    "base": [
+      "Woodsy Notes",
+      "Vanilla",
+      "Amber",
+      "Ambroxan"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Woody",
+      "Amber",
+      "Rose",
+      "Caramel",
+      "Vanilla",
+      "Cinnamon",
+      "Sweet",
+      "Patchouli",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Sheikh Al Shuyukh Luxe Edition",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Sheikh Al Shuyukh Luxe Edition"
+    ]
   },
   {
     "name": "Sand Dance",
@@ -16394,17 +17087,45 @@
     "name": "Asad Elixir",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pink Pepper",
+      "Saffron",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Tobacco",
+      "Vanilla",
+      "Cedar"
+    ],
+    "base": [
+      "Light Amber",
+      "Frankincense",
+      "Patchouli",
+      "Cashmeran"
+    ],
+    "accords": [
+      "Amber",
+      "Woody",
+      "Tobacco",
+      "Vanilla",
+      "Sweet",
+      "Warm Spicy",
+      "Powdery",
+      "Soft Spicy",
+      "Patchouli",
+      "Fresh Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Asad Elixir",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Blue Moon Ginger Dash",
@@ -16521,17 +17242,44 @@
     "name": "Asad Bourbon",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lavender",
+      "Mirabelle",
+      "Pink Pepper"
+    ],
+    "heart": [
+      "Cacao",
+      "Nutmeg",
+      "Davana"
+    ],
+    "base": [
+      "Bourbon Vanilla",
+      "Amber",
+      "Vetiver"
+    ],
+    "accords": [
+      "Vanilla",
+      "Cacao",
+      "Sweet",
+      "Lavender",
+      "Fresh Spicy",
+      "Warm Spicy",
+      "Amber",
+      "Aromatic",
+      "Powdery",
+      "Soft Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Asad Bourbon",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Tuscan Leather",
@@ -17088,17 +17836,46 @@
     "name": "Fakhar Black",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Apple",
+      "Bergamot",
+      "Ginger"
+    ],
+    "heart": [
+      "Lavender",
+      "Sage",
+      "Juniper Berries",
+      "Geranium"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Cedar",
+      "Amberwood",
+      "Vetiver"
+    ],
+    "accords": [
+      "Aromatic",
+      "Fresh Spicy",
+      "Woody",
+      "Fruity",
+      "Fresh",
+      "Citrus",
+      "Lavender",
+      "Green",
+      "Herbal",
+      "Amber"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Fakhar Black",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Yeah! Man",
@@ -17263,17 +18040,45 @@
     "name": "Hayaati Al Maleky",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pink Pepper",
+      "Bergamot",
+      "Ginger",
+      "Nutmeg"
+    ],
+    "heart": [
+      "Cedar",
+      "Incense",
+      "Woody Notes",
+      "Labdanum"
+    ],
+    "base": [
+      "Musk",
+      "Ambergris",
+      "Amber"
+    ],
+    "accords": [
+      "Amber",
+      "Fresh Spicy",
+      "Musky",
+      "Woody",
+      "Citrus",
+      "Powdery",
+      "Soft Spicy",
+      "Animalic",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Hayaati Al Maleky",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Essence de Blanc EDP",
@@ -17944,33 +18749,89 @@
     "name": "Blanche Bête",
     "brand": "Liquides Imaginaires",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Milk",
+      "Ambrette (Musk Mallow)",
+      "Mystikal"
+    ],
+    "heart": [
+      "Tuberose",
+      "Jasmine",
+      "Incense",
+      "Mahonial"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Tonka Bean",
+      "Cacao"
+    ],
+    "accords": [
+      "Vanilla",
+      "Musky",
+      "Lactonic",
+      "White Floral",
+      "Powdery",
+      "Sweet",
+      "Tuberose",
+      "Amber",
+      "Floral",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Les Liquides Imaginaires Blanche Bête",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Her Confession",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Cinnamon",
+      "Mystikal"
+    ],
+    "heart": [
+      "Tuberose",
+      "Jasmine",
+      "Incense",
+      "Mahonial"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Tonka"
+    ],
+    "accords": [
+      "Vanilla",
+      "White Floral",
+      "Tuberose",
+      "Amber",
+      "Musky",
+      "Warm Spicy",
+      "Powdery",
+      "Sweet",
+      "Cinnamon",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Her Confession",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Club De Nuit Lionheart Woman",
@@ -18058,17 +18919,43 @@
     "name": "Yara Elixir",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Strawberry S'mores",
+      "Black Currant"
+    ],
+    "heart": [
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base": [
+      "Vanilla",
+      "Caramel",
+      "Amber",
+      "Musk"
+    ],
+    "accords": [
+      "Vanilla",
+      "Caramel",
+      "Sweet",
+      "White Floral",
+      "Powdery",
+      "Fruity",
+      "Amber",
+      "Musky",
+      "Soft Spicy",
+      "Animalic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Yara Elixir",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Club De Nuit White Imperiale",
@@ -18119,33 +19006,83 @@
     "name": "Tharwah Gold",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lavender",
+      "Bergamot"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Egyptian Jasmine"
+    ],
+    "base": [
+      "Vanilla",
+      "Amber",
+      "Vetiver"
+    ],
+    "accords": [
+      "White Floral",
+      "Citrus",
+      "Vanilla",
+      "Lavender",
+      "Amber",
+      "Aromatic",
+      "Sweet",
+      "Fresh Spicy",
+      "Powdery",
+      "Animalic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Tharwah Gold",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Eclair",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Caramel",
+      "Milk",
+      "Sugar"
+    ],
+    "heart": [
+      "Honey",
+      "White Flowers"
+    ],
+    "base": [
+      "Vanilla",
+      "Praline",
+      "Musk"
+    ],
+    "accords": [
+      "Sweet",
+      "Vanilla",
+      "Caramel",
+      "Lactonic",
+      "Powdery",
+      "Honey"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Eclaire",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Eclaire"
+    ]
   },
   {
     "name": "Oud Wonder",
@@ -18708,48 +19645,6 @@
     "notesNote": "Notes as listed by Fragrantica.",
     "source": {
       "name": "Fragrantica: Maison Alhambra Yeah! Parfum",
-      "url": "https://www.fragrantica.com/"
-    }
-  },
-  {
-    "name": "Ana Abiyedh Coral",
-    "brand": "Lattafa",
-    "role": "alternative",
-    "year": 2025,
-    "concentration": "",
-    "gender": "Unisex",
-    "size": "",
-    "tier": "Not rated",
-    "top": [
-      "Watermelon",
-      "Peach",
-      "Orange"
-    ],
-    "heart": [
-      "Coconut",
-      "White Flowers"
-    ],
-    "base": [
-      "Musk",
-      "Vanilla",
-      "Amber"
-    ],
-    "accords": [
-      "Ozonic",
-      "Aquatic",
-      "Fruity",
-      "Vanilla",
-      "Sweet",
-      "Powdery",
-      "Musky",
-      "Coconut",
-      "White Floral",
-      "Amber"
-    ],
-    "season": [],
-    "notesNote": "Notes as listed by Fragrantica.",
-    "source": {
-      "name": "Fragrantica: Lattafa Perfumes Ana Abiyedh Coral",
       "url": "https://www.fragrantica.com/"
     }
   },
@@ -20966,17 +21861,44 @@
     "name": "Delilah",
     "brand": "Maison Alhambra",
     "role": "alternative",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Rhubarb",
+      "Litchi",
+      "Bergamot"
+    ],
+    "heart": [
+      "Turkish Rose",
+      "Peony",
+      "Lily"
+    ],
+    "base": [
+      "White Musk",
+      "Cashmeran",
+      "Vanilla"
+    ],
+    "accords": [
+      "Rose",
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Fresh",
+      "Powdery",
+      "Green",
+      "Aromatic",
+      "Tropical",
+      "Citrus"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Delilah",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Coco Mademoiselle",
@@ -21211,17 +22133,46 @@
     "name": "Leonie",
     "brand": "Maison Alhambra",
     "role": "alternative",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lavender",
+      "Mandarin",
+      "Petitgrain",
+      "Blackcurrant"
+    ],
+    "heart": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla",
+      "Cedar",
+      "Ambergris"
+    ],
+    "accords": [
+      "White Floral",
+      "Citrus",
+      "Lavender",
+      "Musky",
+      "Aromatic",
+      "Powdery",
+      "Vanilla",
+      "Sweet",
+      "Animalic",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Maison Alhambra Léonie",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Woody Sandalwood",
@@ -21307,17 +22258,43 @@
     "name": "Petra Viola",
     "brand": "Lattafa",
     "role": "alternative",
-    "year": 0,
+    "year": 2026,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Raspberry",
+      "Violet",
+      "Pink Pepper"
+    ],
+    "heart": [
+      "Cotton Candy",
+      "Lily of the Valley",
+      "Jasmine"
+    ],
+    "base": [
+      "Musk",
+      "Sandalwood",
+      "Cedarwood"
+    ],
+    "accords": [
+      "Sweet",
+      "Powdery",
+      "Fruity",
+      "White Floral",
+      "Violet",
+      "Caramel",
+      "Musky",
+      "Woody",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes Petra Viola",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Flora Gorgeous Gardenia",
@@ -21469,17 +22446,44 @@
     "name": "La Vie Est Belle",
     "brand": "Lancôme",
     "role": "original",
-    "year": 0,
+    "year": 2012,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Black Currant",
+      "Pear"
+    ],
+    "heart": [
+      "Iris",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base": [
+      "Praline",
+      "Vanilla",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "accords": [
+      "Sweet",
+      "Vanilla",
+      "Fruity",
+      "Patchouli",
+      "Woody",
+      "White Floral",
+      "Powdery",
+      "Iris",
+      "Earthy",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lancôme La Vie Est Belle",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Queen of Life",
@@ -26227,6 +27231,178 @@
     "notesNote": "Notes as listed by Fragrantica.",
     "source": {
       "name": "Fragrantica: Giorgio Armani Emporio Armani In Love With You",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "La Collection d'Antiquités 1505",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Black Cherry",
+      "Saffron"
+    ],
+    "heart": [
+      "Frankincense",
+      "Osmanthus",
+      "Amyris"
+    ],
+    "base": [
+      "Balsamic Notes",
+      "Guaiac Wood",
+      "Styrax",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "accords": [
+      "Woody",
+      "Cherry",
+      "Amber",
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Balsamic",
+      "Earthy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes La Collection d'antiquités 1505",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "La Collection d'Antiquités 1910",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Apple",
+      "Davana",
+      "Rose"
+    ],
+    "heart": [
+      "Cedar",
+      "Osmanthus"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "accords": [
+      "Vanilla",
+      "Fruity",
+      "Green",
+      "Woody",
+      "Sweet",
+      "Aromatic",
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Rose"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes La Collection D'antiquités 1910",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "La Collection d'Antiquités 1886",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Mate"
+    ],
+    "heart": [
+      "Orris",
+      "Jasmine",
+      "Tonka",
+      "Cinnamon",
+      "Bark"
+    ],
+    "base": [
+      "White Chocolate",
+      "Vanilla",
+      "White Tobacco",
+      "White Musk",
+      "Patchouli"
+    ],
+    "accords": [
+      "Sweet",
+      "White Floral",
+      "Powdery",
+      "Vanilla",
+      "Iris",
+      "Woody",
+      "Warm Spicy",
+      "Earthy",
+      "Aromatic",
+      "Citrus"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes La Collection D'antiquités 1886",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "The Kingdom For Women",
+    "brand": "Lattafa",
+    "role": "alternative",
+    "year": 2024,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Pear",
+      "Peony",
+      "Cassis"
+    ],
+    "heart": [
+      "Praline",
+      "Jasmine",
+      "Tonka Bean"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Sandalwood",
+      "Amber"
+    ],
+    "accords": [
+      "Sweet",
+      "Fruity",
+      "Fresh",
+      "Vanilla",
+      "Floral",
+      "Powdery",
+      "Amber",
+      "Musky",
+      "Woody",
+      "Aromatic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Lattafa Perfumes The Kingdom For Women",
       "url": "https://www.fragrantica.com/"
     }
   }
