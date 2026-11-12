@@ -4414,17 +4414,46 @@
     "name": "Sauvage",
     "brand": "Dior",
     "role": "original",
-    "year": 0,
-    "concentration": "",
+    "year": 2015,
+    "concentration": "EDT",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Calabrian bergamot",
+      "Pepper"
+    ],
+    "heart": [
+      "Sichuan Pepper",
+      "Lavender",
+      "Pink Pepper",
+      "Vetiver",
+      "Patchouli",
+      "Geranium",
+      "Elemi"
+    ],
+    "base": [
+      "Ambroxan",
+      "Cedar",
+      "Labdanum"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Amber",
+      "Citrus",
+      "Aromatic",
+      "Musky",
+      "Woody",
+      "Lavender",
+      "Herbal",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Sauvage",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Club De Nuit Urban Elixir",
