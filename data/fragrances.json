@@ -632,15 +632,38 @@
     "name": "Musky Oakmoss",
     "brand": "Dossier",
     "role": "alternative",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pineapple",
+      "Bergamot",
+      "Apple"
+    ],
+    "heart": [
+      "Birch Leaf",
+      "Patchouli",
+      "Rose"
+    ],
+    "base": [
+      "Oakmoss",
+      "Musk",
+      "Amber"
+    ],
+    "accords": [
+      "Fruity",
+      "Woody",
+      "Leather",
+      "Mossy",
+      "Citrus",
+      "Earthy",
+      "Sweet",
+      "Smoky",
+      "Musky",
+      "Patchouli"
+    ],
     "season": [],
     "similarTo": "Aventus",
     "reported": 81,
@@ -648,7 +671,11 @@
       "name": "Reported similarity figure as supplied to Dupes Base (not our testing)",
       "url": "/about/#similarity"
     },
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dossier Musky Oakmoss",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Althair",
@@ -1110,17 +1137,46 @@
     "name": "Acqua Di Gio Profondo",
     "brand": "Giorgio Armani",
     "role": "original",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Sea Notes",
+      "Aquozone",
+      "Bergamot",
+      "Green Mandarin"
+    ],
+    "heart": [
+      "Rosemary",
+      "Lavender",
+      "Cypress",
+      "Mastic or Lentisque"
+    ],
+    "base": [
+      "Mineral notes",
+      "Musk",
+      "Patchouli",
+      "Amber"
+    ],
+    "accords": [
+      "Marine",
+      "Aromatic",
+      "Citrus",
+      "Fresh Spicy",
+      "Fresh",
+      "Woody",
+      "Mineral",
+      "Salty",
+      "Lavender"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Acqua di Giò Profondo",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Jorge Di Profondo",
@@ -1171,17 +1227,57 @@
     "name": "Fahrenheit",
     "brand": "Dior",
     "role": "original",
-    "year": 0,
+    "year": 1988,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Nutmeg Flower",
+      "Lavender",
+      "Cedar",
+      "Mandarin Orange",
+      "Chamomile",
+      "Bergamot",
+      "Hawthorn",
+      "Lemon"
+    ],
+    "heart": [
+      "Violet Leaf",
+      "Nutmeg",
+      "Cedar",
+      "Sandalwood",
+      "Carnation",
+      "Honeysuckle",
+      "Jasmine",
+      "Lily-of-the-Valley"
+    ],
+    "base": [
+      "Leather",
+      "Vetiver",
+      "Musk",
+      "Amber",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "accords": [
+      "Leather",
+      "Woody",
+      "Ozonic",
+      "Fresh Spicy",
+      "Aromatic",
+      "Animalic",
+      "Aquatic",
+      "Floral",
+      "Citrus",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Fahrenheit",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Fortnight",
@@ -2235,7 +2331,7 @@
       "Black Pepper",
       "Pink Pepper",
       "Cardamom",
-      "Elemi",
+      "elemi",
       "Sage"
     ],
     "heart": [
@@ -2267,7 +2363,10 @@
     "source": {
       "name": "Fragrantica: Giorgio Armani Emporio Armani Stronger With You Tobacco",
       "url": "https://www.fragrantica.com/"
-    }
+    },
+    "aliases": [
+      "Emporio Armani Stronger With You Tobacco"
+    ]
   },
   {
     "name": "Your Touch Tobacco",
@@ -4067,17 +4166,38 @@
     "name": "Homme Intense",
     "brand": "Dior",
     "role": "original",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Tuscan Iris"
+    ],
+    "heart": [
+      "Ambrette"
+    ],
+    "base": [
+      "Virginia Cedar"
+    ],
+    "accords": [
+      "Iris",
+      "Woody",
+      "Powdery",
+      "Violet",
+      "Musky",
+      "Floral",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Dior Homme Intense 2025",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Dior Homme Intense 2025"
+    ]
   },
   {
     "name": "Camaro Homme Intense",
@@ -4561,7 +4681,7 @@
       "Vetiver",
       "Patchouli",
       "Geranium",
-      "Elemi"
+      "elemi"
     ],
     "base": [
       "Ambroxan",
@@ -4769,17 +4889,41 @@
     "name": "Privee No: 5",
     "brand": "Flavia",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Ambrette"
+    ],
+    "heart": [
+      "Narcissus",
+      "Ylang Ylang",
+      "Jasmine"
+    ],
+    "base": [
+      "Oakmoss",
+      "Patchouli"
+    ],
+    "accords": [
+      "Yellow Floral",
+      "Sweet",
+      "Green",
+      "White Floral",
+      "Fruity",
+      "Floral"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Flavia Privee No5",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Privee No5"
+    ]
   },
   {
     "name": "Naxos",
@@ -4845,17 +4989,38 @@
     "name": "Very Good Girl",
     "brand": "Carolina Herrera",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Litchi",
+      "Red Currant"
+    ],
+    "heart": [
+      "Rose"
+    ],
+    "base": [
+      "Vanilla",
+      "Vetiver"
+    ],
+    "accords": [
+      "Fruity",
+      "Rose",
+      "Fresh",
+      "Vanilla",
+      "Tropical",
+      "Soft Spicy",
+      "Sweet",
+      "Sour"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Carolina Herrera Very Good Girl",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Hayaati Florence",
@@ -4991,17 +5156,45 @@
     "name": "Blue Talisman",
     "brand": "Ex Nihilo",
     "role": "original",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Bergamot",
+      "Mandarin Orange",
+      "Ginger"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Georgywood"
+    ],
+    "base": [
+      "Musk",
+      "Ambrofix",
+      "Akigalawood",
+      "Cedar"
+    ],
+    "accords": [
+      "Citrus",
+      "Fruity",
+      "Sweet",
+      "Woody",
+      "Musky",
+      "Fresh Spicy",
+      "White Floral",
+      "Fresh",
+      "Powdery",
+      "Oud"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Ex Nihilo Blue Talisman",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "True Word",
@@ -5108,17 +5301,39 @@
     "name": "Bianco Latte",
     "brand": "Giardini di Toscana",
     "role": "original",
-    "year": 0,
+    "year": 2014,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Caramel"
+    ],
+    "heart": [
+      "Coumarin",
+      "Honey"
+    ],
+    "base": [
+      "Vanilla",
+      "White Musk"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Caramel",
+      "Honey",
+      "Balsamic",
+      "Powdery",
+      "Musky",
+      "Aromatic",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giardini Di Toscana Bianco Latte",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Pink Sugar",
@@ -5327,15 +5542,47 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Italian Lemon",
+      "Coconut",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Bourbon Vanilla",
+      "Peach",
+      "Gardenia",
+      "Jasmine"
+    ],
+    "base": [
+      "Vanilla Bean",
+      "Caramel",
+      "Benzoin",
+      "Musk"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Citrus",
+      "Caramel",
+      "Coconut",
+      "Powdery",
+      "White Floral",
+      "Fruity",
+      "Amber",
+      "Lactonic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Hekayat Attar GIGGLEPUFF",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "GIGGLEPUFF"
+    ]
   },
   {
     "name": "I Love New York",
@@ -5618,7 +5865,7 @@
     "name": "Molecule 01",
     "brand": "Escentric Molecules",
     "role": "original",
-    "year": 0,
+    "year": 2006,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
@@ -5626,9 +5873,22 @@
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Woody",
+      "Musky",
+      "Amber",
+      "Animalic",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Iso E Super"
+    ],
+    "source": {
+      "name": "Fragrantica: Escentric Molecules Molecule 01",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Monocline 01",
@@ -5821,7 +6081,10 @@
     "source": {
       "name": "Fragrantica: Giorgio Armani Emporio Armani Stronger With You Intensely",
       "url": "https://www.fragrantica.com/"
-    }
+    },
+    "aliases": [
+      "Emporio Armani Stronger With You Intensely"
+    ]
   },
   {
     "name": "Your Touch Intense",
@@ -6313,17 +6576,41 @@
     "name": "Floral Marshmallow",
     "brand": "Dossier",
     "role": "alternative",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
-    "gender": "",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Marshmallow",
+      "Neroli",
+      "Bergamot"
+    ],
+    "heart": [
+      "Orange Blossom",
+      "Honeysuckle",
+      "Jasmine",
+      "Orris"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Amber"
+    ],
+    "accords": [
+      "White Floral",
+      "Sweet",
+      "Powdery",
+      "Citrus",
+      "Vanilla",
+      "Musky"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dossier Floral Marshmallow",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Arabians Tonka",
@@ -6591,17 +6878,59 @@
     "name": "Blonde Amber",
     "brand": "Clive Christian",
     "role": "original",
-    "year": 0,
+    "year": 2022,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Rum",
+      "Olibanum",
+      "Bitter Orange",
+      "Cardamom",
+      "Pink Pepper",
+      "Ginger",
+      "Bergamot",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Dried Fruits",
+      "White Tobacco",
+      "Sandalwood",
+      "Saffron",
+      "Tuberose",
+      "Osmanthus",
+      "Jasmine",
+      "Orris"
+    ],
+    "base": [
+      "Tonka Bean",
+      "Vanilla",
+      "Myrrh",
+      "Labdanum",
+      "Patchouli",
+      "Cedar",
+      "Musk",
+      "Vetiver"
+    ],
+    "accords": [
+      "Woody",
+      "Amber",
+      "Warm Spicy",
+      "Vanilla",
+      "Sweet",
+      "White Floral",
+      "Fruity",
+      "Aromatic",
+      "Powdery",
+      "Balsamic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Clive Christian Blonde Amber",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Amber Empire",
@@ -7270,17 +7599,52 @@
     "name": "CH Men",
     "brand": "Carolina Herrera",
     "role": "original",
-    "year": 0,
+    "year": 2009,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grass",
+      "Bergamot",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Woodsy Notes",
+      "Nutmeg",
+      "Violet",
+      "Saffron",
+      "Jasmine"
+    ],
+    "base": [
+      "Sugar",
+      "Leather",
+      "Vanilla",
+      "Suede",
+      "Amber",
+      "Cashmirwood",
+      "Sandalwood",
+      "Oakmoss",
+      "Vetiver"
+    ],
+    "accords": [
+      "Leather",
+      "Vanilla",
+      "Sweet",
+      "Woody",
+      "Powdery",
+      "Green",
+      "Animalic",
+      "Fresh Spicy",
+      "Citrus",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Carolina Herrera CH Men",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Excellus",
@@ -7906,17 +8270,38 @@
     "name": "Rouge Trafalgar",
     "brand": "Dior",
     "role": "original",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
-    "gender": "Unisex",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Raspberry",
+      "Strawberry",
+      "Cherry",
+      "Mandarin Orange"
+    ],
+    "heart": [
+      "Black Currant",
+      "Grapefruit"
+    ],
+    "base": [
+      "Musk",
+      "Patchouli"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Citrus",
+      "Musky",
+      "Woody"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Rouge Trafalgar",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Hawwa Red",
@@ -7964,17 +8349,49 @@
     "name": "Aventus Absolu",
     "brand": "Creed",
     "role": "original",
-    "year": 0,
+    "year": 2025,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pineapple",
+      "Black Currant",
+      "Grapefruit",
+      "Pink Pepper",
+      "Bergamot",
+      "Lemon"
+    ],
+    "heart": [
+      "Cardamom",
+      "Cinnamon",
+      "Ginger"
+    ],
+    "base": [
+      "Vetiver",
+      "Patchouli"
+    ],
+    "accords": [
+      "Fruity",
+      "Citrus",
+      "Aromatic",
+      "Warm Spicy",
+      "Sweet",
+      "Woody",
+      "Fresh Spicy",
+      "Soft Spicy",
+      "Fresh",
+      "Earthy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Creed Absolu Aventus",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Absolu Aventus"
+    ]
   },
   {
     "name": "Club De Nuit Precieux 1",
@@ -9277,17 +9694,40 @@
     "name": "Green Irish Tweed",
     "brand": "Creed",
     "role": "original",
-    "year": 0,
+    "year": 1985,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Iris",
+      "Vervain"
+    ],
+    "heart": [
+      "Violet Leaf"
+    ],
+    "base": [
+      "Ambergris",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Ozonic",
+      "Aquatic",
+      "Woody",
+      "Powdery",
+      "Iris",
+      "Amber",
+      "Animalic",
+      "Violet",
+      "Balsamic",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Creed Green Irish Tweed",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Raghba",
@@ -9611,17 +10051,37 @@
     "name": "After Effect",
     "brand": "French Avenue",
     "role": "alternative",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
-    "gender": "",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
     "top": [],
     "heart": [],
     "base": [],
-    "accords": [],
+    "accords": [
+      "Warm Spicy",
+      "Tobacco",
+      "Woody",
+      "Cinnamon",
+      "Rum",
+      "Sweet",
+      "Metallic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "flat": [
+      "Rum",
+      "Tobacco",
+      "Cinnamon",
+      "Saffron",
+      "Sandalwood",
+      "White Flowers"
+    ],
+    "source": {
+      "name": "Fragrantica: French Avenue After Effect",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Amen Pure Malt",
@@ -10107,18 +10567,58 @@
     "name": "Acqua Di Gio",
     "brand": "Giorgio Armani",
     "role": "original",
-    "year": 0,
+    "year": 1996,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Lime",
+      "Lemon",
+      "Bergamot",
+      "Jasmine",
+      "Orange",
+      "Mandarin Orange",
+      "Neroli"
+    ],
+    "heart": [
+      "Sea Notes",
+      "Jasmine",
+      "Calone",
+      "Rosemary",
+      "Peach",
+      "Freesia",
+      "Hiacynth",
+      "Cyclamen",
+      "Violet",
+      "Coriander",
+      "Rose",
+      "Nutmeg",
+      "Mignonette"
+    ],
+    "base": [
+      "White Musk",
+      "Cedar",
+      "Oakmoss",
+      "Patchouli",
+      "Amber"
+    ],
+    "accords": [
+      "Citrus",
+      "Aromatic",
+      "Marine",
+      "Fresh Spicy",
+      "Floral",
+      "Woody",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet.",
-    "asin": "B004XWMLDK"
+    "notesNote": "Notes as listed by Fragrantica.",
+    "asin": "B004XWMLDK",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Acqua di Gio",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Jorge Di Aqua",
@@ -10233,15 +10733,40 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "",
+    "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pink Pepper",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Lavender",
+      "Vetiver"
+    ],
+    "base": [
+      "Vanilla",
+      "Amber",
+      "Tonka Bean"
+    ],
+    "accords": [
+      "Lavender",
+      "Vanilla",
+      "Aromatic",
+      "Amber",
+      "Sweet",
+      "Woody",
+      "Fresh Spicy",
+      "Earthy",
+      "Powdery",
+      "Soft Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Cuba Paris Cuba Gold",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Kirké",
@@ -10614,17 +11139,36 @@
     "name": "Town & Country",
     "brand": "Clive Christian",
     "role": "original",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
-    "gender": "Men",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Clary Sage"
+    ],
+    "heart": [
+      "Ambergris"
+    ],
+    "base": [
+      "Sandalwood"
+    ],
+    "accords": [
+      "Aromatic",
+      "Amber",
+      "Soft Spicy",
+      "Woody",
+      "Animalic",
+      "Balsamic",
+      "Powdery",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Clive Christian Town & Country",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Emeer",
@@ -11134,17 +11678,44 @@
     "name": "The One Mysterious Night",
     "brand": "Dolce&Gabbana",
     "role": "original",
-    "year": 0,
+    "year": 2018,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Saffron",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Rose",
+      "Agarwood (Oud)",
+      "Clary Sage"
+    ],
+    "base": [
+      "Amber",
+      "Precious Woods",
+      "Labdanum",
+      "Tonka Bean"
+    ],
+    "accords": [
+      "Amber",
+      "Rose",
+      "Oud",
+      "Warm Spicy",
+      "Woody",
+      "Aromatic",
+      "Metallic",
+      "Floral",
+      "Leather",
+      "Vanilla"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana The One Mysterious Night",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Khalta Blend Of",
@@ -11399,17 +11970,44 @@
     "name": "The One Luminous Night",
     "brand": "Dolce&Gabbana",
     "role": "original",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Black Pepper",
+      "Basil",
+      "Bergamot"
+    ],
+    "heart": [
+      "Dates",
+      "Sage",
+      "Geranium"
+    ],
+    "base": [
+      "Amber",
+      "Incense",
+      "Sandalwood"
+    ],
+    "accords": [
+      "Amber",
+      "Fresh Spicy",
+      "Sweet",
+      "Aromatic",
+      "Warm Spicy",
+      "Woody",
+      "Smoky",
+      "Fruity",
+      "Balsamic",
+      "Herbal"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana The One Luminous Night",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Lumiere Garcon",
@@ -11537,17 +12135,48 @@
     "name": "Allure Homme Sport",
     "brand": "Chanel",
     "role": "original",
-    "year": 0,
+    "year": 2004,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Orange",
+      "Sea Notes",
+      "Aldehydes",
+      "Blood Mandarin"
+    ],
+    "heart": [
+      "Pepper",
+      "Neroli",
+      "Cedar"
+    ],
+    "base": [
+      "Vanilla",
+      "Tonka Bean",
+      "White Musk",
+      "Amber",
+      "Vetiver",
+      "Elemi resin"
+    ],
+    "accords": [
+      "Citrus",
+      "Aromatic",
+      "Vanilla",
+      "Aldehydic",
+      "Marine",
+      "Sweet",
+      "Fresh Spicy",
+      "Fresh",
+      "Amber",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Chanel Allure Homme Sport",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Alpine Homme Sport",
@@ -11887,17 +12516,44 @@
     "name": "Sultry Woods",
     "brand": "French Avenue",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
-    "gender": "",
+    "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Turkish Rose",
+      "Geranium",
+      "Cardamom"
+    ],
+    "heart": [
+      "Cypriol Oil",
+      "Osmanthus",
+      "Amber"
+    ],
+    "base": [
+      "Leather",
+      "Vetiver",
+      "elemi"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Rose",
+      "Earthy",
+      "Leather",
+      "Floral",
+      "Fresh Spicy",
+      "Animalic",
+      "Warm Spicy",
+      "Fruity"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: French Avenue Sultry Woods",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "The Inimitable",
@@ -12559,32 +13215,37 @@
     "tier": "Not rated",
     "top": [
       "Nutmeg",
-      "Cardamom",
       "Cinnamon",
+      "Cardamom",
       "Grapefruit"
     ],
     "heart": [
-      "Provençal lavender"
+      "Lavender"
     ],
     "base": [
-      "Liquorice",
-      "Amber notes",
+      "Licorice",
+      "Sandalwood",
+      "Amber",
       "Patchouli",
-      "Woods",
-      "Haitian vetiver"
+      "Haitian Vetiver"
     ],
     "accords": [
-      "Spicy",
+      "Warm Spicy",
+      "Fresh Spicy",
       "Woody",
-      "Sweet",
-      "Fresh",
-      "Synthetic"
+      "Aromatic",
+      "Lavender",
+      "Soft Spicy",
+      "Cinnamon",
+      "Amber",
+      "Powdery",
+      "Balsamic"
     ],
     "season": [],
-    "notesNote": "Published notes as listed by Parfumo.",
+    "notesNote": "Notes as listed by Fragrantica.",
     "source": {
-      "name": "Parfumo: Dior Sauvage Elixir",
-      "url": "https://www.parfumo.com/Perfumes/dior/sauvage-elixir"
+      "name": "Fragrantica: Dior Sauvage Elixir",
+      "url": "https://www.fragrantica.com/"
     }
   },
   {
@@ -13756,17 +14417,38 @@
     "name": "Velvet Tender Oud",
     "brand": "Dolce&Gabbana",
     "role": "original",
-    "year": 0,
+    "year": 2013,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Sweet Almond"
+    ],
+    "heart": [
+      "Damask Rose",
+      "Rose de Mai"
+    ],
+    "base": [
+      "Agarwood (Oud)",
+      "Woody Notes"
+    ],
+    "accords": [
+      "Rose",
+      "Oud",
+      "Almond",
+      "Woody",
+      "Floral",
+      "Nutty",
+      "Fruity",
+      "Sweet"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana Velvet Tender Oud",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Oud Bouquet",
@@ -14445,17 +15127,43 @@
     "name": "Silver Mountain Water",
     "brand": "Creed",
     "role": "original",
-    "year": 0,
+    "year": 1995,
     "concentration": "",
     "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bergamot",
+      "Mandarin Orange"
+    ],
+    "heart": [
+      "Green Tea",
+      "Black Currant"
+    ],
+    "base": [
+      "Musk",
+      "Petitgrain",
+      "Sandalwood",
+      "Galbanum"
+    ],
+    "accords": [
+      "Citrus",
+      "Green",
+      "Fruity",
+      "Musky",
+      "Woody",
+      "Aromatic",
+      "Powdery",
+      "Fresh Spicy",
+      "Fresh",
+      "Floral"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Creed Silver Mountain Water",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Club de Nuit Sillage",
@@ -18661,51 +19369,6 @@
     }
   },
   {
-    "name": "Absolu Aventus",
-    "brand": "Creed",
-    "role": "original",
-    "year": 2025,
-    "concentration": "",
-    "gender": "Men",
-    "size": "",
-    "tier": "Not rated",
-    "top": [
-      "Pineapple",
-      "Black Currant",
-      "Grapefruit",
-      "Pink Pepper",
-      "Bergamot",
-      "Lemon"
-    ],
-    "heart": [
-      "Cardamom",
-      "Cinnamon",
-      "Ginger"
-    ],
-    "base": [
-      "Vetiver",
-      "Patchouli"
-    ],
-    "accords": [
-      "Fruity",
-      "Citrus",
-      "Aromatic",
-      "Warm Spicy",
-      "Sweet",
-      "Woody",
-      "Fresh Spicy",
-      "Soft Spicy",
-      "Fresh",
-      "Earthy"
-    ],
-    "season": [],
-    "notesNote": "Notes as listed by Fragrantica.",
-    "source": {
-      "name": "Fragrantica: Creed Absolu Aventus",
-      "url": "https://www.fragrantica.com/"
-    }
-  },
-  {
     "name": "Venti Green Tweed",
     "brand": "Fragrance World",
     "role": "alternative",
@@ -18947,8 +19610,8 @@
       "Woody",
       "Fresh Spicy",
       "Leather",
-      "Aromatic",
       "Patchouli",
+      "Aromatic",
       "Earthy",
       "Green"
     ],
@@ -19325,33 +19988,94 @@
     "name": "Ambery Jasmine",
     "brand": "Dossier",
     "role": "alternative",
-    "year": 0,
+    "year": 2024,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Blackcurrant",
+      "Bergamot",
+      "Red Pepper"
+    ],
+    "heart": [
+      "Jasmine",
+      "White Flowers"
+    ],
+    "base": [
+      "Amber",
+      "Vanilla",
+      "Cashmeran"
+    ],
+    "accords": [
+      "White Floral",
+      "Amber",
+      "Fruity",
+      "Woody",
+      "Powdery",
+      "Vanilla",
+      "Animalic",
+      "Floral",
+      "Soft Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dossier Ambery Jasmine",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "J'adore",
     "brand": "Dior",
     "role": "original",
-    "year": 0,
+    "year": 1999,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Melon",
+      "Magnolia",
+      "Peach",
+      "Mandarin Orange",
+      "Bergamot"
+    ],
+    "heart": [
+      "Jasmine",
+      "Lily-of-the-Valley",
+      "Tuberose",
+      "Freesia",
+      "Rose",
+      "Orchid",
+      "Violet",
+      "Plum"
+    ],
+    "base": [
+      "Musk",
+      "Vanilla",
+      "Cedar",
+      "Blackberry"
+    ],
+    "accords": [
+      "White Floral",
+      "Floral",
+      "Fruity",
+      "Sweet",
+      "Fresh",
+      "Aquatic",
+      "Citrus",
+      "Powdery",
+      "Ozonic",
+      "Tuberose"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior J'adore",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Floral Pear",
@@ -19359,15 +20083,44 @@
     "role": "alternative",
     "year": 0,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Bergamot",
+      "Rhubarb",
+      "Pear",
+      "Watermelon"
+    ],
+    "heart": [
+      "Rose",
+      "Freesia",
+      "Orange Blossom",
+      "Quince"
+    ],
+    "base": [
+      "Amber",
+      "Woody Notes",
+      "Musk"
+    ],
+    "accords": [
+      "Rose",
+      "Amber",
+      "Citrus",
+      "Floral",
+      "Woody",
+      "White Floral",
+      "Musky",
+      "Powdery",
+      "Aromatic",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dossier Floral Pear",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Libre",
@@ -19405,17 +20158,41 @@
     "name": "Woody Sandalwood",
     "brand": "Dossier",
     "role": "alternative",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Violet Leaves",
+      "Cardamom"
+    ],
+    "heart": [
+      "Cedar",
+      "Ambroxan",
+      "Cypriol Oil or Nagarmotha",
+      "Orris"
+    ],
+    "base": [
+      "Sandalwood",
+      "Musk",
+      "Amber"
+    ],
+    "accords": [
+      "Woody",
+      "Powdery",
+      "Warm Spicy",
+      "Amber",
+      "Ozonic",
+      "Musky",
+      "Aquatic"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dossier Woody Sandalwood",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Mojave Ghost",
@@ -19554,17 +20331,46 @@
     "name": "Gourmand White Flowers",
     "brand": "Dossier",
     "role": "alternative",
-    "year": 0,
+    "year": 2021,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Green Tea",
+      "Bergamot",
+      "Red Berries",
+      "Freesia"
+    ],
+    "heart": [
+      "White Flowers",
+      "Orchid",
+      "Rose"
+    ],
+    "base": [
+      "Patchouli",
+      "Caramel",
+      "Vanilla",
+      "Musk"
+    ],
+    "accords": [
+      "Patchouli",
+      "Floral",
+      "Sweet",
+      "Caramel",
+      "White Floral",
+      "Vanilla",
+      "Powdery",
+      "Citrus",
+      "Woody",
+      "Green"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dossier Gourmand White Flowers",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "La Vie Est Belle",
@@ -19618,17 +20424,42 @@
     "name": "Radiant Nectar",
     "brand": "Clean Reserve",
     "role": "alternative",
-    "year": 0,
+    "year": 2020,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear",
+      "Ambrette (Musk Mallow)"
+    ],
+    "heart": [
+      "Tobacco Blossom",
+      "Orris",
+      "Carrot Seeds"
+    ],
+    "base": [
+      "Musk",
+      "Ambroxan",
+      "White Cedar Extract"
+    ],
+    "accords": [
+      "Musky",
+      "Powdery",
+      "Fruity",
+      "Sweet",
+      "Aquatic",
+      "Amber",
+      "Floral",
+      "White Floral",
+      "Fresh"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Clean Radiant Nectar",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Wood Sage & Sea Salt",
@@ -19714,17 +20545,43 @@
     "name": "Chance Eau Tendre",
     "brand": "Chanel",
     "role": "original",
-    "year": 0,
+    "year": 2010,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Quince",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Hyacinth",
+      "Jasmine"
+    ],
+    "base": [
+      "Musk",
+      "Iris",
+      "Virginia Cedar",
+      "Amber"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Citrus",
+      "Sweet",
+      "Fresh Spicy",
+      "Powdery",
+      "White Floral",
+      "Musky",
+      "Green",
+      "Iris"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Chanel Chance Eau Tendre",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Applejuice",
@@ -19922,17 +20779,49 @@
     "name": "Spring Flower",
     "brand": "Creed",
     "role": "original",
-    "year": 0,
+    "year": 2023,
     "concentration": "",
     "gender": "Women",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Grapefruit",
+      "Green Notes",
+      "Lemon",
+      "Bergamot"
+    ],
+    "heart": [
+      "White Flowers",
+      "Jasmine",
+      "Peach",
+      "Apricot"
+    ],
+    "base": [
+      "Ambergris",
+      "Musk",
+      "Cedar"
+    ],
+    "accords": [
+      "White Floral",
+      "Citrus",
+      "Animalic",
+      "Fruity",
+      "Amber",
+      "Powdery",
+      "Musky",
+      "Green",
+      "Aromatic",
+      "Fresh Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Creed Spring Flower 2023",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Spring Flower 2023"
+    ]
   },
   {
     "name": "Spring Flower",
@@ -19954,17 +20843,43 @@
     "name": "Orphéon",
     "brand": "Diptyque",
     "role": "original",
-    "year": 0,
+    "year": 2026,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Yuzu",
+      "juniper berry",
+      "Green Mandarin",
+      "Pink Pepper",
+      "Ginger"
+    ],
+    "heart": [
+      "Magnolia",
+      "Rose"
+    ],
+    "base": [
+      "Cedar",
+      "Musk"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Woody",
+      "Aromatic",
+      "Musky",
+      "Floral",
+      "Green",
+      "Sweet",
+      "Powdery"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Diptyque Orphéon",
+      "url": "https://www.fragrantica.com/"
+    }
   },
   {
     "name": "Jazz Club",
@@ -20146,33 +21061,85 @@
     "name": "St. Moritz",
     "brand": "Chanel",
     "role": "original",
-    "year": 0,
+    "year": 2026,
     "concentration": "",
-    "gender": "Women",
+    "gender": "Unisex",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Pear"
+    ],
+    "heart": [
+      "Rose"
+    ],
+    "base": [
+      "Amber",
+      "Musk"
+    ],
+    "accords": [
+      "Amber",
+      "Fruity",
+      "Musky",
+      "Rose",
+      "Sweet",
+      "Powdery",
+      "Aquatic",
+      "Fresh",
+      "Animalic",
+      "Floral"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Chanel Paris – Saint-Moritz",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Paris – Saint-Moritz"
+    ]
   },
   {
     "name": "Stronger With You",
     "brand": "Giorgio Armani",
     "role": "original",
-    "year": 0,
+    "year": 2017,
     "concentration": "",
     "gender": "Men",
     "size": "",
     "tier": "Not rated",
-    "top": [],
-    "heart": [],
-    "base": [],
-    "accords": [],
+    "top": [
+      "Chestnut",
+      "Sugar"
+    ],
+    "heart": [
+      "Lavender",
+      "Sage"
+    ],
+    "base": [
+      "Vanilla",
+      "Smoke"
+    ],
+    "accords": [
+      "Vanilla",
+      "Sweet",
+      "Balsamic",
+      "Nutty",
+      "Aromatic",
+      "Lavender",
+      "Powdery",
+      "Herbal",
+      "Soft Spicy",
+      "Warm Spicy"
+    ],
     "season": [],
-    "notesNote": "Published notes have not been added yet."
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Emporio Armani Stronger With You",
+      "url": "https://www.fragrantica.com/"
+    },
+    "aliases": [
+      "Emporio Armani Stronger With You"
+    ]
   },
   {
     "name": "Odyssey Limoni",
@@ -22577,6 +23544,1474 @@
     "notesNote": "Notes as listed by Fragrantica.",
     "source": {
       "name": "Fragrantica: Carolina Herrera Bad Boy Cobalt Absolute",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Coco Mademoiselle Intense",
+    "brand": "Chanel",
+    "role": "original",
+    "year": 2018,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Sicilian Orange",
+      "Calabrian bergamot",
+      "Lemon"
+    ],
+    "heart": [
+      "Rose",
+      "Fruity Notes",
+      "Jasmine"
+    ],
+    "base": [
+      "Patchouli",
+      "Madagascar Vanilla",
+      "Tonka Bean",
+      "White Musk",
+      "Labdanum"
+    ],
+    "accords": [
+      "Citrus",
+      "Vanilla",
+      "Patchouli",
+      "Sweet",
+      "Woody",
+      "Warm Spicy",
+      "Amber",
+      "Balsamic",
+      "Rose",
+      "Fruity"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Chanel Coco Mademoiselle Intense",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Coco Mademoiselle Parfum",
+    "brand": "Chanel",
+    "role": "original",
+    "year": 0,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Orange",
+      "Grapefruit"
+    ],
+    "heart": [
+      "Rose",
+      "Litchi",
+      "Jasmine"
+    ],
+    "base": [
+      "Patchouli",
+      "Vanilla",
+      "Musk",
+      "Vetiver"
+    ],
+    "accords": [
+      "Citrus",
+      "Patchouli",
+      "Woody",
+      "Rose",
+      "Fresh Spicy",
+      "Earthy",
+      "Aromatic",
+      "White Floral",
+      "Vanilla",
+      "Musky"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Chanel Coco Mademoiselle Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Coco Mademoiselle L'Eau Privée",
+    "brand": "Chanel",
+    "role": "original",
+    "year": 2020,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Mandarin Orange"
+    ],
+    "heart": [
+      "Rose",
+      "Jasmine"
+    ],
+    "base": [
+      "White Musk"
+    ],
+    "accords": [
+      "Citrus",
+      "Rose",
+      "Musky",
+      "White Floral",
+      "Powdery",
+      "Floral"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Chanel Coco Mademoiselle L'Eau Privée",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Miss Dioramour",
+    "brand": "Dior",
+    "role": "original",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Tangerine",
+      "Mandarin",
+      "Apricot",
+      "Peach"
+    ],
+    "heart": [
+      "Jasmine",
+      "Floral Notes",
+      "Wild Strawberry"
+    ],
+    "base": [
+      "Atlas Cedar",
+      "Amber",
+      "Amberwood",
+      "Moss",
+      "Patchouli"
+    ],
+    "accords": [
+      "Citrus",
+      "Woody",
+      "Fruity",
+      "White Floral",
+      "Floral",
+      "Amber",
+      "Sweet",
+      "Powdery",
+      "Earthy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Miss Dioramour",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Sauvage Rare Blend",
+    "brand": "Dior",
+    "role": "original",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Vanilla",
+      "Oud",
+      "Amber",
+      "Musky",
+      "Balsamic",
+      "Powdery",
+      "Sweet",
+      "Woody"
+    ],
+    "season": [],
+    "flat": [
+      "Vanilla",
+      "Oud",
+      "Labdanum"
+    ],
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "source": {
+      "name": "Fragrantica: Dior Sauvage Rare Blend",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Sauvage Eau de Parfum",
+    "brand": "Dior",
+    "role": "original",
+    "year": 2018,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot"
+    ],
+    "heart": [
+      "Sichuan Pepper",
+      "Lavender",
+      "Star Anise",
+      "Nutmeg"
+    ],
+    "base": [
+      "Ambroxan",
+      "Vanilla"
+    ],
+    "accords": [
+      "Fresh Spicy",
+      "Citrus",
+      "Amber",
+      "Lavender",
+      "Musky",
+      "Aromatic",
+      "Herbal",
+      "Anis",
+      "Soft Spicy",
+      "Floral"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Sauvage Eau de Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Sauvage Parfum",
+    "brand": "Dior",
+    "role": "original",
+    "year": 2019,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Bergamot",
+      "Mandarin Orange",
+      "elemi"
+    ],
+    "heart": [
+      "Sandalwood"
+    ],
+    "base": [
+      "Olibanum",
+      "Tonka Bean",
+      "Vanilla"
+    ],
+    "accords": [
+      "Citrus",
+      "Woody",
+      "Amber",
+      "Aromatic",
+      "Vanilla",
+      "Fresh Spicy",
+      "Warm Spicy",
+      "Powdery",
+      "Balsamic",
+      "Sweet"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Sauvage Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Sauvage Eau Forte",
+    "brand": "Dior",
+    "role": "original",
+    "year": 2024,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Spices",
+      "Elemi resin"
+    ],
+    "heart": [
+      "Lavender"
+    ],
+    "base": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "accords": [
+      "Lavender",
+      "Aromatic",
+      "Musky",
+      "Warm Spicy",
+      "Woody",
+      "Powdery",
+      "Fresh Spicy",
+      "Balsamic",
+      "Conifer"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Sauvage Eau Forte",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Sauvage Extrait",
+    "brand": "Dior",
+    "role": "original",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lavender",
+      "Ambroxan",
+      "Bergamot"
+    ],
+    "heart": [
+      "Vietnamese Oud"
+    ],
+    "base": [
+      "Virginia Cedar",
+      "Atlas Cedar",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "accords": [
+      "Woody",
+      "Aromatic",
+      "Lavender",
+      "Amber",
+      "Patchouli",
+      "Earthy",
+      "Musky",
+      "Fresh Spicy",
+      "Citrus",
+      "Warm Spicy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dior Sauvage Extrait",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "K by Dolce & Gabbana Eau de Parfum",
+    "brand": "Dolce&Gabbana",
+    "role": "original",
+    "year": 2020,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Blood Orange",
+      "Juniper Berries",
+      "Pimento",
+      "Lemon",
+      "Sicilian Lemon",
+      "Cardamom"
+    ],
+    "heart": [
+      "Fig Nectar",
+      "Lavender",
+      "Geranium",
+      "Clary Sage"
+    ],
+    "base": [
+      "Cedar",
+      "Patchouli",
+      "Vetiver",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Citrus",
+      "Fresh Spicy",
+      "Warm Spicy",
+      "Fruity",
+      "Sweet",
+      "Earthy",
+      "Lavender"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana K by Dolce & Gabbana Eau de Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "K by Dolce & Gabbana Elixir",
+    "brand": "Dolce&Gabbana",
+    "role": "original",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Amberwood",
+      "Earthy Notes",
+      "Spices",
+      "Incense",
+      "Cinnamon"
+    ],
+    "heart": [
+      "Labdanum",
+      "Black Amber",
+      "Balsam Fir"
+    ],
+    "base": [
+      "Patchouli",
+      "Guaiac Wood"
+    ],
+    "accords": [
+      "Amber",
+      "Woody",
+      "Warm Spicy",
+      "Earthy",
+      "Balsamic",
+      "Patchouli"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana K by Dolce & Gabbana Elixir",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Q by Dolce & Gabbana Elixir",
+    "brand": "Dolce&Gabbana",
+    "role": "original",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Cherry",
+      "Nectar",
+      "Sicilian Lemon"
+    ],
+    "heart": [
+      "Queen of the Night Flower",
+      "Jasmine Sambac"
+    ],
+    "base": [
+      "Peru Balsam",
+      "Oakmoss"
+    ],
+    "accords": [
+      "Cherry",
+      "Balsamic",
+      "White Floral",
+      "Amber",
+      "Sweet",
+      "Mossy",
+      "Woody",
+      "Earthy",
+      "Citrus",
+      "Nutty"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana Q by Dolce & Gabbana Elixir",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Light Blue Discover Vulcano Pour Homme",
+    "brand": "Dolce&Gabbana",
+    "role": "original",
+    "year": 2014,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Italian Lemon",
+      "Ginger"
+    ],
+    "heart": [
+      "Cypress",
+      "Lavender"
+    ],
+    "base": [
+      "Vetiver",
+      "Cedar"
+    ],
+    "accords": [
+      "Woody",
+      "Aromatic",
+      "Fresh Spicy",
+      "Citrus",
+      "Fresh",
+      "Lavender",
+      "Earthy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana Light Blue Discover Vulcano Pour Homme",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "The One For Men Eau de Parfum Intense",
+    "brand": "Dolce&Gabbana",
+    "role": "original",
+    "year": 2020,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Cardamom",
+      "Neroli",
+      "Cypress"
+    ],
+    "heart": [
+      "Cashmeran",
+      "Neroli",
+      "Benzoin",
+      "Clary Sage"
+    ],
+    "base": [
+      "Neroli",
+      "Leather",
+      "Patchouli",
+      "Labdanum"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Woody",
+      "Amber",
+      "Aromatic",
+      "Musky",
+      "Leather",
+      "Powdery",
+      "Patchouli",
+      "White Floral",
+      "Citrus"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana The One For Men Eau de Parfum Intense",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "My Devotion Eau de Parfum Intense",
+    "brand": "Dolce&Gabbana",
+    "role": "original",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Pear Blossom",
+      "Blackcurrant"
+    ],
+    "heart": [
+      "Peony",
+      "Orange Blossom"
+    ],
+    "base": [
+      "Madagascar Vanilla",
+      "Ambroxan",
+      "Amberwood"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Vanilla",
+      "Amber",
+      "White Floral",
+      "Rose"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana My Devotion Eau de Parfum Intense",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "The One Royal Night",
+    "brand": "Dolce&Gabbana",
+    "role": "original",
+    "year": 2015,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Cardamom",
+      "Basil"
+    ],
+    "heart": [
+      "Nutmeg",
+      "Pear Wood"
+    ],
+    "base": [
+      "Amber",
+      "Sandalwood",
+      "Cedar",
+      "Labdanum"
+    ],
+    "accords": [
+      "Woody",
+      "Warm Spicy",
+      "Amber",
+      "Aromatic",
+      "Fresh Spicy",
+      "Powdery"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Dolce&Gabbana The One Royal Night",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Emir Cedrat Essence",
+    "brand": "Paris Corner",
+    "role": "alternative",
+    "year": 0,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Sicilian Lemon",
+      "Bergamot",
+      "Black Currant",
+      "Herbal Notes"
+    ],
+    "heart": [
+      "Fruits",
+      "Water Jasmine",
+      "Patchouli"
+    ],
+    "base": [
+      "Vanilla",
+      "White Musk",
+      "Leather",
+      "Cedar",
+      "Moss",
+      "Sandal"
+    ],
+    "accords": [
+      "Citrus",
+      "Fruity",
+      "Woody",
+      "Powdery",
+      "Aromatic",
+      "Vanilla",
+      "Sweet",
+      "Musky",
+      "Green",
+      "Leather"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: PARIS CORNER Emir Cedrat Essence",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Acqua di Giò Eau de Parfum Intense",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Green Apple",
+      "Calabrian bergamot"
+    ],
+    "heart": [
+      "Marine notes",
+      "Clary Sage"
+    ],
+    "base": [
+      "Woody Notes",
+      "Amber"
+    ],
+    "accords": [
+      "Aromatic",
+      "Marine",
+      "Fruity",
+      "Woody",
+      "Citrus",
+      "Fresh",
+      "Fresh Spicy",
+      "Green",
+      "Soft Spicy",
+      "Aquatic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Acqua di Giò Eau de Parfum Intense",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Acqua di Giò Absolu",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2018,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Sea Notes",
+      "Bergamot",
+      "Pear",
+      "Apple",
+      "Grapefruit",
+      "Lemon"
+    ],
+    "heart": [
+      "Lavender",
+      "Rosemary",
+      "Geranium"
+    ],
+    "base": [
+      "Woody Notes",
+      "Tonka Bean",
+      "Amberwood",
+      "Patchouli",
+      "Labdanum"
+    ],
+    "accords": [
+      "Aromatic",
+      "Woody",
+      "Citrus",
+      "Fresh Spicy",
+      "Amber",
+      "Marine",
+      "Fruity",
+      "Warm Spicy",
+      "Sweet",
+      "Aquatic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Acqua di Giò Absolu",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Acqua di Gio Blue Edition Pour Homme",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2014,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Citrus",
+      "Aquatic",
+      "Fresh Spicy",
+      "White Floral",
+      "Floral",
+      "Fresh",
+      "Amber",
+      "Aromatic",
+      "Sweet",
+      "Woody"
+    ],
+    "season": [],
+    "flat": [
+      "Water Notes",
+      "Calabrian bergamot",
+      "Jasmine",
+      "Mandarin Orange",
+      "Persimmon",
+      "Nasturtium",
+      "Patchouli",
+      "Rosemary",
+      "Labdanum",
+      "Neroli",
+      "Amber"
+    ],
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Acqua di Gio Blue Edition Pour Homme",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Acqua di Giò Parfum",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Marine notes",
+      "Bergamot"
+    ],
+    "heart": [
+      "Rosemary",
+      "Clary Sage",
+      "Geranium"
+    ],
+    "base": [
+      "Olibanum",
+      "Patchouli"
+    ],
+    "accords": [
+      "Aromatic",
+      "Fresh Spicy",
+      "Marine",
+      "Woody",
+      "Citrus",
+      "Amber",
+      "Patchouli",
+      "Warm Spicy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Acqua di Giò Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Flowerbomb Pretty Peony",
+    "brand": "Viktor & Rolf",
+    "role": "original",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Strawberry"
+    ],
+    "heart": [
+      "Peony"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk"
+    ],
+    "accords": [
+      "Fruity",
+      "Floral",
+      "Sweet",
+      "Fresh",
+      "Vanilla",
+      "Musky",
+      "Powdery",
+      "Rose"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Viktor&Rolf Flowerbomb Pretty Peony",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Spices",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Black Pepper",
+      "Bergamot",
+      "Mandarin"
+    ],
+    "heart": [
+      "Clove",
+      "Cinnamon",
+      "Saffron",
+      "Lavender",
+      "Apricot"
+    ],
+    "base": [
+      "Bourbon Vanilla",
+      "Chestnut",
+      "Amber",
+      "Dates",
+      "Leather"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Vanilla",
+      "Sweet",
+      "Amber",
+      "Leather",
+      "Cinnamon",
+      "Powdery",
+      "Lavender",
+      "Fruity"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Spices",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Absolutely",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2021,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Rum",
+      "elemi",
+      "Bergamot"
+    ],
+    "heart": [
+      "Lavender",
+      "Davana"
+    ],
+    "base": [
+      "Madagascar Vanilla",
+      "Chestnut",
+      "Cedar",
+      "Patchouli"
+    ],
+    "accords": [
+      "Vanilla",
+      "Woody",
+      "Balsamic",
+      "Rum",
+      "Aromatic",
+      "Warm Spicy",
+      "Nutty",
+      "Powdery",
+      "Lavender",
+      "Sweet"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Absolutely",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Powerfully",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2026,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Cherry",
+      "Mandarin Orange"
+    ],
+    "heart": [
+      "Spices",
+      "Lavender"
+    ],
+    "base": [
+      "Vanilla",
+      "Chestnut",
+      "Amberwood"
+    ],
+    "accords": [
+      "Warm Spicy",
+      "Vanilla",
+      "Cherry",
+      "Amber",
+      "Nutty",
+      "Sweet",
+      "Woody",
+      "Balsamic",
+      "Lavender",
+      "Powdery"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Powerfully",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Parfum",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Pink Pepper",
+      "Mandarin"
+    ],
+    "heart": [
+      "Lavender",
+      "Cinnamon",
+      "Sage"
+    ],
+    "base": [
+      "Vanilla",
+      "Chestnut",
+      "Leather"
+    ],
+    "accords": [
+      "Vanilla",
+      "Lavender",
+      "Soft Spicy",
+      "Warm Spicy",
+      "Balsamic",
+      "Nutty",
+      "Leather",
+      "Aromatic",
+      "Sweet",
+      "Herbal"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Parfum",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Sandalwood",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2025,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Saffron"
+    ],
+    "heart": [
+      "Lavender",
+      "Chestnut"
+    ],
+    "base": [
+      "Sandalwood",
+      "Vanilla",
+      "Cedarwood"
+    ],
+    "accords": [
+      "Woody",
+      "Warm Spicy",
+      "Powdery",
+      "Lavender",
+      "Vanilla",
+      "Balsamic",
+      "Aromatic",
+      "Nutty"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Sandalwood",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Amber",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Unisex",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Amber",
+      "Vanilla",
+      "Lavender",
+      "Powdery",
+      "Animalic"
+    ],
+    "season": [],
+    "flat": [
+      "Amber",
+      "Madagascar Vanilla",
+      "Lavender"
+    ],
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Amber",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Oud",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2022,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [],
+    "heart": [],
+    "base": [],
+    "accords": [
+      "Vanilla",
+      "Oud",
+      "Lavender",
+      "Fresh Spicy",
+      "Powdery",
+      "Aromatic",
+      "Sweet"
+    ],
+    "season": [],
+    "flat": [
+      "Vanilla",
+      "Agarwood (Oud)",
+      "Lavender Extract"
+    ],
+    "notesNote": "Fragrantica lists these notes without top, heart and base layers, so they are shown as one list.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Oud",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Freeze",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2020,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Lime",
+      "Ginger",
+      "Mandarin Orange",
+      "Apple"
+    ],
+    "heart": [
+      "Lavender",
+      "Cardamom",
+      "Bourbon Geranium",
+      "Sage"
+    ],
+    "base": [
+      "Bourbon Vanilla",
+      "Amberwood",
+      "Marron glace",
+      "Guaiac Wood"
+    ],
+    "accords": [
+      "Citrus",
+      "Fresh Spicy",
+      "Woody",
+      "Aromatic",
+      "Sweet",
+      "Vanilla",
+      "Warm Spicy",
+      "Fruity",
+      "Fresh",
+      "Amber"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Freeze",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Leather",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2020,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Chestnut",
+      "Spices",
+      "elemi"
+    ],
+    "heart": [
+      "Lavender",
+      "Sage"
+    ],
+    "base": [
+      "Vanilla",
+      "Leather",
+      "Guaiac Wood",
+      "Agarwood (Oud)"
+    ],
+    "accords": [
+      "Vanilla",
+      "Leather",
+      "Balsamic",
+      "Warm Spicy",
+      "Aromatic",
+      "Animalic",
+      "Nutty",
+      "Woody",
+      "Powdery",
+      "Smoky"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Leather",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Only",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2022,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Grapefruit"
+    ],
+    "heart": [
+      "Lavender",
+      "Geranium"
+    ],
+    "base": [
+      "Vanilla",
+      "Chestnut",
+      "Labdanum"
+    ],
+    "accords": [
+      "Vanilla",
+      "Citrus",
+      "Fresh Spicy",
+      "Aromatic",
+      "Lavender",
+      "Balsamic",
+      "Amber",
+      "Nutty",
+      "Powdery",
+      "Warm Spicy"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Only",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Stronger With You Limited Edition",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2023,
+    "concentration": "",
+    "gender": "Men",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Pink Pepper",
+      "Cardamom"
+    ],
+    "heart": [
+      "Sage"
+    ],
+    "base": [
+      "Vanilla",
+      "Marron glace",
+      "Amber"
+    ],
+    "accords": [
+      "Sweet",
+      "Vanilla",
+      "Soft Spicy",
+      "Amber",
+      "Nutty",
+      "Aromatic",
+      "Warm Spicy",
+      "Powdery",
+      "Herbal",
+      "Musky"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Stronger With You Limited Edition",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Emporio Armani Because It's You",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2017,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Raspberry",
+      "Lemon",
+      "Neroli"
+    ],
+    "heart": [
+      "Rose"
+    ],
+    "base": [
+      "Vanilla",
+      "Musk",
+      "Amberwood"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Rose",
+      "Vanilla",
+      "Citrus",
+      "Powdery",
+      "Musky",
+      "Amber",
+      "Woody",
+      "Floral"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Emporio Armani Because It's You",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Emporio Armani Diamonds Club",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2016,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Mandarin Orange",
+      "Water Notes"
+    ],
+    "heart": [
+      "Rose"
+    ],
+    "base": [
+      "Patchouli"
+    ],
+    "accords": [
+      "Citrus",
+      "Aquatic",
+      "Rose",
+      "Patchouli",
+      "Fresh",
+      "Woody",
+      "Warm Spicy",
+      "Earthy",
+      "Floral",
+      "Balsamic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Emporio Armani Diamonds Club",
+      "url": "https://www.fragrantica.com/"
+    }
+  },
+  {
+    "name": "Emporio Armani In Love With You",
+    "brand": "Giorgio Armani",
+    "role": "original",
+    "year": 2019,
+    "concentration": "",
+    "gender": "Women",
+    "size": "",
+    "tier": "Not rated",
+    "top": [
+      "Raspberry",
+      "Black Currant",
+      "Sour Cherry"
+    ],
+    "heart": [
+      "Rose",
+      "Jasmine",
+      "Wormwood"
+    ],
+    "base": [
+      "Patchouli"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Patchouli",
+      "Woody",
+      "Rose",
+      "Cherry",
+      "Warm Spicy",
+      "Floral",
+      "White Floral",
+      "Aromatic"
+    ],
+    "season": [],
+    "notesNote": "Notes as listed by Fragrantica.",
+    "source": {
+      "name": "Fragrantica: Giorgio Armani Emporio Armani In Love With You",
       "url": "https://www.fragrantica.com/"
     }
   }
