@@ -40,6 +40,7 @@
 <p><b>Hosting and analytics.</b> The site is delivered through Cloudflare, which may process technical data such as IP addresses to deliver pages and protect the site. If we add privacy-friendly analytics, we will list it here.</p>
 <p><b>Third-party links.</b> Links to Amazon and other sites are governed by those sites' own privacy policies. Amazon may use cookies to attribute purchases to our affiliate account. We also load a script from CJ Affiliate (anrdoezrs.net) that can tag links to Jomashop when you click them, and CJ and Jomashop may set cookies to attribute purchases to our account. We do not send CJ anything you type into the site.</p>
 <p><b>Your searches.</b> The database search and filters run in your browser. We do not send what you type to a server.</p>
+<p><b>Site search.</b> When you type in one of our search boxes, we record the words you searched for, the page you searched on, the date and whether anything was found. We do not store your IP address or any identifier with it, so a search cannot be linked to you. We use this only to see which fragrances people are looking for.</p>
 <p><b>Fonts.</b> The site's fonts are served from our own domain, so no font provider receives your visit.</p>
 <p>Contact: <a href="mailto:hello@dupesbase.com">hello@dupesbase.com</a>.</p></article>
 </main>
@@ -49,6 +50,7 @@
   <p>Brand names and trademarks belong to their owners and are used only to identify products. Dupes Base is not affiliated with any fragrance house. Prices and availability change; check Amazon for current details.</p>
 </div></footer>
 
+<script>(function(){var P={tq:'home','hh-q':'database','cmp-a':'compare','cmp-b':'compare'},T={},L={};function cnt(id){if(id==='tq')return document.querySelectorAll('#tiles .tile:not([hidden])').length;if(id==='hh-q'){var c=document.getElementById('hh-count'),m=c&&c.textContent.replace(/,/g,'').match(/\d+/);return m?+m[0]:-1}var l=document.getElementById(id+'-list');return l?l.querySelectorAll('li').length:-1}function send(el){var v=(el.value||'').trim();if(v.length<2||L[el.id]===v.toLowerCase())return;L[el.id]=v.toLowerCase();var b=JSON.stringify({q:v,w:P[el.id],n:cnt(el.id)});try{navigator.sendBeacon('/api/search',new Blob([b],{type:'application/json'}))}catch(e){}}document.addEventListener('input',function(e){var el=e.target;if(!el||!P[el.id])return;clearTimeout(T[el.id]);T[el.id]=setTimeout(function(){send(el)},1500)});document.addEventListener('keydown',function(e){var el=e.target;if(e.key==='Enter'&&el&&P[el.id]){clearTimeout(T[el.id]);setTimeout(function(){send(el)},300)}})})();</script>
 <script src="https://www.anrdoezrs.net/am/101926594/include/allCj/am.js"></script>
 
 </body>

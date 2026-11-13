@@ -1,7 +1,13 @@
 {
   "name": "dupesbase",
   "compatibility_date": "2026-11-01",
+  "main": "./worker/index.js",
   "assets": {
-    "directory": "./public"
-  }
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "SEARCH_LOG", "class_name": "SearchLog" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["SearchLog"] }]
 }
