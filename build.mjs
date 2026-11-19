@@ -932,7 +932,7 @@ for (const f of F) {
   const p = pairOf(f);
   const other = p ? BY[p.with] : null;
   const sp = ogSpec(f); OG_SPECS.push(sp);
-  const body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/database/">Database</a> / <a href="${esc(houseHref(f.brand))}">${esc(f.brand)}</a> / ${esc(f.name)}</nav>
+  const body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/database/">Database</a> / <a href="${esc(houseHref(f.brand))}"${houseCount[f.brand] > 1 ? '' : ' rel="nofollow"'}>${esc(f.brand)}</a> / ${esc(f.name)}</nav>
 <div class="dv">
 <aside class="dv-side">
   <h1 class="hh-title">${nameLink(f)}</h1>
