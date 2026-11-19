@@ -111,7 +111,7 @@ const thumb = (f) => `<div class="thumb">${pic(f)}</div>`;
 
 // ---------- Components ----------
 const fq = (k, v) => `/database/?${k}=${encodeURIComponent(v)}`;
-const tagA = (k, v) => `<a class="hh-tag" href="${esc(fq(k, v))}" title="Show all ${esc(v)}">${esc(v)}</a>`;
+const tagA = (k, v) => `<a class="hh-tag" href="${esc(fq(k, v))}" rel="nofollow" title="Show all ${esc(v)}">${esc(v)}</a>`;
 const roleLabel = (f) => (f.role === 'original' ? 'Original' : 'Alternative');
 const noteLine = (f) =>
   f.flat.length ? `<b>Published notes:</b> ${esc(f.flat.join(', '))}` : [['Top', f.top], ['Heart', f.heart], ['Base', f.base]].filter(([, a]) => a.length).map(([k, a]) => `<b>${k}:</b> ${esc(a.join(', '))}`).join(' · ');
@@ -313,7 +313,7 @@ ${listTable(list)}
 <h2>The picks</h2>
 ${list.map((f, i) => productCard(f, i + 1)).join('\n')}
 <h2>Want the original too?</h2>
-<p>Where a pick is commonly compared to a pricier fragrance, the original is shown in the notes above and in the <a href="/database/?role=Original">database</a>. You can also use <a href="/compare/">Compare</a> to line the two up.</p>
+<p>Where a pick is commonly compared to a pricier fragrance, the original is shown in the notes above and in the <a href="/database/?role=Original" rel="nofollow">database</a>. You can also use <a href="/compare/">Compare</a> to line the two up.</p>
 ${faqBlock([
   ['What makes a fragrance a winter fragrance?', 'Warm notes such as vanilla, amber, cinnamon and spice are usually described as cold-weather scents. This is a general rule of thumb, not a hard line.'],
   ['Can I wear these in summer?', 'You can wear any fragrance any time, but heavy sweet and spicy scents can feel strong in heat. Use fewer sprays.'],
@@ -383,7 +383,7 @@ ${f ? `<p>${hl} is in the database.${px(p.db)} ${cmp}</p>` : ''}
 ${picks.map(card).join('\n')}
 <h2>How to wear winter clones</h2>
 <p>Cold air mutes fragrance, so these can take a little more than you’d use in summer. Start with 3 to 4 sprays and go up from there, and spray on clothes as well as skin if you want it to last. For the sweetest picks, like After Effect and Khamrah Qahwa, I stick to evenings. For Liam Grey, Rugir and Muharib, the office is fine.</p>
-<p>Want to look up an original and its clones? Use the <a href="/database/?role=Original">database</a>, or line two fragrances up in <a href="/compare/">Compare</a>. If you’re after more, see our <a href="/best-winter-fragrance-dupes-2026/">warm winter dupes guide</a> and the <a href="/best-fragrance-dupes-under-50-2026/">best dupes under $50</a>.</p>
+<p>Want to look up an original and its clones? Use the <a href="/database/?role=Original" rel="nofollow">database</a>, or line two fragrances up in <a href="/compare/">Compare</a>. If you’re after more, see our <a href="/best-winter-fragrance-dupes-2026/">warm winter dupes guide</a> and the <a href="/best-fragrance-dupes-under-50-2026/">best dupes under $50</a>.</p>
 ${faqBlock([
   ['What are the best winter fragrance dupes for men?', 'My top picks are Maison Asrar Muharib (a Xerjoff Naxos take), French Avenue Amber Empire (inspired by Clive Christian Blonde Amber), Rayhaan Terra (inspired by Amouage Outlands), Armaf Rugir (inspired by Parfums de Marly Layton) and Lattafa Liam Grey (inspired by BDK Gris Charnel).'],
   ['What is the best Xerjoff Naxos dupe?', 'For me it is Maison Asrar Muharib. It’s honeyed tobacco, warm spices and aromatic freshness. It is a different fragrance from Naxos, so treat this as my personal pick.'],
@@ -454,7 +454,7 @@ ${f ? `<p>${L(p.db, p.h)} is in the database.${px(p.db)} ${cmp}</p>` : ''}
 ${picks.map(card).join('\n')}
 <h2>How to wear sweet winter clones</h2>
 <p>Cold air mutes fragrance, so you can use a little more than in summer. Start with 3 to 4 sprays, and spray on clothes as well as skin if you want it to last. The sweetest ones, like Dulzura and Yara Elixir, are best in the evening or on cozy days. Lionheart Woman and Tharwah Gold are the easier picks for work.</p>
-<p>Want to look up an original and its clones? Use the <a href="/database/?role=Original">database</a>, or line two fragrances up in <a href="/compare/">Compare</a>. For more, see our <a href="/best-winter-fragrance-dupes-for-men-2026/">winter clones for men</a>, the <a href="/best-winter-fragrance-dupes-2026/">warm winter dupes guide</a> and the <a href="/best-fragrance-dupes-under-50-2026/">best dupes under $50</a>.</p>
+<p>Want to look up an original and its clones? Use the <a href="/database/?role=Original" rel="nofollow">database</a>, or line two fragrances up in <a href="/compare/">Compare</a>. For more, see our <a href="/best-winter-fragrance-dupes-for-men-2026/">winter clones for men</a>, the <a href="/best-winter-fragrance-dupes-2026/">warm winter dupes guide</a> and the <a href="/best-fragrance-dupes-under-50-2026/">best dupes under $50</a>.</p>
 ${faqBlock([
   ['What are the best winter fragrance dupes for women?', 'My top picks are Lattafa Eclair (inspired by Bianco Latte), Lattafa Tharwah Gold (inspired by Libre Intense), Armaf Club de Nuit White Imperiale (inspired by Delina Exclusif), Lattafa Khamrah (compared here to Good Girl) and Armaf Club de Nuit Lionheart Woman (inspired by Burberry Goddess).'],
   ['What is the best Delina Exclusif dupe?', 'In my picks it is Armaf Club de Nuit White Imperiale, with creamy vanilla and sweet Turkish rose. It is its own fragrance, so treat it as a similar style rather than an exact copy.'],
@@ -866,7 +866,7 @@ const carousel = (f) => {
   <button type="button" class="car-b car-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="car-b car-next" aria-label="Next photo">&#8250;</button>
   <div class="car-dots">${slides.map((_, i) => `<button type="button" class="car-d${i ? '' : ' on'}" aria-label="Show photo ${i + 1}"></button>`).join('')}</div></div>`;
 };
-const nameLink = (f) => `<a class="hh-brand" href="${esc(houseHref(f.brand))}" title="See all ${esc(f.brand)} fragrances">${esc(f.brand)}</a> ${esc(f.name)}`;
+const nameLink = (f) => `<a class="hh-brand" href="${esc(houseHref(f.brand))}"${houseCount[f.brand] > 1 ? '' : ' rel="nofollow"'} title="See all ${esc(f.brand)} fragrances">${esc(f.brand)}</a> ${esc(f.name)}`;
 const similarList = (f) => {
   const rel = new Map();
   const p = pairOf(f);
@@ -938,7 +938,7 @@ for (const f of F) {
   <h1 class="hh-title">${nameLink(f)}</h1>
   ${carousel(f)}
   <div class="buy-top">${buyBtn(f, 'hh-buy dv-buy')}</div>
-  <a class="btn dv-cmp" href="/compare/?a=${f.slug}">Compare with another fragrance</a>
+  <a class="btn dv-cmp" href="/compare/?a=${f.slug}" rel="nofollow">Compare with another fragrance</a>
   <div class="dv-box">${kv([['Type', roleLabel(f)], ['Released', f.year ? String(f.year) : ''], ['Concentration', f.concentration], ['Gender', f.gender], ['Size', f.size], ['Price tier', f.tier + ' (approx.)'], ...(f.price ? [['Price', priceTxt(f.price) + ' (' + priceNote(f.price) + ')']] : [])])}</div>
   ${similarList(f) ? `<h2 class="dv-sim">${f.role === 'original' ? 'Commonly compared alternatives' : 'Commonly compared to'}</h2>${similarList(f)}` : ''}
   <div class="buy-m">${buyBtn(f, 'hh-buy dv-buy')}</div>
@@ -967,7 +967,7 @@ for (const b of houses) {
   const body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/database/">Database</a> / ${esc(b)}</nav>
 <span class="pill">HOUSE</span><h1>${esc(b)} Fragrances</h1>
 <p class="lead">${esc(b)} has ${list.length} fragrances in our database. Notes are as published by the sources named on each page, and we have not tested them.</p>
-<p><a class="btn" href="/database/?brand=${encodeURIComponent(b)}">Filter ${esc(b)} in the database</a></p>
+<p><a class="btn" href="/database/?brand=${encodeURIComponent(b)}" rel="nofollow">Filter ${esc(b)} in the database</a></p>
 <div class="hh-list hh-preview brand-list">${list.map(houseRow).join('\n')}</div>
 ${disclosureBox}`;
   write(`house/${slugify(b)}`, page({ title: `${b} Fragrances: Notes and Dupes | ${cfg.siteName}`, desc: `Every ${b} fragrance in our dupes database, with published notes and Amazon links.`, url: `/house/${slugify(b)}/`, body, crumbs: [['Home', '/'], ['Database', '/database/'], [b, `/house/${slugify(b)}/`]] }));
@@ -1010,7 +1010,7 @@ for (const p of PAIRS) {
 const urls = ['/', ...posts.map((p) => `/${p.slug}/`), '/guides/', '/database/', ...F.map((f) => `/fragrance/${f.slug}/`), ...houses.map((b) => `/house/${slugify(b)}/`), '/compare/', ...PAIRS.map((p) => `/compare/${pairSlug(BY[p.a], BY[p.b])}/`), '/about/', '/affiliate-disclosure/', '/privacy/'];
 fs.writeFileSync(path.join(root, 'tools', 'og-cards.json'), JSON.stringify(OG_SPECS));
 fs.writeFileSync(path.join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${cfg.domain}${u}</loc><lastmod>${published}</lastmod></url>`).join('\n')}\n</urlset>\n`);
-fs.writeFileSync(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${cfg.domain}/sitemap.xml\n`);
+fs.writeFileSync(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\n# Filtered and pre-filled tool views are the same page as /database/ and /compare/\nDisallow: /database/?\nDisallow: /compare/?\nSitemap: ${cfg.domain}/sitemap.xml\n`);
 const longCache = ['/style.css', '/compare.js', '/dupes.js', '/data.js', '/fonts/*'].map((u) => `${u}\n  Cache-Control: public, max-age=31536000, immutable\n`).join('');
 const imgCache = ['/img/*', '/og/*', '/og-image.png', '/favicon.svg', '/apple-touch-icon.png'].map((u) => `${u}\n  Cache-Control: public, max-age=604800\n`).join('');
 fs.writeFileSync(path.join(out, '_headers'), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: DENY\n${longCache}${imgCache}`);

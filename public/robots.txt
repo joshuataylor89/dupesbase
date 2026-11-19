@@ -1,3 +1,6 @@
 User-agent: *
 Allow: /
+# Filtered and pre-filled tool views are the same page as /database/ and /compare/
+Disallow: /database/?
+Disallow: /compare/?
 Sitemap: https://dupesbase.com/sitemap.xml
